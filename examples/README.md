@@ -17,7 +17,7 @@ Three PNGs from our experiments that you can give to a fresh Fable 5.1 decoder. 
 ## Provenance
 
 - **`tulip-field.png`** and **`city-building-night.png`** are part of the 50-message evaluation reported in the article (ids `en_long_sentence` and `lv_fact` in [`../dataset/`](../dataset/)). They are the "Rotations" and "Binary in lit and dark windows" examples in its Figure 2. In our runs, a fresh Fable 5.1 decoder with Python tools recovered both messages exactly.
-- **`night-sky-stars.png`** is Figure 1 of the article and is byte-identical to the image published there. It comes from a later, separate set of Fable 5.1 images, not the 50-message evaluation, and may have been generated with a variant of the encoding prompt. In our run, a fresh Fable 5.1 decoder with Python tools recovered the message exactly.
+- **`night-sky-stars.png`** is Figure 1 of the article and is byte-identical to the image published there. It comes from a later, separate set of Fable 5.1 images, not the 50-message evaluation. That set was made with the encoding prompt plus one extra line, "it should be very beautiful and artistic;", added after the "human who is unaware" bullet; everything else about the procedure was the same. In our run, a fresh Fable 5.1 decoder with Python tools recovered the message exactly.
 
 SHA-256 checksums:
 
