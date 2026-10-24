@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#090e22"/>
+      <stop offset="0.7" stop-color="#1b2a54"/>
+      <stop offset="1" stop-color="#4a3f6b"/>
+    </linearGradient>
+    <pattern id="fa" width="6" height="8" patternUnits="userSpaceOnUse">
+      <rect width="6" height="8" fill="#1e2b48"/>
+      <rect x="2" y="2" width="2" height="3" fill="#ffd27a"/>
+    </pattern>
+    <pattern id="fb" width="12" height="8" patternUnits="userSpaceOnUse">
+      <rect width="12" height="8" fill="#26365a"/>
+      <rect x="2" y="2" width="2" height="3" fill="#ffe3a3"/>
+      <rect x="8" y="2" width="2" height="3" fill="#5e6f94"/>
+    </pattern>
+    <pattern id="fc" width="6" height="8" patternUnits="userSpaceOnUse">
+      <rect width="6" height="8" fill="#182540"/>
+      <rect x="2" y="2" width="2" height="3" fill="#f7c86b"/>
+    </pattern>
+  </defs>
+
+  <rect width="960" height="360" fill="url(#sky)"/>
+
+  <g fill="#ffffff" opacity="0.9">
+    <circle cx="40" cy="28" r="1.3"/>
+    <circle cx="205" cy="44" r="1"/>
+    <circle cx="300" cy="22" r="1.4"/>
+    <circle cx="388" cy="66" r="1"/>
+    <circle cx="470" cy="30" r="1.2"/>
+    <circle cx="548" cy="48" r="1"/>
+    <circle cx="640" cy="20" r="1.3"/>
+    <circle cx="730" cy="62" r="1"/>
+    <circle cx="815" cy="36" r="1.4"/>
+    <circle cx="885" cy="24" r="1"/>
+  </g>
+
+  <circle cx="120" cy="64" r="26" fill="#f3edd0"/>
+  <circle cx="112" cy="58" r="5" fill="#e3dcbb"/>
+  <circle cx="129" cy="73" r="3.5" fill="#e3dcbb"/>
+
+  <g>
+    <rect x="12" y="296" width="18" height="24" fill="url(#fa)"/>
+    <rect x="36" y="168" width="24" height="152" fill="url(#fb)"/>
+    <rect x="66" y="160" width="18" height="160" fill="url(#fc)"/>
+    <rect x="90" y="176" width="24" height="144" fill="url(#fa)"/>
+    <rect x="120" y="272" width="12" height="48" fill="url(#fb)"/>
+    <rect x="138" y="120" width="18" height="200" fill="url(#fc)"/>
+    <rect x="162" y="312" width="12" height="8" fill="url(#fa)"/>
+  </g>
+
+  <rect x="190.5" y="305" width="3" height="15" fill="#3b2a1e"/>
+  <circle cx="192" cy="301" r="9" fill="#2f6b4f"/>
+
+  <g>
+    <rect x="210" y="184" width="24" height="136" fill="url(#fb)"/>
+    <rect x="240" y="272" width="12" height="48" fill="url(#fc)"/>
+    <rect x="258" y="176" width="18" height="144" fill="url(#fa)"/>
+    <rect x="282" y="272" width="18" height="48" fill="url(#fb)"/>
+    <rect x="306" y="200" width="24" height="120" fill="url(#fc)"/>
+    <rect x="336" y="272" width="12" height="48" fill="url(#fa)"/>
+    <rect x="354" y="168" width="18" height="152" fill="url(#fb)"/>
+    <rect x="378" y="272" width="12" height="48" fill="url(#fc)"/>
+    <rect x="396" y="200" width="24" height="120" fill="url(#fa)"/>
+    <rect x="426" y="312" width="18" height="8" fill="url(#fb)"/>
+  </g>
+
+  <rect x="460.5" y="305" width="3" height="15" fill="#3b2a1e"/>
+  <circle cx="462" cy="301" r="9" fill="#2f6b4f"/>
+
+  <g>
+    <rect x="480" y="200" width="18" height="120" fill="url(#fc)"/>
+    <rect x="504" y="312" width="12" height="8" fill="url(#fa)"/>
+  </g>
+
+  <rect x="532.5" y="305" width="3" height="15" fill="#3b2a1e"/>
+  <circle cx="534" cy="301" r="9" fill="#2f6b4f"/>
+
+  <g>
+    <rect x="552" y="248" width="18" height="72" fill="url(#fb)"/>
+    <rect x="576" y="312" width="12" height="8" fill="url(#fc)"/>
+    <rect x="594" y="296" width="18" height="24" fill="url(#fa)"/>
+    <rect x="618" y="160" width="24" height="160" fill="url(#fb)"/>
+    <rect x="648" y="176" width="18" height="144" fill="url(#fc)"/>
+    <rect x="672" y="312" width="12" height="8" fill="url(#fa)"/>
+  </g>
+
+  <rect x="700.5" y="305" width="3" height="15" fill="#3b2a1e"/>
+  <circle cx="702" cy="301" r="9" fill="#2f6b4f"/>
+
+  <g>
+    <rect x="720" y="296" width="18" height="24" fill="url(#fb)"/>
+  </g>
+
+  <rect x="754.5" y="305" width="3" height="15" fill="#3b2a1e"/>
+  <circle cx="756" cy="301" r="9" fill="#2f6b4f"/>
+
+  <g>
+    <rect x="774" y="184" width="24" height="136" fill="url(#fc)"/>
+    <rect x="804" y="192" width="18" height="128" fill="url(#fa)"/>
+    <rect x="828" y="216" width="18" height="104" fill="url(#fb)"/>
+    <rect x="852" y="280" width="12" height="40" fill="url(#fc)"/>
+    <rect x="870" y="272" width="18" height="48" fill="url(#fa)"/>
+    <rect x="894" y="200" width="24" height="120" fill="url(#fb)"/>
+    <rect x="924" y="80" width="24" height="240" fill="url(#fc)"/>
+  </g>
+
+  <line x1="936" y1="80" x2="936" y2="58" stroke="#8fa3c7" stroke-width="1.5"/>
+  <circle cx="936" cy="56" r="1.8" fill="#ff6b6b"/>
+
+  <rect y="320" width="960" height="40" fill="#0c1222"/>
+  <rect y="320" width="960" height="2" fill="#2b3a5c"/>
+
+  <text x="12" y="349" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="3" fill="#6f84ab">НОЧНОЙ ГОРОД</text>
+</svg>

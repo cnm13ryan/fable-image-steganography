@@ -1,0 +1,3 @@
+Carrier: the `id` attributes of the book rects on the shelves (their first letters), with the book heights as a redundant second channel.
+
+How to read it: Each book rect is named after a colour, and the first letter of that colour name is one letter of the message. Read the books in source order, which is also left to right on each shelf and top shelf to bottom shelf. Each inner `<g>` wrapping a run of adjacent books is one word, so the group boundaries mark the spaces. As a cross-check, every book's height equals 50 plus the alphabet position of its letter, so a=51 through z=76, and the height confirms the same letter as the id. The decorative objects and shelf boards carry no ids and are not part of the sequence.

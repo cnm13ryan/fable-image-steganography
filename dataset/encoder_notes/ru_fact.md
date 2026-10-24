@@ -1,0 +1,3 @@
+Carrier: heights of the building rects in the skyline (equivalently, the number of lit window rows each building shows).
+
+How to read it: Each building is one letter, and its height is 8 px per floor, so height divided by 8 gives the letter's position in the 33-letter Russian alphabet (а=1, б=2, в=3 ... with ё included at 7, ь=30). Buildings are read left to right in document order, which matches their x positions. Each `<g>` holds one word, and the wider 36 px gaps marked by trees between the groups are the spaces between words. The Cyrillic caption at the bottom is only a visible hint that the alphabet is Russian and carries no part of the message.

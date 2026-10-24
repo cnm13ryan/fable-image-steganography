@@ -1,0 +1,3 @@
+Carrier: y positions of the `<use>` elements (the fir trees and the clouds) in the last group.
+
+How to read it: Each `<use>` element in that group corresponds to exactly one character of the message, and its `y` attribute is the character's decimal Unicode code point. Read the thirty `<use>` elements in document order, which is also left-to-right order by `x`, and convert each `y` value with chr(). The fir trees carry the Cyrillic letters, so their `y` values fall in the 1040 to 1103 range. The clouds carry the ASCII characters, so their `y` values are small: 32 marks a space between words, and 59 and 33 are the two punctuation marks.

@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="440" viewBox="0 0 880 440">
+  <defs>
+    <linearGradient id="sky" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="440">
+      <stop offset="0" stop-color="#081430"/>
+      <stop offset="0.45" stop-color="#1f3566"/>
+      <stop offset="0.72" stop-color="#5a4a7a"/>
+      <stop offset="0.86" stop-color="#d27c4e"/>
+      <stop offset="1" stop-color="#f2b069"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#fff2c6" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#fff2c6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="win" width="1" height="1" patternUnits="userSpaceOnUse">
+      <rect width="1" height="1" fill="#111627"/>
+      <rect x="0.18" y="0.32" width="0.16" height="0.28" fill="#ffd98a" opacity="0.9"/>
+      <rect x="0.46" y="0.32" width="0.16" height="0.28" fill="#ffd98a" opacity="0.45"/>
+    </pattern>
+  </defs>
+  <rect width="880" height="440" fill="url(#sky)"/>
+  <g fill="#ffffff" opacity="0.9">
+    <circle cx="92" cy="58" r="1.4"/>
+    <circle cx="160" cy="112" r="1"/>
+    <circle cx="238" cy="40" r="1.6"/>
+    <circle cx="331" cy="90" r="1.1"/>
+    <circle cx="412" cy="30" r="1.3"/>
+    <circle cx="505" cy="74" r="0.9"/>
+    <circle cx="588" cy="48" r="1.5"/>
+    <circle cx="690" cy="118" r="1"/>
+    <circle cx="845" cy="36" r="1.2"/>
+  </g>
+  <circle cx="762" cy="86" r="58" fill="url(#glow)"/>
+  <circle cx="762" cy="86" r="24" fill="#f7efd2"/>
+  <circle cx="754" cy="80" r="5" fill="#e8dfbd"/>
+  <circle cx="770" cy="95" r="3.5" fill="#e8dfbd"/>
+  <g transform="translate(45 380) scale(10)" fill="url(#win)">
+    <g>
+      <rect x="0" y="-9" width="0.8" height="9"/>
+      <rect x="1" y="-6" width="0.8" height="6"/>
+    </g>
+    <g>
+      <rect x="3" y="-25" width="0.8" height="25"/>
+      <rect x="4" y="-15" width="0.8" height="15"/>
+      <rect x="5" y="-21" width="0.8" height="21"/>
+    </g>
+    <g>
+      <rect x="7" y="-1" width="0.8" height="1"/>
+      <rect x="8" y="-18" width="0.8" height="18"/>
+      <rect x="9" y="-5" width="0.8" height="5"/>
+    </g>
+    <g>
+      <rect x="11" y="-18" width="0.8" height="18"/>
+      <rect x="12" y="-5" width="0.8" height="5"/>
+      <rect x="13" y="-1" width="0.8" height="1"/>
+      <rect x="14" y="-4" width="0.8" height="4"/>
+      <rect x="15" y="-9" width="0.8" height="9"/>
+      <rect x="16" y="-14" width="0.8" height="14"/>
+      <rect x="17" y="-7" width="0.8" height="7"/>
+    </g>
+    <g>
+      <rect x="19" y="-20" width="0.8" height="20"/>
+      <rect x="20" y="-8" width="0.8" height="8"/>
+      <rect x="21" y="-9" width="0.8" height="9"/>
+      <rect x="22" y="-19" width="0.8" height="19"/>
+      <rect x="23" y="-27" width="0.8" height="27"/>
+    </g>
+    <g>
+      <rect x="25" y="-4" width="0.8" height="4"/>
+      <rect x="26" y="-18" width="0.8" height="18"/>
+      <rect x="27" y="-1" width="0.8" height="1"/>
+      <rect x="28" y="-23" width="0.8" height="23"/>
+    </g>
+    <g>
+      <rect x="30" y="-1" width="0.8" height="1"/>
+    </g>
+    <g>
+      <rect x="32" y="-19" width="0.8" height="19"/>
+      <rect x="33" y="-21" width="0.8" height="21"/>
+      <rect x="34" y="-14" width="0.8" height="14"/>
+    </g>
+    <g>
+      <rect x="36" y="-9" width="0.8" height="9"/>
+      <rect x="37" y="-14" width="0.8" height="14"/>
+    </g>
+    <g>
+      <rect x="39" y="-20" width="0.8" height="20"/>
+      <rect x="40" y="-8" width="0.8" height="8"/>
+      <rect x="41" y="-5" width="0.8" height="5"/>
+    </g>
+    <g>
+      <rect x="43" y="-20" width="0.8" height="20"/>
+      <rect x="44" y="-15" width="0.8" height="15"/>
+      <rect x="45" y="-16" width="0.8" height="16"/>
+    </g>
+    <g>
+      <rect x="47" y="-12" width="0.8" height="12"/>
+      <rect x="48" y="-5" width="0.8" height="5"/>
+      <rect x="49" y="-6" width="0.8" height="6"/>
+      <rect x="50" y="-20" width="0.8" height="20"/>
+    </g>
+    <g>
+      <rect x="52" y="-3" width="0.8" height="3"/>
+      <rect x="53" y="-15" width="0.8" height="15"/>
+      <rect x="54" y="-18" width="0.8" height="18"/>
+      <rect x="55" y="-14" width="0.8" height="14"/>
+      <rect x="56" y="-5" width="0.8" height="5"/>
+      <rect x="57" y="-18" width="0.8" height="18"/>
+    </g>
+    <g>
+      <rect x="59" y="-15" width="0.8" height="15"/>
+      <rect x="60" y="-6" width="0.8" height="6"/>
+    </g>
+    <g>
+      <rect x="62" y="-25" width="0.8" height="25"/>
+      <rect x="63" y="-15" width="0.8" height="15"/>
+      <rect x="64" y="-21" width="0.8" height="21"/>
+      <rect x="65" y="-18" width="0.8" height="18"/>
+    </g>
+    <g>
+      <rect x="67" y="-14" width="0.8" height="14"/>
+      <rect x="68" y="-5" width="0.8" height="5"/>
+      <rect x="69" y="-24" width="0.8" height="24"/>
+      <rect x="70" y="-20" width="0.8" height="20"/>
+    </g>
+    <g>
+      <rect x="72" y="-16" width="0.8" height="16"/>
+      <rect x="73" y="-9" width="0.8" height="9"/>
+      <rect x="74" y="-3" width="0.8" height="3"/>
+      <rect x="75" y="-20" width="0.8" height="20"/>
+      <rect x="76" y="-21" width="0.8" height="21"/>
+      <rect x="77" y="-18" width="0.8" height="18"/>
+      <rect x="78" y="-5" width="0.8" height="5"/>
+    </g>
+  </g>
+  <rect x="0" y="380" width="880" height="60" fill="#0a0e1a"/>
+  <rect x="0" y="380" width="880" height="1.5" fill="#2a3352"/>
+</svg>

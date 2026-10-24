@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="skyblue"/>
+      <stop offset="1" stop-color="aliceblue"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#sky)"/>
+
+  <circle cx="710" cy="52" r="44" fill="lemonchiffon" opacity="0.6"/>
+  <circle cx="710" cy="52" r="32" fill="gold"/>
+
+  <g fill="white">
+    <ellipse cx="230" cy="66" rx="28" ry="16"/>
+    <ellipse cx="260" cy="58" rx="30" ry="20"/>
+    <ellipse cx="290" cy="66" rx="26" ry="15"/>
+    <ellipse cx="500" cy="52" rx="24" ry="14"/>
+    <ellipse cx="525" cy="44" rx="28" ry="18"/>
+    <ellipse cx="552" cy="52" rx="22" ry="13"/>
+  </g>
+
+  <rect x="37" y="84" width="6" height="256" fill="saddlebrown"/>
+  <rect x="757" y="84" width="6" height="290" fill="saddlebrown"/>
+
+  <ellipse cx="250" cy="420" rx="420" ry="110" fill="yellowgreen"/>
+
+  <rect x="125" y="292" width="10" height="40" fill="sienna"/>
+  <g fill="forestgreen">
+    <circle cx="118" cy="284" r="26"/>
+    <circle cx="144" cy="286" r="26"/>
+    <circle cx="130" cy="272" r="34"/>
+  </g>
+  <rect x="475" y="300" width="10" height="42" fill="sienna"/>
+  <g fill="forestgreen">
+    <circle cx="466" cy="294" r="22"/>
+    <circle cx="496" cy="296" r="22"/>
+    <circle cx="480" cy="282" r="30"/>
+  </g>
+
+  <ellipse cx="560" cy="470" rx="560" ry="120" fill="olivedrab"/>
+
+  <g>
+    <circle cx="300" cy="395" r="4" fill="white"/>
+    <circle cx="332" cy="410" r="4" fill="pink"/>
+    <circle cx="362" cy="398" r="4" fill="white"/>
+    <circle cx="560" cy="404" r="4" fill="lightyellow"/>
+    <circle cx="602" cy="420" r="4" fill="white"/>
+    <circle cx="640" cy="406" r="4" fill="pink"/>
+  </g>
+
+  <g stroke="white" stroke-width="1.5" stroke-linejoin="round">
+    <polygon fill="#d8a7d9" points="74,99.9 126,113.1 100,172.8"/>
+    <polygon fill="#84d8b5" points="134,115 186,125.6 160,186.6"/>
+    <polygon fill="#d8a8d8" points="194,127 246,134.9 220,197.3"/>
+    <polygon fill="#b120d9" points="254,136 306,141.3 280,204.9"/>
+    <polygon fill="#85d981" points="314,141.9 366,144.5 340,209.5"/>
+    <polygon fill="#d8aad8" points="374,144.7 426,144.7 400,211"/>
+    <polygon fill="#a7d8ad" points="434,144.5 486,141.9 460,209.5"/>
+    <polygon fill="#20d8a7" points="494,141.3 546,136 520,204.9"/>
+    <polygon fill="#d984d9" points="554,134.9 606,127 580,197.3"/>
+    <polygon fill="#81d8b1" points="614,125.6 666,115 640,186.6"/>
+    <polygon fill="#d8ac20" points="674,113.1 726,99.9 700,172.8"/>
+  </g>
+  <path d="M40,90 Q400,200 760,90" fill="none" stroke="saddlebrown" stroke-width="3" stroke-linecap="round"/>
+</svg>

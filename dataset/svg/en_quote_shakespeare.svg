@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 826 400" width="826" height="400">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#060a1e"/>
+      <stop offset="0.65" stop-color="#191a3f"/>
+      <stop offset="1" stop-color="#3a2a5c"/>
+    </linearGradient>
+    <linearGradient id="haze" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a4f9e" stop-opacity="0"/>
+      <stop offset="1" stop-color="#7a4f9e" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0e1434"/>
+      <stop offset="1" stop-color="#04050c"/>
+    </linearGradient>
+    <pattern id="win" width="6" height="7" patternUnits="userSpaceOnUse">
+      <rect width="6" height="7" fill="#141a35"/>
+      <rect x="1" y="2" width="2" height="2" fill="#ffd36b" opacity="0.8"/>
+    </pattern>
+  </defs>
+  <rect width="826" height="400" fill="url(#sky)"/>
+  <g fill="#fff6d5">
+    <circle cx="58" cy="42" r="1.2"/>
+    <circle cx="130" cy="88" r="0.9" opacity="0.8"/>
+    <circle cx="190" cy="30" r="1.4"/>
+    <circle cx="245" cy="120" r="0.8" opacity="0.7"/>
+    <circle cx="300" cy="64" r="1.1"/>
+    <circle cx="365" cy="22" r="1.3"/>
+    <circle cx="410" cy="97" r="0.9" opacity="0.8"/>
+    <circle cx="470" cy="50" r="1.5"/>
+    <circle cx="520" cy="135" r="0.8" opacity="0.7"/>
+    <circle cx="575" cy="78" r="1"/>
+    <circle cx="610" cy="28" r="1.2"/>
+    <circle cx="655" cy="112" r="0.9" opacity="0.8"/>
+    <circle cx="760" cy="140" r="1.1"/>
+    <circle cx="790" cy="36" r="1.3"/>
+    <circle cx="90" cy="150" r="0.8" opacity="0.7"/>
+    <circle cx="340" cy="160" r="0.9" opacity="0.8"/>
+  </g>
+  <circle cx="720" cy="72" r="42" fill="#f3edc2" opacity="0.1"/>
+  <circle cx="720" cy="72" r="26" fill="#f3edc2"/>
+  <rect x="0" y="200" width="826" height="120" fill="url(#haze)"/>
+  <g fill="#1c2346">
+    <rect x="40" y="150" width="36" height="170"/>
+    <rect x="120" y="175" width="28" height="145"/>
+    <rect x="210" y="130" width="44" height="190"/>
+    <rect x="300" y="165" width="30" height="155"/>
+    <rect x="372" y="140" width="40" height="180"/>
+    <rect x="460" y="180" width="26" height="140"/>
+    <rect x="530" y="145" width="38" height="175"/>
+    <rect x="620" y="160" width="32" height="160"/>
+    <rect x="700" y="135" width="42" height="185"/>
+    <rect x="780" y="170" width="30" height="150"/>
+  </g>
+  <path fill="url(#win)" d="M24,255h10V320h-10zM36,212h10V320h-10zM48,212h10V320h-10zM60,288h10V320h-10zM72,204h10V320h-10zM84,216h10V320h-10zM96,219h10V320h-10zM108,288h10V320h-10zM120,201h10V320h-10zM132,209h10V320h-10zM144,206h10V320h-10zM156,212h10V320h-10zM168,220h10V320h-10zM180,281h10V320h-10zM192,205h10V320h-10zM204,288h10V320h-10zM216,223h10V320h-10zM228,288h10V320h-10zM240,205h10V320h-10zM252,204h10V320h-10zM264,223h10V320h-10zM276,217h10V320h-10zM288,219h10V320h-10zM300,276h10V320h-10zM312,288h10V320h-10zM324,223h10V320h-10zM336,210h10V320h-10zM348,220h10V320h-10zM360,288h10V320h-10zM372,223h10V320h-10zM384,212h10V320h-10zM396,212h10V320h-10zM408,288h10V320h-10zM420,204h10V320h-10zM432,216h10V320h-10zM444,219h10V320h-10zM456,288h10V320h-10zM468,211h10V320h-10zM480,219h10V320h-10zM492,210h10V320h-10zM504,288h10V320h-10zM516,223h10V320h-10zM528,210h10V320h-10zM540,220h10V320h-10zM552,288h10V320h-10zM564,201h10V320h-10zM576,209h10V320h-10zM588,211h10V320h-10zM600,219h10V320h-10zM612,210h10V320h-10zM624,288h10V320h-10zM636,211h10V320h-10zM648,219h10V320h-10zM660,206h10V320h-10zM672,219h10V320h-10zM684,212h10V320h-10zM696,199h10V320h-10zM708,288h10V320h-10zM720,208h10V320h-10zM732,212h10V320h-10zM744,223h10V320h-10zM756,199h10V320h-10zM768,219h10V320h-10zM780,206h10V320h-10zM792,205h10V320h-10z"/>
+  <rect x="0" y="320" width="826" height="80" fill="url(#water)"/>
+  <rect x="0" y="319" width="826" height="2" fill="#2b3058"/>
+  <g stroke="#ffd36b" stroke-width="1.5" stroke-linecap="round" opacity="0.18">
+    <line x1="60" y1="338" x2="110" y2="338"/>
+    <line x1="200" y1="352" x2="235" y2="352"/>
+    <line x1="330" y1="334" x2="390" y2="334"/>
+    <line x1="455" y1="366" x2="480" y2="366"/>
+    <line x1="560" y1="346" x2="620" y2="346"/>
+    <line x1="705" y1="345" x2="735" y2="345"/>
+  </g>
+  <line x1="690" y1="331" x2="750" y2="331" stroke="#f3edc2" stroke-width="2" stroke-linecap="round" opacity="0.25"/>
+</svg>

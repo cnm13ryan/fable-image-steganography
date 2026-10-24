@@ -1,0 +1,3 @@
+Carrier: heights of the building rects in the skyline
+
+How to read it: Each building rect encodes one letter, with its height equal to ten times the letter's position in the alphabet (a=10, b=20, ... z=260), so dividing the height by 10 gives the A1Z26 index. The buildings are read left to right, which is also their document order inside the seven `<g>` blocks. Each `<g>` block is one word, and the words are separated visually by the 20px street gaps that hold the lamp posts. All other elements (stars, moon, antennas, lamps, widths, fill patterns) carry no information.

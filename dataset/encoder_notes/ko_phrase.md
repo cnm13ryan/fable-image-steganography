@@ -1,0 +1,3 @@
+Carrier: fill colours of the six tulip heads (the `fill` attribute on each `<use>` element).
+
+How to read it: Each tulip's six-digit hex fill is three bytes, and those three bytes are exactly the UTF-8 encoding of one Hangul syllable, so one tulip equals one character. The tulips are read in document order, which is also left to right across the picture. The two flower pots separate the two words: the three tulips in the left pot form the first word and the three in the right pot form the second, with the gap between pots standing in for the space. All other scene colours use named CSS colours, so the six hex values are the only byte-like data in the file.

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1600 1200" width="800" height="600">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5f9fdc"/>
+      <stop offset="0.6" stop-color="#b3d6f1"/>
+      <stop offset="1" stop-color="#e9f3fa"/>
+    </linearGradient>
+    <g id="fir">
+      <ellipse cx="0" cy="2" rx="40" ry="8" fill="#dbe7f3"/>
+      <rect x="-6" y="-34" width="12" height="36" rx="2" fill="#6b4423"/>
+      <polygon points="-44,-28 44,-28 0,-82" fill="#1d6a43"/>
+      <polygon points="-36,-64 36,-64 0,-116" fill="#237a4c"/>
+      <polygon points="-27,-98 27,-98 0,-150" fill="#2b8c58"/>
+      <polygon points="-10,-130 10,-130 0,-150" fill="#f3f9ff"/>
+    </g>
+    <g id="cloud">
+      <ellipse cx="56" cy="38" rx="56" ry="20" fill="#ffffff"/>
+      <circle cx="36" cy="24" r="22" fill="#ffffff"/>
+      <circle cx="68" cy="16" r="26" fill="#ffffff"/>
+      <circle cx="96" cy="28" r="18" fill="#ffffff"/>
+    </g>
+  </defs>
+
+  <rect width="1600" height="1200" fill="url(#sky)"/>
+
+  <circle cx="1270" cy="260" r="140" fill="#ffe9a3" opacity="0.35"/>
+  <g stroke="#ffd45a" stroke-width="8" stroke-linecap="round">
+    <line x1="1270" y1="148" x2="1270" y2="110"/>
+    <line x1="1349" y1="181" x2="1376" y2="154"/>
+    <line x1="1382" y1="260" x2="1420" y2="260"/>
+    <line x1="1349" y1="339" x2="1376" y2="366"/>
+    <line x1="1270" y1="372" x2="1270" y2="410"/>
+    <line x1="1191" y1="339" x2="1164" y2="366"/>
+    <line x1="1158" y1="260" x2="1120" y2="260"/>
+    <line x1="1191" y1="181" x2="1164" y2="154"/>
+  </g>
+  <circle cx="1270" cy="260" r="96" fill="#ffd451"/>
+  <circle cx="1270" cy="260" r="78" fill="#ffe375"/>
+
+  <path d="M0 850 C 220 790 430 780 640 830 S 1080 880 1320 840 S 1520 800 1600 810 L1600 1200 L0 1200 Z" fill="#d3e4f3"/>
+  <path d="M0 940 C 260 900 540 970 820 945 S 1300 900 1600 950 L1600 1200 L0 1200 Z" fill="#ffffff"/>
+  <ellipse cx="420" cy="1150" rx="330" ry="28" fill="#e6f0f9"/>
+  <ellipse cx="1180" cy="1168" rx="380" ry="26" fill="#e6f0f9"/>
+
+  <g>
+    <use xlink:href="#fir" x="84" y="1052"/>
+    <use xlink:href="#fir" x="130" y="1086"/>
+    <use xlink:href="#fir" x="178" y="1088"/>
+    <use xlink:href="#fir" x="226" y="1086"/>
+    <use xlink:href="#fir" x="270" y="1079"/>
+    <use xlink:href="#cloud" x="318" y="32"/>
+    <use xlink:href="#fir" x="366" y="1080"/>
+    <use xlink:href="#cloud" x="414" y="32"/>
+    <use xlink:href="#fir" x="460" y="1089"/>
+    <use xlink:href="#fir" x="508" y="1086"/>
+    <use xlink:href="#fir" x="556" y="1083"/>
+    <use xlink:href="#fir" x="602" y="1085"/>
+    <use xlink:href="#fir" x="650" y="1094"/>
+    <use xlink:href="#fir" x="698" y="1077"/>
+    <use xlink:href="#cloud" x="746" y="59"/>
+    <use xlink:href="#cloud" x="794" y="32"/>
+    <use xlink:href="#fir" x="842" y="1076"/>
+    <use xlink:href="#fir" x="888" y="1077"/>
+    <use xlink:href="#fir" x="936" y="1085"/>
+    <use xlink:href="#fir" x="984" y="1100"/>
+    <use xlink:href="#cloud" x="1030" y="32"/>
+    <use xlink:href="#fir" x="1108" y="1095"/>
+    <use xlink:href="#fir" x="1156" y="1091"/>
+    <use xlink:href="#fir" x="1202" y="1076"/>
+    <use xlink:href="#fir" x="1250" y="1077"/>
+    <use xlink:href="#fir" x="1296" y="1089"/>
+    <use xlink:href="#fir" x="1344" y="1085"/>
+    <use xlink:href="#fir" x="1392" y="1099"/>
+    <use xlink:href="#fir" x="1438" y="1081"/>
+    <use xlink:href="#cloud" x="1476" y="33"/>
+  </g>
+</svg>

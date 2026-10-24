@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" width="960" height="320">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1b3d"/>
+      <stop offset="0.55" stop-color="#46336e"/>
+      <stop offset="1" stop-color="#d07a52"/>
+    </linearGradient>
+    <pattern id="windows" width="20" height="10" patternUnits="userSpaceOnUse">
+      <rect width="20" height="10" fill="#1c2033"/>
+      <rect x="3" y="2" width="5" height="6" fill="#f2cf6a"/>
+      <rect x="13" y="2" width="5" height="6" fill="#596079"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="320" fill="url(#sky)"/>
+  <circle cx="130" cy="64" r="22" fill="#f7e9b7"/>
+  <g fill="#ffffff">
+    <circle cx="300" cy="40" r="1.5"/>
+    <circle cx="520" cy="70" r="1.2"/>
+    <circle cx="700" cy="36" r="1.6"/>
+    <circle cx="860" cy="58" r="1.3"/>
+  </g>
+  <g id="kremlin-tower">
+    <rect x="398" y="165" width="24" height="105" fill="#6b1f2d"/>
+    <rect x="403" y="135" width="14" height="30" fill="#6b1f2d"/>
+    <circle cx="410" cy="182" r="6" fill="#f2cf6a"/>
+    <polygon points="401,135 419,135 410,98" fill="#2f6b50"/>
+    <polygon points="410,80 412.5,86.6 419.5,86.9 414,91.3 415.9,98.1 410,94.2 404.1,98.1 406,91.3 400.5,86.9 407.5,86.6" fill="#e63946"/>
+  </g>
+  <g id="cathedral">
+    <rect x="742" y="228" width="10" height="42" fill="#8a3d66"/>
+    <rect x="768" y="228" width="10" height="42" fill="#8a3d66"/>
+    <rect x="752" y="205" width="16" height="65" fill="#9c4675"/>
+    <path d="M742,228 C733,218 745,209 747,200 C749,209 761,218 752,228 Z" fill="#3f8f6e"/>
+    <path d="M768,228 C759,218 771,209 773,200 C775,209 787,218 778,228 Z" fill="#3f8f6e"/>
+    <path d="M752,205 C739,190 757,178 760,164 C763,178 781,190 768,205 Z" fill="#f2cf6a"/>
+    <path d="M760,154 v10 M756.5,158 h7" stroke="#f2cf6a" stroke-width="1.6" fill="none"/>
+  </g>
+  <g id="moscow-skyline" fill="url(#windows)">
+    <rect x="40" y="150" width="40" height="120"/>
+    <rect x="90" y="90" width="40" height="180"/>
+    <rect x="140" y="260" width="40" height="10"/>
+    <rect x="190" y="80" width="40" height="190"/>
+    <rect x="240" y="110" width="40" height="160"/>
+    <rect x="290" y="70" width="40" height="200"/>
+    <rect x="340" y="260" width="40" height="10"/>
+    <rect x="440" y="80" width="40" height="190"/>
+    <rect x="490" y="100" width="40" height="170"/>
+    <rect x="540" y="260" width="40" height="10"/>
+    <rect x="590" y="80" width="40" height="190"/>
+    <rect x="640" y="200" width="40" height="70"/>
+    <rect x="690" y="70" width="40" height="200"/>
+    <rect x="790" y="130" width="40" height="140"/>
+    <rect x="840" y="170" width="40" height="100"/>
+    <rect x="890" y="90" width="40" height="180"/>
+  </g>
+  <rect y="270" width="960" height="50" fill="#11151f"/>
+  <rect y="288" width="960" height="2" fill="#2a3047"/>
+</svg>

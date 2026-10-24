@@ -1,0 +1,3 @@
+Carrier: heights of the bamboo stalk rects (the eighteen `rect` elements inside the flipped group, read via their `height` attribute).
+
+How to read it: Each stalk height is one byte of the message's UTF-8 encoding, written in decimal. Read the stalks in document order, which is also left to right across the scene. The stalks are grouped into six clumps of three, and each clump corresponds to one three-byte UTF-8 character, so the clump boundaries separate the characters. Convert each height to a byte, concatenate the eighteen bytes, and decode as UTF-8. The leaf tufts sit at exactly ground minus height, so their y positions redundantly mirror the same values but carry nothing extra.

@@ -1,0 +1,3 @@
+Carrier: rotation angles of the small flying birds (the `rotate()` value in each `<use href="#bird">` transform inside the flock group)
+
+How to read it: Each bird's rotation angle is the alphabetical index of one letter, with 1 for a, 2 for b, through 26 for z. The birds are read in document order, which also runs left to right along the upper line of the skein and then along the lower line. Each inner `<g>` within the flock holds one word, so the group boundaries mark the spaces. The translate coordinates carry no information and only shape the flock. The angles are the only `rotate()` values anywhere in the file.

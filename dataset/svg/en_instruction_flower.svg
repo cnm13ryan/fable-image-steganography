@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="400" viewBox="0 0 1200 400">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#070b1e"/>
+      <stop offset="0.55" stop-color="#151b3c"/>
+      <stop offset="1" stop-color="#3d2a58"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b2048"/>
+      <stop offset="1" stop-color="#090913"/>
+    </linearGradient>
+    <pattern id="facade" width="6" height="9" patternUnits="userSpaceOnUse">
+      <rect width="6" height="9" fill="#151a30"/>
+      <rect x="2" y="2" width="2" height="3" fill="#ffd98a" opacity="0.75"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#sky)"/>
+  <rect y="300" width="1200" height="100" fill="url(#water)"/>
+
+  <g fill="#ffffff">
+    <circle cx="90" cy="48" r="1.4" opacity="0.8"/>
+    <circle cx="205" cy="36" r="1" opacity="0.7"/>
+    <circle cx="330" cy="62" r="1.6" opacity="0.9"/>
+    <circle cx="415" cy="28" r="1.1" opacity="0.6"/>
+    <circle cx="520" cy="52" r="1.3" opacity="0.8"/>
+    <circle cx="612" cy="34" r="1" opacity="0.7"/>
+    <circle cx="700" cy="20" r="1.5" opacity="0.9"/>
+    <circle cx="790" cy="44" r="1.2" opacity="0.7"/>
+    <circle cx="905" cy="26" r="1" opacity="0.6"/>
+    <circle cx="960" cy="24" r="1.4" opacity="0.8"/>
+    <circle cx="1030" cy="46" r="1.1" opacity="0.7"/>
+    <circle cx="1180" cy="150" r="1.3" opacity="0.6"/>
+    <circle cx="58" cy="140" r="1" opacity="0.5"/>
+    <circle cx="290" cy="108" r="1.2" opacity="0.6"/>
+    <circle cx="640" cy="94" r="1" opacity="0.5"/>
+    <circle cx="470" cy="120" r="1.1" opacity="0.6"/>
+  </g>
+
+  <circle cx="1120" cy="74" r="50" fill="#f4efd3" opacity="0.07"/>
+  <circle cx="1120" cy="74" r="32" fill="#f4efd3"/>
+
+  <g id="skyline" fill="url(#facade)" shape-rendering="crispEdges">
+    <g transform="translate(70,0)">
+      <rect x="0" y="210" width="14" height="90"/>
+      <rect x="16" y="240" width="12" height="60"/>
+    </g>
+    <g transform="translate(118,0)">
+      <rect x="0" y="50" width="16" height="250"/>
+      <rect x="18" y="150" width="12" height="150"/>
+      <rect x="32" y="90" width="14" height="210"/>
+    </g>
+    <g transform="translate(184,0)">
+      <rect x="0" y="290" width="12" height="10"/>
+      <rect x="14" y="120" width="16" height="180"/>
+      <rect x="32" y="250" width="10" height="50"/>
+    </g>
+    <g transform="translate(246,0)">
+      <rect x="0" y="120" width="14" height="180"/>
+      <rect x="16" y="250" width="12" height="50"/>
+      <rect x="30" y="290" width="10" height="10"/>
+      <rect x="42" y="260" width="16" height="40"/>
+      <rect x="60" y="210" width="12" height="90"/>
+      <rect x="74" y="160" width="14" height="140"/>
+      <rect x="90" y="230" width="12" height="70"/>
+    </g>
+    <g transform="translate(368,0)">
+      <rect x="0" y="100" width="16" height="200"/>
+      <rect x="18" y="220" width="12" height="80"/>
+      <rect x="32" y="210" width="14" height="90"/>
+      <rect x="48" y="110" width="12" height="190"/>
+    </g>
+    <g transform="translate(448,0)">
+      <rect x="0" y="290" width="14" height="10"/>
+      <rect x="16" y="260" width="12" height="40"/>
+      <rect x="30" y="260" width="16" height="40"/>
+    </g>
+    <g transform="translate(514,0)">
+      <rect x="0" y="290" width="12" height="10"/>
+    </g>
+    <g transform="translate(546,0)">
+      <rect x="0" y="110" width="16" height="190"/>
+      <rect x="18" y="170" width="12" height="130"/>
+      <rect x="32" y="290" width="10" height="10"/>
+      <rect x="44" y="180" width="14" height="120"/>
+      <rect x="60" y="180" width="12" height="120"/>
+    </g>
+    <g transform="translate(638,0)">
+      <rect x="0" y="120" width="16" height="180"/>
+      <rect x="18" y="250" width="12" height="50"/>
+      <rect x="32" y="260" width="14" height="40"/>
+    </g>
+    <g transform="translate(704,0)">
+      <rect x="0" y="240" width="12" height="60"/>
+      <rect x="14" y="180" width="14" height="120"/>
+      <rect x="30" y="150" width="16" height="150"/>
+      <rect x="48" y="70" width="12" height="230"/>
+      <rect x="62" y="250" width="10" height="50"/>
+      <rect x="74" y="120" width="14" height="180"/>
+    </g>
+    <g transform="translate(812,0)">
+      <rect x="0" y="100" width="16" height="200"/>
+      <rect x="18" y="150" width="12" height="150"/>
+    </g>
+    <g transform="translate(862,0)">
+      <rect x="0" y="50" width="14" height="250"/>
+      <rect x="16" y="150" width="12" height="150"/>
+      <rect x="30" y="90" width="16" height="210"/>
+      <rect x="48" y="120" width="12" height="180"/>
+    </g>
+    <g transform="translate(942,0)">
+      <rect x="0" y="160" width="14" height="140"/>
+      <rect x="16" y="250" width="12" height="50"/>
+      <rect x="30" y="60" width="16" height="240"/>
+      <rect x="48" y="100" width="12" height="200"/>
+    </g>
+    <g transform="translate(1022,0)">
+      <rect x="0" y="260" width="14" height="40"/>
+      <rect x="16" y="120" width="12" height="180"/>
+      <rect x="30" y="290" width="16" height="10"/>
+      <rect x="48" y="70" width="12" height="230"/>
+      <rect x="62" y="210" width="14" height="90"/>
+      <rect x="78" y="160" width="12" height="140"/>
+      <rect x="92" y="230" width="16" height="70"/>
+    </g>
+  </g>
+
+  <use xlink:href="#skyline" href="#skyline" transform="translate(0,405) scale(1,-0.35)" opacity="0.28"/>
+  <rect y="299" width="1200" height="2" fill="#0d0f1f"/>
+</svg>

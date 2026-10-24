@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="400" viewBox="0 0 480 400">
+  <defs>
+    <radialGradient id="sky" gradientUnits="userSpaceOnUse" cx="392" cy="70" r="460">
+      <stop offset="0" stop-color="#4b6c9a"/>
+      <stop offset="0.1" stop-color="#24406a"/>
+      <stop offset="0.45" stop-color="#0f1d3c"/>
+      <stop offset="1" stop-color="#060b1e"/>
+    </radialGradient>
+    <linearGradient id="farsnow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c6d5e8"/>
+      <stop offset="1" stop-color="#9db2cd"/>
+    </linearGradient>
+    <linearGradient id="snow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8fbff"/>
+      <stop offset="1" stop-color="#d2dfee"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="400" fill="url(#sky)"/>
+  <path d="M404,44 A26,26 0 0,0 404,96 A14,26 0 0,1 404,44 Z" fill="#f5efd0"/>
+  <g fill="#ffffff">
+    <circle cx="12" cy="69.3" r="1.2"/>
+    <circle cx="24" cy="115.1" r="1.6"/>
+    <circle cx="31" cy="32.4" r="1.0"/>
+    <circle cx="45" cy="105.2" r="1.4"/>
+    <circle cx="56" cy="122.3" r="1.1"/>
+    <circle cx="63" cy="107.1" r="1.8"/>
+    <circle cx="78" cy="117.2" r="1.3"/>
+    <circle cx="86" cy="115.4" r="0.9"/>
+    <circle cx="99" cy="299.1" r="1.5"/>
+    <circle cx="112" cy="353.3" r="1.2"/>
+    <circle cx="120" cy="117.2" r="1.7"/>
+    <circle cx="133" cy="32.4" r="1.0"/>
+    <circle cx="141" cy="107.1" r="1.3"/>
+    <circle cx="156" cy="257.3" r="1.1"/>
+    <circle cx="164" cy="32.2" r="1.6"/>
+    <circle cx="177" cy="115.1" r="1.2"/>
+    <circle cx="189" cy="110.4" r="1.4"/>
+    <circle cx="196" cy="105.3" r="0.9"/>
+    <circle cx="210" cy="101.2" r="1.8"/>
+    <circle cx="218" cy="103.1" r="1.3"/>
+    <circle cx="232" cy="115.3" r="1.0"/>
+    <circle cx="241" cy="44.4" r="1.5"/>
+    <circle cx="253" cy="32.2" r="1.2"/>
+    <circle cx="266" cy="106.1" r="1.7"/>
+    <circle cx="274" cy="97.3" r="1.1"/>
+    <circle cx="287" cy="32.2" r="1.3"/>
+    <circle cx="295" cy="116.4" r="1.6"/>
+    <circle cx="309" cy="117.1" r="1.0"/>
+    <circle cx="320" cy="32.3" r="1.4"/>
+    <circle cx="328" cy="109.2" r="1.2"/>
+    <circle cx="342" cy="97.1" r="0.9"/>
+    <circle cx="351" cy="110.4" r="1.5"/>
+    <circle cx="364" cy="105.2" r="1.8"/>
+    <circle cx="373" cy="32.3" r="1.1"/>
+    <circle cx="386" cy="110.1" r="1.3"/>
+    <circle cx="398" cy="101.4" r="1.6"/>
+    <circle cx="407" cy="114.2" r="1.0"/>
+    <circle cx="421" cy="101.3" r="1.4"/>
+    <circle cx="430" cy="100.1" r="1.7"/>
+    <circle cx="443" cy="122.2" r="1.2"/>
+    <circle cx="452" cy="275.4" r="1.3"/>
+    <circle cx="461" cy="115.3" r="1.5"/>
+    <circle cx="471" cy="105.1" r="1.1"/>
+  </g>
+  <g fill="#b9c9e0" fill-opacity="0.22">
+    <path d="M120,156 Q220,142 330,154 Q260,166 120,156 Z"/>
+    <path d="M30,192 Q130,168 250,184 Q370,200 462,182 Q400,214 254,208 Q110,216 30,192 Z"/>
+    <path d="M0,232 Q110,218 236,234 Q360,250 480,228 Q380,256 236,252 Q104,254 0,232 Z"/>
+  </g>
+  <path d="M0,372 Q90,358 180,370 Q260,380 340,366 Q420,354 480,368 L480,400 L0,400 Z" fill="url(#farsnow)"/>
+  <g transform="translate(48,374)">
+    <rect x="-3" y="-10" width="6" height="12" fill="#2b1b11"/>
+    <polygon points="0,-38 -24,-8 24,-8" fill="#0c2619"/>
+    <polygon points="0,-50 -17,-24 17,-24" fill="#113322"/>
+    <polygon points="0,-62 -11,-40 11,-40" fill="#16402c"/>
+  </g>
+  <g transform="translate(80,378) scale(0.7)">
+    <rect x="-3" y="-10" width="6" height="12" fill="#2b1b11"/>
+    <polygon points="0,-38 -24,-8 24,-8" fill="#0c2619"/>
+    <polygon points="0,-50 -17,-24 17,-24" fill="#113322"/>
+    <polygon points="0,-62 -11,-40 11,-40" fill="#16402c"/>
+  </g>
+  <g transform="translate(262,380) scale(0.9)">
+    <rect x="-3" y="-10" width="6" height="12" fill="#2b1b11"/>
+    <polygon points="0,-38 -24,-8 24,-8" fill="#0c2619"/>
+    <polygon points="0,-50 -17,-24 17,-24" fill="#113322"/>
+    <polygon points="0,-62 -11,-40 11,-40" fill="#16402c"/>
+  </g>
+  <g transform="translate(292,380) scale(0.6)">
+    <rect x="-3" y="-10" width="6" height="12" fill="#2b1b11"/>
+    <polygon points="0,-38 -24,-8 24,-8" fill="#0c2619"/>
+    <polygon points="0,-50 -17,-24 17,-24" fill="#113322"/>
+    <polygon points="0,-62 -11,-40 11,-40" fill="#16402c"/>
+  </g>
+  <g transform="translate(396,376) scale(1.05)">
+    <rect x="-3" y="-10" width="6" height="12" fill="#2b1b11"/>
+    <polygon points="0,-38 -24,-8 24,-8" fill="#0c2619"/>
+    <polygon points="0,-50 -17,-24 17,-24" fill="#113322"/>
+    <polygon points="0,-62 -11,-40 11,-40" fill="#16402c"/>
+  </g>
+  <g transform="translate(424,374) scale(0.65)">
+    <rect x="-3" y="-10" width="6" height="12" fill="#2b1b11"/>
+    <polygon points="0,-38 -24,-8 24,-8" fill="#0c2619"/>
+    <polygon points="0,-50 -17,-24 17,-24" fill="#113322"/>
+    <polygon points="0,-62 -11,-40 11,-40" fill="#16402c"/>
+  </g>
+  <path d="M0,384 Q70,362 140,376 Q200,388 260,378 Q320,368 380,374 Q430,380 480,366 L480,400 L0,400 Z" fill="url(#snow)"/>
+</svg>
