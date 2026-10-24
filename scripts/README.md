@@ -1,6 +1,6 @@
 # The scripts that ran the experiment
 
-These are the scripts that produced the dataset, copied unchanged from the experiment folder as it stood on 11 October 2026. They were written by Nikita Kezin for the article. They are here so that the exact requests we sent can be seen and repeated.
+These are the scripts that produced the dataset, copied unchanged from the experiment folder as it stood on 11 October 2026. They are here so that the exact requests we sent can be seen and repeated.
 
 **They call the Claude Code command-line tool, not the HTTP API.** Every model call goes through `claude -p` (print mode) on a logged-in machine, so no API key is needed. The main consequences are that the request carries Claude Code's default system prompt, which we did not control, and that the decoder's tools are Claude Code's built-in tools rather than an API tool definition.
 
