@@ -1,0 +1,3 @@
+Carrier: heights of the building rects in the eight skyline groups
+
+How to read it: Each building rect encodes one letter by its height in pixels divided by ten, read as a position in the alphabet (a=1, b=2, ... z=26). The rects are read left to right in document order, and each `<g>` group of buildings is one word, so the street gaps between groups are the spaces. The lone tree standing in the wider street after the fourth group stands in for the comma. In the last group, the two red rooftop lights above one building act as the dieresis on that letter, and the small flag on the first building of that group marks it as a capital letter.

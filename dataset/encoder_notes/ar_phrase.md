@@ -1,0 +1,3 @@
+Carrier: fill colours of the eleven bunting pennants (the `polygon` elements).
+
+How to read it: Each pennant's six-digit hex fill is three raw bytes. Concatenating the eleven fills in document order (left to right along the string) yields a 33-byte stream, which is the UTF-8 encoding of the message followed by one trailing padding byte. Each Arabic letter occupies two consecutive bytes (lead byte d8 or d9 plus a continuation byte), so a letter may span the boundary between two adjacent pennants. Word breaks are ordinary 0x20 space bytes embedded in the stream, and the final 0x20 is only padding to complete the last colour. All other scene elements use named colours and carry nothing.

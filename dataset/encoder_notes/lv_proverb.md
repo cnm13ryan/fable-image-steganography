@@ -1,0 +1,3 @@
+Carrier: hue component of the hsl() fill colours of the 26 tree-crown circles along the horizon
+
+How to read it: Each tree crown is a circle whose fill is written as hsl(H, S%, L%), and the hue H equals the Unicode code point of one character of the message. The crowns are read in document order, which is also left to right across the scene. Spaces and the comma are encoded the same way as letters, as their own code points, so the orange-toned trees mark word breaks and punctuation. Saturation and lightness vary freely and carry nothing. All other scene elements use hex colours, which separates the carrier from the decoration.

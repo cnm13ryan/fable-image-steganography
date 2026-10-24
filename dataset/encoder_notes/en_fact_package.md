@@ -1,0 +1,3 @@
+Carrier: the stroke-dasharray values of the nine dashed ripple paths on the lake
+
+How to read it: Each dasharray alternates dash and gap lengths, and the dash lengths are Morse code with a dash of 15 units as a long signal and 5 units as a short one. A gap of 5 sits between signals inside one letter, a gap of 15 marks the end of a letter, and the trailing gap of 35 marks the end of a word. Each ripple path holds exactly one word, so the nine paths read in source order, which is also top to bottom on the water, give the nine words of the message in sequence.

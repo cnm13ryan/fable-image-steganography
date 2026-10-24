@@ -1,0 +1,3 @@
+Carrier: heights of the building rects in the skyline
+
+How to read it: Each building's height attribute is a number from 1 to 26, and that number is a letter's position in the alphabet, so 1 is a, 2 is b, and 26 is z. The rects are read in document order from left to right across the scene, which matches their x positions. Each `<g class="block">` group is one word, so word boundaries are the group boundaries and there are no explicit space symbols. Punctuation was dropped. The x positions, widths, colours, clouds, sun, water, and reflection carry nothing.

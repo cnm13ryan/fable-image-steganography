@@ -1,0 +1,3 @@
+Carrier: heights of the waveform bar rects inside the player card
+
+How to read it: Each bar's `height` attribute is one letter's position in the alphabet, with a=1 through z=26 and the German umlauts continuing as ä=27, ö=28, ü=29. Bars are read left to right in document order, which matches increasing x position. Each word is a separate `<g>` of bars, and words are also separated visually by a wider gap in the x spacing (12 units instead of 6). The played/unplayed fill colours and all other elements in the card are decoration and carry nothing.

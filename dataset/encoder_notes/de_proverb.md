@@ -1,0 +1,3 @@
+Carrier: heights of the grass blades (the `v` offsets in the seven grass paths at the bottom of the image)
+
+How to read it: Each blade is a vertical stroke whose height in user units is the alphabet position of one letter, with A as 1 and Z as 26, and 27 standing in for the umlaut vowel ä. Blades are read left to right in document order, which matches their x positions. Each separate grass path is one word, so the seven paths give the seven words and the gaps between tufts mark the word boundaries. Case is not encoded, so capitals must be restored from context.

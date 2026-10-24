@@ -1,0 +1,3 @@
+Carrier: the cy (vertical position) values of the 43 small white star circles in the night sky group.
+
+How to read it: each star corresponds to one character of the message, and the integer part of its cy value (floor the decimal) is that character's Unicode code point. The stars are read in document order, which is also left-to-right by increasing cx. Spaces are encoded like any other character, as code point 32, so the eight stars near the top edge mark word boundaries, and the comma is encoded the same way. The four stars that sit much lower in the sky carry the code points above 255 for the Latvian letters with diacritics. The fractional parts of cy, the cx values, and the radii are decorative noise and carry nothing.

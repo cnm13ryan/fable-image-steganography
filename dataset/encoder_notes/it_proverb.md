@@ -1,0 +1,3 @@
+Carrier: heights of the building rects in the skyline groups (equivalently, the number of 10px window rows each building shows).
+
+How to read it: Each building is one letter. Divide the rect's height by 10 (one floor) to get a number from 1 to 26, and map it to the alphabet with A=1, B=2 and so on. Read the buildings left to right in document order, which is also the visual order. Each `block-N` group is one word, and the wider gaps with a tree between groups mark the word boundaries. Case is not encoded, so the recovered text comes out in lowercase.

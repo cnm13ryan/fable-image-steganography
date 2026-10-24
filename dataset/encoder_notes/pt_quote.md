@@ -1,0 +1,3 @@
+Carrier: heights of the 32 building rects inside the group filled with the window pattern
+
+How to read it: Each building's height attribute is the decimal Unicode code point of one character. The buildings are read left to right in document order, which also matches increasing x position. There is exactly one building per character, with no skipping, so the 32 rects give the 32 characters in sequence. Word breaks are the short buildings of height 32, which is the code point for a space. Accented letters use their Latin-1 code points, which produce the three tall towers.

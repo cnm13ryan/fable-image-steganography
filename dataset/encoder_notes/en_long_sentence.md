@@ -1,0 +1,3 @@
+Carrier: rotation angles of the tulips (the `rotate(n)` value in each `<use>` element's transform)
+
+How to read it: Each tulip's tilt angle in degrees is a letter index, with 1 through 26 mapping to a through z. An angle of 0 (an upright tulip) marks a space between words, and the single angle of 27 stands for the apostrophe. The tulips are read in document order, which is also visual order: the back red row first, then the middle yellow row, then the front pink row, each left to right. The x and y coordinates and the per-row colours carry nothing and follow a regular grid.

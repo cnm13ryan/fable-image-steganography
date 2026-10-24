@@ -1,0 +1,3 @@
+Carrier: heights of the building rects inside the group with id `moscow-skyline`
+
+How to read it: Each building's height divided by 10 gives one number from 1 to 20, which is the position of a letter in the 33-letter Russian alphabet with Ё counted as the seventh letter. Because the window pattern repeats every 10 units, the same number can also be read visually as the count of window rows on each building. Buildings are read left to right in document order, which matches their x positions on a regular pitch of 50 units. The two slots in that pitch that hold no building, occupied instead by the Kremlin tower and the cathedral, are the word separators. The Russian-themed landmark ids are the cue that the alphabet is Cyrillic rather than Latin.

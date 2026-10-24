@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#79b4e4"/>
+      <stop offset="1" stop-color="#dcedf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#sky)"/>
+  <circle cx="640" cy="88" r="50" fill="#fff1b3" opacity="0.5"/>
+  <circle cx="640" cy="88" r="34" fill="#fde276"/>
+  <g fill="#ffffff" opacity="0.92">
+    <ellipse cx="150" cy="82" rx="48" ry="16"/>
+    <ellipse cx="128" cy="72" rx="26" ry="18"/>
+    <ellipse cx="172" cy="69" rx="30" ry="21"/>
+    <ellipse cx="470" cy="118" rx="40" ry="13"/>
+    <ellipse cx="454" cy="108" rx="22" ry="15"/>
+    <ellipse cx="490" cy="107" rx="26" ry="17"/>
+  </g>
+  <path d="M0 222 C110 180 190 192 290 216 C380 236 470 176 560 204 C650 230 720 186 800 212 V262 H0 Z" fill="#b8d4a4"/>
+  <path d="M0 244 C80 222 160 230 240 240 C330 250 420 218 520 232 C620 246 700 224 800 238 V262 H0 Z" fill="#a1c386"/>
+  <rect y="250" width="800" height="150" fill="#80b45b"/>
+  <g>
+    <rect x="20" y="244" width="4" height="18" fill="#6e4b2a"/>
+    <circle cx="22" cy="234" r="14" fill="hsl(76, 58%, 40%)"/>
+    <rect x="49" y="246" width="4" height="16" fill="#6e4b2a"/>
+    <circle cx="51" cy="238" r="12" fill="hsl(275, 42%, 52%)"/>
+    <rect x="81" y="244" width="4" height="18" fill="#6e4b2a"/>
+    <circle cx="83" cy="233" r="15" fill="hsl(110, 48%, 36%)"/>
+    <rect x="109" y="245" width="4" height="17" fill="#6e4b2a"/>
+    <circle cx="111" cy="236" r="13" fill="hsl(257, 40%, 55%)"/>
+    <rect x="141" y="244" width="4" height="18" fill="#6e4b2a"/>
+    <circle cx="143" cy="232" r="16" fill="hsl(107, 52%, 33%)"/>
+    <rect x="169" y="246" width="4" height="16" fill="#6e4b2a"/>
+    <circle cx="171" cy="238" r="12" fill="hsl(32, 72%, 52%)"/>
+    <rect x="201" y="245" width="4" height="17" fill="#6e4b2a"/>
+    <circle cx="203" cy="235" r="14" fill="hsl(98, 50%, 40%)"/>
+    <rect x="229" y="245" width="4" height="17" fill="#6e4b2a"/>
+    <circle cx="231" cy="236" r="13" fill="hsl(114, 46%, 35%)"/>
+    <rect x="260" y="244" width="4" height="18" fill="#6e4b2a"/>
+    <circle cx="262" cy="233" r="15" fill="hsl(97, 55%, 42%)"/>
+    <rect x="291" y="246" width="4" height="16" fill="#6e4b2a"/>
+    <circle cx="293" cy="238" r="12" fill="hsl(117, 44%, 37%)"/>
+    <rect x="319" y="244" width="4" height="18" fill="#6e4b2a"/>
+    <circle cx="321" cy="234" r="14" fill="hsl(107, 50%, 39%)"/>
+    <rect x="351" y="244" width="4" height="18" fill="#6e4b2a"/>
+    <circle cx="353" cy="232" r="16" fill="hsl(115, 47%, 34%)"/>
+    <rect x="379" y="245" width="4" height="17" fill="#6e4b2a"/>
+    <circle cx="381" cy="236" r="13" fill="hsl(105, 53%, 41%)"/>
+    <rect x="411" y="246" width="4" height="16" fill="#6e4b2a"/>
+    <circle cx="413" cy="238" r="12" fill="hsl(44, 70%, 50%)"/>
+    <rect x="439" y="244" width="4" height="18" fill="#6e4b2a"/>
+    <circle cx="441" cy="233" r="15" fill="hsl(32, 68%, 54%)"/>
+    <rect x="471" y="245" width="4" height="17" fill="#6e4b2a"/>
+    <circle cx="473" cy="235" r="14" fill="hsl(116, 45%, 36%)"/>
+    <rect x="499" y="245" width="4" height="17" fill="#6e4b2a"/>
+    <circle cx="501" cy="236" r="13" fill="hsl(257, 44%, 53%)"/>
+    <rect x="530" y="244" width="4" height="18" fill="#6e4b2a"/>
+    <circle cx="532" cy="232" r="16" fill="hsl(108, 51%, 38%)"/>
+    <rect x="559" y="246" width="4" height="16" fill="#6e4b2a"/>
+    <circle cx="561" cy="238" r="12" fill="hsl(257, 38%, 56%)"/>
+    <rect x="591" y="244" width="4" height="18" fill="#6e4b2a"/>
+    <circle cx="593" cy="234" r="14" fill="hsl(107, 49%, 35%)"/>
+    <rect x="619" y="244" width="4" height="18" fill="#6e4b2a"/>
+    <circle cx="621" cy="233" r="15" fill="hsl(32, 74%, 51%)"/>
+    <rect x="651" y="245" width="4" height="17" fill="#6e4b2a"/>
+    <circle cx="653" cy="236" r="13" fill="hsl(116, 48%, 40%)"/>
+    <rect x="679" y="246" width="4" height="16" fill="#6e4b2a"/>
+    <circle cx="681" cy="238" r="12" fill="hsl(105, 54%, 37%)"/>
+    <rect x="711" y="244" width="4" height="18" fill="#6e4b2a"/>
+    <circle cx="713" cy="232" r="16" fill="hsl(107, 46%, 33%)"/>
+    <rect x="739" y="245" width="4" height="17" fill="#6e4b2a"/>
+    <circle cx="741" cy="235" r="14" fill="hsl(115, 50%, 42%)"/>
+    <rect x="771" y="245" width="4" height="17" fill="#6e4b2a"/>
+    <circle cx="773" cy="236" r="13" fill="hsl(105, 52%, 39%)"/>
+  </g>
+  <ellipse cx="96" cy="296" rx="24" ry="12" fill="#5f9a3c"/>
+  <ellipse cx="560" cy="286" rx="20" ry="10" fill="#639f3f"/>
+  <ellipse cx="730" cy="378" rx="30" ry="14" fill="#5a9439"/>
+  <path d="M-20 350 C160 318 300 372 440 340 S700 296 820 318" fill="none" stroke="#585b62" stroke-width="44" stroke-linecap="round"/>
+  <path d="M-20 350 C160 318 300 372 440 340 S700 296 820 318" fill="none" stroke="#f2e9b6" stroke-width="3" stroke-dasharray="20 16"/>
+  <g>
+    <rect x="280" y="342" width="44" height="16" rx="4" fill="#d9534f"/>
+    <rect x="290" y="333" width="22" height="11" rx="3" fill="#d9534f"/>
+    <rect x="293" y="335" width="16" height="7" rx="1" fill="#bfe6f5"/>
+    <circle cx="290" cy="359" r="4.5" fill="#24262b"/>
+    <circle cx="315" cy="359" r="4.5" fill="#24262b"/>
+  </g>
+</svg>

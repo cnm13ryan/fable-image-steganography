@@ -1,0 +1,3 @@
+Carrier: fill colours of the 23 cherry blossoms (the `use` elements referencing `#bloom`)
+
+How to read it: Each blossom's six-digit hex fill is read as three bytes, and those three bytes are exactly the UTF-8 encoding of one character, so every blossom carries one character. The blossoms are read in document order, which also matches their left-to-right positions on the branch. There are no separators because each character is a complete three-byte UTF-8 sequence, so concatenating the colour bytes of all blossoms and decoding as UTF-8 yields the full message. The branch, twigs, leaves, background gradient, petal stroke, and flower centres carry nothing and use colours that are not valid UTF-8 sequences.

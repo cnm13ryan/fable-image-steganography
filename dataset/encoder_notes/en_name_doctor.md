@@ -1,0 +1,3 @@
+Carrier: heights of the waveform bar rects inside the nested `<g>` groups
+
+How to read it: Each bar's height is ten times the letter's position in the alphabet (a=10, b=20, ... z=260), and the `y` value mirrors this since bars are centred on the midline at y=150. Bars are read left to right by increasing `x`, with a fixed pitch of 12 units between slots. Each inner `<g>` is one word, and an empty slot (a 24-unit jump in `x`) between groups marks the space between words. Capitalisation is not encoded. The background card, play button, and midline track carry nothing.

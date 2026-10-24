@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="640" height="144">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7f4ee"/>
+      <stop offset="1" stop-color="#e9e4da"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="72" fill="url(#bg)"/>
+  <rect x="8" y="8" width="304" height="56" rx="10" fill="#ffffff" stroke="#d9d3c7"/>
+  <circle cx="34" cy="36" r="13" fill="#3b6ea5"/>
+  <polygon points="30,29 30,43 42,36" fill="#ffffff"/>
+  <g fill="#3b6ea5">
+    <g>
+      <rect x="58" y="31.5" width="3" height="9" rx="1.5"/>
+      <rect x="63" y="30" width="3" height="12" rx="1.5"/>
+    </g>
+    <g>
+      <rect x="73" y="26" width="3" height="20" rx="1.5"/>
+      <rect x="78" y="27" width="3" height="18" rx="1.5"/>
+      <rect x="83" y="33.5" width="3" height="5" rx="1.5"/>
+      <rect x="88" y="29" width="3" height="14" rx="1.5"/>
+      <rect x="93" y="28.5" width="3" height="15" rx="1.5"/>
+    </g>
+    <g>
+      <rect x="103" y="28" width="3" height="16" rx="1.5"/>
+      <rect x="108" y="33.5" width="3" height="5" rx="1.5"/>
+      <rect x="113" y="27" width="3" height="18" rx="1.5"/>
+    </g>
+  </g>
+  <g fill="#b9c4d0">
+    <g>
+      <rect x="123" y="29" width="3" height="14" rx="1.5"/>
+      <rect x="128" y="35.5" width="3" height="1" rx="1.5"/>
+      <rect x="133" y="28" width="3" height="16" rx="1.5"/>
+      <rect x="138" y="28.5" width="3" height="15" rx="1.5"/>
+      <rect x="143" y="30" width="3" height="12" rx="1.5"/>
+      <rect x="148" y="31.5" width="3" height="9" rx="1.5"/>
+    </g>
+    <g>
+      <rect x="158" y="28" width="3" height="16" rx="1.5"/>
+      <rect x="163" y="35.5" width="3" height="1" rx="1.5"/>
+      <rect x="168" y="27" width="3" height="18" rx="1.5"/>
+      <rect x="173" y="26" width="3" height="20" rx="1.5"/>
+      <rect x="178" y="33.5" width="3" height="5" rx="1.5"/>
+    </g>
+    <g>
+      <rect x="188" y="35.5" width="3" height="1" rx="1.5"/>
+      <rect x="193" y="30" width="3" height="12" rx="1.5"/>
+      <rect x="198" y="30" width="3" height="12" rx="1.5"/>
+      <rect x="203" y="33.5" width="3" height="5" rx="1.5"/>
+    </g>
+    <g>
+      <rect x="213" y="26.5" width="3" height="19" rx="1.5"/>
+      <rect x="218" y="33.5" width="3" height="5" rx="1.5"/>
+      <rect x="223" y="26" width="3" height="20" rx="1.5"/>
+      <rect x="228" y="26" width="3" height="20" rx="1.5"/>
+      <rect x="233" y="33.5" width="3" height="5" rx="1.5"/>
+    </g>
+    <g>
+      <rect x="243" y="33.5" width="3" height="5" rx="1.5"/>
+    </g>
+    <g>
+      <rect x="253" y="29.5" width="3" height="13" rx="1.5"/>
+      <rect x="258" y="33.5" width="3" height="5" rx="1.5"/>
+      <rect x="263" y="23" width="3" height="26" rx="1.5"/>
+      <rect x="268" y="23" width="3" height="26" rx="1.5"/>
+      <rect x="273" y="35.5" width="3" height="1" rx="1.5"/>
+    </g>
+  </g>
+  <text x="300" y="39" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#8a8378" text-anchor="end">2:48</text>
+</svg>

@@ -1,0 +1,3 @@
+Carrier: heights of the building rects in the skyline group
+
+How to read it: Each building rect encodes one letter. Its height in user units is ten times the letter's position in the alphabet, so a=10, b=20, up to z=260. Buildings are read in source order, which is also left to right in the rendered image. Each inner group with a translate transform is one word, so the gaps between groups mark the word boundaries. The comma in the original message is not encoded.

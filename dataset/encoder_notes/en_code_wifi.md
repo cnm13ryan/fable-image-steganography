@@ -1,0 +1,3 @@
+Carrier: heights of the 32 building rects inside the translated group with the window-pattern fill
+
+How to read it: Each building's `height` attribute is the decimal ASCII code of one character, so a value such as 116 is a lowercase letter and a value such as 50 is a digit. Read the rects in document order, which is also left to right by increasing `x`, one character per building. Word breaks are the four short buildings with a height of 32, the ASCII space. The `y` attributes are just the ground line at 200 minus the height and carry nothing extra, and the sky, clouds, sun, and ground are decoration only.
