@@ -1,0 +1,3 @@
+Carrier: heights of the building rects in the skyline
+
+How to read it: Each building rect's height is ten times the alphabet position of one letter, so dividing the height by ten gives a number from 1 to 26 that maps a=1 through z=26. The buildings are read left to right by x position, which matches their order in the source. Each `<g>` block is one word, and the 40px street gaps between blocks mark the spaces. The small bird path inside the second block, sitting over a narrow 10px gap between two buildings, stands in for the apostrophe, and the flag on the first building of the last block marks that letter as a capital.

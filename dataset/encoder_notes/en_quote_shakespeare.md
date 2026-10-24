@@ -1,0 +1,3 @@
+Carrier: the roof heights of the 65 narrow foreground buildings in the single window-patterned path (the y value of each subpath's starting M command).
+
+How to read it: Every subpath has the form `M x,y h10 V320 h-10 z`, so each building stands on the ground line at y=320 and its height is 320 minus the roof y. That height, in pixels, is the ASCII code of one character. Read the subpaths left to right in the order they appear, which is also increasing x at a fixed 12-unit pitch. Spaces are encoded like any other character, as the short 32-unit buildings, and punctuation such as the apostrophe and comma are likewise just their ASCII heights. The wide background rects, stars, moon, and reflection lines carry nothing.

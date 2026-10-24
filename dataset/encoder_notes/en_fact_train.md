@@ -1,0 +1,3 @@
+Carrier: heights of the 48 building rects in the skyline group (the group filled with the window pattern).
+
+How to read it: Each building's `height` attribute is exactly twice the ASCII code of one character, so halving the height gives the character's code point. The buildings are read in document order, which is also left to right by increasing `x`, with one rect per character of the message including spaces and punctuation. Spaces are the short 64-unit buildings (code 32), so they appear as low gaps between clusters of tall buildings; digits and the colon map to the mid-height buildings. The `y` attribute is redundant, always 300 minus the height, so subtracting it from the ground line gives the same values.

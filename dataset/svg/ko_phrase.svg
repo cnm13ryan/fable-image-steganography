@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="640" height="400" viewBox="0 0 640 400">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="skyblue"/>
+      <stop offset="1" stop-color="aliceblue"/>
+    </linearGradient>
+    <g id="tulip">
+      <rect x="-2.5" y="-4" width="5" height="96" rx="2" fill="forestgreen"/>
+      <path d="M 0 60 Q -22 56 -30 26 Q -12 34 0 48 Z" fill="seagreen"/>
+      <path d="M 0 70 Q 22 66 30 36 Q 12 44 0 58 Z" fill="seagreen"/>
+      <path d="M 0 0 C -10 0 -18 -8 -18 -18 C -19 -26 -20 -34 -18 -40 Q -10 -38 -8 -30 Q -9 -40 0 -44 Q 9 -40 8 -30 Q 10 -38 18 -40 C 20 -34 19 -26 18 -18 C 18 -8 10 0 0 0 Z" stroke="black" stroke-opacity="0.15" stroke-width="1.5"/>
+      <path d="M -8 -30 Q -9 -40 0 -44 Q 9 -40 8 -30 Q 7 -12 0 -3 Q -7 -12 -8 -30 Z" fill="white" fill-opacity="0.2"/>
+    </g>
+  </defs>
+  <rect width="640" height="300" fill="url(#sky)"/>
+  <circle cx="556" cy="76" r="36" fill="lemonchiffon" stroke="khaki" stroke-width="3"/>
+  <g fill="white">
+    <ellipse cx="100" cy="74" rx="30" ry="14"/>
+    <ellipse cx="124" cy="62" rx="26" ry="18"/>
+    <ellipse cx="150" cy="74" rx="28" ry="13"/>
+    <ellipse cx="318" cy="100" rx="26" ry="12"/>
+    <ellipse cx="340" cy="90" rx="22" ry="15"/>
+    <ellipse cx="362" cy="100" rx="24" ry="11"/>
+  </g>
+  <rect y="300" width="640" height="100" fill="yellowgreen"/>
+  <use xlink:href="#tulip" href="#tulip" x="152" y="172" fill="#ec8b9c"/>
+  <use xlink:href="#tulip" href="#tulip" x="190" y="160" fill="#ec9e91"/>
+  <use xlink:href="#tulip" href="#tulip" x="228" y="176" fill="#ec9db4"/>
+  <rect x="145" y="246" width="90" height="16" rx="3" fill="sienna"/>
+  <path d="M 150 262 L 230 262 L 222 304 L 158 304 Z" fill="peru"/>
+  <use xlink:href="#tulip" href="#tulip" x="412" y="174" fill="#ebb098"/>
+  <use xlink:href="#tulip" href="#tulip" x="450" y="162" fill="#ec9db4"/>
+  <use xlink:href="#tulip" href="#tulip" x="488" y="170" fill="#eb8ba4"/>
+  <rect x="405" y="246" width="90" height="16" rx="3" fill="sienna"/>
+  <path d="M 410 262 L 490 262 L 482 304 L 418 304 Z" fill="peru"/>
+</svg>

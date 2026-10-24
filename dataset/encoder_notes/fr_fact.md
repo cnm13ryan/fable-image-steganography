@@ -1,0 +1,3 @@
+Carrier: heights of the building rects in the skyline group, read left to right.
+
+How to read it: Each building rect whose bottom sits on the baseline at y=320 is one letter, and its height divided by 10 gives the letter's position in the alphabet (1 to 26). Buildings are read in order of increasing x. A gap of 6 px between buildings means the next letter belongs to the same word, while a gap of 34 px marks a word break. The short horizontal rect bridging two tall buildings is a hyphen, and the two slanted rooftop lines mark accents on the letters beneath them: one leaning up-right for acute, one leaning up-left for grave.

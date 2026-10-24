@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="900" viewBox="0 0 300 225">
+  <defs>
+    <g id="tree">
+      <circle r="2.4" fill="#7da46a"/>
+      <path d="M0,2 v2.6" stroke="#6b4f2a" stroke-width="0.7"/>
+    </g>
+  </defs>
+
+  <rect width="300" height="225" fill="#e4dcc6"/>
+  <rect x="4" y="4" width="292" height="217" fill="#eef1e2" stroke="#4a4a4a" stroke-width="1"/>
+
+  <g fill="#cfe0b4">
+    <path d="M16,16 C40,8 70,8 92,24 C100,40 86,60 70,70 C50,74 30,70 16,56 C8,44 8,28 16,16 Z"/>
+    <path d="M104,176 C124,166 150,164 172,176 C184,188 176,206 158,212 C140,218 112,214 104,202 C98,192 98,184 104,176 Z"/>
+  </g>
+
+  <g fill="none" stroke="#c9b08a" stroke-width="0.6">
+    <path d="M100,40 C104,28 130,26 136,38 C140,48 128,56 116,54 C104,52 98,48 100,40 Z"/>
+    <path d="M86,42 C90,20 142,16 152,38 C158,54 140,68 118,66 C96,64 82,56 86,42 Z"/>
+    <path d="M74,44 C78,14 154,8 166,36 C174,58 150,80 118,78 C88,76 68,66 74,44 Z"/>
+    <path d="M250,70 C252,60 272,58 276,68 C278,78 266,84 258,82 C250,80 248,76 250,70 Z"/>
+    <path d="M238,72 C240,50 282,46 290,64 C294,80 276,96 258,94 C240,92 234,84 238,72 Z"/>
+    <path d="M4,130 C40,120 70,124 100,132 C130,140 170,128 196,118"/>
+    <path d="M4,150 C40,142 80,146 110,156 C140,166 176,152 200,146"/>
+  </g>
+
+  <g>
+    <use xlink:href="#tree" x="30" y="30"/>
+    <use xlink:href="#tree" x="52" y="22"/>
+    <use xlink:href="#tree" x="74" y="30"/>
+    <use xlink:href="#tree" x="44" y="46"/>
+    <use xlink:href="#tree" x="66" y="52"/>
+    <use xlink:href="#tree" x="26" y="54"/>
+    <use xlink:href="#tree" x="120" y="184"/>
+    <use xlink:href="#tree" x="142" y="180"/>
+    <use xlink:href="#tree" x="162" y="188"/>
+    <use xlink:href="#tree" x="128" y="200"/>
+    <use xlink:href="#tree" x="150" y="202"/>
+  </g>
+
+  <path d="M200,152 C208,142 236,144 242,158 C246,172 232,186 216,184 C200,182 192,166 200,152 Z" fill="#a9cfe7" stroke="#6fa5c8" stroke-width="0.8"/>
+  <path d="M216,184 C212,196 196,200 192,210 C190,216 188,220 186,221" fill="none" stroke="#6fa5c8" stroke-width="1.6" stroke-linecap="round"/>
+
+  <g id="trails" fill="none" stroke="#b4432f" stroke-width="1.2" stroke-linejoin="round">
+    <path id="trail-1" pathLength="162" stroke-dasharray="1 1 1 3 1 1 1 1 3 1 1 7 3 1 1 1 3 1 3 3 3 1 3 1 3 3 1 1 1 1 3 7 1 1 1 1 3 1 1 3 1 1 1 3 3 1 1 3 3 1 1 1 1 7 3 3 1 1 1 1 1 1 1 3 1 1 1 3 1 1 1 1 1 3 3 1 3 1 1 1 1 1 3 1 3 7" d="M24,196 L50,176 L82,180 L108,152 L130,148 L150,118"/>
+    <path id="trail-2" pathLength="142" stroke-dasharray="1 1 3 1 3 3 1 1 1 1 1 1 1 3 1 1 1 3 1 1 1 1 1 3 1 1 3 1 3 1 1 3 1 3 1 1 3 1 1 7 3 3 1 1 1 1 1 1 1 3 1 7 1 1 3 1 3 3 3 1 3 1 3 3 1 1 3 1 1 3 3 1 1 1 1 7" d="M150,118 L170,102 L148,86 L168,70 L146,58 L128,54 L118,38"/>
+    <path id="trail-3" pathLength="96" stroke-dasharray="1 1 3 1 1 1 1 3 1 1 1 3 3 1 3 1 1 3 1 1 1 1 1 1 1 3 3 3 1 1 1 1 1 1 1 3 3 1 3 1 3 3 1 1 1 1 3 3 1 1 1 1 1 3 1 7" d="M150,118 L172,124 L190,112 L214,118 L204,142"/>
+    <path id="trail-4" pathLength="98" stroke-dasharray="1 1 1 1 1 3 3 1 3 1 3 3 3 1 3 3 1 3 1 1 3 1 3 3 1 1 1 1 1 1 1 3 1 3 1 1 3 1 1 3 1 7 1 1 1 3 3 1 1 7" d="M204,142 L230,126 L238,100 L262,70"/>
+    <path id="trail-5" pathLength="108" stroke-dasharray="3 1 1 1 3 1 3 3 3 1 3 1 3 3 1 1 1 1 3 3 1 1 3 1 1 7 1 1 3 3 3 1 1 3 1 1 1 1 1 3 1 1 3 1 3 3 1 3 1 1 3 1 1 7" d="M262,70 L274,96 L258,124 L268,150 L278,166"/>
+  </g>
+
+  <g stroke="#333" stroke-width="0.8">
+    <circle cx="24" cy="196" r="2.4" fill="#fff"/>
+    <circle cx="278" cy="166" r="2.4" fill="#fff"/>
+    <circle cx="204" cy="142" r="1.8" fill="#fff"/>
+  </g>
+
+  <g fill="#555">
+    <path d="M118,32 L123.5,41.5 L112.5,41.5 Z"/>
+    <path d="M262,64 L267.5,73.5 L256.5,73.5 Z"/>
+  </g>
+
+  <g>
+    <rect x="146.5" y="116" width="7" height="5.5" fill="#8b4a2b"/>
+    <path d="M145.5,116 L150,111 L154.5,116 Z" fill="#5e3419"/>
+  </g>
+
+  <g transform="translate(276,24)">
+    <circle r="10" fill="none" stroke="#4a4a4a" stroke-width="0.6"/>
+    <path d="M0,-11 L2.6,0 L0,11 L-2.6,0 Z" fill="#4a4a4a"/>
+    <path d="M-11,0 L0,-2.6 L11,0 L0,2.6 Z" fill="#9a9a9a"/>
+    <path d="M0,-11 L2.6,0 L0,0 Z" fill="#b4432f"/>
+  </g>
+
+  <g stroke="#333" stroke-width="0.6">
+    <rect x="226" y="206" width="12" height="3" fill="#333"/>
+    <rect x="238" y="206" width="12" height="3" fill="#fff"/>
+    <rect x="250" y="206" width="12" height="3" fill="#333"/>
+    <rect x="262" y="206" width="12" height="3" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,3 @@
+Carrier: the stroke-dasharray of the stitched border path drawn last around the picture
+
+How to read it: The border is a single path whose dash pattern spells the text in Morse code at standard 1:3:7 timing scaled by two. Odd positions in the dasharray are drawn segments, where a value of 2 is a dot and 6 is a dash. Even positions are gaps, where 2 separates symbols inside one character, 6 separates characters, and 14 separates words. The pattern is read from the top-left corner clockwise around the frame, and its total length equals the frame perimeter so it appears exactly once.

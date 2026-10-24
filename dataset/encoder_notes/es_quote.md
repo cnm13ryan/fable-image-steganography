@@ -1,0 +1,3 @@
+Carrier: heights of the book rects standing on the shelf (the 18 rects inside the stroked group, split into five sub-groups)
+
+How to read it: Each book is one letter, and its height is 100 plus 5 times the letter's position in the alphabet (A=1 … Z=26), so subtract 100 and divide by 5 to get the letter index. Books are read left to right in document order, which matches their increasing x positions. Each `<g>` sub-group is one word, and the wider gap on the shelf between sub-groups marks the space between words. Letter case is not encoded, so the first letter comes out lowercase. The varying widths, fill colours, and the thin cream title bands are decorative only and carry nothing.

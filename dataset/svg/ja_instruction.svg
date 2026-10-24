@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="300" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9f2f8"/>
+      <stop offset="1" stop-color="#fbf6f0"/>
+    </linearGradient>
+    <g id="bloom">
+      <path d="M0 0 C-5 -3 -6 -9 0 -11 C6 -9 5 -3 0 0 C1.3 -5.7 6.7 -8.5 10.5 -3.4 C10.4 2.9 4.4 3.8 0 0 C5.8 -0.5 10.1 3.8 6.5 8.9 C0.4 10.8 -2.3 5.4 0 0 C2.3 5.4 -0.4 10.8 -6.5 8.9 C-10.1 3.8 -5.8 -0.5 0 0 C-4.4 3.8 -10.4 2.9 -10.5 -3.4 C-6.7 -8.5 -1.3 -5.7 0 0 Z" stroke="#c9668a" stroke-width="0.6" stroke-linejoin="round"/>
+      <circle r="2.2" fill="#f6d46a"/>
+    </g>
+    <path id="leaf" d="M0 0 C5 -7 12 -9 18 -6 C13 0 6 3 0 0 Z" fill="#7aa35a" stroke="#5f8445" stroke-width="0.5"/>
+  </defs>
+  <rect width="400" height="300" fill="url(#sky)"/>
+  <g fill="none" stroke="#5b3b2a" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-5 272 C70 246 130 216 180 180" stroke-width="7"/>
+    <path d="M180 180 C230 145 290 110 405 52" stroke-width="5"/>
+    <path d="M42 254 C47 242 56 232 70 222" stroke-width="3"/>
+    <path d="M116 219 C106 200 96 186 82 172" stroke-width="3"/>
+    <path d="M212 159 C225 175 241 186 262 195" stroke-width="3"/>
+    <path d="M290 112 C293 95 301 80 318 62" stroke-width="3"/>
+    <g stroke-width="2">
+      <path d="M111 223 C108 229 108 235 108 241"/>
+      <path d="M141 206 C143 200 142 195 140 191"/>
+      <path d="M157 197 C155 203 157 209 158 213"/>
+      <path d="M175 184 C173 178 175 173 176 170"/>
+      <path d="M190 172 C193 178 191 184 192 189"/>
+      <path d="M207 161 C205 156 207 152 208 150"/>
+      <path d="M243 139 C241 134 243 129 244 126"/>
+      <path d="M276 120 C278 126 276 132 278 136"/>
+      <path d="M335 89 C333 94 336 98 336 101"/>
+      <path d="M382 64 C380 58 383 52 384 47"/>
+    </g>
+  </g>
+  <g>
+    <use xlink:href="#leaf" transform="translate(116 219) rotate(-130)"/>
+    <use xlink:href="#leaf" transform="translate(212 159) rotate(40)"/>
+    <use xlink:href="#leaf" transform="translate(340 86) rotate(-70)"/>
+    <use xlink:href="#leaf" transform="translate(70 246) rotate(100)"/>
+  </g>
+  <g>
+    <use xlink:href="#bloom" x="28" y="258" fill="#e38193"/>
+    <use xlink:href="#bloom" x="46" y="238" fill="#e3828c"/>
+    <use xlink:href="#bloom" x="62" y="258" fill="#e38292"/>
+    <use xlink:href="#bloom" x="74" y="218" fill="#e8aaad"/>
+    <use xlink:href="#bloom" x="84" y="168" fill="#e38293"/>
+    <use xlink:href="#bloom" x="98" y="196" fill="#e381a0"/>
+    <use xlink:href="#bloom" x="108" y="244" fill="#e38289"/>
+    <use xlink:href="#bloom" x="124" y="212" fill="#e38081"/>
+    <use xlink:href="#bloom" x="140" y="190" fill="#e6aca1"/>
+    <use xlink:href="#bloom" x="158" y="214" fill="#e381ae"/>
+    <use xlink:href="#bloom" x="176" y="168" fill="#e7b5b5"/>
+    <use xlink:href="#bloom" x="192" y="190" fill="#e381ab"/>
+    <use xlink:href="#bloom" x="208" y="148" fill="#e99d92"/>
+    <use xlink:href="#bloom" x="226" y="180" fill="#e38184"/>
+    <use xlink:href="#bloom" x="244" y="124" fill="#e9b3a5"/>
+    <use xlink:href="#bloom" x="262" y="196" fill="#e38292"/>
+    <use xlink:href="#bloom" x="278" y="138" fill="#e68f8f"/>
+    <use xlink:href="#bloom" x="294" y="100" fill="#e38184"/>
+    <use xlink:href="#bloom" x="304" y="76" fill="#e381a6"/>
+    <use xlink:href="#bloom" x="320" y="60" fill="#e3818f"/>
+    <use xlink:href="#bloom" x="336" y="102" fill="#e381a0"/>
+    <use xlink:href="#bloom" x="358" y="72" fill="#e38195"/>
+    <use xlink:href="#bloom" x="384" y="44" fill="#e38184"/>
+  </g>
+</svg>

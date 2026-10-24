@@ -1,0 +1,3 @@
+Carrier: heights of the 51 skyline building paths inside the group with id "city"
+
+How to read it: Each building path rises from the shared waterline at y=200 to a top y value, and its height (200 minus the top y) is the ASCII code of one character. Buildings are read left to right in document order, one character per building. Spaces are the shortest buildings, since a space has the smallest code, and digits and the period produce the low-rise cluster in the middle. Uppercase letters survive because their codes are distinct from the lowercase ones. The moon, stars, water, and reflection carry nothing.

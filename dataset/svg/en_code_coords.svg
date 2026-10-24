@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1688 260" width="1688" height="260">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#070b1f"/>
+      <stop offset="0.7" stop-color="#1b2250"/>
+      <stop offset="1" stop-color="#3a3f7a"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a2048"/>
+      <stop offset="1" stop-color="#05081a"/>
+    </linearGradient>
+    <pattern id="win" width="24" height="20" patternUnits="userSpaceOnUse">
+      <rect width="24" height="20" fill="#161b38"/>
+      <rect x="3" y="3" width="3" height="4" fill="#f8d76b"/>
+      <rect x="10" y="3" width="3" height="4" fill="#2e365f"/>
+      <rect x="17" y="3" width="3" height="4" fill="#f8d76b"/>
+      <rect x="3" y="13" width="3" height="4" fill="#6d6f92"/>
+      <rect x="10" y="13" width="3" height="4" fill="#f8d76b"/>
+      <rect x="17" y="13" width="3" height="4" fill="#2e365f"/>
+    </pattern>
+  </defs>
+  <rect width="1688" height="200" fill="url(#sky)"/>
+  <rect y="200" width="1688" height="60" fill="url(#sea)"/>
+  <circle cx="1480" cy="52" r="34" fill="#f6e7b0" opacity="0.12"/>
+  <circle cx="1480" cy="52" r="24" fill="#f7eec6"/>
+  <g fill="#ffffff">
+    <circle cx="96" cy="38" r="1.6"/>
+    <circle cx="233" cy="71" r="1.1"/>
+    <circle cx="389" cy="24" r="1.4"/>
+    <circle cx="612" cy="57" r="1.2"/>
+    <circle cx="845" cy="19" r="1.7"/>
+    <circle cx="1011" cy="66" r="1.1"/>
+    <circle cx="1207" cy="33" r="1.5"/>
+    <circle cx="1597" cy="81" r="1.2"/>
+  </g>
+  <g id="city" fill="url(#win)" stroke="#0b0e22" stroke-width="1">
+    <path d="M30 200V91H58V200Z"/>
+    <path d="M62 200V99H90V200Z"/>
+    <path d="M94 200V99H122V200Z"/>
+    <path d="M126 200V84H154V200Z"/>
+    <path d="M158 200V168H186V200Z"/>
+    <path d="M190 200V103H218V200Z"/>
+    <path d="M222 200V84H250V200Z"/>
+    <path d="M254 200V168H282V200Z"/>
+    <path d="M286 200V101H314V200Z"/>
+    <path d="M318 200V89H346V200Z"/>
+    <path d="M350 200V89H378V200Z"/>
+    <path d="M382 200V86H410V200Z"/>
+    <path d="M414 200V100H442V200Z"/>
+    <path d="M446 200V95H474V200Z"/>
+    <path d="M478 200V90H506V200Z"/>
+    <path d="M510 200V103H538V200Z"/>
+    <path d="M542 200V84H570V200Z"/>
+    <path d="M574 200V99H602V200Z"/>
+    <path d="M606 200V85H634V200Z"/>
+    <path d="M638 200V168H666V200Z"/>
+    <path d="M670 200V148H698V200Z"/>
+    <path d="M702 200V152H730V200Z"/>
+    <path d="M734 200V154H762V200Z"/>
+    <path d="M766 200V145H794V200Z"/>
+    <path d="M798 200V151H826V200Z"/>
+    <path d="M830 200V150H858V200Z"/>
+    <path d="M862 200V144H890V200Z"/>
+    <path d="M894 200V168H922V200Z"/>
+    <path d="M926 200V122H954V200Z"/>
+    <path d="M958 200V168H986V200Z"/>
+    <path d="M990 200V145H1018V200Z"/>
+    <path d="M1022 200V148H1050V200Z"/>
+    <path d="M1054 200V154H1082V200Z"/>
+    <path d="M1086 200V152H1114V200Z"/>
+    <path d="M1118 200V152H1146V200Z"/>
+    <path d="M1150 200V146H1178V200Z"/>
+    <path d="M1182 200V152H1210V200Z"/>
+    <path d="M1214 200V168H1242V200Z"/>
+    <path d="M1246 200V113H1274V200Z"/>
+    <path d="M1278 200V168H1306V200Z"/>
+    <path d="M1310 200V103H1338V200Z"/>
+    <path d="M1342 200V84H1370V200Z"/>
+    <path d="M1374 200V168H1402V200Z"/>
+    <path d="M1406 200V91H1434V200Z"/>
+    <path d="M1438 200V95H1466V200Z"/>
+    <path d="M1470 200V100H1498V200Z"/>
+    <path d="M1502 200V90H1530V200Z"/>
+    <path d="M1534 200V95H1562V200Z"/>
+    <path d="M1566 200V97H1594V200Z"/>
+    <path d="M1598 200V96H1626V200Z"/>
+    <path d="M1630 200V84H1658V200Z"/>
+  </g>
+  <use href="#city" transform="translate(0 400) scale(1 -1)" opacity="0.22"/>
+  <rect y="199" width="1688" height="2" fill="#2f3670"/>
+</svg>

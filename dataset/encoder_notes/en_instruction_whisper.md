@@ -1,0 +1,3 @@
+Carrier: stroke-dasharray values of the five dashed trail paths (ids trail-1 through trail-5)
+
+How to read it: Each dasharray is a Morse code transcript using standard timing, where a dash entry of 1 is a dot and a dash entry of 3 is a dash, with the alternating gap entries giving the spacing. A gap of 1 separates symbols inside a letter, a gap of 3 separates letters, and a gap of 7 separates words. The trails are read in document order (trail-1 first, trail-5 last), and each trail begins at a word boundary and ends with a word gap, so the five dasharrays can be decoded independently or concatenated. The pathLength on each trail equals the sum of its dasharray, so the pattern renders exactly once along each path.

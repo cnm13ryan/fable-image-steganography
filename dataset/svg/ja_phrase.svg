@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="480" height="320" viewBox="0 0 480 320">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#17213f"/>
+      <stop offset="0.55" stop-color="#4d5f8e"/>
+      <stop offset="1" stop-color="#d9b58b"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2e4a37"/>
+      <stop offset="1" stop-color="#1b2d22"/>
+    </linearGradient>
+    <pattern id="cane" width="10" height="40" patternUnits="userSpaceOnUse">
+      <rect width="10" height="40" fill="#79a553"/>
+      <rect x="1" width="2" height="40" fill="#9cc470" opacity="0.6"/>
+      <rect x="7" width="3" height="40" fill="#5d8440" opacity="0.5"/>
+      <rect y="37" width="10" height="3" fill="#4a6b33"/>
+    </pattern>
+    <g id="tuft">
+      <path d="M0 0 C10 -8 22 -10 32 -5 C22 1 10 3 0 0 Z" fill="#5f8f3e"/>
+      <path d="M0 0 C6 -12 14 -22 24 -26 C18 -14 12 -6 0 0 Z" fill="#6fa04a"/>
+      <path d="M0 0 C-10 -8 -22 -10 -30 -4 C-20 1 -10 3 0 0 Z" fill="#4f7f34"/>
+      <path d="M0 0 C-8 6 -16 14 -26 16 C-16 6 -8 2 0 0 Z" fill="#5a8a3a"/>
+    </g>
+  </defs>
+  <rect width="480" height="320" fill="url(#sky)"/>
+  <g fill="#fff6dc" opacity="0.85">
+    <circle cx="48" cy="34" r="1.6"/>
+    <circle cx="96" cy="58" r="1.2"/>
+    <circle cx="160" cy="26" r="1.4"/>
+    <circle cx="214" cy="52" r="1.1"/>
+    <circle cx="286" cy="30" r="1.5"/>
+    <circle cx="330" cy="64" r="1.2"/>
+  </g>
+  <circle cx="388" cy="72" r="26" fill="#f3e6c2"/>
+  <circle cx="397" cy="64" r="5" fill="#e4d4a9"/>
+  <circle cx="380" cy="80" r="3" fill="#e4d4a9"/>
+  <circle cx="393" cy="87" r="2" fill="#e4d4a9"/>
+  <path d="M0 232 C80 196 140 246 220 224 C300 202 360 250 480 226 L480 320 L0 320 Z" fill="url(#hill)"/>
+  <g transform="translate(0,300) scale(1,-1)" fill="url(#cane)" stroke="#3b5a2a" stroke-width="1">
+    <g>
+      <rect x="20" y="0" width="10" height="228" rx="3"/>
+      <rect x="40" y="0" width="10" height="184" rx="3"/>
+      <rect x="60" y="0" width="10" height="131" rx="3"/>
+    </g>
+    <g>
+      <rect x="100" y="0" width="10" height="232" rx="3"/>
+      <rect x="120" y="0" width="10" height="187" rx="3"/>
+      <rect x="140" y="0" width="10" height="162" rx="3"/>
+    </g>
+    <g>
+      <rect x="180" y="0" width="10" height="227" rx="3"/>
+      <rect x="200" y="0" width="10" height="129" rx="3"/>
+      <rect x="220" y="0" width="10" height="179" rx="3"/>
+    </g>
+    <g>
+      <rect x="260" y="0" width="10" height="229" rx="3"/>
+      <rect x="280" y="0" width="10" height="133" rx="3"/>
+      <rect x="300" y="0" width="10" height="171" rx="3"/>
+    </g>
+    <g>
+      <rect x="340" y="0" width="10" height="232" rx="3"/>
+      <rect x="360" y="0" width="10" height="181" rx="3"/>
+      <rect x="380" y="0" width="10" height="183" rx="3"/>
+    </g>
+    <g>
+      <rect x="420" y="0" width="10" height="227" rx="3"/>
+      <rect x="440" y="0" width="10" height="129" rx="3"/>
+      <rect x="460" y="0" width="10" height="141" rx="3"/>
+    </g>
+  </g>
+  <g>
+    <use xlink:href="#tuft" x="25" y="72"/>
+    <use xlink:href="#tuft" transform="translate(45 116) scale(-1 1)"/>
+    <use xlink:href="#tuft" x="65" y="169"/>
+    <use xlink:href="#tuft" transform="translate(105 68) scale(-1 1)"/>
+    <use xlink:href="#tuft" x="125" y="113"/>
+    <use xlink:href="#tuft" x="145" y="138"/>
+    <use xlink:href="#tuft" transform="translate(185 73) scale(-1 1)"/>
+    <use xlink:href="#tuft" x="205" y="171"/>
+    <use xlink:href="#tuft" transform="translate(225 121) scale(-1 1)"/>
+    <use xlink:href="#tuft" x="265" y="71"/>
+    <use xlink:href="#tuft" x="285" y="167"/>
+    <use xlink:href="#tuft" transform="translate(305 129) scale(-1 1)"/>
+    <use xlink:href="#tuft" x="345" y="68"/>
+    <use xlink:href="#tuft" transform="translate(365 119) scale(-1 1)"/>
+    <use xlink:href="#tuft" x="385" y="117"/>
+    <use xlink:href="#tuft" transform="translate(425 73) scale(-1 1)"/>
+    <use xlink:href="#tuft" x="445" y="171"/>
+    <use xlink:href="#tuft" x="465" y="159"/>
+  </g>
+  <ellipse cx="240" cy="292" rx="270" ry="16" fill="#d8dfd0" opacity="0.22"/>
+  <rect y="296" width="480" height="24" fill="#3a2c21"/>
+  <rect y="296" width="480" height="3" fill="#56432f"/>
+</svg>

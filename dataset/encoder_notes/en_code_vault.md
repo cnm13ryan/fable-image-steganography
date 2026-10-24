@@ -1,0 +1,3 @@
+Carrier: the stroke-dasharray of the bee's dashed flight-path `<path>` (the single loopy trail from the hive to the bee)
+
+How to read it: The dasharray alternates drawn-segment and gap lengths, starting with a drawn segment at the path's start. Drawn segments encode Morse marks: a 5-unit segment is a dot and a 15-unit segment is a dash. Gaps encode spacing by the standard 1:3:7 Morse timing: a 5-unit gap separates marks within one character, a 15-unit gap separates characters, and a 35-unit gap separates words. Read the list left to right in source order to recover letters and digits, with the final 35 being a trailing gap that just pads the pattern to the path length.

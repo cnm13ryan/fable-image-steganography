@@ -1,0 +1,3 @@
+Carrier: fill colours of the window rects on the main (wide, eight-floor) building
+
+How to read it: Each vertical bay of eight windows is one `<g>` group and encodes one byte of the UTF-8 message, with a lit window (`#ffd36b`) as 1 and a dark window (`#1a2238`) as 0. Within a bay, bits are read top floor to bottom floor, most significant bit first. Bays are read left to right by increasing x, giving 36 bytes in order. Decoding those bytes as UTF-8 yields the characters directly, including spaces (byte 0x20) and the two-byte macron letters, so no extra separator is needed. The side-building windows, stars, lamps and other scenery carry nothing.
