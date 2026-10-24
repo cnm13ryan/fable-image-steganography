@@ -1,0 +1,3 @@
+Carrier: heights of the waveform bar rects (the 40 bar and dot elements in the last group, read left to right by x position)
+
+How to read it: Each bar's height is 4 times the letter's position in the plain 26-letter Latin alphabet (a = 1, z = 26), so dividing a height by 4 gives the letter. The elements are read in increasing x order, one element per character of the message. The small circles on the center line are word separators (spaces). A height of 108 (position 27, one past z) stands for the punctuation mark, and the two bars whose heights are not multiples of 4 (38 and 22) encode half-step positions, meaning the base vowel lengthened with a macron; the visible Latvian subtitle text is a nudge toward the language.

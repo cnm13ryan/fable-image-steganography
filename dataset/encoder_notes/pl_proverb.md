@@ -1,0 +1,3 @@
+Carrier: heights of the buildings in the skyline polygon (the flat rooftop segments of the `skyline` points list)
+
+How to read it: Each building is one character. The ground line is at y=400, so a building's height is 400 minus the y value of its flat rooftop segment, and that height equals the character's Unicode code point in decimal. Read the rooftop plateaus left to right as they appear in the points list, one plateau per building. Low buildings of height 32 are spaces, so they separate the words, and the three tallest towers are the characters outside the ASCII range.

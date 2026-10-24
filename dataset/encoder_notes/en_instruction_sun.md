@@ -1,0 +1,3 @@
+Carrier: heights of the building rects inside the scaled skyline group
+
+How to read it: Each building rect's height attribute is the alphabet position of one letter, with A as 1 through Z as 26, and 27 standing in for the single punctuation mark. The rects are read left to right in document order, which matches increasing x position. Each inner `<g>` holds one word, and the x coordinate skips one slot at every word boundary, so x is literally the character index in the message with spaces as empty slots. The y attribute mirrors the height as a negative value only to sit the buildings on the baseline and carries no extra information. The window pattern, stars, moon, and ground are decoration only.

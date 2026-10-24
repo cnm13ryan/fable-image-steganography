@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 420" width="1320" height="420">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141b3a"/>
+      <stop offset="0.55" stop-color="#3b3f7a"/>
+      <stop offset="0.85" stop-color="#8a4e7f"/>
+      <stop offset="1" stop-color="#e07a5f"/>
+    </linearGradient>
+    <pattern id="win" width="28" height="10" patternUnits="userSpaceOnUse">
+      <rect x="7" y="3" width="6" height="4" fill="#ffd27a" opacity="0.95"/>
+      <rect x="19" y="3" width="6" height="4" fill="#ffd27a" opacity="0.95"/>
+    </pattern>
+    <g id="lamp">
+      <line x1="0" y1="370" x2="0" y2="338" stroke="#9a9db0" stroke-width="2"/>
+      <circle cx="0" cy="336" r="7" fill="#ffe9a8" opacity="0.25"/>
+      <circle cx="0" cy="336" r="3" fill="#ffe9a8"/>
+    </g>
+  </defs>
+
+  <rect width="1320" height="420" fill="url(#sky)"/>
+
+  <circle cx="1000" cy="96" r="44" fill="#f6efd9" opacity="0.15"/>
+  <circle cx="1000" cy="96" r="28" fill="#f6efd9"/>
+
+  <g fill="#5a5f93" opacity="0.8">
+    <ellipse cx="380" cy="92" rx="34" ry="12"/>
+    <ellipse cx="362" cy="84" rx="20" ry="14"/>
+    <ellipse cx="398" cy="82" rx="24" ry="16"/>
+    <ellipse cx="700" cy="70" rx="40" ry="12"/>
+    <ellipse cx="684" cy="62" rx="22" ry="14"/>
+    <ellipse cx="716" cy="58" rx="26" ry="17"/>
+    <ellipse cx="1190" cy="140" rx="36" ry="12"/>
+    <ellipse cx="1174" cy="132" rx="20" ry="14"/>
+    <ellipse cx="1206" cy="130" rx="24" ry="16"/>
+  </g>
+
+  <g id="block-1">
+    <rect x="60" y="170" width="24" height="200" fill="#2c3553"/>
+    <rect x="60" y="170" width="24" height="200" fill="url(#win)"/>
+    <rect x="88" y="290" width="24" height="80" fill="#3b2f4f"/>
+    <rect x="88" y="290" width="24" height="80" fill="url(#win)"/>
+    <rect x="116" y="320" width="24" height="50" fill="#274348"/>
+    <rect x="116" y="320" width="24" height="50" fill="url(#win)"/>
+  </g>
+  <g id="block-2">
+    <rect x="172" y="240" width="24" height="130" fill="#4a3630"/>
+    <rect x="172" y="240" width="24" height="130" fill="url(#win)"/>
+    <rect x="200" y="320" width="24" height="50" fill="#2c3553"/>
+    <rect x="200" y="320" width="24" height="50" fill="url(#win)"/>
+    <rect x="228" y="320" width="24" height="50" fill="#3b2f4f"/>
+    <rect x="228" y="320" width="24" height="50" fill="url(#win)"/>
+    <rect x="256" y="170" width="24" height="200" fill="#274348"/>
+    <rect x="256" y="170" width="24" height="200" fill="url(#win)"/>
+    <rect x="284" y="280" width="24" height="90" fill="#4a3630"/>
+    <rect x="284" y="280" width="24" height="90" fill="url(#win)"/>
+    <rect x="312" y="230" width="24" height="140" fill="#2c3553"/>
+    <rect x="312" y="230" width="24" height="140" fill="url(#win)"/>
+    <rect x="340" y="300" width="24" height="70" fill="#3b2f4f"/>
+    <rect x="340" y="300" width="24" height="70" fill="url(#win)"/>
+  </g>
+  <g id="block-3">
+    <rect x="396" y="290" width="24" height="80" fill="#274348"/>
+    <rect x="396" y="290" width="24" height="80" fill="url(#win)"/>
+    <rect x="424" y="360" width="24" height="10" fill="#4a3630"/>
+    <rect x="424" y="360" width="24" height="10" fill="url(#win)"/>
+    <rect x="452" y="180" width="24" height="190" fill="#2c3553"/>
+    <rect x="452" y="180" width="24" height="190" fill="url(#win)"/>
+  </g>
+  <g id="block-4">
+    <rect x="508" y="350" width="24" height="20" fill="#3b2f4f"/>
+    <rect x="508" y="350" width="24" height="20" fill="url(#win)"/>
+    <rect x="536" y="320" width="24" height="50" fill="#274348"/>
+    <rect x="536" y="320" width="24" height="50" fill="url(#win)"/>
+    <rect x="564" y="320" width="24" height="50" fill="#4a3630"/>
+    <rect x="564" y="320" width="24" height="50" fill="url(#win)"/>
+    <rect x="592" y="230" width="24" height="140" fill="#2c3553"/>
+    <rect x="592" y="230" width="24" height="140" fill="url(#win)"/>
+  </g>
+  <g id="block-5">
+    <rect x="648" y="240" width="24" height="130" fill="#3b2f4f"/>
+    <rect x="648" y="240" width="24" height="130" fill="url(#win)"/>
+    <rect x="676" y="220" width="24" height="150" fill="#274348"/>
+    <rect x="676" y="220" width="24" height="150" fill="url(#win)"/>
+    <rect x="704" y="150" width="24" height="220" fill="#4a3630"/>
+    <rect x="704" y="150" width="24" height="220" fill="url(#win)"/>
+    <rect x="732" y="320" width="24" height="50" fill="#2c3553"/>
+    <rect x="732" y="320" width="24" height="50" fill="url(#win)"/>
+    <rect x="760" y="330" width="24" height="40" fill="#3b2f4f"/>
+    <rect x="760" y="330" width="24" height="40" fill="url(#win)"/>
+  </g>
+  <g id="block-6">
+    <rect x="816" y="170" width="24" height="200" fill="#274348"/>
+    <rect x="816" y="170" width="24" height="200" fill="url(#win)"/>
+    <rect x="844" y="220" width="24" height="150" fill="#4a3630"/>
+    <rect x="844" y="220" width="24" height="150" fill="url(#win)"/>
+  </g>
+  <g id="block-7">
+    <rect x="900" y="340" width="24" height="30" fill="#2c3553"/>
+    <rect x="900" y="340" width="24" height="30" fill="url(#win)"/>
+    <rect x="905" y="324" width="14" height="16" fill="#2c3553"/>
+    <path d="M903 324 L912 315 L921 324 Z" fill="#4a3630"/>
+    <circle cx="912" cy="332" r="5" fill="#fff4d6" stroke="#1b1b22" stroke-width="1"/>
+    <path d="M912 332 V328 M912 332 H915.2" stroke="#1b1b22" stroke-width="1.2" stroke-linecap="round" fill="none"/>
+    <rect x="928" y="210" width="24" height="160" fill="#3b2f4f"/>
+    <rect x="928" y="210" width="24" height="160" fill="url(#win)"/>
+    <rect x="956" y="240" width="24" height="130" fill="#274348"/>
+    <rect x="956" y="240" width="24" height="130" fill="url(#win)"/>
+  </g>
+  <g id="block-8">
+    <rect x="1012" y="220" width="24" height="150" fill="#4a3630"/>
+    <rect x="1012" y="220" width="24" height="150" fill="url(#win)"/>
+    <rect x="1040" y="230" width="24" height="140" fill="#2c3553"/>
+    <rect x="1040" y="230" width="24" height="140" fill="url(#win)"/>
+  </g>
+  <g id="block-9">
+    <rect x="1096" y="310" width="24" height="60" fill="#3b2f4f"/>
+    <rect x="1096" y="310" width="24" height="60" fill="url(#win)"/>
+    <line x1="1108" y1="310" x2="1108" y2="290" stroke="#d0d0dc" stroke-width="1.5"/>
+    <path d="M1108 290 L1120 293.5 L1108 297 Z" fill="#d9534f"/>
+    <rect x="1124" y="190" width="24" height="180" fill="#274348"/>
+    <rect x="1124" y="190" width="24" height="180" fill="url(#win)"/>
+    <rect x="1152" y="280" width="24" height="90" fill="#4a3630"/>
+    <rect x="1152" y="280" width="24" height="90" fill="url(#win)"/>
+    <rect x="1180" y="330" width="24" height="40" fill="#2c3553"/>
+    <rect x="1180" y="330" width="24" height="40" fill="url(#win)"/>
+    <rect x="1208" y="360" width="24" height="10" fill="#3b2f4f"/>
+    <rect x="1208" y="360" width="24" height="10" fill="url(#win)"/>
+    <rect x="1236" y="120" width="24" height="250" fill="#274348"/>
+    <rect x="1236" y="120" width="24" height="250" fill="url(#win)"/>
+  </g>
+
+  <rect x="0" y="370" width="1320" height="50" fill="#15161d"/>
+  <rect x="0" y="370" width="1320" height="5" fill="#3a3d4d"/>
+  <line x1="0" y1="400" x2="1320" y2="400" stroke="#c9a84c" stroke-width="2" stroke-dasharray="22 18"/>
+
+  <use href="#lamp" x="30"/>
+  <use href="#lamp" x="156"/>
+  <use href="#lamp" x="380"/>
+  <use href="#lamp" x="492"/>
+  <use href="#lamp" x="632"/>
+  <use href="#lamp" x="800"/>
+  <use href="#lamp" x="884"/>
+  <use href="#lamp" x="996"/>
+  <use href="#lamp" x="1080"/>
+  <use href="#lamp" x="1290"/>
+</svg>

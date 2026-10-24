@@ -1,0 +1,3 @@
+Carrier: heights of the book rects on the shelf
+
+How to read it: Each rect inside the stroked group is one character, and its `height` value is that character's Unicode code point in decimal. Read the rects left to right in document order, which is also their x order on the shelf. The upright books carry Devanagari code points, so each height converts directly with a code point lookup such as chr(). The three thin flat rects have a height of 32, the code point for a space, and mark the word boundaries.

@@ -1,0 +1,3 @@
+Carrier: fill colours of the eleven macaron `<use>` elements
+
+How to read it: Each macaron's six-digit hex fill is three bytes, and those three bytes are the UTF-8 encoding of one Chinese character. The macarons are read in document order, which is also left-to-right order along the tray. Concatenating all eleven fills as a byte stream and decoding it as UTF-8 yields the eleven characters in sequence. There are no separators because every character occupies exactly one colour; all other colours in the file deliberately avoid the E4–E9 lead-byte range so they cannot be mistaken for part of the stream.

@@ -1,0 +1,3 @@
+Carrier: heights of the building rects in the skyline
+
+How to read it: Each building rect encodes one letter, with the height attribute equal to four times the letter's position in the alphabet (a=4, b=8, ... z=104). The buildings are read left to right in document order, which matches increasing x position. Each inner group of rects is one word, and the wider horizontal gap between groups marks a word boundary, so spaces are structural rather than encoded as values. Widths follow a repeating decorative cycle and carry nothing, as do the sky gradient, moon, ground strip, and window pattern. Case is not encoded.

@@ -1,0 +1,3 @@
+Carrier: the `stroke-dasharray` of the bee's dashed flight-trail path
+
+How to read it: The dasharray values alternate dash, gap, dash, gap along the path from its start at the left edge to its end just behind the bee. Each dash is a Morse symbol: a length of 2 is a dot and a length of 6 is a dash. The gaps give the grouping using standard Morse timing: a gap of 2 separates symbols within one character, a gap of 6 ends a character, and a gap of 14 ends a word. The final value is a word gap, so the pattern loops cleanly if the path were longer. Punctuation is encoded as its own Morse character, and case is not recoverable since Morse has none.

@@ -1,0 +1,3 @@
+Carrier: heights of the building rects filled with the window pattern (each 10-unit floor equals one letter position).
+
+How to read it: Divide each building's height by 10 to get a number from 1 to 26, then map it to the alphabet with a=1 through z=26. Read the buildings left to right by x position. Buildings 2 units apart belong to the same word; the wider 22-unit streets between clusters are the word breaks, so the eight clusters give the eight words. The slanted rooftop antenna marks the one vowel that carries an acute accent, and the lone streetlamp in a street gap stands in for the comma after the fourth word.

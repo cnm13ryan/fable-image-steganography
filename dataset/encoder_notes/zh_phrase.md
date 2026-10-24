@@ -1,0 +1,3 @@
+Carrier: fill colours of the five cloud groups, and the lit/dark pattern of the tower's window rects (two redundant channels).
+
+How to read it: Each cloud group's hex fill is three bytes that form one UTF-8 encoded character, so one cloud equals one character. Read the clouds in document order, which is also left to right across the sky. The tower's window grid is eight windows wide and fifteen floors tall. Each floor is one byte, read top floor first and left window first, with a lit window as a 1 bit and a dark window as a 0 bit. Concatenating the fifteen bytes gives the same UTF-8 byte stream as the clouds, and the three-byte boundaries fall where each new lead byte begins, so no explicit separator is needed.

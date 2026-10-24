@@ -1,0 +1,3 @@
+Carrier: heights of the building rects in the skyline (the 18-unit-wide rects sitting on the ground line at y=430)
+
+How to read it: Each building's height divided by 10 (one storey, matching the 10-unit window pattern tile) gives a number, and that number is the position of a letter in the 33-letter Russian alphabet with ё counted as the 7th letter (а=1 … я=33). Buildings are read left to right in document order, which is also their x order. Buildings packed with a 6-unit gap belong to the same word; a wider 30-unit gap (a "street") marks a word boundary. A value of 34, one past the end of the alphabet, stands for the comma that follows the fourth word.

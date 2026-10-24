@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="880" height="280" viewBox="0 0 880 280">
+  <defs>
+    <g id="macaron">
+      <ellipse cy="32" rx="34" ry="5" fill="#000" opacity=".1"/>
+      <rect x="-28" y="-7" width="56" height="14" rx="5" fill="#fff8ee"/>
+      <ellipse cy="14" rx="32" ry="12"/>
+      <ellipse cy="-14" rx="32" ry="12"/>
+      <ellipse cx="-10" cy="-19" rx="10" ry="4" fill="#fff" opacity=".4"/>
+    </g>
+  </defs>
+  <rect width="880" height="280" fill="#f6f1ea"/>
+  <ellipse cx="440" cy="214" rx="416" ry="12" fill="#000" opacity=".05"/>
+  <rect x="34" y="160" width="812" height="48" rx="14" fill="#d9cfc2"/>
+  <rect x="34" y="160" width="812" height="10" rx="5" fill="#cbbfb0"/>
+  <use xlink:href="#macaron" x="80" y="150" fill="#e4bc9a"/>
+  <use xlink:href="#macaron" x="152" y="150" fill="#e8aeae"/>
+  <use xlink:href="#macaron" x="224" y="150" fill="#e694b9"/>
+  <use xlink:href="#macaron" x="296" y="150" fill="#e588b0"/>
+  <use xlink:href="#macaron" x="368" y="150" fill="#e6989f"/>
+  <use xlink:href="#macaron" x="440" y="150" fill="#e69c9f"/>
+  <use xlink:href="#macaron" x="512" y="150" fill="#e4ba94"/>
+  <use xlink:href="#macaron" x="584" y="150" fill="#e4b88b"/>
+  <use xlink:href="#macaron" x="656" y="150" fill="#e58d88"/>
+  <use xlink:href="#macaron" x="728" y="150" fill="#e4b889"/>
+  <use xlink:href="#macaron" x="800" y="150" fill="#e782b9"/>
+</svg>

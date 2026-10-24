@@ -1,0 +1,3 @@
+Carrier: heights of the waveform bar rects inside the music-player card
+
+How to read it: Each bar's `height` attribute is a letter's position in the alphabet, with 1 for a and 26 for z, so one rect equals one letter. The bars are read left to right in document order, which matches increasing x position. Words are separated structurally and visually: each word is its own nested `<g>` of rects, and a wider horizontal gap is left between groups, like pauses in speech. The fill colours, x positions, widths, and the time label carry nothing and are only decoration.

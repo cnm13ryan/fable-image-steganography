@@ -1,0 +1,3 @@
+Carrier: heights of the building rects in the skyline group (floor count, with the two antenna lines marking accents)
+
+How to read it: Each building's height is a multiple of 12, the height of one window-pattern tile, so dividing by 12 gives a floor count, and that count is the letter's position in the alphabet (1 = a, 2 = b, and so on). Buildings are read left to right in source order, which matches their x positions. Adjacent buildings within a word sit 7 units apart, while a wider 28-unit street gap separates words. The two buildings topped with an antenna line and red beacon carry an acute accent on their letter.

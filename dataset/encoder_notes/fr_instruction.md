@@ -1,0 +1,3 @@
+Carrier: stroke-dasharray values of the eleven dashed wave paths across the water
+
+How to read it: Each wave's dasharray is Morse code with a two-pixel unit: dash lengths of 2 are dots and 6 are dashes, while the alternating gap values use 2 inside a letter, 6 between letters, and 14 at the end of a word. Dasharray entries alternate dash, gap, dash, gap, so odd positions are marks and even positions are separators. The waves are read in document order, which is also top to bottom on the water, and each wave carries exactly one word. The comma and the accented letter use their standard international Morse sequences.

@@ -1,0 +1,3 @@
+Carrier: heights of the book rects on the bookshelf
+
+How to read it: Each book rect is one letter, with height = 40 + 3 × (position of the letter in the alphabet, a=1), so a=43, b=46, up to z=118. Books are read left to right within each shelf, and shelves top to bottom, following document order. Each `<g transform="translate(...)">` group is one word, so word boundaries are the group boundaries, which also appear visually as the wider gaps between clusters of books. The small potted plant at the end of the first and third shelves marks the end of a sentence. Book widths and fill colours cycle through fixed repeating patterns and carry nothing.
