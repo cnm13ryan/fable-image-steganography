@@ -13,7 +13,7 @@ These are the scripts that produced the dataset, copied unchanged from the exper
 | `decode_screenshots.py` | Renders each SVG to a PNG with CairoSVG and sends only the PNG to a fresh session with the decoding prompt. Writes the reply and a results CSV. |
 | `rerun_refusals.py` | Reruns decodes that were stopped by the safety classifier, in fresh sessions, until each gives a real answer. |
 | `score_decodes.py` | Grades the answers against the true messages. |
-| `templates/encode.md`, `templates/decode.md` | The prompts. Identical to [`../prompts/encode.md`](../prompts/encode.md) and [`../prompts/decode.md`](../prompts/decode.md). |
+| `templates/encode.md`, `templates/decode.md` | The prompts. Identical to [`../prompts/encode.md`](../prompts/encode.md) and [`../prompts/decode.md`](../prompts/decode.md). The last bullet of the encoding prompt ("very beautiful and artistic") was added on 14 October 2026; the 50-image dataset was generated before that, without it. |
 | `templates/encoding_notes.md` | The follow-up question that asks the encoder what carries the message. |
 | `templates/random.md` | The prompt for the control drawings with no message. |
 | `messages.json`, `seeds.json` | The 50 messages and the 50 control topics. |
