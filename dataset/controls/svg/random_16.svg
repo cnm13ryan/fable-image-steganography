@@ -1,0 +1,331 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 600" width="800" height="600">
+  <title>Coral reef</title>
+  <defs>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7fd4e4"/>
+      <stop offset="0.45" stop-color="#2a8fb8"/>
+      <stop offset="1" stop-color="#0b3a66"/>
+    </linearGradient>
+    <linearGradient id="sand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9d49f"/>
+      <stop offset="1" stop-color="#c7a86a"/>
+    </linearGradient>
+    <linearGradient id="fishBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd166"/>
+      <stop offset="1" stop-color="#f08a24"/>
+    </linearGradient>
+    <radialGradient id="jelly" cx="0.5" cy="0.35" r="0.65">
+      <stop offset="0" stop-color="#ffe3f6" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#e58ad2" stop-opacity="0.55"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="bigFishClip">
+      <ellipse cx="405" cy="310" rx="75" ry="48"/>
+    </clipPath>
+    <clipPath id="clownClip">
+      <ellipse cx="0" cy="0" rx="22" ry="13"/>
+    </clipPath>
+    <g id="minnow">
+      <path d="M0,0 C8,-8 20,-8 28,0 C20,8 8,8 0,0 Z M27,0 L36,-6 L36,6 Z"/>
+      <circle cx="7" cy="-1.5" r="1.5" fill="#1a2a3a"/>
+    </g>
+  </defs>
+
+  <!-- water -->
+  <rect width="800" height="600" fill="url(#water)"/>
+  <ellipse cx="640" cy="-20" rx="320" ry="200" fill="url(#glow)"/>
+  <g fill="#ffffff">
+    <polygon points="110,0 170,0 330,600 230,600" opacity="0.07"/>
+    <polygon points="290,0 335,0 540,600 460,600" opacity="0.06"/>
+    <polygon points="500,0 560,0 780,600 700,600" opacity="0.05"/>
+    <polygon points="640,0 690,0 800,300 800,420" opacity="0.05"/>
+  </g>
+  <g fill="none" stroke="#ffffff" stroke-linecap="round">
+    <path d="M0,22 Q40,8 80,22 T160,22 T240,22 T320,22 T400,22 T480,22 T560,22 T640,22 T720,22 T800,22" stroke-opacity="0.35" stroke-width="2"/>
+    <path d="M0,40 Q40,28 80,40 T160,40 T240,40 T320,40 T400,40 T480,40 T560,40 T640,40 T720,40 T800,40" stroke-opacity="0.15" stroke-width="1.5"/>
+  </g>
+
+  <!-- distant school -->
+  <g fill="#0e4f7c" opacity="0.35">
+    <use xlink:href="#minnow" transform="translate(380,72) scale(0.55)"/>
+    <use xlink:href="#minnow" transform="translate(405,84) scale(0.5)"/>
+    <use xlink:href="#minnow" transform="translate(430,68) scale(0.6)"/>
+    <use xlink:href="#minnow" transform="translate(452,86) scale(0.5)"/>
+    <use xlink:href="#minnow" transform="translate(475,74) scale(0.55)"/>
+    <use xlink:href="#minnow" transform="translate(420,100) scale(0.45)"/>
+  </g>
+
+  <!-- seabed -->
+  <path d="M0,482 C100,462 180,502 280,492 S460,472 560,492 S720,502 800,482 L800,600 L0,600 Z" fill="url(#sand)"/>
+  <g fill="none" stroke="#d8bb80" stroke-width="2" stroke-linecap="round" opacity="0.8">
+    <path d="M40,545 q20,-6 40,0 t40,0 t40,0"/>
+    <path d="M300,570 q20,-6 40,0 t40,0"/>
+    <path d="M560,560 q20,-6 40,0 t40,0 t40,0"/>
+    <path d="M200,585 q20,-6 40,0 t40,0"/>
+  </g>
+  <g fill="#b3925a" opacity="0.7">
+    <circle cx="160" cy="562" r="3"/>
+    <circle cx="330" cy="548" r="2.5"/>
+    <circle cx="475" cy="565" r="3"/>
+    <circle cx="540" cy="588" r="2"/>
+    <circle cx="690" cy="575" r="3"/>
+    <circle cx="260" cy="530" r="2"/>
+    <circle cx="610" cy="530" r="2.5"/>
+    <circle cx="80" cy="580" r="2.5"/>
+  </g>
+
+  <!-- rocks -->
+  <ellipse cx="90" cy="500" rx="70" ry="30" fill="#3d5a6c"/>
+  <ellipse cx="70" cy="490" rx="35" ry="16" fill="#4d6f82" opacity="0.6"/>
+  <ellipse cx="140" cy="515" rx="50" ry="22" fill="#476878"/>
+  <ellipse cx="700" cy="505" rx="80" ry="32" fill="#3a5467"/>
+  <ellipse cx="730" cy="494" rx="40" ry="16" fill="#4c6c7e" opacity="0.6"/>
+  <ellipse cx="640" cy="522" rx="45" ry="20" fill="#476878"/>
+
+  <!-- right seaweed -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M782,482 C790,442 770,422 785,382 S775,322 790,292" stroke="#2f8f5b" stroke-width="9"/>
+    <path d="M765,484 C760,450 780,430 768,395 S780,350 762,330" stroke="#3aa86b" stroke-width="7"/>
+  </g>
+
+  <!-- seahorse -->
+  <g>
+    <path d="M748,366 C766,376 773,402 762,426" stroke="#f2b13c" stroke-width="15" stroke-linecap="round" fill="none"/>
+    <path d="M762,426 C757,440 764,452 777,452 C788,452 791,440 781,437" stroke="#f2b13c" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <path d="M770,384 Q786,396 772,414 Z" fill="#ffd27a" opacity="0.85"/>
+    <circle cx="745" cy="356" r="11" fill="#f2b13c"/>
+    <path d="M736,360 L719,367" stroke="#f2b13c" stroke-width="5" stroke-linecap="round"/>
+    <path d="M745,345 L743,338 M750,346 L752,339" stroke="#f2b13c" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="748" cy="354" r="2.4" fill="#222"/>
+    <circle cx="747.2" cy="353.2" r="0.8" fill="#fff"/>
+    <g fill="#d4901e">
+      <circle cx="755" cy="378" r="1.8"/>
+      <circle cx="762" cy="392" r="1.8"/>
+      <circle cx="763" cy="408" r="1.8"/>
+      <circle cx="758" cy="422" r="1.8"/>
+    </g>
+  </g>
+
+  <!-- sea fan -->
+  <g>
+    <path d="M660,478 C630,468 618,432 638,404 C650,388 670,388 682,404 C702,432 690,468 660,478 Z" fill="#8e44ad" opacity="0.85"/>
+    <g stroke="#d7b8ea" stroke-width="1.3" fill="none" opacity="0.9">
+      <path d="M660,478 L645,412 M660,478 L654,400 M660,478 L666,400 M660,478 L675,412 M660,478 L634,440 M660,478 L686,440"/>
+      <path d="M632,440 C650,430 670,430 688,440 M636,422 C652,414 668,414 684,422 M644,456 C654,450 666,450 676,456"/>
+    </g>
+  </g>
+
+  <!-- branching coral -->
+  <g transform="translate(-25,0)" stroke="#ff7a59" stroke-width="11" stroke-linecap="round" fill="none">
+    <path d="M585,494 C586,472 584,456 588,438"/>
+    <path d="M587,464 C575,452 565,440 556,424"/>
+    <path d="M556,424 C550,412 547,400 540,392"/>
+    <path d="M556,424 C560,410 566,400 572,392"/>
+    <path d="M588,438 C595,425 598,412 606,402"/>
+    <path d="M588,438 C585,420 578,410 574,398"/>
+    <path d="M587,456 C600,446 610,436 622,426"/>
+    <path d="M622,426 C628,412 626,400 634,390"/>
+    <path d="M622,426 C632,420 640,415 648,410"/>
+    <g stroke="#ffb09a" stroke-width="6">
+      <path d="M540,392 L536,380 M572,392 L576,380 M606,402 L612,392 M574,398 L571,386 M634,390 L638,380 M648,410 L656,404"/>
+    </g>
+  </g>
+
+  <!-- brain coral -->
+  <g>
+    <ellipse cx="480" cy="485" rx="45" ry="28" fill="#d98c5f"/>
+    <g fill="none" stroke="#a85f3a" stroke-width="3" stroke-linecap="round">
+      <path d="M447,472 q8,-7 16,0 t16,0 t16,0 t16,0"/>
+      <path d="M442,486 q8,-7 16,0 t16,0 t16,0 t16,0 t8,0"/>
+      <path d="M449,500 q8,-7 16,0 t16,0 t16,0"/>
+    </g>
+  </g>
+
+  <!-- small blue fish by the coral -->
+  <g fill="#4fa3e0">
+    <use xlink:href="#minnow" transform="translate(500,425) scale(-0.7,0.7)"/>
+    <use xlink:href="#minnow" transform="translate(536,440) scale(-0.6,0.6)"/>
+  </g>
+
+  <!-- starfish -->
+  <g transform="translate(400,540) scale(1,0.75) translate(-400,-540)">
+    <polygon points="400,512 407,530.3 426.6,531.4 411.4,543.7 416.5,562.7 400,552 383.5,562.7 388.6,543.7 373.4,531.4 393,530.3" fill="#f28c3b" stroke="#f28c3b" stroke-width="6" stroke-linejoin="round"/>
+    <g fill="#ffc48a">
+      <circle cx="400" cy="522" r="2"/><circle cx="400" cy="533" r="2"/>
+      <circle cx="417" cy="536" r="2"/><circle cx="408" cy="539" r="2"/>
+      <circle cx="411" cy="553" r="2"/><circle cx="405" cy="546" r="2"/>
+      <circle cx="389" cy="553" r="2"/><circle cx="395" cy="546" r="2"/>
+      <circle cx="383" cy="536" r="2"/><circle cx="392" cy="539" r="2"/>
+    </g>
+  </g>
+
+  <!-- crab -->
+  <g transform="translate(330,522)">
+    <g stroke="#c0392b" stroke-width="2.5" stroke-linecap="round" fill="none">
+      <path d="M-12,2 L-22,10 M-10,6 L-20,14 M12,2 L22,10 M10,6 L20,14 M-8,8 L-14,16 M8,8 L14,16"/>
+    </g>
+    <path d="M-5,-6 L-5,-1 M5,-6 L5,-1" stroke="#e74c3c" stroke-width="2"/>
+    <ellipse cx="0" cy="2" rx="14" ry="9" fill="#e74c3c"/>
+    <circle cx="-5" cy="-6" r="2.2" fill="#111"/>
+    <circle cx="5" cy="-6" r="2.2" fill="#111"/>
+    <circle cx="-17" cy="-3" r="4.5" fill="#e74c3c"/>
+    <circle cx="17" cy="-3" r="4.5" fill="#e74c3c"/>
+  </g>
+
+  <!-- anemone with clownfish -->
+  <g>
+    <ellipse cx="230" cy="490" rx="42" ry="14" fill="#b84377"/>
+    <g stroke="#e97fb3" stroke-width="7" stroke-linecap="round" fill="none">
+      <path d="M195,488 C185,470 180,455 172,440"/>
+      <path d="M203,486 C198,465 190,452 186,432"/>
+      <path d="M211,485 C210,462 204,448 200,428"/>
+      <path d="M219,484 C220,460 214,445 215,425"/>
+      <path d="M227,483 C230,458 228,442 232,422"/>
+      <path d="M235,483 C240,460 242,444 248,425"/>
+      <path d="M243,484 C250,462 256,448 262,430"/>
+      <path d="M251,485 C260,466 268,452 276,436"/>
+      <path d="M259,487 C270,470 280,458 290,445"/>
+      <path d="M265,489 C276,478 286,470 300,460"/>
+    </g>
+    <g transform="translate(262,452) rotate(-12) scale(-1,1)">
+      <path d="M16,0 L32,-11 L28,0 L32,11 Z" fill="#f28c28"/>
+      <path d="M-8,-11 Q0,-22 10,-11 Z" fill="#f28c28"/>
+      <path d="M-4,11 Q2,19 8,11 Z" fill="#f28c28"/>
+      <ellipse cx="0" cy="0" rx="22" ry="13" fill="#ff8c2a"/>
+      <g clip-path="url(#clownClip)" fill="#ffffff" stroke="#222" stroke-width="1">
+        <path d="M-9,-14 L-3,-14 L-4,14 L-10,14 Z"/>
+        <path d="M8,-14 L14,-14 L13,14 L7,14 Z"/>
+      </g>
+      <circle cx="-15" cy="-3" r="2.5" fill="#111"/>
+      <circle cx="-16" cy="-4" r="0.8" fill="#fff"/>
+    </g>
+    <g stroke="#f4a3c8" stroke-width="7" stroke-linecap="round" fill="none">
+      <path d="M205,492 C200,478 190,468 180,462"/>
+      <path d="M222,494 C222,480 216,470 210,460"/>
+      <path d="M240,494 C244,482 246,472 252,462"/>
+      <path d="M256,492 C262,482 272,474 282,468"/>
+    </g>
+  </g>
+
+  <!-- left seaweed -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M48,500 C70,460 20,430 45,385 S30,320 55,290" stroke="#2f8f5b" stroke-width="10"/>
+    <path d="M75,502 C90,470 55,445 78,405 S60,345 90,310" stroke="#3aa86b" stroke-width="8"/>
+    <path d="M110,500 C118,465 90,440 105,400 S95,350 120,335" stroke="#2a7f52" stroke-width="9"/>
+    <path d="M25,498 C10,470 40,450 22,415 S35,370 15,350" stroke="#3aa86b" stroke-width="7"/>
+  </g>
+  <path d="M140,500 C150,472 128,452 142,428 C152,410 134,396 146,380 L160,380 C148,396 166,410 156,428 C142,452 164,472 154,500 Z" fill="#2f8f5b"/>
+
+  <!-- jellyfish -->
+  <g transform="translate(12,-12)">
+    <g fill="none" stroke="#f3a6e0" stroke-width="3" stroke-linecap="round" opacity="0.8">
+      <path d="M120,165 C110,200 135,230 120,270 S110,320 125,350"/>
+      <path d="M140,168 C150,210 125,240 145,290 S135,330 150,360"/>
+      <path d="M160,168 C150,205 175,245 158,290 S170,335 155,370"/>
+      <path d="M180,165 C190,200 165,230 185,275 S175,320 190,345"/>
+    </g>
+    <g fill="none" stroke="#e98ad0" stroke-width="6" stroke-linecap="round" opacity="0.85">
+      <path d="M145,166 C140,190 158,212 148,245"/>
+      <path d="M156,166 C162,190 142,212 154,245"/>
+    </g>
+    <path d="M100,160 C100,95 200,95 200,160 Q187.5,172 175,162 Q162.5,172 150,162 Q137.5,172 125,162 Q112.5,172 100,160 Z" fill="url(#jelly)" stroke="#f5c6ea" stroke-width="1.5"/>
+    <ellipse cx="135" cy="128" rx="22" ry="11" fill="#ffffff" opacity="0.3"/>
+    <g fill="#ffffff" opacity="0.4">
+      <circle cx="165" cy="122" r="3"/>
+      <circle cx="178" cy="138" r="2"/>
+      <circle cx="120" cy="145" r="2.5"/>
+    </g>
+  </g>
+
+  <!-- school of silver fish -->
+  <g fill="#d7ecf7">
+    <use xlink:href="#minnow" transform="translate(212,206) scale(0.9)"/>
+    <use xlink:href="#minnow" transform="translate(240,224)"/>
+    <use xlink:href="#minnow" transform="translate(270,208) scale(0.95)"/>
+    <use xlink:href="#minnow" transform="translate(256,246) scale(0.85)"/>
+    <use xlink:href="#minnow" transform="translate(292,232)"/>
+    <use xlink:href="#minnow" transform="translate(226,252) scale(0.8)"/>
+    <use xlink:href="#minnow" transform="translate(272,270) scale(0.9)"/>
+    <use xlink:href="#minnow" transform="translate(282,188) scale(0.8)"/>
+    <use xlink:href="#minnow" transform="translate(246,178) scale(0.75)"/>
+  </g>
+
+  <!-- big striped fish -->
+  <g>
+    <path d="M468,296 C500,270 520,262 530,256 C520,290 520,330 530,364 C520,358 500,350 468,324 Z" fill="#f08a24"/>
+    <path d="M362,272 C375,228 440,222 460,279 Z" fill="#f08a24"/>
+    <path d="M372,350 C385,385 440,390 450,344 Z" fill="#f08a24"/>
+    <ellipse cx="405" cy="310" rx="75" ry="48" fill="url(#fishBody)"/>
+    <g clip-path="url(#bigFishClip)" fill="#1d3b6e">
+      <path d="M372,255 C384,300 384,320 372,368 L392,368 C402,320 402,300 392,255 Z"/>
+      <path d="M418,255 C430,300 430,320 418,368 L438,368 C448,320 448,300 438,255 Z"/>
+      <path d="M460,258 C470,300 470,320 460,364 L482,364 L482,258 Z"/>
+    </g>
+    <path d="M392,318 C412,322 426,342 416,358 C400,350 392,334 392,318 Z" fill="#ffb347" opacity="0.9"/>
+    <path d="M368,284 Q361,310 369,336" stroke="#d9771e" stroke-width="2" fill="none" opacity="0.7"/>
+    <path d="M380,262 L385,243 M400,260 L402,236 M420,260 L422,238 M440,262 L446,246" stroke="#c76b14" stroke-width="1" opacity="0.6"/>
+    <circle cx="352" cy="298" r="9" fill="#fff"/>
+    <circle cx="350" cy="299" r="5" fill="#111"/>
+    <circle cx="348" cy="296" r="1.8" fill="#fff"/>
+    <path d="M331,314 Q337,320 345,316" stroke="#9a4d12" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- sea turtle -->
+  <g transform="translate(30,-35)">
+    <path d="M585,160 C560,146 530,136 505,134 C520,148 550,162 585,167 Z" fill="#4a8044"/>
+    <path d="M580,218 C555,236 525,252 500,260 C515,264 560,252 600,228 Z" fill="#5a9a52"/>
+    <path d="M660,222 C675,236 690,250 700,264 C688,264 668,250 650,232 Z" fill="#5a9a52"/>
+    <path d="M688,196 L708,202 L688,210 Z" fill="#5a9a52"/>
+    <ellipse cx="535" cy="192" rx="22" ry="15" fill="#6aa860"/>
+    <circle cx="527" cy="188" r="3" fill="#111"/>
+    <circle cx="526" cy="187" r="1" fill="#fff"/>
+    <path d="M516,196 Q522,200 528,197" stroke="#2f5e2c" stroke-width="1.5" fill="none"/>
+    <ellipse cx="620" cy="200" rx="72" ry="38" fill="#d9c27a"/>
+    <ellipse cx="620" cy="190" rx="70" ry="45" fill="#4f8a4a" stroke="#2f5e2c" stroke-width="2"/>
+    <g fill="none" stroke="#2f5e2c" stroke-width="2">
+      <polygon points="638,185 629,200.6 611,200.6 602,185 611,169.4 629,169.4"/>
+      <path d="M638,185 L688,182 M629,200.6 L648,230 M611,200.6 L592,230 M602,185 L552,182 M611,169.4 L592,150 M629,169.4 L648,150"/>
+    </g>
+    <ellipse cx="600" cy="165" rx="20" ry="9" fill="#ffffff" opacity="0.15"/>
+  </g>
+
+  <!-- bubbles -->
+  <g fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.5">
+    <circle cx="318" cy="298" r="4"/>
+    <circle cx="310" cy="281" r="3"/>
+    <circle cx="316" cy="264" r="2.5"/>
+    <circle cx="238" cy="402" r="5"/>
+    <circle cx="246" cy="382" r="3.5"/>
+    <circle cx="241" cy="364" r="2.5"/>
+    <circle cx="545" cy="142" r="3"/>
+    <circle cx="538" cy="124" r="4"/>
+    <circle cx="546" cy="106" r="2.5"/>
+    <circle cx="700" cy="330" r="4"/>
+    <circle cx="706" cy="312" r="3"/>
+    <circle cx="702" cy="296" r="2"/>
+    <circle cx="88" cy="252" r="3.5"/>
+    <circle cx="94" cy="234" r="2.5"/>
+    <circle cx="430" cy="150" r="5"/>
+    <circle cx="438" cy="128" r="3.5"/>
+    <circle cx="433" cy="110" r="2.5"/>
+  </g>
+
+  <!-- drifting plankton -->
+  <g fill="#ffffff" opacity="0.35">
+    <circle cx="60" cy="130" r="1.2"/>
+    <circle cx="300" cy="120" r="1"/>
+    <circle cx="480" cy="210" r="1.3"/>
+    <circle cx="560" cy="60" r="1"/>
+    <circle cx="720" cy="250" r="1.2"/>
+    <circle cx="40" cy="330" r="1"/>
+    <circle cx="350" cy="400" r="1.3"/>
+    <circle cx="600" cy="440" r="1"/>
+    <circle cx="200" cy="90" r="1.2"/>
+    <circle cx="760" cy="120" r="1"/>
+    <circle cx="570" cy="340" r="1.2"/>
+    <circle cx="190" cy="380" r="1"/>
+  </g>
+</svg>

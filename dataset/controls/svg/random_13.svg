@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 768" width="640" height="768" role="img" aria-label="Sprout plant care app icon set">
+  <rect width="640" height="768" fill="#f3efe6"/>
+
+  <!-- header: app icon preview, title, palette -->
+  <rect x="44" y="32" width="36" height="36" rx="10" fill="#1f4a3a"/>
+  <g transform="translate(47.6 35.6) scale(1.2)" fill="none" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path fill="#bfe6cf" d="M12 10c0-4 3-7 7.5-7 0 4.5-3 7.5-7.5 7Z"/>
+    <path fill="#bfe6cf" d="M12 15.5c0-3.5-2.5-6-6.5-6 0 4 2.5 6.5 6.5 6Z"/>
+    <path d="M12 21V10M4.5 21h15"/>
+  </g>
+  <text x="92" y="50" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#1f4a3a">Sprout</text>
+  <text x="92" y="69" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#6f8378">Plant care · 16 icons · 24 px grid · 1.5 px rounded stroke</text>
+  <g stroke="#ffffff" stroke-width="2">
+    <circle cx="556" cy="44" r="8" fill="#1f4a3a"/>
+    <circle cx="576" cy="44" r="8" fill="#bfe6cf"/>
+    <circle cx="596" cy="44" r="8" fill="#f2845c"/>
+  </g>
+
+  <!-- tiles -->
+  <g fill="#ffffff" stroke="#e3ddcf" stroke-width="1">
+    <rect x="44" y="104" width="120" height="120" rx="26"/>
+    <rect x="188" y="104" width="120" height="120" rx="26"/>
+    <rect x="332" y="104" width="120" height="120" rx="26"/>
+    <rect x="476" y="104" width="120" height="120" rx="26"/>
+    <rect x="44" y="264" width="120" height="120" rx="26"/>
+    <rect x="188" y="264" width="120" height="120" rx="26"/>
+    <rect x="332" y="264" width="120" height="120" rx="26"/>
+    <rect x="476" y="264" width="120" height="120" rx="26"/>
+    <rect x="44" y="424" width="120" height="120" rx="26"/>
+    <rect x="188" y="424" width="120" height="120" rx="26"/>
+    <rect x="332" y="424" width="120" height="120" rx="26"/>
+    <rect x="476" y="424" width="120" height="120" rx="26"/>
+    <rect x="44" y="584" width="120" height="120" rx="26"/>
+    <rect x="188" y="584" width="120" height="120" rx="26"/>
+    <rect x="332" y="584" width="120" height="120" rx="26"/>
+    <rect x="476" y="584" width="120" height="120" rx="26"/>
+  </g>
+
+  <!-- icons -->
+  <g fill="none" stroke="#1f4a3a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Home: sprout -->
+    <g transform="translate(71 131) scale(2.75)">
+      <path fill="#bfe6cf" d="M12 10c0-4 3-7 7.5-7 0 4.5-3 7.5-7.5 7Z"/>
+      <path fill="#bfe6cf" d="M12 15.5c0-3.5-2.5-6-6.5-6 0 4 2.5 6.5 6.5 6Z"/>
+      <path d="M12 21V10M4.5 21h15"/>
+    </g>
+
+    <!-- Plants: cactus in pot -->
+    <g transform="translate(215 131) scale(2.75)">
+      <path d="M9.5 10V5.5a2.5 2.5 0 0 1 5 0V10"/>
+      <path d="M9.5 8H7.6a1.1 1.1 0 0 1-1.1-1.1V4.5"/>
+      <path d="M14.5 7h1.9a1.1 1.1 0 0 0 1.1-1.1V3.5"/>
+      <path fill="#bfe6cf" d="M6 13l1.2 7.3a1.2 1.2 0 0 0 1.2 1h7.2a1.2 1.2 0 0 0 1.2-1L18 13"/>
+      <rect x="4.5" y="10" width="15" height="3" rx="1.2" fill="#bfe6cf"/>
+    </g>
+
+    <!-- Water: droplet -->
+    <g transform="translate(359 131) scale(2.75)">
+      <path fill="#bfe6cf" d="M12 3C12 3 5.5 9.8 5.5 14.3a6.5 6.5 0 0 0 13 0C18.5 9.8 12 3 12 3Z"/>
+      <path d="M8.6 14.5a3.4 3.4 0 0 0 2.4 3"/>
+    </g>
+
+    <!-- Light: sun -->
+    <g transform="translate(503 131) scale(2.75)">
+      <circle cx="12" cy="12" r="4" fill="#bfe6cf"/>
+      <path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.5 1.5M17.2 17.2l1.5 1.5M5.3 18.7l1.5-1.5M17.2 6.8l1.5-1.5"/>
+    </g>
+
+    <!-- Schedule: calendar -->
+    <g transform="translate(71 291) scale(2.75)">
+      <path fill="#bfe6cf" stroke="none" d="M3 7.5A2.5 2.5 0 0 1 5.5 5h13A2.5 2.5 0 0 1 21 7.5V10H3Z"/>
+      <rect x="3" y="5" width="18" height="16" rx="2.5"/>
+      <path d="M3 10h18M8 3v4M16 3v4M9 15.5l2 2 4-4"/>
+    </g>
+
+    <!-- Reminders: bell with badge -->
+    <g transform="translate(215 291) scale(2.75)">
+      <path fill="#bfe6cf" d="M6 15v-5a6 6 0 0 1 12 0v5l2 2.5H4Z"/>
+      <path d="M10 20.5a2 2 0 0 0 4 0"/>
+      <circle cx="18" cy="6" r="2.6" fill="#f2845c" stroke="#ffffff" stroke-width="1.2"/>
+    </g>
+
+    <!-- Temperature: thermometer -->
+    <g transform="translate(359 291) scale(2.75)">
+      <path fill="#bfe6cf" d="M14 14.76V3.5a2 2 0 0 0-4 0v11.26a4 4 0 1 0 4 0Z"/>
+      <path d="M12 9.5v7.5M16.5 6.5h2M16.5 10h2"/>
+      <circle cx="12" cy="18.2" r="1.6" fill="#1f4a3a" stroke="none"/>
+    </g>
+
+    <!-- Growth: chart -->
+    <g transform="translate(503 291) scale(2.75)">
+      <path fill="#bfe6cf" stroke="none" d="M7 15l4-4 3 2.5 5-6V20H7Z"/>
+      <path d="M4 4v16h16M7 15l4-4 3 2.5 5-6M16 7.5h3v3"/>
+    </g>
+
+    <!-- Identify: camera -->
+    <g transform="translate(71 451) scale(2.75)">
+      <path fill="#bfe6cf" d="M3 8.5A2.5 2.5 0 0 1 5.5 6h2.3l1.4-2.2h5.6L16.2 6h2.3A2.5 2.5 0 0 1 21 8.5v9a2.5 2.5 0 0 1-2.5 2.5h-13A2.5 2.5 0 0 1 3 17.5Z"/>
+      <circle cx="12" cy="13" r="3.6" fill="#ffffff"/>
+      <circle cx="17.8" cy="8.8" r="0.8" fill="#1f4a3a" stroke="none"/>
+    </g>
+
+    <!-- Search: magnifier with leaf -->
+    <g transform="translate(215 451) scale(2.75)">
+      <circle cx="10.5" cy="10.5" r="6.5" fill="#bfe6cf"/>
+      <path fill="#ffffff" d="M7.5 13.5c0-3.3 2.7-6 6-6 0 3.3-2.7 6-6 6Z"/>
+      <path d="M8.6 12.4l3.8-3.8M15.3 15.3L21 21"/>
+    </g>
+
+    <!-- Prune: scissors -->
+    <g transform="translate(359 451) scale(2.75)">
+      <circle cx="6" cy="6" r="3" fill="#bfe6cf"/>
+      <circle cx="6" cy="18" r="3" fill="#bfe6cf"/>
+      <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"/>
+    </g>
+
+    <!-- Pests: beetle -->
+    <g transform="translate(503 451) scale(2.75)">
+      <circle cx="12" cy="7.5" r="2.2" fill="#bfe6cf"/>
+      <path d="M10.5 5.9L9 3.8M13.5 5.9L15 3.8M7.3 12.5L4 10.5M7 15H4M7.3 17.5L4 19.5M16.7 12.5L20 10.5M17 15h3M16.7 17.5l3.3 2"/>
+      <ellipse cx="12" cy="14.5" rx="5" ry="5.5" fill="#bfe6cf"/>
+      <path d="M12 9v11"/>
+      <g fill="#1f4a3a" stroke="none">
+        <circle cx="9.8" cy="12.8" r="0.9"/>
+        <circle cx="14.2" cy="12.8" r="0.9"/>
+        <circle cx="10" cy="16.8" r="0.9"/>
+        <circle cx="14" cy="16.8" r="0.9"/>
+      </g>
+    </g>
+
+    <!-- Seeds: seed packet -->
+    <g transform="translate(71 611) scale(2.75)">
+      <path fill="#bfe6cf" stroke="none" d="M5 5l1.75-1.5L8.5 5l1.75-1.5L12 5l1.75-1.5L15.5 5l1.75-1.5L19 5v4.5H5Z"/>
+      <path d="M5 5l1.75-1.5L8.5 5l1.75-1.5L12 5l1.75-1.5L15.5 5l1.75-1.5L19 5v14.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 5 19.5ZM5 9.5h14"/>
+      <ellipse cx="10.2" cy="15.2" rx="1.3" ry="2.3" transform="rotate(-25 10.2 15.2)" fill="#bfe6cf"/>
+      <ellipse cx="13.8" cy="15.2" rx="1.3" ry="2.3" transform="rotate(25 13.8 15.2)" fill="#bfe6cf"/>
+    </g>
+
+    <!-- Location: map pin -->
+    <g transform="translate(215 611) scale(2.75)">
+      <path fill="#bfe6cf" d="M12 21.5C12 21.5 5 15.2 5 10a7 7 0 0 1 14 0c0 5.2-7 11.5-7 11.5Z"/>
+      <circle cx="12" cy="10" r="2.6" fill="#ffffff"/>
+    </g>
+
+    <!-- Watering: watering can -->
+    <g transform="translate(359 611) scale(2.75)">
+      <g transform="translate(0 -1)">
+        <path d="M4 12.5h-.5A1.5 1.5 0 0 0 2 14v2a1.5 1.5 0 0 0 1.5 1.5H4"/>
+        <rect x="4" y="10" width="11" height="10" rx="2" fill="#bfe6cf"/>
+        <path d="M6.5 10a3 3 0 0 1 6 0M15 13.5l5-5.5M18.8 6.9l2.4 2.2M21.6 11v1.8M23 13.4v1.6"/>
+      </g>
+    </g>
+
+    <!-- Settings: gear -->
+    <g transform="translate(503 611) scale(2.75)">
+      <path stroke-width="2.2" d="M19 12h2.5M12 19v2.5M5 12H2.5M12 5V2.5M16.95 16.95l1.77 1.77M7.05 16.95l-1.77 1.77M7.05 7.05L5.28 5.28M16.95 7.05l1.77-1.77"/>
+      <circle cx="12" cy="12" r="6.5" fill="#bfe6cf"/>
+      <circle cx="12" cy="12" r="2.4" fill="#ffffff"/>
+    </g>
+  </g>
+
+  <!-- labels -->
+  <g font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#6f8378" text-anchor="middle">
+    <text x="104" y="244">Home</text>
+    <text x="248" y="244">Plants</text>
+    <text x="392" y="244">Water</text>
+    <text x="536" y="244">Light</text>
+    <text x="104" y="404">Schedule</text>
+    <text x="248" y="404">Reminders</text>
+    <text x="392" y="404">Temperature</text>
+    <text x="536" y="404">Growth</text>
+    <text x="104" y="564">Identify</text>
+    <text x="248" y="564">Search</text>
+    <text x="392" y="564">Prune</text>
+    <text x="536" y="564">Pests</text>
+    <text x="104" y="724">Seeds</text>
+    <text x="248" y="724">Location</text>
+    <text x="392" y="724">Watering</text>
+    <text x="536" y="724">Settings</text>
+  </g>
+</svg>

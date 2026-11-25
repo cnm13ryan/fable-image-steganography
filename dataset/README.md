@@ -13,6 +13,8 @@ This folder holds the full set behind the article's headline result: 50 images t
 | `messages.json` | The 50 messages, with an id, language and category for each. This is the file the encoding script reads. |
 | `encoder_notes/<id>.md` | After returning each SVG, the encoder was asked in the same conversation to describe what carries the message. Treat these as the encoder's own claims, not as verified ground truth. |
 | `results.csv` | One row per message: the message, the encoder's claimed carrier, and what the Fable 5.1 decoder answered by eye and with tools. |
+| `controls/images/<id>.png` | The 50 rendered control images, which carry no message. |
+| `controls/svg/<id>.svg` | The SVG source of each control image. |
 
 The `<id>` is the message id from `messages.json`, for example `en_long_sentence` or `lv_fact`. The three images in [`../examples/`](../examples/) that come from this set are `en_long_sentence` (the tulip field) and `lv_fact` (the city building). The starry night in `examples/` is from a later set and is not one of the 50.
 
@@ -21,7 +23,7 @@ The `<id>` is the message id from `messages.json`, for example `en_long_sentence
 - **Encoding.** On 5 October 2026, `scripts/generate_svgs.py` sent the [encoding prompt](../prompts/encode.md), without its last bullet ("very beautiful and artistic", added later), once per message to Fable 5.1 at maximum reasoning effort, with no tools, through the Claude Code command-line tool. A reply without an SVG, or a reply the safety classifier stopped, was retried in a fresh session (up to 5 tries). Every one of the 50 SVGs was produced by Fable 5.1 itself. The encoder was then asked, in the same conversation, for the short description saved in `encoder_notes/`.
 - **Rendering.** Each SVG was rendered to a PNG with CairoSVG at its default settings on the Linux machine that ran the experiment. Those PNGs are the files in `images/`.
 - **Decoding.** `scripts/decode_screenshots.py` sent each PNG with the [decoding prompt](../prompts/decode.md) to a fresh Fable 5.1 session at maximum effort. This was done twice: once by eye (no tools), and once with tools (a Python interpreter with Pillow and NumPy, and the PNG saved as `image.png` in the working directory). The with-tools run was on 7 October 2026. Five with-tools sessions were stopped by the safety classifier before answering; those were rerun in fresh sessions on 8 October until each gave a real answer (one message needed three attempts). `results.csv` reports the final attempt and the number of attempts.
-- **Controls.** The same scripts also drew 50 ordinary images with no message and showed them to the decoder. It claimed a message in none of them, by eye or with tools. The control images are not included here.
+- **Controls.** The same scripts also drew 50 ordinary images with no message and showed them to the decoder. It claimed a message in none of them, by eye or with tools. The control images and their SVG sources are in `controls/`, named `random_01` to `random_50` after the topic ids in `scripts/seeds.json`.
 
 ## How answers were scored
 

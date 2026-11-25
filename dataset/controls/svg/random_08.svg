@@ -1,0 +1,323 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0c1133"/>
+      <stop offset="1" stop-color="#080c20"/>
+    </linearGradient>
+    <linearGradient id="areaFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5ad1c8" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#5ad1c8" stop-opacity="0.02"/>
+    </linearGradient>
+    <radialGradient id="moonGlow">
+      <stop offset="0" stop-color="#f5c86a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#f5c86a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background and stars -->
+  <rect width="1200" height="820" fill="url(#bg)"/>
+  <g fill="#ffffff">
+    <circle cx="120" cy="30" r="1.2" opacity="0.7"/>
+    <circle cx="210" cy="70" r="0.8" opacity="0.5"/>
+    <circle cx="300" cy="25" r="1" opacity="0.6"/>
+    <circle cx="420" cy="55" r="1.4" opacity="0.8"/>
+    <circle cx="515" cy="20" r="0.9" opacity="0.5"/>
+    <circle cx="640" cy="48" r="1.1" opacity="0.7"/>
+    <circle cx="720" cy="30" r="0.8" opacity="0.4"/>
+    <circle cx="810" cy="65" r="1.3" opacity="0.8"/>
+    <circle cx="905" cy="22" r="1" opacity="0.6"/>
+    <circle cx="980" cy="50" r="0.9" opacity="0.5"/>
+    <circle cx="1040" cy="30" r="1.5" opacity="0.9"/>
+    <circle cx="1120" cy="20" r="0.7" opacity="0.4"/>
+    <circle cx="1150" cy="40" r="0.8" opacity="0.5"/>
+    <circle cx="1175" cy="110" r="1.1" opacity="0.6"/>
+    <circle cx="1060" cy="112" r="0.9" opacity="0.5"/>
+    <circle cx="360" cy="125" r="0.8" opacity="0.4"/>
+    <circle cx="560" cy="125" r="1" opacity="0.5"/>
+    <circle cx="745" cy="123" r="0.9" opacity="0.6"/>
+    <circle cx="30" cy="230" r="1" opacity="0.5"/>
+    <circle cx="740" cy="228" r="0.8" opacity="0.5"/>
+    <circle cx="1170" cy="300" r="1.2" opacity="0.6"/>
+    <circle cx="20" cy="460" r="0.9" opacity="0.5"/>
+    <circle cx="15" cy="560" r="0.8" opacity="0.4"/>
+    <circle cx="1180" cy="560" r="1" opacity="0.6"/>
+    <circle cx="740" cy="567" r="0.9" opacity="0.4"/>
+    <circle cx="1178" cy="650" r="0.9" opacity="0.4"/>
+    <circle cx="25" cy="700" r="1.1" opacity="0.5"/>
+    <circle cx="1175" cy="740" r="0.8" opacity="0.5"/>
+    <circle cx="600" cy="792" r="1" opacity="0.4"/>
+    <circle cx="860" cy="795" r="0.9" opacity="0.5"/>
+  </g>
+
+  <!-- Crescent moon -->
+  <circle cx="1105" cy="78" r="70" fill="url(#moonGlow)"/>
+  <path d="M1105 52 A26 26 0 0 0 1105 104 A38.8 38.8 0 0 1 1105 52 Z" fill="#f5c86a"/>
+
+  <!-- Header -->
+  <text x="50" y="52" font-size="11" font-weight="600" letter-spacing="2.5" fill="#f5c86a">HOLLOWMERE RIDGE OBSERVATORY · ANNUAL SKY REPORT</text>
+  <text x="50" y="90" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#eef1fb">A Year Under the Sky, 2025</text>
+  <text x="50" y="113" font-size="12" fill="#8e97c2">Observing season January – December 2025 · 46 contributing observers · 1,842 hours on the platform</text>
+
+  <!-- KPI cards -->
+  <g>
+    <rect x="50" y="132" width="260" height="80" rx="12" fill="#171f48" stroke="#2b3666"/>
+    <circle cx="288" cy="150" r="12" fill="#ff8a7a" opacity="0.18"/>
+    <circle cx="288" cy="150" r="5" fill="#ff8a7a"/>
+    <text x="70" y="155" font-size="10" letter-spacing="1.2" fill="#8e97c2">METEORS LOGGED</text>
+    <text x="70" y="192" font-size="28" font-weight="700" fill="#eef1fb">1,144</text>
+    <text x="290" y="192" text-anchor="end" font-size="11" fill="#ff8a7a">+12% vs 2024</text>
+
+    <rect x="330" y="132" width="260" height="80" rx="12" fill="#171f48" stroke="#2b3666"/>
+    <circle cx="568" cy="150" r="12" fill="#5ad1c8" opacity="0.18"/>
+    <circle cx="568" cy="150" r="5" fill="#5ad1c8"/>
+    <text x="350" y="155" font-size="10" letter-spacing="1.2" fill="#8e97c2">HOURS AT THE EYEPIECE</text>
+    <text x="350" y="192" font-size="28" font-weight="700" fill="#eef1fb">1,842</text>
+    <text x="570" y="192" text-anchor="end" font-size="11" fill="#5ad1c8">+4% vs 2024</text>
+
+    <rect x="610" y="132" width="260" height="80" rx="12" fill="#171f48" stroke="#2b3666"/>
+    <circle cx="848" cy="150" r="12" fill="#f5c86a" opacity="0.18"/>
+    <circle cx="848" cy="150" r="5" fill="#f5c86a"/>
+    <text x="630" y="155" font-size="10" letter-spacing="1.2" fill="#8e97c2">CLEAR NIGHTS</text>
+    <text x="630" y="192" font-size="28" font-weight="700" fill="#eef1fb">217</text>
+    <text x="850" y="192" text-anchor="end" font-size="11" fill="#f5c86a">59% of the year</text>
+
+    <rect x="890" y="132" width="260" height="80" rx="12" fill="#171f48" stroke="#2b3666"/>
+    <circle cx="1128" cy="150" r="12" fill="#a98bff" opacity="0.18"/>
+    <circle cx="1128" cy="150" r="5" fill="#a98bff"/>
+    <text x="910" y="155" font-size="10" letter-spacing="1.2" fill="#8e97c2">VISITING OBSERVERS</text>
+    <text x="910" y="192" font-size="28" font-weight="700" fill="#eef1fb">46</text>
+    <text x="1130" y="192" text-anchor="end" font-size="11" fill="#a98bff">9 first-timers</text>
+  </g>
+
+  <!-- Panel: meteors per month -->
+  <rect x="50" y="240" width="680" height="315" rx="14" fill="#171f48" stroke="#2b3666"/>
+  <text x="72" y="272" font-size="14" font-weight="600" fill="#eef1fb">Meteors logged per month</text>
+  <text x="72" y="290" font-size="11" fill="#8e97c2">Naked-eye counts from the ridge platform · the Perseids and Geminids dominate the year</text>
+  <rect x="604" y="263" width="10" height="10" rx="2" fill="#5ad1c8"/>
+  <text x="619" y="272" font-size="11" fill="#8e97c2">Regular</text>
+  <rect x="668" y="263" width="10" height="10" rx="2" fill="#f5c86a"/>
+  <text x="683" y="272" font-size="11" fill="#8e97c2">Peak</text>
+
+  <g stroke="#2b3666" stroke-width="1">
+    <line x1="106" y1="315" x2="706" y2="315" stroke-dasharray="2 4"/>
+    <line x1="106" y1="362.5" x2="706" y2="362.5" stroke-dasharray="2 4"/>
+    <line x1="106" y1="410" x2="706" y2="410" stroke-dasharray="2 4"/>
+    <line x1="106" y1="457.5" x2="706" y2="457.5" stroke-dasharray="2 4"/>
+    <line x1="106" y1="505" x2="706" y2="505"/>
+  </g>
+  <g font-size="10" fill="#8e97c2" text-anchor="end">
+    <text x="96" y="318">240</text>
+    <text x="96" y="366">180</text>
+    <text x="96" y="413">120</text>
+    <text x="96" y="461">60</text>
+    <text x="96" y="508">0</text>
+  </g>
+
+  <g stroke="#f5c86a" stroke-width="1" stroke-dasharray="5 4" opacity="0.55">
+    <line x1="106" y1="429.5" x2="322" y2="429.5"/>
+    <line x1="340" y1="429.5" x2="706" y2="429.5"/>
+  </g>
+  <text x="108" y="425" font-size="10" fill="#f5c86a">avg 95 / month</text>
+
+  <g fill="#5ad1c8">
+    <rect x="116" y="456" width="30" height="49" rx="3"/>
+    <rect x="166" y="467" width="30" height="38" rx="3"/>
+    <rect x="216" y="461" width="30" height="44" rx="3"/>
+    <rect x="266" y="449" width="30" height="56" rx="3"/>
+    <rect x="316" y="439" width="30" height="66" rx="3"/>
+    <rect x="366" y="474" width="30" height="31" rx="3"/>
+    <rect x="416" y="428" width="30" height="77" rx="3"/>
+    <rect x="516" y="453" width="30" height="52" rx="3"/>
+    <rect x="566" y="412" width="30" height="93" rx="3"/>
+    <rect x="616" y="423" width="30" height="82" rx="3"/>
+  </g>
+  <g fill="#f5c86a">
+    <rect x="466" y="337" width="30" height="168" rx="3"/>
+    <rect x="666" y="355" width="30" height="150" rx="3"/>
+  </g>
+
+  <g font-size="10" fill="#8e97c2" text-anchor="middle">
+    <text x="131" y="450">62</text>
+    <text x="181" y="461">48</text>
+    <text x="231" y="455">55</text>
+    <text x="281" y="443">71</text>
+    <text x="331" y="433">84</text>
+    <text x="381" y="468">39</text>
+    <text x="431" y="422">97</text>
+    <text x="481" y="331" fill="#f5c86a" font-weight="700">212</text>
+    <text x="531" y="447">66</text>
+    <text x="581" y="406">118</text>
+    <text x="631" y="417">103</text>
+    <text x="681" y="349" fill="#f5c86a" font-weight="700">189</text>
+  </g>
+
+  <g font-size="10" fill="#8e97c2" text-anchor="middle">
+    <text x="131" y="523">Jan</text>
+    <text x="181" y="523">Feb</text>
+    <text x="231" y="523">Mar</text>
+    <text x="281" y="523">Apr</text>
+    <text x="331" y="523">May</text>
+    <text x="381" y="523">Jun</text>
+    <text x="431" y="523">Jul</text>
+    <text x="481" y="523">Aug</text>
+    <text x="531" y="523">Sep</text>
+    <text x="581" y="523">Oct</text>
+    <text x="631" y="523">Nov</text>
+    <text x="681" y="523">Dec</text>
+  </g>
+  <g font-size="9" fill="#f5c86a" text-anchor="middle" font-style="italic">
+    <text x="481" y="536">Perseids</text>
+    <text x="681" y="536">Geminids</text>
+  </g>
+
+  <!-- Panel: observing time by target (donut) -->
+  <rect x="750" y="240" width="400" height="315" rx="14" fill="#171f48" stroke="#2b3666"/>
+  <text x="772" y="272" font-size="14" font-weight="600" fill="#eef1fb">Observing time by target</text>
+  <text x="772" y="290" font-size="11" fill="#8e97c2">Share of 1,842 logged hours</text>
+
+  <g fill="none" stroke-width="30">
+    <path d="M870 345 A80 80 0 0 1 924.8 483.3" stroke="#5ad1c8"/>
+    <path d="M924.8 483.3 A80 80 0 0 1 815.2 483.3" stroke="#f5c86a"/>
+    <path d="M815.2 483.3 A80 80 0 0 1 793.9 400.3" stroke="#ff8a7a"/>
+    <path d="M793.9 400.3 A80 80 0 0 1 831.5 354.9" stroke="#a98bff"/>
+    <path d="M831.5 354.9 A80 80 0 0 1 870 345" stroke="#5aa9ff"/>
+  </g>
+  <g stroke="#171f48" stroke-width="3">
+    <line x1="870" y1="365" x2="870" y2="325"/>
+    <line x1="911.1" y1="468.7" x2="938.5" y2="497.9"/>
+    <line x1="828.9" y1="468.7" x2="801.5" y2="497.9"/>
+    <line x1="812.9" y1="406.5" x2="774.9" y2="394.1"/>
+    <line x1="841.1" y1="372.4" x2="821.8" y2="337.4"/>
+  </g>
+  <text x="870" y="422" text-anchor="middle" font-size="24" font-weight="700" fill="#eef1fb">1,842</text>
+  <text x="870" y="440" text-anchor="middle" font-size="10" letter-spacing="1" fill="#8e97c2">HOURS</text>
+
+  <g font-size="12">
+    <rect x="990" y="344" width="12" height="12" rx="3" fill="#5ad1c8"/>
+    <text x="1010" y="353" fill="#eef1fb">Deep-sky objects</text>
+    <text x="1010" y="367" font-size="10" fill="#8e97c2">700 h</text>
+    <text x="1130" y="355" text-anchor="end" font-size="13" font-weight="700" fill="#eef1fb">38%</text>
+
+    <rect x="990" y="378" width="12" height="12" rx="3" fill="#f5c86a"/>
+    <text x="1010" y="387" fill="#eef1fb">Planets</text>
+    <text x="1010" y="401" font-size="10" fill="#8e97c2">442 h</text>
+    <text x="1130" y="389" text-anchor="end" font-size="13" font-weight="700" fill="#eef1fb">24%</text>
+
+    <rect x="990" y="412" width="12" height="12" rx="3" fill="#ff8a7a"/>
+    <text x="1010" y="421" fill="#eef1fb">Meteor watch</text>
+    <text x="1010" y="435" font-size="10" fill="#8e97c2">332 h</text>
+    <text x="1130" y="423" text-anchor="end" font-size="13" font-weight="700" fill="#eef1fb">18%</text>
+
+    <rect x="990" y="446" width="12" height="12" rx="3" fill="#a98bff"/>
+    <text x="1010" y="455" fill="#eef1fb">Lunar</text>
+    <text x="1010" y="469" font-size="10" fill="#8e97c2">221 h</text>
+    <text x="1130" y="457" text-anchor="end" font-size="13" font-weight="700" fill="#eef1fb">12%</text>
+
+    <rect x="990" y="480" width="12" height="12" rx="3" fill="#5aa9ff"/>
+    <text x="1010" y="489" fill="#eef1fb">Solar (filtered)</text>
+    <text x="1010" y="503" font-size="10" fill="#8e97c2">147 h</text>
+    <text x="1130" y="491" text-anchor="end" font-size="13" font-weight="700" fill="#eef1fb">8%</text>
+  </g>
+
+  <!-- Panel: clear nights per month (area line) -->
+  <rect x="50" y="575" width="680" height="205" rx="14" fill="#171f48" stroke="#2b3666"/>
+  <text x="72" y="601" font-size="14" font-weight="600" fill="#eef1fb">Clear nights per month</text>
+  <text x="706" y="601" text-anchor="end" font-size="11" fill="#8e97c2">217 clear nights across the year</text>
+
+  <g stroke="#2b3666" stroke-width="1">
+    <line x1="106" y1="660" x2="706" y2="660" stroke-dasharray="2 4"/>
+    <line x1="106" y1="700" x2="706" y2="700" stroke-dasharray="2 4"/>
+    <line x1="106" y1="740" x2="706" y2="740"/>
+  </g>
+  <g font-size="10" fill="#8e97c2" text-anchor="end">
+    <text x="96" y="663">20</text>
+    <text x="96" y="703">10</text>
+    <text x="96" y="743">0</text>
+  </g>
+
+  <path d="M131 740 L131 684 L181 692 L231 676 L281 672 L331 660 L381 648 L431 636 L481 640 L531 656 L581 664 L631 688 L681 696 L681 740 Z" fill="url(#areaFill)"/>
+  <path d="M131 684 L181 692 L231 676 L281 672 L331 660 L381 648 L431 636 L481 640 L531 656 L581 664 L631 688 L681 696" fill="none" stroke="#5ad1c8" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <g fill="#171f48" stroke="#5ad1c8" stroke-width="2">
+    <circle cx="131" cy="684" r="3.5"/>
+    <circle cx="181" cy="692" r="3.5"/>
+    <circle cx="231" cy="676" r="3.5"/>
+    <circle cx="281" cy="672" r="3.5"/>
+    <circle cx="331" cy="660" r="3.5"/>
+    <circle cx="381" cy="648" r="3.5"/>
+    <circle cx="481" cy="640" r="3.5"/>
+    <circle cx="531" cy="656" r="3.5"/>
+    <circle cx="581" cy="664" r="3.5"/>
+    <circle cx="631" cy="688" r="3.5"/>
+    <circle cx="681" cy="696" r="3.5"/>
+  </g>
+  <circle cx="431" cy="636" r="5" fill="#f5c86a"/>
+
+  <g font-size="9" fill="#8e97c2" text-anchor="middle">
+    <text x="131" y="675">14</text>
+    <text x="181" y="683">12</text>
+    <text x="231" y="667">16</text>
+    <text x="281" y="663">17</text>
+    <text x="331" y="651">20</text>
+    <text x="381" y="639">23</text>
+    <text x="431" y="627" fill="#f5c86a" font-weight="700" font-size="10">26</text>
+    <text x="481" y="631">25</text>
+    <text x="531" y="647">21</text>
+    <text x="581" y="655">19</text>
+    <text x="631" y="679">13</text>
+    <text x="681" y="687">11</text>
+  </g>
+
+  <g font-size="10" fill="#8e97c2" text-anchor="middle">
+    <text x="131" y="758">Jan</text>
+    <text x="181" y="758">Feb</text>
+    <text x="231" y="758">Mar</text>
+    <text x="281" y="758">Apr</text>
+    <text x="331" y="758">May</text>
+    <text x="381" y="758">Jun</text>
+    <text x="431" y="758">Jul</text>
+    <text x="481" y="758">Aug</text>
+    <text x="531" y="758">Sep</text>
+    <text x="581" y="758">Oct</text>
+    <text x="631" y="758">Nov</text>
+    <text x="681" y="758">Dec</text>
+  </g>
+
+  <!-- Panel: most-logged objects (horizontal bars) -->
+  <rect x="750" y="575" width="400" height="205" rx="14" fill="#171f48" stroke="#2b3666"/>
+  <text x="772" y="601" font-size="14" font-weight="600" fill="#eef1fb">Most-logged objects · hours</text>
+  <rect x="1000" y="593" width="10" height="10" rx="2" fill="#f5c86a"/>
+  <text x="1015" y="601" font-size="11" fill="#8e97c2">Planets</text>
+  <rect x="1068" y="593" width="10" height="10" rx="2" fill="#5ad1c8"/>
+  <text x="1083" y="601" font-size="11" fill="#8e97c2">Deep-sky</text>
+
+  <g font-size="11" fill="#cdd3ea">
+    <text x="772" y="631">Saturn</text>
+    <text x="772" y="661">Orion Nebula (M42)</text>
+    <text x="772" y="691">Jupiter</text>
+    <text x="772" y="721">Andromeda (M31)</text>
+    <text x="772" y="751">Ring Nebula (M57)</text>
+  </g>
+  <g fill="#ffffff" opacity="0.05">
+    <rect x="900" y="620" width="180" height="14" rx="7"/>
+    <rect x="900" y="650" width="180" height="14" rx="7"/>
+    <rect x="900" y="680" width="180" height="14" rx="7"/>
+    <rect x="900" y="710" width="180" height="14" rx="7"/>
+    <rect x="900" y="740" width="180" height="14" rx="7"/>
+  </g>
+  <rect x="900" y="620" width="180" height="14" rx="7" fill="#f5c86a"/>
+  <rect x="900" y="650" width="150" height="14" rx="7" fill="#5ad1c8"/>
+  <rect x="900" y="680" width="132" height="14" rx="7" fill="#f5c86a"/>
+  <rect x="900" y="710" width="110" height="14" rx="7" fill="#5ad1c8"/>
+  <rect x="900" y="740" width="77" height="14" rx="7" fill="#5ad1c8"/>
+  <g font-size="11" font-weight="700" fill="#eef1fb">
+    <text x="1088" y="631">142 h</text>
+    <text x="1058" y="661">118 h</text>
+    <text x="1040" y="691">104 h</text>
+    <text x="1018" y="721">87 h</text>
+    <text x="985" y="751">61 h</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="50" y="804" font-size="10" fill="#5f6a99">Hollowmere Ridge Observatory is fictional, and so is every number on this page · made for illustration only</text>
+  <text x="1150" y="804" text-anchor="end" font-size="10" fill="#5f6a99">Compiled 6 October 2026</text>
+</svg>

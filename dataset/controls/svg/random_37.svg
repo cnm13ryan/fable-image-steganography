@@ -1,0 +1,223 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="700" viewBox="0 0 1200 700">
+  <title>Suspension bridge at dusk</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0c0824"/>
+      <stop offset="0.35" stop-color="#33204e"/>
+      <stop offset="0.65" stop-color="#6d345a"/>
+      <stop offset="0.88" stop-color="#b65757"/>
+      <stop offset="1" stop-color="#e38d5c"/>
+    </linearGradient>
+    <radialGradient id="glow" gradientUnits="userSpaceOnUse" cx="690" cy="452" r="260">
+      <stop offset="0" stop-color="#ffd48a" stop-opacity="0.95"/>
+      <stop offset="0.35" stop-color="#ffa05a" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ff7a4a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sunDisc">
+      <stop offset="0" stop-color="#fff9e0"/>
+      <stop offset="0.6" stop-color="#ffe29c"/>
+      <stop offset="1" stop-color="#ffbb68"/>
+    </radialGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cc7a5a"/>
+      <stop offset="0.1" stop-color="#8b4b5e"/>
+      <stop offset="0.4" stop-color="#3a2352"/>
+      <stop offset="1" stop-color="#0e0a20"/>
+    </linearGradient>
+    <radialGradient id="wglow">
+      <stop offset="0" stop-color="#ffb272" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ffb272" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="leg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f4783f"/>
+      <stop offset="0.5" stop-color="#d7522a"/>
+      <stop offset="1" stop-color="#882c12"/>
+    </linearGradient>
+    <linearGradient id="anchor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6d5362"/>
+      <stop offset="1" stop-color="#2d1f2f"/>
+    </linearGradient>
+    <radialGradient id="moonGlow">
+      <stop offset="0" stop-color="#fff1cc" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#fff1cc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.45" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.5"/>
+    </radialGradient>
+    <pattern id="truss" x="0" y="405" width="16" height="8" patternUnits="userSpaceOnUse">
+      <path d="M0 8L8 0L16 8" fill="none" stroke="#d9633a" stroke-width="1.4"/>
+      <path d="M0 0L8 8L16 0" fill="none" stroke="#9c3b1b" stroke-width="1"/>
+    </pattern>
+    <filter id="soft" x="-20%" y="-150%" width="140%" height="400%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <filter id="ripple" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.01 0.08" numOctaves="2" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="12" xChannelSelector="R" yChannelSelector="G"/>
+      <feGaussianBlur stdDeviation="0.9"/>
+    </filter>
+    <clipPath id="waterClip"><rect x="0" y="460" width="1200" height="240"/></clipPath>
+    <mask id="moonMask">
+      <rect width="1200" height="700" fill="#fff"/>
+      <circle cx="253" cy="114" r="23" fill="#000"/>
+    </mask>
+    <path id="bird" d="M0 0q4.5-5 9 0q4.5-5 9 0" fill="none" stroke="#140b1d" stroke-width="1.6" stroke-linecap="round"/>
+    <g id="lamp">
+      <circle r="4.5" fill="#ffcf7a" opacity="0.3"/>
+      <circle r="1.5" fill="#fff4c8"/>
+    </g>
+    <g id="tower">
+      <polygon points="-22,180 -9,180 -9,476 -29,476" fill="url(#leg)" stroke="#4a160a" stroke-width="0.7"/>
+      <polygon points="9,180 22,180 29,476 9,476" fill="url(#leg)" stroke="#4a160a" stroke-width="0.7"/>
+      <rect x="-9" y="180" width="18" height="18" fill="#a93818"/>
+      <rect x="-9" y="232" width="18" height="14" fill="#a93818"/>
+      <rect x="-9" y="296" width="18" height="16" fill="#a93818"/>
+      <rect x="-9" y="364" width="18" height="18" fill="#a93818"/>
+      <rect x="-9" y="430" width="18" height="14" fill="#8a2d12"/>
+      <rect x="-9" y="232" width="18" height="2.5" fill="#ec6c3b"/>
+      <rect x="-9" y="296" width="18" height="2.5" fill="#ec6c3b"/>
+      <rect x="-9" y="364" width="18" height="2.5" fill="#ec6c3b"/>
+      <rect x="-23" y="176" width="46" height="6" fill="#c4461f"/>
+      <rect x="-8" y="170" width="16" height="10" rx="3" fill="#6b2410"/>
+      <rect x="-32" y="458" width="64" height="18" fill="#4e1b0c"/>
+    </g>
+    <g id="bridge">
+      <path d="M150 379.8V397M175 369.1V397M200 354.1V397M225 334.9V397M250 311.7V397M275 284.5V397M300 253.5V397M325 218.6V397M375 216.1V397M400 248.4V397M425 276.9V397M450 301.6V397M475 322.5V397M500 339.6V397M525 352.9V397M550 362.4V397M575 368.1V397M600 370V397M625 368.1V397M650 362.4V397M675 352.9V397M700 339.6V397M725 322.5V397M750 301.6V397M775 276.9V397M800 248.4V397M825 216.1V397M875 218.6V397M900 253.5V397M925 284.5V397M950 311.7V397M975 334.9V397M1000 354.1V397M1025 369.1V397M1050 379.8V397" fill="none" stroke="#c84a24" stroke-width="1.5"/>
+      <use xlink:href="#tower" transform="translate(350 0)"/>
+      <use xlink:href="#tower" transform="translate(850 0)"/>
+      <rect x="0" y="392" width="1200" height="1.2" fill="#f7b08a"/>
+      <rect x="0" y="394" width="1200" height="4" fill="#e8653b"/>
+      <rect x="0" y="398" width="1200" height="7" fill="#b63d1a"/>
+      <rect x="0" y="405" width="1200" height="8" fill="#5c1e0b"/>
+      <rect x="0" y="405" width="1200" height="8" fill="url(#truss)"/>
+      <rect x="0" y="413" width="1200" height="2" fill="#8f3014"/>
+      <path d="M100 388Q220 390 350 180Q600 560 850 180Q980 390 1100 388" fill="none" stroke="#5e1f0d" stroke-width="7" stroke-linecap="round"/>
+      <path d="M100 388Q220 390 350 180Q600 560 850 180Q980 390 1100 388" fill="none" stroke="#ea683b" stroke-width="3.4" stroke-linecap="round"/>
+      <path d="M40 476L44 408L56 408L58 384L104 384L106 408L118 408L122 476Z" fill="url(#anchor)" stroke="#231722" stroke-width="0.8"/>
+      <path d="M1160 476L1156 408L1144 408L1142 384L1096 384L1094 408L1082 408L1078 476Z" fill="url(#anchor)" stroke="#231722" stroke-width="0.8"/>
+      <use xlink:href="#lamp" x="152" y="389.5"/>
+      <use xlink:href="#lamp" x="204" y="389.5"/>
+      <use xlink:href="#lamp" x="256" y="389.5"/>
+      <use xlink:href="#lamp" x="308" y="389.5"/>
+      <use xlink:href="#lamp" x="392" y="389.5"/>
+      <use xlink:href="#lamp" x="444" y="389.5"/>
+      <use xlink:href="#lamp" x="496" y="389.5"/>
+      <use xlink:href="#lamp" x="548" y="389.5"/>
+      <use xlink:href="#lamp" x="600" y="389.5"/>
+      <use xlink:href="#lamp" x="652" y="389.5"/>
+      <use xlink:href="#lamp" x="704" y="389.5"/>
+      <use xlink:href="#lamp" x="756" y="389.5"/>
+      <use xlink:href="#lamp" x="808" y="389.5"/>
+      <use xlink:href="#lamp" x="892" y="389.5"/>
+      <use xlink:href="#lamp" x="944" y="389.5"/>
+      <use xlink:href="#lamp" x="996" y="389.5"/>
+      <use xlink:href="#lamp" x="1048" y="389.5"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="460" fill="url(#sky)"/>
+
+  <g fill="#fff">
+    <circle cx="60" cy="42" r="1.2" opacity="0.85"/>
+    <circle cx="128" cy="88" r="0.9" opacity="0.6"/>
+    <circle cx="198" cy="28" r="1.1" opacity="0.75"/>
+    <circle cx="330" cy="62" r="0.8" opacity="0.5"/>
+    <circle cx="372" cy="18" r="1.3" opacity="0.9"/>
+    <circle cx="412" cy="56" r="0.9" opacity="0.6"/>
+    <circle cx="468" cy="98" r="0.8" opacity="0.5"/>
+    <circle cx="556" cy="36" r="1.2" opacity="0.8"/>
+    <circle cx="636" cy="82" r="0.9" opacity="0.6"/>
+    <circle cx="716" cy="24" r="1" opacity="0.7"/>
+    <circle cx="792" cy="62" r="1.3" opacity="0.85"/>
+    <circle cx="858" cy="104" r="0.8" opacity="0.5"/>
+    <circle cx="932" cy="42" r="1.1" opacity="0.7"/>
+    <circle cx="1004" cy="78" r="0.9" opacity="0.55"/>
+    <circle cx="1072" cy="30" r="1.2" opacity="0.8"/>
+    <circle cx="1138" cy="68" r="0.9" opacity="0.6"/>
+    <circle cx="1182" cy="122" r="0.8" opacity="0.45"/>
+    <circle cx="88" cy="152" r="0.8" opacity="0.45"/>
+    <circle cx="176" cy="178" r="0.9" opacity="0.5"/>
+    <circle cx="380" cy="160" r="0.7" opacity="0.4"/>
+    <circle cx="604" cy="146" r="0.8" opacity="0.4"/>
+    <circle cx="980" cy="154" r="0.8" opacity="0.45"/>
+    <circle cx="1108" cy="176" r="0.7" opacity="0.35"/>
+    <circle cx="520" cy="186" r="0.7" opacity="0.3"/>
+    <circle cx="152" cy="232" r="0.6" opacity="0.3"/>
+    <circle cx="760" cy="140" r="0.9" opacity="0.45"/>
+    <circle cx="900" cy="200" r="0.6" opacity="0.3"/>
+    <circle cx="40" cy="250" r="0.6" opacity="0.25"/>
+    <circle cx="1160" cy="240" r="0.6" opacity="0.25"/>
+    <circle cx="300" cy="200" r="0.6" opacity="0.3"/>
+  </g>
+  <circle cx="770" cy="250" r="5" fill="#fff6dc" opacity="0.18"/>
+  <circle cx="770" cy="250" r="1.7" fill="#fff6dc" opacity="0.95"/>
+
+  <circle cx="260" cy="120" r="54" fill="url(#moonGlow)"/>
+  <circle cx="260" cy="120" r="24" fill="#fff3d2" mask="url(#moonMask)"/>
+
+  <circle cx="690" cy="452" r="260" fill="url(#glow)"/>
+  <circle cx="690" cy="452" r="52" fill="url(#sunDisc)"/>
+
+  <path d="M0 460V434C70 428 130 418 210 424C290 430 340 446 410 448C480 450 530 436 610 440C670 443 710 454 770 450C830 446 880 420 960 416C1040 412 1120 428 1200 424V460Z" fill="#6c3c64" opacity="0.75"/>
+  <path d="M0 460V440C60 432 120 430 190 438C260 446 320 456 380 460Z" fill="#3a2444"/>
+  <path d="M640 460C720 452 780 436 840 426C900 416 940 380 1010 374C1080 368 1140 392 1200 388V460Z" fill="#3a2444"/>
+  <g fill="#ffd79c" opacity="0.85">
+    <circle cx="30" cy="446" r="0.9"/>
+    <circle cx="52" cy="443" r="1"/>
+    <circle cx="72" cy="441" r="0.8"/>
+    <circle cx="94" cy="440" r="1"/>
+    <circle cx="118" cy="441" r="0.9"/>
+    <circle cx="142" cy="445" r="0.8"/>
+    <circle cx="166" cy="448" r="1"/>
+    <circle cx="192" cy="451" r="0.8"/>
+    <circle cx="216" cy="454" r="0.9"/>
+    <circle cx="242" cy="456" r="0.8"/>
+    <circle cx="270" cy="458" r="0.7"/>
+    <circle cx="1016" cy="384" r="0.8"/>
+    <circle cx="1040" cy="383" r="0.9"/>
+    <circle cx="1062" cy="386" r="0.8"/>
+  </g>
+
+  <rect x="0" y="460" width="1200" height="240" fill="url(#water)"/>
+  <ellipse cx="690" cy="462" rx="270" ry="110" fill="url(#wglow)" clip-path="url(#waterClip)"/>
+  <g fill="#ffcc8e">
+    <ellipse cx="690" cy="466" rx="55" ry="2.5" opacity="0.55"/>
+    <ellipse cx="692" cy="476" rx="40" ry="2" opacity="0.45"/>
+    <ellipse cx="688" cy="488" rx="62" ry="2.5" opacity="0.4"/>
+    <ellipse cx="691" cy="503" rx="48" ry="2.5" opacity="0.35"/>
+    <ellipse cx="689" cy="520" rx="70" ry="3" opacity="0.3"/>
+    <ellipse cx="692" cy="540" rx="56" ry="2.5" opacity="0.25"/>
+    <ellipse cx="688" cy="563" rx="84" ry="3" opacity="0.2"/>
+    <ellipse cx="690" cy="590" rx="66" ry="3" opacity="0.16"/>
+    <ellipse cx="691" cy="622" rx="96" ry="3.5" opacity="0.12"/>
+    <ellipse cx="689" cy="660" rx="80" ry="3.5" opacity="0.08"/>
+  </g>
+  <path d="M40 505H300M380 505H520M700 505H1180M0 540H180M260 540H640M820 540H1100M120 580H460M560 580H900M980 580H1200M0 630H320M420 630H760M860 630H1200M60 672H520M640 672H1050" stroke="#fff" stroke-opacity="0.06" stroke-width="1"/>
+
+  <g clip-path="url(#waterClip)" opacity="0.32">
+    <use xlink:href="#bridge" transform="matrix(1 0 0 -1 0 920)" filter="url(#ripple)"/>
+  </g>
+
+  <g fill="#f3c6b8" filter="url(#soft)">
+    <ellipse cx="260" cy="508" rx="340" ry="26" opacity="0.4"/>
+    <ellipse cx="930" cy="518" rx="380" ry="30" opacity="0.35"/>
+  </g>
+
+  <use xlink:href="#bridge"/>
+
+  <g fill="#f6d2c6" filter="url(#soft)">
+    <ellipse cx="600" cy="492" rx="720" ry="22" opacity="0.25"/>
+  </g>
+
+  <g>
+    <use xlink:href="#bird" transform="translate(430 118) scale(1.1)"/>
+    <use xlink:href="#bird" transform="translate(458 134) scale(0.85)"/>
+    <use xlink:href="#bird" transform="translate(492 110) scale(1.2)"/>
+    <use xlink:href="#bird" transform="translate(520 128) scale(0.8)"/>
+    <use xlink:href="#bird" transform="translate(470 150) scale(0.7)"/>
+    <use xlink:href="#bird" transform="translate(546 142) scale(0.6)"/>
+  </g>
+
+  <rect width="1200" height="700" fill="url(#vig)"/>
+</svg>

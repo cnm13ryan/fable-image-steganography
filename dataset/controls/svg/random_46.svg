@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 600" width="800" height="600">
+  <title>Sloop at sunset</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1740"/>
+      <stop offset="0.32" stop-color="#45285f"/>
+      <stop offset="0.58" stop-color="#9c4467"/>
+      <stop offset="0.8" stop-color="#dd6a45"/>
+      <stop offset="1" stop-color="#f6a85e"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cf6e55"/>
+      <stop offset="0.1" stop-color="#8a5f7e"/>
+      <stop offset="0.28" stop-color="#2f5485"/>
+      <stop offset="1" stop-color="#0a1a36"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#fff0c0" stop-opacity="0.85"/>
+      <stop offset="0.35" stop-color="#ffc070" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#ffb060" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sun">
+      <stop offset="0" stop-color="#fffce6"/>
+      <stop offset="0.55" stop-color="#ffeeb0"/>
+      <stop offset="1" stop-color="#ffd277"/>
+    </radialGradient>
+    <linearGradient id="cloudMauve" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b98bb4" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#b98bb4"/>
+      <stop offset="0.75" stop-color="#b98bb4"/>
+      <stop offset="1" stop-color="#b98bb4" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cloudPink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e8958a" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#e8958a"/>
+      <stop offset="0.75" stop-color="#e8958a"/>
+      <stop offset="1" stop-color="#e8958a" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cloudGold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffcf9e" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#ffcf9e"/>
+      <stop offset="0.75" stop-color="#ffcf9e"/>
+      <stop offset="1" stop-color="#ffcf9e" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="hullGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34496f"/>
+      <stop offset="1" stop-color="#101a33"/>
+    </linearGradient>
+    <linearGradient id="mainGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e6d5b3"/>
+      <stop offset="1" stop-color="#fff8e8"/>
+    </linearGradient>
+    <linearGradient id="jibGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f1e3c5"/>
+      <stop offset="1" stop-color="#fffaf0"/>
+    </linearGradient>
+    <linearGradient id="crest" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="800" y2="0">
+      <stop offset="0" stop-color="#ffd6a8" stop-opacity="0.12"/>
+      <stop offset="0.58" stop-color="#ffd6a8" stop-opacity="0.12"/>
+      <stop offset="0.72" stop-color="#ffe4b8" stop-opacity="0.8"/>
+      <stop offset="0.86" stop-color="#ffd6a8" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#ffd6a8" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="reflFade" gradientUnits="userSpaceOnUse" x1="0" y1="440" x2="0" y2="600">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.05"/>
+    </linearGradient>
+    <mask id="reflMask" maskUnits="userSpaceOnUse" x="0" y="430" width="800" height="170">
+      <rect x="0" y="430" width="800" height="170" fill="url(#reflFade)"/>
+    </mask>
+    <clipPath id="seaClip"><rect x="0" y="380" width="800" height="220"/></clipPath>
+    <clipPath id="mainClip"><path d="M371 108 Q284 256 266 378 L371 378 Z"/></clipPath>
+    <clipPath id="jibClip"><path d="M378 122 L476 396 L398 384 Q404 253 378 122 Z"/></clipPath>
+    <clipPath id="hullClip"><path d="M246 404 Q362 420 480 398 Q476 424 464 446 Q360 458 268 448 Q252 428 246 404 Z"/></clipPath>
+
+    <g id="glitter" fill="#ffd27a">
+      <ellipse cx="580" cy="388" rx="34" ry="2.5" opacity="0.8"/>
+      <ellipse cx="582" cy="398" rx="42" ry="3" opacity="0.65"/>
+      <ellipse cx="578" cy="410" rx="50" ry="3" opacity="0.55"/>
+      <ellipse cx="583" cy="426" rx="60" ry="3.5" opacity="0.45"/>
+      <ellipse cx="577" cy="447" rx="72" ry="4" opacity="0.35"/>
+      <ellipse cx="584" cy="473" rx="84" ry="4" opacity="0.28"/>
+      <ellipse cx="578" cy="506" rx="96" ry="4.5" opacity="0.2"/>
+      <ellipse cx="585" cy="548" rx="108" ry="5" opacity="0.14"/>
+    </g>
+
+    <g id="boat">
+      <g fill="none" stroke="#e3d9c0" stroke-width="1" opacity="0.85">
+        <path d="M370 98 L248 404"/>
+        <path d="M370 98 L479 398"/>
+        <path d="M264 383 L258 405"/>
+      </g>
+      <path d="M378 122 L476 396 L398 384 Q404 253 378 122 Z" fill="url(#jibGrad)"/>
+      <g clip-path="url(#jibClip)" fill="none" stroke="#d4c19a" stroke-width="1" opacity="0.6">
+        <path d="M398 384 L402 160"/>
+        <path d="M398 384 L428 236"/>
+        <path d="M398 384 L450 310"/>
+      </g>
+      <path d="M378 122 L476 396 L398 384 Q404 253 378 122" fill="none" stroke="#c9b58c" stroke-width="1" opacity="0.6"/>
+      <path d="M371 108 Q284 256 266 378 L371 378 Z" fill="url(#mainGrad)"/>
+      <g clip-path="url(#mainClip)" fill="none" stroke="#d4c19a" stroke-width="1" opacity="0.7">
+        <path d="M250 180 H372"/>
+        <path d="M250 222 H372"/>
+        <path d="M250 263 H372"/>
+        <path d="M250 302 H372"/>
+        <path d="M250 341 H372"/>
+      </g>
+      <polygon points="322,288 331,298 322,308 313,298" fill="#d9402f" opacity="0.9"/>
+      <path d="M371 108 Q284 256 266 378 L371 378" fill="none" stroke="#c9b58c" stroke-width="1" opacity="0.6"/>
+      <circle cx="275" cy="392" r="4.5" fill="#3a2d2a"/>
+      <path d="M266 412 Q266 399 275 398 Q284 399 284 412 Z" fill="#d9402f"/>
+      <path d="M246 404 Q362 420 480 398 Q476 424 464 446 Q360 458 268 448 Q252 428 246 404 Z" fill="url(#hullGrad)"/>
+      <g clip-path="url(#hullClip)" fill="none">
+        <path d="M250 412 Q362 428 476 406" stroke="#f1e4c6" stroke-width="2.5" opacity="0.9"/>
+        <path d="M262 441 Q362 449 468 439" stroke="#c43b2f" stroke-width="3"/>
+      </g>
+      <path d="M246 404 Q362 420 480 398" fill="none" stroke="#e8dcc0" stroke-width="2"/>
+      <path d="M298 411 V397 Q298 390 306 390 H384 Q392 390 394 398 V411 Z" fill="#efe3c6" stroke="#b9a885" stroke-width="1"/>
+      <g fill="#1f2a44">
+        <circle cx="314" cy="400" r="3"/>
+        <circle cx="338" cy="400" r="3"/>
+        <circle cx="362" cy="400" r="3"/>
+      </g>
+      <polygon points="367,411 373,411 371.6,96 368.4,96" fill="#c9b27f"/>
+      <polygon points="373,378 373,383 262,381.5 262,379.5" fill="#c9b27f"/>
+      <polygon points="370,94 342,100 370,106" fill="#d9402f"/>
+      <circle cx="370" cy="94" r="2.5" fill="#e8dcc0"/>
+    </g>
+  </defs>
+
+  <rect width="800" height="382" fill="url(#sky)"/>
+
+  <g fill="#fff" opacity="0.7">
+    <circle cx="60" cy="42" r="1.3"/>
+    <circle cx="140" cy="88" r="0.9"/>
+    <circle cx="228" cy="30" r="1.1"/>
+    <circle cx="330" cy="104" r="0.8"/>
+    <circle cx="418" cy="58" r="1.2"/>
+    <circle cx="520" cy="24" r="0.9"/>
+    <circle cx="612" cy="70" r="1"/>
+    <circle cx="700" cy="40" r="1.4"/>
+    <circle cx="762" cy="112" r="0.8"/>
+  </g>
+
+  <circle cx="580" cy="340" r="170" fill="url(#glow)"/>
+
+  <ellipse cx="160" cy="150" rx="120" ry="9" fill="url(#cloudMauve)" opacity="0.75"/>
+  <ellipse cx="205" cy="172" rx="90" ry="6" fill="url(#cloudPink)" opacity="0.7"/>
+  <ellipse cx="610" cy="108" rx="110" ry="8" fill="url(#cloudMauve)" opacity="0.65"/>
+  <ellipse cx="655" cy="127" rx="70" ry="5" fill="url(#cloudPink)" opacity="0.7"/>
+  <ellipse cx="470" cy="214" rx="140" ry="6" fill="url(#cloudPink)" opacity="0.55"/>
+  <ellipse cx="100" cy="250" rx="90" ry="5" fill="url(#cloudGold)" opacity="0.5"/>
+  <ellipse cx="690" cy="262" rx="120" ry="6" fill="url(#cloudGold)" opacity="0.6"/>
+
+  <circle cx="580" cy="340" r="58" fill="url(#sun)"/>
+  <ellipse cx="640" cy="314" rx="100" ry="4" fill="url(#cloudPink)" opacity="0.85"/>
+  <ellipse cx="600" cy="332" rx="60" ry="2.5" fill="url(#cloudPink)" opacity="0.7"/>
+
+  <g fill="none" stroke="#2a1f3d" stroke-width="1.5" stroke-linecap="round" opacity="0.85">
+    <path d="M118 206 q7 -8 14 0 q7 -8 14 0"/>
+    <path d="M158 190 q6 -7 12 0 q6 -7 12 0"/>
+    <path d="M140 224 q5 -6 10 0 q5 -6 10 0"/>
+  </g>
+
+  <path d="M0 381 V350 Q30 336 70 346 Q110 330 150 352 Q185 360 215 374 Q225 379 240 381 Z" fill="#2e2144"/>
+  <rect x="108" y="328" width="4.5" height="14" fill="#e3cfc4"/>
+  <rect x="107" y="326.5" width="6.5" height="2" fill="#2e2144"/>
+  <circle cx="110.25" cy="325" r="4.5" fill="#ffe58a" opacity="0.35"/>
+  <circle cx="110.25" cy="325" r="1.5" fill="#fff6c0"/>
+
+  <g fill="#3a2a50" opacity="0.9">
+    <polygon points="716,354 716,378 728,378"/>
+    <polygon points="714,360 707,378 714,378"/>
+    <path d="M704 378 L732 378 L729 382 L707 382 Z"/>
+  </g>
+
+  <rect x="0" y="380" width="800" height="220" fill="url(#sea)"/>
+  <ellipse cx="580" cy="382" rx="230" ry="70" fill="url(#glow)" opacity="0.7" clip-path="url(#seaClip)"/>
+
+  <path d="M0 400 Q35 397 70 400 T140 400 T210 400 T280 400 T350 400 T420 400 T490 400 T560 400 T630 400 T700 400 T770 400 T840 400 V600 H0 Z" fill="#7b93c0" opacity="0.35"/>
+  <path d="M-30 419 Q0 415 30 419 T90 419 T150 419 T210 419 T270 419 T330 419 T390 419 T450 419 T510 419 T570 419 T630 419 T690 419 T750 419 T810 419 T870 419 V600 H-30 Z" fill="#5577aa" opacity="0.5"/>
+  <path d="M-30 419 Q0 415 30 419 T90 419 T150 419 T210 419 T270 419 T330 419 T390 419 T450 419 T510 419 T570 419 T630 419 T690 419 T750 419 T810 419 T870 419" fill="none" stroke="#fff" stroke-width="1" opacity="0.15"/>
+
+  <use href="#glitter" xlink:href="#glitter"/>
+
+  <g mask="url(#reflMask)" opacity="0.6">
+    <use href="#boat" xlink:href="#boat" transform="translate(0 880) scale(1 -1)"/>
+  </g>
+
+  <use href="#boat" xlink:href="#boat"/>
+
+  <path d="M-40 442 Q0 436 40 442 T120 442 T200 442 T280 442 T360 442 T440 442 T520 442 T600 442 T680 442 T760 442 T840 442 V600 H-40 Z" fill="#3a62a0" opacity="0.5"/>
+  <path d="M-40 442 Q0 436 40 442 T120 442 T200 442 T280 442 T360 442 T440 442 T520 442 T600 442 T680 442 T760 442 T840 442" fill="none" stroke="url(#crest)" stroke-width="1.5" stroke-linecap="round"/>
+
+  <path d="M120 449 Q190 443 262 447" fill="none" stroke="#fff" stroke-width="3" opacity="0.12"/>
+  <g fill="#fff">
+    <ellipse cx="470" cy="440" rx="12" ry="3" opacity="0.5"/>
+    <ellipse cx="487" cy="443" rx="7" ry="2" opacity="0.4"/>
+    <circle cx="498" cy="440" r="1.5" opacity="0.5"/>
+  </g>
+
+  <path d="M-50 472 Q-5 464 40 472 T130 472 T220 472 T310 472 T400 472 T490 472 T580 472 T670 472 T760 472 T850 472 V600 H-50 Z" fill="#2b5288" opacity="0.5"/>
+  <path d="M-50 472 Q-5 464 40 472 T130 472 T220 472 T310 472 T400 472 T490 472 T580 472 T670 472 T760 472 T850 472" fill="none" stroke="url(#crest)" stroke-width="1.5" stroke-linecap="round"/>
+
+  <path d="M-30 508 Q25 498 80 508 T190 508 T300 508 T410 508 T520 508 T630 508 T740 508 T850 508 V600 H-30 Z" fill="#1f416f" opacity="0.55"/>
+  <path d="M-30 508 Q25 498 80 508 T190 508 T300 508 T410 508 T520 508 T630 508 T740 508 T850 508" fill="none" stroke="url(#crest)" stroke-width="1.8" stroke-linecap="round"/>
+
+  <path d="M-80 550 Q-15 538 50 550 T180 550 T310 550 T440 550 T570 550 T700 550 T830 550 V600 H-80 Z" fill="#152f54" opacity="0.6"/>
+  <path d="M-80 550 Q-15 538 50 550 T180 550 T310 550 T440 550 T570 550 T700 550 T830 550" fill="none" stroke="url(#crest)" stroke-width="2" stroke-linecap="round"/>
+
+  <use href="#glitter" xlink:href="#glitter" opacity="0.4"/>
+</svg>

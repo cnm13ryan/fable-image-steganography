@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 800" width="1200" height="800">
+  <title>Homeward: a flock of birds at dusk</title>
+  <desc>A V-formation of birds crosses a sunset sky above rolling hills, with distant flocks fading into the haze and reeds in the foreground.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#121737"/>
+      <stop offset="0.3" stop-color="#352b5e"/>
+      <stop offset="0.55" stop-color="#7a4468"/>
+      <stop offset="0.72" stop-color="#c8684f"/>
+      <stop offset="0.8" stop-color="#f0a964"/>
+      <stop offset="1" stop-color="#f7c784"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#ffe9b3" stop-opacity="0.8"/>
+      <stop offset="0.35" stop-color="#ffc27a" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#ffb06a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sun">
+      <stop offset="0" stop-color="#fff8d6"/>
+      <stop offset="0.65" stop-color="#ffd784"/>
+      <stop offset="1" stop-color="#ffad4a"/>
+    </radialGradient>
+    <linearGradient id="haze" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffb877" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ffc98a" stop-opacity="0.45"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-200%" width="140%" height="500%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <path id="b1" d="M0,1 C-3,-3 -8,-9 -19,-13 C-13,-7 -8,-3 -2,3 C-1,4.5 1,4.5 2,3 C8,-3 13,-7 19,-13 C8,-9 3,-3 0,1 Z"/>
+    <path id="b2" d="M0,0 C-4,-3 -9,-6 -20,-5 C-13,-2 -8,0 -2,3 C-1,4.5 1,4.5 2,3 C8,0 13,-2 20,-5 C9,-6 4,-3 0,0 Z"/>
+    <path id="b3" d="M0,-1 C-5,-2 -12,2 -19,12 C-13,7 -8,4 -2,3.5 C-1,5 1,5 2,3.5 C8,4 13,7 19,12 C12,2 5,-2 0,-1 Z"/>
+    <path id="b4" d="M0,-2 C-3,-6 -6,-9 -10,-9 C-14,-9 -18,-5 -22,-2 C-18,-4 -14,-5 -11,-5 C-7,-5 -4,-3 -2,2 C-1,3.5 1,3.5 2,2 C4,-3 7,-5 11,-5 C14,-5 18,-4 22,-2 C18,-5 14,-9 10,-9 C6,-9 3,-6 0,-2 Z"/>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#sky)"/>
+
+  <g fill="#ffffff">
+    <circle cx="90" cy="60" r="1.4" opacity="0.8"/>
+    <circle cx="210" cy="30" r="1" opacity="0.6"/>
+    <circle cx="330" cy="75" r="1.2" opacity="0.7"/>
+    <circle cx="400" cy="12" r="1.1" opacity="0.6"/>
+    <circle cx="455" cy="40" r="1" opacity="0.5"/>
+    <circle cx="560" cy="90" r="1.3" opacity="0.6"/>
+    <circle cx="640" cy="25" r="1" opacity="0.7"/>
+    <circle cx="700" cy="130" r="0.9" opacity="0.4"/>
+    <circle cx="760" cy="70" r="1.1" opacity="0.5"/>
+    <circle cx="820" cy="150" r="0.8" opacity="0.35"/>
+    <circle cx="880" cy="45" r="1.4" opacity="0.7"/>
+    <circle cx="990" cy="95" r="1" opacity="0.5"/>
+    <circle cx="1020" cy="20" r="0.9" opacity="0.5"/>
+    <circle cx="1090" cy="35" r="1.2" opacity="0.7"/>
+    <circle cx="1150" cy="120" r="0.9" opacity="0.45"/>
+    <circle cx="40" cy="140" r="0.9" opacity="0.4"/>
+    <circle cx="150" cy="105" r="1" opacity="0.5"/>
+  </g>
+
+  <rect x="0" y="420" width="1200" height="220" fill="url(#haze)"/>
+  <circle cx="830" cy="590" r="230" fill="url(#glow)"/>
+  <circle cx="830" cy="590" r="62" fill="url(#sun)"/>
+
+  <g filter="url(#soft)">
+    <ellipse cx="150" cy="300" rx="140" ry="7" fill="#3a2650" opacity="0.45"/>
+    <ellipse cx="880" cy="318" rx="230" ry="9" fill="#3a2650" opacity="0.5"/>
+    <ellipse cx="460" cy="372" rx="300" ry="11" fill="#a35b7f" opacity="0.4"/>
+    <ellipse cx="260" cy="458" rx="220" ry="9" fill="#ff9c6a" opacity="0.4"/>
+    <ellipse cx="640" cy="492" rx="280" ry="8" fill="#ffb27a" opacity="0.35"/>
+    <ellipse cx="1000" cy="455" rx="190" ry="10" fill="#ff9a66" opacity="0.35"/>
+    <ellipse cx="560" cy="540" rx="330" ry="7" fill="#ffc48a" opacity="0.3"/>
+  </g>
+
+  <path d="M0,640 C150,600 260,590 400,615 C520,635 600,600 720,610 C840,620 900,585 1010,600 C1100,612 1160,630 1200,625 L1200,800 L0,800 Z" fill="#6e3f66"/>
+  <ellipse cx="600" cy="645" rx="700" ry="14" fill="#ffb98a" opacity="0.3" filter="url(#soft)"/>
+  <path d="M0,665 C100,640 220,630 350,650 C460,667 540,640 660,648 C780,656 860,630 980,640 C1090,650 1150,668 1200,662 L1200,800 L0,800 Z" fill="#45264c"/>
+  <path d="M0,690 C120,660 240,650 360,672 C480,695 560,665 700,680 C820,695 920,660 1040,678 C1120,690 1170,700 1200,695 L1200,800 L0,800 Z" fill="#2a1a33"/>
+
+  <g fill="#4a3358" opacity="0.65">
+    <use xlink:href="#b2" transform="translate(930,196) scale(0.45)"/>
+    <use xlink:href="#b1" transform="translate(958,182) scale(0.4) rotate(4)"/>
+    <use xlink:href="#b3" transform="translate(984,206) scale(0.45)"/>
+    <use xlink:href="#b4" transform="translate(1012,188) scale(0.42) rotate(-5)"/>
+    <use xlink:href="#b2" transform="translate(1040,214) scale(0.45)"/>
+    <use xlink:href="#b1" transform="translate(1068,198) scale(0.4)"/>
+    <use xlink:href="#b3" transform="translate(1096,222) scale(0.42) rotate(5)"/>
+    <use xlink:href="#b2" transform="translate(1122,206) scale(0.38)"/>
+    <use xlink:href="#b4" transform="translate(970,240) scale(0.4) rotate(-3)"/>
+    <use xlink:href="#b1" transform="translate(1024,252) scale(0.38)"/>
+    <use xlink:href="#b2" transform="translate(1080,262) scale(0.36) rotate(4)"/>
+    <use xlink:href="#b3" transform="translate(1140,246) scale(0.35)"/>
+  </g>
+
+  <g fill="#3b2a4e" opacity="0.8">
+    <use xlink:href="#b2" transform="translate(120,140) scale(0.55)"/>
+    <use xlink:href="#b1" transform="translate(148,126) scale(0.5) rotate(5)"/>
+    <use xlink:href="#b3" transform="translate(175,148) scale(0.55) rotate(-4)"/>
+    <use xlink:href="#b4" transform="translate(202,112) scale(0.5)"/>
+    <use xlink:href="#b2" transform="translate(228,134) scale(0.6) rotate(6)"/>
+    <use xlink:href="#b1" transform="translate(256,120) scale(0.5)"/>
+    <use xlink:href="#b3" transform="translate(274,156) scale(0.55) rotate(-6)"/>
+    <use xlink:href="#b2" transform="translate(96,176) scale(0.45)"/>
+    <use xlink:href="#b4" transform="translate(136,184) scale(0.5) rotate(4)"/>
+    <use xlink:href="#b1" transform="translate(182,192) scale(0.55)"/>
+    <use xlink:href="#b2" transform="translate(216,174) scale(0.5) rotate(-5)"/>
+    <use xlink:href="#b3" transform="translate(250,200) scale(0.45)"/>
+    <use xlink:href="#b4" transform="translate(66,152) scale(0.45) rotate(3)"/>
+    <use xlink:href="#b2" transform="translate(160,216) scale(0.45)"/>
+    <use xlink:href="#b1" transform="translate(110,220) scale(0.4) rotate(-3)"/>
+    <use xlink:href="#b3" transform="translate(294,180) scale(0.5)"/>
+    <use xlink:href="#b2" transform="translate(38,190) scale(0.4)"/>
+    <use xlink:href="#b4" transform="translate(80,108) scale(0.42) rotate(5)"/>
+  </g>
+
+  <g fill="#2b1a38" opacity="0.9">
+    <use xlink:href="#b3" transform="translate(790,352) scale(0.7)"/>
+    <use xlink:href="#b2" transform="translate(838,336) scale(0.72) rotate(4)"/>
+    <use xlink:href="#b1" transform="translate(884,356) scale(0.68) rotate(-3)"/>
+  </g>
+
+  <g fill="#1a1123">
+    <use xlink:href="#b2" transform="translate(760,236) scale(1.15)"/>
+    <use xlink:href="#b1" transform="translate(712,222) scale(1.1) rotate(-4)"/>
+    <use xlink:href="#b3" transform="translate(664,207) scale(1.05) rotate(3)"/>
+    <use xlink:href="#b2" transform="translate(618,196) scale(1.05) rotate(-6)"/>
+    <use xlink:href="#b4" transform="translate(570,180) scale(1)"/>
+    <use xlink:href="#b1" transform="translate(522,170) scale(1) rotate(5)"/>
+    <use xlink:href="#b2" transform="translate(474,152) scale(0.95) rotate(-3)"/>
+    <use xlink:href="#b3" transform="translate(428,143) scale(0.92)"/>
+    <use xlink:href="#b4" transform="translate(382,126) scale(0.9) rotate(4)"/>
+    <use xlink:href="#b1" transform="translate(336,118) scale(0.85) rotate(-5)"/>
+    <use xlink:href="#b4" transform="translate(716,259) scale(1.1) rotate(5)"/>
+    <use xlink:href="#b2" transform="translate(670,283) scale(1.08) rotate(-3)"/>
+    <use xlink:href="#b1" transform="translate(626,301) scale(1.05)"/>
+    <use xlink:href="#b3" transform="translate(582,324) scale(1.02) rotate(6)"/>
+    <use xlink:href="#b2" transform="translate(536,342) scale(1) rotate(-4)"/>
+    <use xlink:href="#b4" transform="translate(492,364) scale(0.97)"/>
+    <use xlink:href="#b1" transform="translate(448,386) scale(0.95) rotate(4)"/>
+    <use xlink:href="#b3" transform="translate(402,404) scale(0.9) rotate(-6)"/>
+    <use xlink:href="#b4" transform="translate(410,300) scale(0.9)"/>
+    <use xlink:href="#b1" transform="translate(356,214) scale(0.85) rotate(6)"/>
+    <use xlink:href="#b2" transform="translate(300,330) scale(0.85) rotate(-4)"/>
+  </g>
+
+  <g fill="#120b1a">
+    <use xlink:href="#b4" transform="translate(150,470) scale(2.1) rotate(-6)"/>
+    <use xlink:href="#b1" transform="translate(270,528) scale(1.8) rotate(4)"/>
+    <use xlink:href="#b3" transform="translate(1040,440) scale(2) rotate(6)"/>
+    <use xlink:href="#b2" transform="translate(930,500) scale(1.7) rotate(-4)"/>
+  </g>
+
+  <g fill="#2a1a33">
+    <rect x="314" y="652" width="4" height="28"/>
+    <ellipse cx="316" cy="640" rx="14" ry="18"/>
+    <ellipse cx="324" cy="630" rx="9" ry="12"/>
+    <polygon points="350,587 341,621 359,621"/>
+    <polygon points="350,604 336.5,646 363.5,646"/>
+    <polygon points="350,625 332,672 368,672"/>
+    <rect x="348" y="668" width="4" height="14"/>
+    <polygon points="378,636 373,652 383,652"/>
+    <polygon points="378,644 370.5,664 385.5,664"/>
+    <polygon points="378,654 368,676 388,676"/>
+    <rect x="376.5" y="672" width="3" height="10"/>
+    <ellipse cx="390" cy="668" rx="11" ry="9"/>
+    <polygon points="945,588 935,624 955,624"/>
+    <polygon points="945,606 930,651 960,651"/>
+    <polygon points="945,628 925,678 965,678"/>
+    <rect x="943" y="674" width="4" height="14"/>
+  </g>
+
+  <g fill="none" stroke="#170d1f" stroke-linecap="round">
+    <path d="M22,800 C28,750 32,700 40,655" stroke-width="2.4"/>
+    <path d="M48,800 C50,760 44,720 54,672" stroke-width="2"/>
+    <path d="M70,800 C72,740 82,700 96,632" stroke-width="2.6"/>
+    <path d="M95,800 C97,760 94,730 102,700" stroke-width="1.6"/>
+    <path d="M118,800 C121,750 117,710 130,660" stroke-width="2.2"/>
+    <path d="M140,800 C143,765 152,740 164,722" stroke-width="1.5"/>
+    <path d="M165,800 C167,755 161,720 172,680" stroke-width="2"/>
+    <path d="M8,800 C10,770 15,750 22,732" stroke-width="1.5"/>
+    <path d="M58,800 C61,775 68,758 80,745" stroke-width="1.4"/>
+    <path d="M1040,800 C1037,755 1031,720 1024,676" stroke-width="2.1"/>
+    <path d="M1068,800 C1071,745 1064,705 1056,650" stroke-width="2.4"/>
+    <path d="M1100,800 C1101,770 1097,745 1090,722" stroke-width="1.5"/>
+    <path d="M1130,800 C1133,750 1127,715 1116,666" stroke-width="2.2"/>
+    <path d="M1165,800 C1167,760 1160,735 1148,708" stroke-width="1.7"/>
+    <path d="M1185,800 C1186,775 1182,755 1176,738" stroke-width="1.4"/>
+    <path d="M1150,800 C1152,782 1157,770 1166,758" stroke-width="1.3"/>
+  </g>
+  <g fill="#170d1f">
+    <ellipse cx="41.6" cy="646" rx="3.4" ry="10" transform="rotate(10 41.6 646)"/>
+    <ellipse cx="55.6" cy="664.2" rx="3" ry="8.5" transform="rotate(12 55.6 664.2)"/>
+    <ellipse cx="98" cy="622.2" rx="3.6" ry="11" transform="rotate(12 98 622.2)"/>
+    <ellipse cx="132.3" cy="651.3" rx="3.2" ry="9.5" transform="rotate(15 132.3 651.3)"/>
+    <ellipse cx="174.1" cy="672.3" rx="3" ry="8.5" transform="rotate(15 174.1 672.3)"/>
+    <ellipse cx="1022.7" cy="668.1" rx="3" ry="8.5" transform="rotate(-9 1022.7 668.1)"/>
+    <ellipse cx="1054.7" cy="641.1" rx="3.4" ry="10" transform="rotate(-8 1054.7 641.1)"/>
+    <ellipse cx="1114" cy="657.2" rx="3.2" ry="9.5" transform="rotate(-13 1114 657.2)"/>
+  </g>
+</svg>

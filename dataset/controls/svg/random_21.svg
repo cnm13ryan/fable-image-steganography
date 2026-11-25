@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="520" viewBox="0 0 400 520">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e2d3f"/>
+      <stop offset="1" stop-color="#090c12"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd38a" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#ffd38a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e6ebef"/>
+      <stop offset="0.5" stop-color="#b0bbc6"/>
+      <stop offset="1" stop-color="#7d8b98"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#43bdb2"/>
+      <stop offset="1" stop-color="#1e716c"/>
+    </linearGradient>
+    <radialGradient id="eye" cx="0.4" cy="0.4" r="0.65">
+      <stop offset="0" stop-color="#fff4b8"/>
+      <stop offset="1" stop-color="#eeb02a"/>
+    </radialGradient>
+    <radialGradient id="bulb" cx="0.35" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#ffa394"/>
+      <stop offset="1" stop-color="#d4302a"/>
+    </radialGradient>
+    <radialGradient id="bulbGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff6f5e" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#ff6f5e" stop-opacity="0"/>
+    </radialGradient>
+    <g id="rivet">
+      <circle r="3.2" fill="#5f6d7a" stroke="#3b4650" stroke-width="1"/>
+      <circle cx="-1" cy="-1" r="1.1" fill="#ffffff" opacity="0.7"/>
+    </g>
+  </defs>
+
+  <!-- background -->
+  <rect width="400" height="520" fill="url(#bg)"/>
+  <g fill="#ffffff" opacity="0.75">
+    <circle cx="40" cy="60" r="1.5"/>
+    <circle cx="90" cy="30" r="1"/>
+    <circle cx="330" cy="50" r="1.8"/>
+    <circle cx="370" cy="120" r="1.2"/>
+    <circle cx="25" cy="200" r="1"/>
+    <circle cx="380" cy="300" r="1.3"/>
+    <circle cx="60" cy="330" r="1.5"/>
+    <circle cx="350" cy="420" r="1"/>
+    <circle cx="300" cy="20" r="1"/>
+    <circle cx="140" cy="48" r="1.2"/>
+  </g>
+  <circle cx="200" cy="250" r="210" fill="url(#glow)"/>
+  <ellipse cx="200" cy="462" rx="185" ry="42" fill="url(#glow)" opacity="0.8"/>
+  <ellipse cx="200" cy="458" rx="118" ry="13" fill="#000000" opacity="0.4"/>
+
+  <!-- antenna -->
+  <circle cx="200" cy="38" r="22" fill="url(#bulbGlow)"/>
+  <rect x="197" y="44" width="6" height="44" fill="#8d99a6" stroke="#3b4650" stroke-width="1.5"/>
+  <path d="M192 60 L208 64 L192 68 L208 72 L192 76" fill="none" stroke="#3b4650" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="200" cy="38" r="10" fill="url(#bulb)" stroke="#3b4650" stroke-width="2"/>
+  <circle cx="196" cy="34" r="3" fill="#ffffff" opacity="0.7"/>
+
+  <!-- ears -->
+  <rect x="116" y="118" width="16" height="28" rx="5" fill="#8d99a6" stroke="#3b4650" stroke-width="2.5"/>
+  <circle cx="124" cy="132" r="3.5" fill="#3b4650"/>
+  <rect x="268" y="118" width="16" height="28" rx="5" fill="#8d99a6" stroke="#3b4650" stroke-width="2.5"/>
+  <circle cx="276" cy="132" r="3.5" fill="#3b4650"/>
+
+  <!-- neck -->
+  <rect x="182" y="192" width="36" height="24" fill="#6c7a87" stroke="#3b4650" stroke-width="2.5"/>
+  <rect x="174" y="201" width="52" height="8" rx="4" fill="#9fabb8" stroke="#3b4650" stroke-width="2"/>
+
+  <!-- head -->
+  <rect x="130" y="85" width="140" height="110" rx="18" fill="url(#steel)" stroke="#3b4650" stroke-width="3"/>
+  <rect x="150" y="91" width="100" height="10" rx="5" fill="#ffffff" opacity="0.3"/>
+  <use xlink:href="#rivet" href="#rivet" x="142" y="97"/>
+  <use xlink:href="#rivet" href="#rivet" x="258" y="97"/>
+  <use xlink:href="#rivet" href="#rivet" x="142" y="183"/>
+  <use xlink:href="#rivet" href="#rivet" x="258" y="183"/>
+
+  <!-- eyes -->
+  <circle cx="168" cy="130" r="21" fill="#2a353f" stroke="#c9d2da" stroke-width="3"/>
+  <circle cx="168" cy="130" r="14" fill="url(#eye)"/>
+  <circle cx="170" cy="132" r="6" fill="#1b1f24"/>
+  <circle cx="163" cy="124" r="3.5" fill="#ffffff" opacity="0.85"/>
+  <circle cx="232" cy="130" r="21" fill="#2a353f" stroke="#c9d2da" stroke-width="3"/>
+  <circle cx="232" cy="130" r="14" fill="url(#eye)"/>
+  <circle cx="234" cy="132" r="6" fill="#1b1f24"/>
+  <circle cx="227" cy="124" r="3.5" fill="#ffffff" opacity="0.85"/>
+
+  <!-- mouth grille -->
+  <rect x="165" y="160" width="70" height="22" rx="7" fill="#2a353f" stroke="#c9d2da" stroke-width="2"/>
+  <path d="M176 167 V175 M186 164 V178 M196 166 V176 M206 162 V180 M216 165 V177 M226 167 V175" stroke="#7fe0c8" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <!-- legs -->
+  <rect x="142" y="376" width="40" height="58" rx="8" fill="url(#steel)" stroke="#3b4650" stroke-width="3"/>
+  <rect x="218" y="376" width="40" height="58" rx="8" fill="url(#steel)" stroke="#3b4650" stroke-width="3"/>
+  <rect x="139" y="398" width="46" height="9" rx="4.5" fill="#6c7a87" stroke="#3b4650" stroke-width="2"/>
+  <rect x="215" y="398" width="46" height="9" rx="4.5" fill="#6c7a87" stroke="#3b4650" stroke-width="2"/>
+
+  <!-- feet -->
+  <rect x="126" y="428" width="70" height="28" rx="11" fill="#7e8c99" stroke="#3b4650" stroke-width="3"/>
+  <rect x="134" y="433" width="54" height="6" rx="3" fill="#ffffff" opacity="0.25"/>
+  <rect x="204" y="428" width="70" height="28" rx="11" fill="#7e8c99" stroke="#3b4650" stroke-width="3"/>
+  <rect x="212" y="433" width="54" height="6" rx="3" fill="#ffffff" opacity="0.25"/>
+
+  <!-- left arm (hanging) -->
+  <line x1="110" y1="245" x2="84" y2="300" stroke="#3b4650" stroke-width="22" stroke-linecap="round"/>
+  <line x1="110" y1="245" x2="84" y2="300" stroke="#a3afbb" stroke-width="16" stroke-linecap="round"/>
+  <line x1="84" y1="300" x2="92" y2="360" stroke="#3b4650" stroke-width="20" stroke-linecap="round"/>
+  <line x1="84" y1="300" x2="92" y2="360" stroke="#a3afbb" stroke-width="14" stroke-linecap="round"/>
+  <path d="M86 367 C66 382 66 404 82 412" fill="none" stroke="#3b4650" stroke-width="11" stroke-linecap="round"/>
+  <path d="M86 367 C66 382 66 404 82 412" fill="none" stroke="#a3afbb" stroke-width="6" stroke-linecap="round"/>
+  <path d="M98 367 C118 382 118 404 102 412" fill="none" stroke="#3b4650" stroke-width="11" stroke-linecap="round"/>
+  <path d="M98 367 C118 382 118 404 102 412" fill="none" stroke="#a3afbb" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="84" cy="300" r="12" fill="#6c7a87" stroke="#3b4650" stroke-width="3"/>
+  <circle cx="92" cy="360" r="10" fill="#6c7a87" stroke="#3b4650" stroke-width="3"/>
+
+  <!-- right arm (waving) -->
+  <line x1="290" y1="245" x2="332" y2="218" stroke="#3b4650" stroke-width="22" stroke-linecap="round"/>
+  <line x1="290" y1="245" x2="332" y2="218" stroke="#a3afbb" stroke-width="16" stroke-linecap="round"/>
+  <line x1="332" y1="218" x2="344" y2="165" stroke="#3b4650" stroke-width="20" stroke-linecap="round"/>
+  <line x1="332" y1="218" x2="344" y2="165" stroke="#a3afbb" stroke-width="14" stroke-linecap="round"/>
+  <path d="M337 158 C318 146 320 122 334 115" fill="none" stroke="#3b4650" stroke-width="11" stroke-linecap="round"/>
+  <path d="M337 158 C318 146 320 122 334 115" fill="none" stroke="#a3afbb" stroke-width="6" stroke-linecap="round"/>
+  <path d="M351 158 C370 146 368 122 354 115" fill="none" stroke="#3b4650" stroke-width="11" stroke-linecap="round"/>
+  <path d="M351 158 C370 146 368 122 354 115" fill="none" stroke="#a3afbb" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="332" cy="218" r="12" fill="#6c7a87" stroke="#3b4650" stroke-width="3"/>
+  <circle cx="344" cy="165" r="10" fill="#6c7a87" stroke="#3b4650" stroke-width="3"/>
+
+  <!-- body -->
+  <rect x="110" y="212" width="180" height="170" rx="22" fill="url(#steel)" stroke="#3b4650" stroke-width="3"/>
+  <rect x="132" y="219" width="136" height="9" rx="4.5" fill="#ffffff" opacity="0.22"/>
+  <use xlink:href="#rivet" href="#rivet" x="124" y="226"/>
+  <use xlink:href="#rivet" href="#rivet" x="276" y="226"/>
+  <use xlink:href="#rivet" href="#rivet" x="124" y="368"/>
+  <use xlink:href="#rivet" href="#rivet" x="276" y="368"/>
+  <path d="M264 298 H280 M264 308 H280 M264 318 H280" stroke="#3b4650" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <circle cx="126" cy="300" r="8" fill="#6c7a87" stroke="#3b4650" stroke-width="2"/>
+  <line x1="126" y1="300" x2="126" y2="294" stroke="#ece6d6" stroke-width="2" stroke-linecap="round"/>
+  <rect x="168" y="350" width="64" height="16" rx="3" fill="#ece6d6" stroke="#3b4650" stroke-width="1.5"/>
+  <text x="200" y="362" font-family="monospace" font-size="10" font-weight="bold" fill="#3b4650" text-anchor="middle" letter-spacing="1">RX-7</text>
+
+  <!-- shoulders -->
+  <circle cx="110" cy="245" r="16" fill="url(#steel)" stroke="#3b4650" stroke-width="3"/>
+  <circle cx="110" cy="245" r="5" fill="#6c7a87" stroke="#3b4650" stroke-width="1.5"/>
+  <circle cx="290" cy="245" r="16" fill="url(#steel)" stroke="#3b4650" stroke-width="3"/>
+  <circle cx="290" cy="245" r="5" fill="#6c7a87" stroke="#3b4650" stroke-width="1.5"/>
+
+  <!-- chest panel -->
+  <rect x="140" y="232" width="120" height="110" rx="12" fill="url(#panel)" stroke="#163f3c" stroke-width="2"/>
+  <rect x="144" y="236" width="112" height="5" rx="2.5" fill="#ffffff" opacity="0.18"/>
+
+  <!-- gauge -->
+  <circle cx="172" cy="265" r="22" fill="#f3ecd8" stroke="#163f3c" stroke-width="2"/>
+  <path d="M159 257.5 L155.5 255.5 M164.5 252 L162.5 248.5 M172 250 L172 246 M179.5 252 L181.5 248.5 M185 257.5 L188.5 255.5" stroke="#163f3c" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <line x1="172" y1="265" x2="181" y2="252" stroke="#d4302a" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="172" cy="265" r="3" fill="#3b4650"/>
+
+  <!-- screen -->
+  <rect x="204" y="244" width="46" height="40" rx="4" fill="#0f2a2a" stroke="#163f3c" stroke-width="2"/>
+  <polyline points="208,266 216,266 220,256 224,276 228,262 231,266 246,266" fill="none" stroke="#7fe0c8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="206" y="246" width="42" height="8" rx="2" fill="#ffffff" opacity="0.08"/>
+
+  <!-- buttons -->
+  <circle cx="160" cy="312" r="9" fill="#d4302a" stroke="#163f3c" stroke-width="2"/>
+  <circle cx="157" cy="309" r="3" fill="#ffffff" opacity="0.6"/>
+  <circle cx="184" cy="312" r="9" fill="#f0c33c" stroke="#163f3c" stroke-width="2"/>
+  <circle cx="181" cy="309" r="3" fill="#ffffff" opacity="0.6"/>
+  <circle cx="208" cy="312" r="9" fill="#5cc46a" stroke="#163f3c" stroke-width="2"/>
+  <circle cx="205" cy="309" r="3" fill="#ffffff" opacity="0.6"/>
+
+  <!-- switch -->
+  <rect x="228" y="298" width="22" height="28" rx="4" fill="#163f3c"/>
+  <rect x="231" y="301" width="16" height="10" rx="2" fill="#ece6d6"/>
+
+  <!-- led strip -->
+  <circle cx="152" cy="334" r="2.5" fill="#9ff5e3"/>
+  <circle cx="160" cy="334" r="2.5" fill="#9ff5e3"/>
+  <circle cx="168" cy="334" r="2.5" fill="#2f8a83"/>
+  <circle cx="176" cy="334" r="2.5" fill="#2f8a83"/>
+</svg>

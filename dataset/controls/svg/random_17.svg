@@ -1,0 +1,256 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 600" width="800" height="600" font-family="Georgia, 'Times New Roman', serif">
+  <title>The Isle of Vellamar</title>
+  <defs>
+    <radialGradient id="vig" cx="50%" cy="50%" r="72%">
+      <stop offset="0.55" stop-color="#3a2a14" stop-opacity="0"/>
+      <stop offset="1" stop-color="#3a2a14" stop-opacity="0.4"/>
+    </radialGradient>
+    <linearGradient id="landg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ecdfbb"/>
+      <stop offset="1" stop-color="#d8c596"/>
+    </linearGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="11" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.30  0 0 0 0 0.22  0 0 0 0 0.12  0 0 0 0.4 0"/>
+    </filter>
+    <path id="isle" d="M180 220 C200 170 260 150 320 160 C360 165 380 130 430 120 C480 110 520 150 560 170 C600 190 650 180 670 230 C700 280 640 300 615 320 C590 340 610 370 640 380 C680 395 700 430 660 470 C620 510 540 490 500 500 C460 510 430 480 390 490 C340 500 300 540 250 500 C200 460 240 420 200 380 C160 340 150 270 180 220 Z"/>
+    <path id="islet1" d="M78 332 C82 318 100 312 114 322 C126 331 118 350 100 348 C86 346 74 342 78 332 Z"/>
+    <path id="islet2" d="M718 152 C722 138 745 135 756 146 C766 158 752 170 736 168 C722 166 714 162 718 152 Z"/>
+    <g id="mtn">
+      <path d="M-18 0 L0 -30 L18 0 Z" fill="#cdbb95"/>
+      <path d="M0 -30 L18 0 L0 0 Z" fill="#a08b66"/>
+      <path d="M-6 -20 L0 -30 L6 -20 L3 -18 L0 -22 L-3 -18 Z" fill="#f6f1e4"/>
+      <path d="M-18 0 L0 -30 L18 0" fill="none" stroke="#5a4632" stroke-width="1" stroke-linejoin="round"/>
+    </g>
+    <g id="pine">
+      <path d="M-5 2 L0 -10 L5 2 Z" fill="#4f6b3a" stroke="#2f3f22" stroke-width="0.7"/>
+      <path d="M0 2 V5" stroke="#4a3520" stroke-width="1.2"/>
+    </g>
+    <g id="oak">
+      <path d="M0 2 V5" stroke="#4a3520" stroke-width="1.2"/>
+      <circle cx="0" cy="-3" r="4.5" fill="#6a8a46" stroke="#2f3f22" stroke-width="0.7"/>
+    </g>
+    <g id="town">
+      <circle r="3.6" fill="#f6efdc" stroke="#5a4632" stroke-width="1.2"/>
+      <circle r="1.3" fill="#8b2f2f"/>
+    </g>
+    <g id="castle">
+      <path d="M-8 5 V-4 H-5 V-8 H-2 V-4 H2 V-8 H5 V-4 H8 V5 Z" fill="#8b7355" stroke="#4a3520" stroke-width="1" stroke-linejoin="round"/>
+      <path d="M-2 5 V0 H2 V5" fill="#4a3520"/>
+    </g>
+    <g id="tower">
+      <path d="M-3 5 V-6 H-4.5 V-9 H-2 V-7 H2 V-9 H4.5 V-6 H3 V5 Z" fill="#8b7355" stroke="#4a3520" stroke-width="1" stroke-linejoin="round"/>
+    </g>
+    <g id="wave">
+      <path d="M0 0 q5 -4 10 0 t10 0 t10 0" fill="none" stroke="#5f8299" stroke-width="0.9" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <!-- sea and grid -->
+  <rect width="800" height="600" fill="#bcd2dc"/>
+  <path d="M100 12V588M200 12V588M300 12V588M400 12V588M500 12V588M600 12V588M700 12V588M12 100H788M12 200H788M12 300H788M12 400H788M12 500H788" fill="none" stroke="#3f5a6b" stroke-width="0.6" opacity="0.18"/>
+
+  <!-- waves -->
+  <g>
+    <use xlink:href="#wave" x="50" y="165"/>
+    <use xlink:href="#wave" x="130" y="150"/>
+    <use xlink:href="#wave" x="320" y="70"/>
+    <use xlink:href="#wave" x="680" y="60"/>
+    <use xlink:href="#wave" x="640" y="110"/>
+    <use xlink:href="#wave" x="90" y="250"/>
+    <use xlink:href="#wave" x="60" y="380"/>
+    <use xlink:href="#wave" x="150" y="480"/>
+    <use xlink:href="#wave" x="200" y="540"/>
+    <use xlink:href="#wave" x="460" y="548"/>
+    <use xlink:href="#wave" x="690" y="100"/>
+    <use xlink:href="#wave" x="760" y="230"/>
+    <use xlink:href="#wave" x="730" y="300"/>
+    <use xlink:href="#wave" x="700" y="420"/>
+  </g>
+
+  <!-- coastal wash -->
+  <g fill="none" stroke="#dbe8ee" stroke-linejoin="round">
+    <use xlink:href="#isle" stroke-width="26" opacity="0.55"/>
+    <use xlink:href="#isle" stroke-width="12" opacity="0.8"/>
+    <use xlink:href="#islet1" stroke-width="10" opacity="0.6"/>
+    <use xlink:href="#islet2" stroke-width="10" opacity="0.6"/>
+  </g>
+
+  <!-- land -->
+  <g fill="url(#landg)" stroke="#5a4632" stroke-width="1.8" stroke-linejoin="round">
+    <use xlink:href="#isle"/>
+    <use xlink:href="#islet1"/>
+    <use xlink:href="#islet2"/>
+  </g>
+
+  <!-- lake -->
+  <path d="M292 302 C295 282 318 272 340 278 C362 284 374 296 366 312 C358 326 330 328 310 322 C296 318 290 312 292 302 Z" fill="#a7c3d3" stroke="#5a4632" stroke-width="1"/>
+
+  <!-- rivers -->
+  <g fill="none" stroke="#5f8fae" stroke-linecap="round">
+    <path d="M432 266 C418 284 396 292 366 296" stroke-width="1.6"/>
+    <path d="M298 316 C272 330 232 342 216 360 C208 369 202 375 200 380" stroke-width="2"/>
+    <path d="M560 262 C570 290 590 305 615 320" stroke-width="1.8"/>
+  </g>
+
+  <!-- roads -->
+  <g fill="none" stroke="#7a5a3a" stroke-width="1" stroke-dasharray="3 2.5">
+    <path d="M185 300 C230 330 300 345 392 335"/>
+    <path d="M392 335 C400 380 380 420 385 468"/>
+    <path d="M392 335 C450 320 520 300 560 270 C580 255 590 245 608 226"/>
+  </g>
+
+  <!-- hills -->
+  <use xlink:href="#mtn" transform="translate(300 384) scale(0.5)"/>
+  <use xlink:href="#mtn" transform="translate(334 400) scale(0.45)"/>
+  <use xlink:href="#mtn" transform="translate(280 412) scale(0.4)"/>
+  <use xlink:href="#mtn" transform="translate(640 440) scale(0.45)"/>
+  <use xlink:href="#mtn" transform="translate(615 420) scale(0.4)"/>
+
+  <!-- mountains -->
+  <g>
+    <use xlink:href="#mtn" x="400" y="222"/>
+    <use xlink:href="#mtn" x="442" y="205"/>
+    <use xlink:href="#mtn" x="484" y="212"/>
+    <use xlink:href="#mtn" x="524" y="228"/>
+    <use xlink:href="#mtn" x="558" y="248"/>
+    <use xlink:href="#mtn" x="424" y="248"/>
+    <use xlink:href="#mtn" x="466" y="252"/>
+    <use xlink:href="#mtn" x="506" y="265"/>
+    <use xlink:href="#mtn" transform="translate(380 258) scale(0.6)"/>
+  </g>
+
+  <!-- Hollin Wood -->
+  <g>
+    <use xlink:href="#oak" x="250" y="205"/>
+    <use xlink:href="#oak" x="270" y="195"/>
+    <use xlink:href="#oak" x="292" y="208"/>
+    <use xlink:href="#oak" x="262" y="226"/>
+    <use xlink:href="#oak" x="302" y="228"/>
+    <use xlink:href="#oak" x="240" y="242"/>
+    <use xlink:href="#oak" x="284" y="246"/>
+    <use xlink:href="#oak" x="312" y="195"/>
+    <use xlink:href="#oak" x="222" y="224"/>
+  </g>
+
+  <!-- The Thornwood -->
+  <g>
+    <use xlink:href="#pine" x="445" y="392"/>
+    <use xlink:href="#pine" x="470" y="385"/>
+    <use xlink:href="#pine" x="495" y="390"/>
+    <use xlink:href="#pine" x="520" y="383"/>
+    <use xlink:href="#pine" x="545" y="392"/>
+    <use xlink:href="#pine" x="560" y="410"/>
+    <use xlink:href="#pine" x="455" y="415"/>
+    <use xlink:href="#pine" x="480" y="420"/>
+    <use xlink:href="#pine" x="505" y="412"/>
+    <use xlink:href="#pine" x="530" y="420"/>
+    <use xlink:href="#pine" x="465" y="440"/>
+    <use xlink:href="#pine" x="490" y="448"/>
+    <use xlink:href="#pine" x="515" y="440"/>
+    <use xlink:href="#pine" x="540" y="445"/>
+    <use xlink:href="#pine" x="562" y="430"/>
+    <use xlink:href="#pine" x="432" y="428"/>
+  </g>
+
+  <!-- settlements -->
+  <use xlink:href="#town" x="185" y="300"/>
+  <use xlink:href="#town" x="450" y="160"/>
+  <use xlink:href="#town" x="608" y="226"/>
+  <use xlink:href="#town" x="385" y="468"/>
+  <use xlink:href="#castle" x="392" y="335"/>
+  <use xlink:href="#tower" x="255" y="484"/>
+
+  <!-- place labels -->
+  <g font-size="10" fill="#3b2a16">
+    <text x="197" y="304">Harrowgate</text>
+    <text x="450" y="150" text-anchor="middle">Frostwick</text>
+    <text x="610" y="243" text-anchor="middle">Ellinmoor</text>
+    <text x="373" y="472" text-anchor="end">Saltmere</text>
+    <text x="404" y="339">Caer Dunwyn</text>
+    <text x="255" y="468" text-anchor="middle" font-size="8">Gullwatch Tower</text>
+  </g>
+  <g font-style="italic" fill="#5a4632" text-anchor="middle">
+    <text x="485" y="297" font-size="11" letter-spacing="1">Greyfell Mountains</text>
+    <text x="272" y="264" font-size="10" fill="#3b5230">Hollin Wood</text>
+    <text x="505" y="468" font-size="10" fill="#3b5230">The Thornwood</text>
+    <text x="520" y="352" font-size="10" fill="#6b5a45">Ashen Moors</text>
+    <text x="331" y="306" font-size="8" fill="#3f6b86">Mirrormere</text>
+    <text x="100" y="364" font-size="8">Seal Holm</text>
+    <text x="740" y="184" font-size="8">Gull Skerry</text>
+    <text x="692" y="342" font-size="10" fill="#3f6b86">Bay of Whispers</text>
+    <text x="598" y="578" font-size="9">Here be serpents</text>
+  </g>
+  <g font-size="13" letter-spacing="5" fill="#4f7085" text-anchor="middle">
+    <text x="520" y="62">NORTHERN REACH</text>
+    <text x="330" y="574">THE SUNDERING SEA</text>
+  </g>
+
+  <!-- sea route and ship -->
+  <path d="M165 305 C150 340 140 380 130 420 C120 460 90 500 50 540" fill="none" stroke="#5a4632" stroke-width="1" stroke-dasharray="4 3" opacity="0.7"/>
+  <g transform="translate(128 428)">
+    <path d="M-12 2 L12 2 L8 8 L-8 8 Z" fill="#5a3a22" stroke="#2f1f10" stroke-width="0.8"/>
+    <path d="M0 2 V-16" stroke="#2f1f10" stroke-width="1.2"/>
+    <path d="M0 -15 L11 -3 L0 -3 Z" fill="#f3e9d2" stroke="#5a4632" stroke-width="0.8"/>
+    <path d="M0 -16 L5 -14 L0 -12 Z" fill="#8b2f2f"/>
+  </g>
+
+  <!-- sea serpent -->
+  <g fill="none" stroke="#2f4f3a" stroke-width="3" stroke-linecap="round">
+    <path d="M540 558 q-6 -4 -10 2"/>
+    <path d="M548 558 q10 -20 20 0"/>
+    <path d="M576 558 q10 -20 20 0"/>
+    <path d="M604 558 q10 -20 20 0"/>
+  </g>
+  <g transform="translate(626 556)">
+    <path d="M-2 0 q6 -12 16 -8 q2 4 -2 6 q-6 3 -12 2 Z" fill="#2f4f3a"/>
+    <circle cx="6" cy="-5" r="1" fill="#f3e9d2"/>
+  </g>
+
+  <!-- title cartouche -->
+  <g transform="translate(30 28)">
+    <rect width="244" height="88" rx="6" fill="#f3e9d2" stroke="#5a4632" stroke-width="2"/>
+    <rect x="5" y="5" width="234" height="78" rx="3" fill="none" stroke="#5a4632" stroke-width="0.7"/>
+    <text x="122" y="30" text-anchor="middle" font-size="11" letter-spacing="3" fill="#5a4632">THE ISLE OF</text>
+    <text x="122" y="62" text-anchor="middle" font-size="30" font-style="italic" fill="#3b2a16">Vellamar</text>
+    <path d="M40 72 H204" stroke="#5a4632" stroke-width="0.8"/>
+    <path d="M122 68 L126 72 L122 76 L118 72 Z" fill="#8b2f2f"/>
+  </g>
+  <text x="152" y="130" text-anchor="middle" font-size="9" font-style="italic" fill="#5a4632">Surveyed by the Guild of Tides, in the 1123rd year of the Concord</text>
+
+  <!-- compass rose -->
+  <g transform="translate(716 522)">
+    <circle r="40" fill="#e9dcb8" fill-opacity="0.55" stroke="#5a4632" stroke-width="1"/>
+    <circle r="33" fill="none" stroke="#5a4632" stroke-width="0.6" stroke-dasharray="2 2"/>
+    <g transform="rotate(45)">
+      <path d="M0 -26 L4 -4 L26 0 L4 4 L0 26 L-4 4 L-26 0 L-4 -4 Z" fill="#f3e9d2" stroke="#5a4632" stroke-width="0.8" stroke-linejoin="round"/>
+      <path d="M0 -26 L4 -4 L0 0 Z M26 0 L4 4 L0 0 Z M0 26 L-4 4 L0 0 Z M-26 0 L-4 -4 L0 0 Z" fill="#5a4632"/>
+    </g>
+    <path d="M0 -40 L6 -6 L40 0 L6 6 L0 40 L-6 6 L-40 0 L-6 -6 Z" fill="#f3e9d2" stroke="#5a4632" stroke-width="0.8" stroke-linejoin="round"/>
+    <path d="M0 -40 L6 -6 L0 0 Z M40 0 L6 6 L0 0 Z M0 40 L-6 6 L0 0 Z M-40 0 L-6 -6 L0 0 Z" fill="#8b2f2f"/>
+    <circle r="2.2" fill="#5a4632"/>
+    <text y="-45" text-anchor="middle" font-size="12" font-weight="bold" fill="#5a4632">N</text>
+    <text x="48" y="4" text-anchor="middle" font-size="9" fill="#5a4632">E</text>
+    <text y="54" text-anchor="middle" font-size="9" fill="#5a4632">S</text>
+    <text x="-48" y="4" text-anchor="middle" font-size="9" fill="#5a4632">W</text>
+  </g>
+
+  <!-- scale bar -->
+  <g transform="translate(40 556)">
+    <rect x="0" y="0" width="30" height="6" fill="#5a4632"/>
+    <rect x="30" y="0" width="30" height="6" fill="#f3e9d2" stroke="#5a4632" stroke-width="0.8"/>
+    <rect x="60" y="0" width="30" height="6" fill="#5a4632"/>
+    <rect x="90" y="0" width="30" height="6" fill="#f3e9d2" stroke="#5a4632" stroke-width="0.8"/>
+    <g font-size="8" fill="#5a4632" text-anchor="middle">
+      <text x="0" y="-3">0</text>
+      <text x="60" y="-3">10</text>
+      <text x="120" y="-3">20 leagues</text>
+    </g>
+  </g>
+
+  <!-- vignette, frame, grain -->
+  <rect width="800" height="600" fill="url(#vig)"/>
+  <rect x="12" y="12" width="776" height="576" fill="none" stroke="#5a4632" stroke-width="3"/>
+  <rect x="18" y="18" width="764" height="564" fill="none" stroke="#5a4632" stroke-width="0.8"/>
+  <rect width="800" height="600" filter="url(#grain)" opacity="0.5"/>
+</svg>

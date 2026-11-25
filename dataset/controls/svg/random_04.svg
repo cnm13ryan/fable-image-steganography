@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="660" viewBox="0 0 900 660">
+<defs>
+<pattern id="g1" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#16365e" stroke-width=".6"/></pattern>
+<pattern id="g2" width="100" height="100" patternUnits="userSpaceOnUse"><rect width="100" height="100" fill="url(#g1)"/><path d="M100 0H0V100" fill="none" stroke="#224b80" stroke-width="1"/></pattern>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="#e6f0ff"/></marker>
+<style>
+.w{stroke:#e6f0ff;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.t{fill:#e6f0ff;font-family:'IBM Plex Mono','DejaVu Sans Mono',Consolas,monospace;font-size:11px}
+.s{font-size:9.5px}
+.b{font-weight:bold}
+.a{fill:#ffd166}
+.c{fill:#7fdcff}
+</style>
+</defs>
+
+<rect width="900" height="660" fill="#0b2545"/>
+<rect width="900" height="660" fill="url(#g2)"/>
+<rect x="12" y="12" width="876" height="636" fill="none" stroke="#e6f0ff" stroke-width="2"/>
+<rect x="18" y="18" width="864" height="624" fill="none" stroke="#e6f0ff" stroke-width=".7" opacity=".6"/>
+
+<text x="30" y="50" class="t b" style="font-size:20px">FIG. 1 · NE555 ASTABLE MULTIVIBRATOR</text>
+<text x="30" y="72" class="t" opacity=".85">Schematic · free-running oscillator driving an LED at ≈ 1 Hz</text>
+
+<!-- wires -->
+<path class="w" d="M204 110H520 M250 110V140 M250 200V255 M250 315V375 M250 385V480 M250 240H400 M250 330H400 M330 330V380H400 M440 110V200 M520 110V200 M440 400V480 M520 400V432 M520 442V480 M200 480H690 M200 480V495 M186 495H214 M190 502H210 M194 509H206 M560 300H600 M660 300H690V325 M690 350V480"/>
+
+<!-- resistors -->
+<path class="w" d="M250 140l8 5-16 10 16 10-16 10 16 10-16 10 8 5 M250 255l8 5-16 10 16 10-16 10 16 10-16 10 8 5 M600 300l5 8 10-16 10 16 10-16 10 16 10-16 5 8"/>
+
+<!-- capacitors -->
+<path class="w" style="stroke-width:2.5" d="M236 375H264 M236 385H264 M506 432H534 M506 442H534"/>
+
+<!-- LED -->
+<path class="w" d="M680 325H700L690 350Z M680 350H700"/>
+<path class="w" style="stroke-width:1.5" marker-end="url(#ar)" d="M702 338L716 326"/>
+<path class="w" style="stroke-width:1.5" marker-end="url(#ar)" d="M706 348L720 336"/>
+
+<!-- IC -->
+<rect x="400" y="200" width="160" height="200" class="w" style="fill:rgba(255,255,255,.04)"/>
+<text x="480" y="292" class="t b" style="font-size:13px" text-anchor="middle">U1</text>
+<text x="480" y="310" class="t" text-anchor="middle">NE555</text>
+<g class="t s">
+<text x="392" y="236" text-anchor="end">7</text><text x="408" y="244">DIS</text>
+<text x="392" y="326" text-anchor="end">6</text><text x="408" y="334">THR</text>
+<text x="392" y="376" text-anchor="end">2</text><text x="408" y="384">TRIG</text>
+<text x="568" y="314">3</text><text x="552" y="304" text-anchor="end">OUT</text>
+<text x="446" y="194">8</text><text x="440" y="216" text-anchor="middle">VCC</text>
+<text x="526" y="194">4</text><text x="520" y="216" text-anchor="middle">RST</text>
+<text x="446" y="416">1</text><text x="440" y="392" text-anchor="middle">GND</text>
+<text x="526" y="416">5</text><text x="520" y="392" text-anchor="middle">CTRL</text>
+</g>
+
+<!-- junctions and terminal -->
+<g fill="#e6f0ff">
+<circle cx="250" cy="110" r="3.5"/><circle cx="440" cy="110" r="3.5"/>
+<circle cx="250" cy="240" r="3.5"/><circle cx="250" cy="330" r="3.5"/><circle cx="330" cy="330" r="3.5"/>
+<circle cx="250" cy="480" r="3.5"/><circle cx="440" cy="480" r="3.5"/><circle cx="520" cy="480" r="3.5"/>
+</g>
+<circle cx="200" cy="110" r="4" fill="#0b2545" stroke="#e6f0ff" stroke-width="2"/>
+
+<!-- component labels -->
+<g class="t" text-anchor="end">
+<text x="228" y="166">R1</text><text x="228" y="180">10 kΩ</text>
+<text x="228" y="281">R2</text><text x="228" y="295">68 kΩ</text>
+<text x="228" y="376">C1</text><text x="228" y="390">10 µF</text>
+<text x="676" y="341">D1 LED</text>
+</g>
+<g class="t">
+<text x="542" y="434">C2</text><text x="542" y="448">10 nF</text>
+<text x="630" y="286" text-anchor="middle">R3 470 Ω</text>
+<text x="200" y="96" text-anchor="middle">+9 V</text>
+<text x="200" y="524" text-anchor="middle">GND</text>
+</g>
+<g class="t s" opacity=".8" font-style="italic">
+<text x="268" y="285">charge: R1+R2</text>
+<text x="268" y="299">discharge: R2</text>
+</g>
+<circle cx="585" cy="300" r="3" fill="#ffd166"/>
+<text x="585" y="290" class="t s a" text-anchor="middle">OUT</text>
+<text x="262" y="324" class="t s c">Vc</text>
+
+<!-- timing inset -->
+<rect x="600" y="40" width="270" height="210" fill="rgba(0,0,0,.28)" stroke="#e6f0ff" stroke-width="1.2"/>
+<text x="612" y="58" class="t s b" letter-spacing="1.2">TIMING DIAGRAM</text>
+<path d="M660 150H862 M660 190H862" stroke="#e6f0ff" stroke-width="1" fill="none" stroke-dasharray="4 4" opacity=".45"/>
+<path d="M720 75V190 M760 75V190 M820 75V190" stroke="#e6f0ff" stroke-width="1" fill="none" stroke-dasharray="2 3" opacity=".3"/>
+<path d="M660 75H720V105H760V75H820V105H860" stroke="#ffd166" stroke-width="2" fill="none" stroke-linejoin="round"/>
+<path d="M660 190Q680 153 720 150Q735 190 760 190Q780 153 820 150Q835 190 860 190" stroke="#7fdcff" stroke-width="2" fill="none"/>
+<path class="w" style="stroke-width:1.2" marker-end="url(#ar)" d="M660 215H864"/>
+<path class="w" style="stroke-width:1" d="M660 210V220 M720 210V220 M760 210V220"/>
+<g class="t s">
+<text x="608" y="93" class="a">OUT</text>
+<text x="608" y="173" class="c">Vc</text>
+<text x="656" y="153" text-anchor="end">2/3 Vcc</text>
+<text x="656" y="193" text-anchor="end">1/3 Vcc</text>
+<text x="690" y="233" text-anchor="middle">tH</text>
+<text x="740" y="233" text-anchor="middle">tL</text>
+<text x="862" y="233" text-anchor="end">T = tH + tL ≈ 1.0 s</text>
+</g>
+
+<!-- notes -->
+<g class="t" style="font-size:10.5px">
+<text x="30" y="540" class="b">NOTES</text>
+<text x="30" y="558">1. f = 1.44 / ((R1 + 2·R2)·C1) = 1.44 / (146 kΩ · 10 µF) ≈ 0.99 Hz</text>
+<text x="30" y="574">2. tH = 0.693·(R1 + R2)·C1 ≈ 0.54 s;  tL = 0.693·R2·C1 ≈ 0.47 s</text>
+<text x="30" y="590">3. Duty cycle D = (R1 + R2) / (R1 + 2·R2) = 78 / 146 ≈ 53 %</text>
+<text x="30" y="606">4. C2 decouples CTRL (pin 5); R3 limits LED current to ≈ 11 mA at 9 V.</text>
+<text x="30" y="622">5. OUT sources or sinks up to 200 mA; keep RST (pin 4) tied to VCC.</text>
+</g>
+
+<!-- title block -->
+<g class="w" style="stroke-width:1.5"><path d="M560 548H872V636H560Z M560 578H872 M560 606H872 M712 578V636 M660 606V636"/></g>
+<g class="t s">
+<text x="568" y="567" class="b" style="font-size:12.5px">NE555 ASTABLE MULTIVIBRATOR · SCHEMATIC</text>
+<text x="568" y="596">DRAWN: CLAUDE</text><text x="720" y="596">DATE: 2026-10-06</text>
+<text x="568" y="624">SCALE: NTS</text><text x="668" y="624">REV: A</text><text x="720" y="624">DWG NO. SCH-555-01</text>
+</g>
+</svg>

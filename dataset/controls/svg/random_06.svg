@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <clipPath id="disc">
+      <circle cx="470" cy="410" r="300"/>
+    </clipPath>
+    <clipPath id="bodyClip">
+      <path d="M362 300 C348 335 330 385 322 440 C316 482 322 512 342 528 C385 546 435 548 466 560 C455 575 452 598 478 612 L600 612 C630 612 640 585 638 555 C634 500 620 455 585 420 C545 385 470 340 410 320 C390 312 374 306 362 300 Z"/>
+    </clipPath>
+    <clipPath id="tailClip">
+      <path d="M585 606 C645 614 712 600 745 556 C782 508 782 428 742 374 C718 342 690 328 660 328 C652 328 648 336 652 346 C664 364 684 394 690 428 C697 470 680 508 650 534 C632 549 614 553 598 549 Z"/>
+    </clipPath>
+    <clipPath id="headClip">
+      <path d="M345 255 C320 246 292 252 272 272 C252 290 226 310 205 328 C212 338 226 342 245 344 C270 352 300 358 330 352 C350 346 360 320 358 295 C356 275 352 262 345 255 Z"/>
+    </clipPath>
+    <linearGradient id="legNear" gradientUnits="userSpaceOnUse" x1="0" y1="520" x2="0" y2="612">
+      <stop offset="0.4" stop-color="#ea7a2e"/>
+      <stop offset="0.62" stop-color="#2b211d"/>
+    </linearGradient>
+    <linearGradient id="legFar" gradientUnits="userSpaceOnUse" x1="0" y1="520" x2="0" y2="612">
+      <stop offset="0.4" stop-color="#c85f1c"/>
+      <stop offset="0.62" stop-color="#1f1714"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="800" fill="#f5eee2"/>
+
+  <g transform="translate(-70 0)">
+    <!-- backdrop disc and ground -->
+    <circle cx="470" cy="410" r="300" fill="#dbe5df"/>
+    <rect x="150" y="612" width="660" height="120" fill="#b9cdbf" clip-path="url(#disc)"/>
+
+    <!-- moon and stars -->
+    <circle cx="625" cy="222" r="48" fill="#fbf7ee" opacity="0.35"/>
+    <circle cx="625" cy="222" r="30" fill="#fbf7ee"/>
+    <g fill="#ffffff" opacity="0.8">
+      <circle cx="705" cy="296" r="3"/>
+      <circle cx="555" cy="178" r="2.5"/>
+      <circle cx="712" cy="186" r="2"/>
+      <circle cx="520" cy="252" r="1.8"/>
+      <circle cx="250" cy="200" r="2.2"/>
+    </g>
+
+    <!-- grass -->
+    <g fill="none" stroke="#8ead9b" stroke-width="3" stroke-linecap="round">
+      <path d="M250 612 C247 602 245 596 240 589"/>
+      <path d="M262 612 C261 600 263 592 269 585"/>
+      <path d="M275 612 C276 598 281 592 289 588"/>
+    </g>
+
+    <!-- shadow -->
+    <ellipse cx="490" cy="616" rx="250" ry="11" fill="#2b211d" opacity="0.1"/>
+
+    <!-- tail -->
+    <path d="M585 606 C645 614 712 600 745 556 C782 508 782 428 742 374 C718 342 690 328 660 328 C652 328 648 336 652 346 C664 364 684 394 690 428 C697 470 680 508 650 534 C632 549 614 553 598 549 Z" fill="#dd6a22"/>
+    <g clip-path="url(#tailClip)">
+      <ellipse cx="600" cy="560" rx="70" ry="60" fill="#2b211d" opacity="0.12"/>
+      <path d="M600 280 L820 280 L820 428 C800 418 782 428 764 422 C748 418 740 432 724 424 C710 418 702 430 688 418 C680 411 670 404 656 410 L636 384 Z" fill="#fdf4e3"/>
+    </g>
+
+    <!-- body -->
+    <path d="M362 300 C348 335 330 385 322 440 C316 482 322 512 342 528 C385 546 435 548 466 560 C455 575 452 598 478 612 L600 612 C630 612 640 585 638 555 C634 500 620 455 585 420 C545 385 470 340 410 320 C390 312 374 306 362 300 Z" fill="#ea7a2e"/>
+    <ellipse cx="548" cy="528" rx="68" ry="70" fill="#2b211d" opacity="0.08"/>
+    <path d="M290 340 C330 346 362 352 374 368 C386 410 384 462 390 506 C408 528 440 542 466 560 C452 572 440 590 432 604 L420 640 L280 640 Z" fill="#fdf4e3" clip-path="url(#bodyClip)"/>
+
+    <!-- hind paw -->
+    <path d="M438 612 C438 603 448 597 462 597 C478 597 492 600 500 605 L502 612 Z" fill="#2b211d"/>
+
+    <!-- front legs -->
+    <path d="M338 506 L376 506 L376 578 C376 596 370 612 352 612 L322 612 C310 612 309 600 320 592 C330 586 336 582 338 575 Z" fill="url(#legFar)" transform="translate(14 0)"/>
+    <path d="M338 506 L376 506 L376 578 C376 596 370 612 352 612 L322 612 C310 612 309 600 320 592 C330 586 336 582 338 575 Z" fill="url(#legNear)"/>
+
+    <!-- far ear -->
+    <path d="M334 262 C345 236 362 212 378 195 C378 222 370 252 356 282 Z" fill="#cf6420"/>
+    <path d="M364 218 C368 208 372 201 378 195 C378 204 377 212 375 220 Z" fill="#2b211d"/>
+
+    <!-- head -->
+    <path d="M345 255 C320 246 292 252 272 272 C252 290 226 310 205 328 C212 338 226 342 245 344 C270 352 300 358 330 352 C350 346 360 320 358 295 C356 275 352 262 345 255 Z" fill="#ea7a2e"/>
+    <path d="M222 338 C252 322 280 322 300 318 C316 304 334 298 350 302 C358 322 358 350 342 372 C300 386 248 378 212 352 Z" fill="#fdf4e3" clip-path="url(#headClip)"/>
+
+    <!-- eye -->
+    <path d="M271 297 C266 306 259 313 251 319" fill="none" stroke="#2b211d" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
+    <path d="M270 294 C276 284 290 282 298 290 C290 300 276 301 270 294 Z" fill="#2b211d"/>
+    <ellipse cx="285" cy="292" rx="6" ry="5" fill="#f3b23e"/>
+    <ellipse cx="285" cy="292" rx="2.2" ry="4.6" fill="#2b211d"/>
+    <circle cx="282" cy="289" r="1.8" fill="#ffffff"/>
+
+    <!-- nose -->
+    <ellipse cx="205" cy="329" rx="7" ry="5.5" fill="#2b211d"/>
+    <circle cx="203" cy="327" r="1.6" fill="#ffffff" opacity="0.7"/>
+
+    <!-- near ear -->
+    <path d="M284 268 C290 232 304 202 318 182 C330 204 340 238 342 262 Z" fill="#ea7a2e"/>
+    <path d="M292 262 C298 240 304 222 312 208 C320 222 326 240 326 258 Z" fill="#f9dcc0"/>
+    <path d="M306 212 C310 200 314 190 318 182 C321 190 325 200 328 212 Z" fill="#2b211d"/>
+  </g>
+</svg>

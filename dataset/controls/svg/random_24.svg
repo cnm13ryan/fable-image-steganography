@@ -1,0 +1,312 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#050617"/>
+      <stop offset="0.45" stop-color="#10173d"/>
+      <stop offset="0.8" stop-color="#2b1f58"/>
+      <stop offset="1" stop-color="#4b2d5e"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b2f66"/>
+      <stop offset="0.3" stop-color="#1c2049"/>
+      <stop offset="1" stop-color="#0b0d2a"/>
+    </linearGradient>
+    <radialGradient id="horizonGlow" cx="0.55" cy="1" r="0.7">
+      <stop offset="0" stop-color="#ff9a4a" stop-opacity="0.32"/>
+      <stop offset="0.5" stop-color="#c4507e" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#4b2d5e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="moonGlow">
+      <stop offset="0" stop-color="#fff6d6" stop-opacity="0.45"/>
+      <stop offset="0.3" stop-color="#ffeec4" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#ffeec4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lanternFill" cx="0.5" cy="0.8" r="0.75">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.4" stop-color="#ffc85e"/>
+      <stop offset="1" stop-color="#ff7d2e"/>
+    </radialGradient>
+    <radialGradient id="lanternGlow">
+      <stop offset="0" stop-color="#ffb347" stop-opacity="0.55"/>
+      <stop offset="0.45" stop-color="#ff9a3a" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ff8a2a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="reflGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffbe5c" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#ffbe5c" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="burstMaskGrad">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#fff" stop-opacity="0.15"/>
+      <stop offset="0.62" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.45" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.5"/>
+    </radialGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <filter id="soft" x="-60%" y="-30%" width="220%" height="160%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+    <mask id="burstMask" maskUnits="userSpaceOnUse" x="-130" y="-130" width="260" height="260">
+      <circle r="130" fill="url(#burstMaskGrad)"/>
+    </mask>
+    <g id="spark">
+      <line x1="0" y1="-8" x2="0" y2="-78" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+      <circle cy="-80" r="2.4" fill="#fff"/>
+      <g transform="rotate(15)">
+        <line x1="0" y1="-8" x2="0" y2="-56" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+        <circle cy="-58" r="1.6" fill="#fffbe6"/>
+      </g>
+    </g>
+    <g id="burst" mask="url(#burstMask)">
+      <use xlink:href="#spark"/>
+      <use xlink:href="#spark" transform="rotate(30)"/>
+      <use xlink:href="#spark" transform="rotate(60)"/>
+      <use xlink:href="#spark" transform="rotate(90)"/>
+      <use xlink:href="#spark" transform="rotate(120)"/>
+      <use xlink:href="#spark" transform="rotate(150)"/>
+      <use xlink:href="#spark" transform="rotate(180)"/>
+      <use xlink:href="#spark" transform="rotate(210)"/>
+      <use xlink:href="#spark" transform="rotate(240)"/>
+      <use xlink:href="#spark" transform="rotate(270)"/>
+      <use xlink:href="#spark" transform="rotate(300)"/>
+      <use xlink:href="#spark" transform="rotate(330)"/>
+      <circle r="86" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="1.5 11" stroke-linecap="round" opacity="0.85"/>
+      <circle r="96" fill="none" stroke="#fff" stroke-width="1.5" stroke-dasharray="1 17" stroke-linecap="round" opacity="0.55"/>
+    </g>
+    <g id="lantern">
+      <circle r="40" fill="url(#lanternGlow)"/>
+      <path d="M-8,18 L-12,-8 Q-12,-20 0,-20 Q12,-20 12,-8 L8,18 Z" fill="url(#lanternFill)"/>
+      <path d="M-4,-19.4 L-3,18 M4,-19.4 L3,18" stroke="#e8822c" stroke-width="0.7" opacity="0.55" fill="none"/>
+      <path d="M-8,18 Q0,21.5 8,18" fill="none" stroke="#b4421a" stroke-width="1.4" stroke-linecap="round"/>
+      <ellipse cy="15.5" rx="2.6" ry="1.8" fill="#fffbe8"/>
+    </g>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="440" fill="url(#sky)"/>
+  <rect y="260" width="800" height="180" fill="url(#horizonGlow)"/>
+
+  <!-- Stars -->
+  <g fill="#fff">
+    <circle cx="28" cy="42" r="1.2" opacity=".9"/>
+    <circle cx="65" cy="118" r=".8" opacity=".7"/>
+    <circle cx="96" cy="30" r="1" opacity=".8"/>
+    <circle cx="212" cy="58" r=".9" opacity=".75"/>
+    <circle cx="248" cy="142" r="1.3" opacity=".9"/>
+    <circle cx="290" cy="36" r=".7" opacity=".6"/>
+    <circle cx="322" cy="98" r="1" opacity=".8"/>
+    <circle cx="360" cy="24" r="1.1" opacity=".85"/>
+    <circle cx="384" cy="160" r=".8" opacity=".6"/>
+    <circle cx="340" cy="70" r=".9" opacity=".7"/>
+    <circle cx="500" cy="20" r="1.3" opacity=".95"/>
+    <circle cx="480" cy="170" r=".7" opacity=".6"/>
+    <circle cx="505" cy="72" r="1" opacity=".8"/>
+    <circle cx="540" cy="36" r=".8" opacity=".7"/>
+    <circle cx="548" cy="190" r="1.1" opacity=".75"/>
+    <circle cx="585" cy="92" r=".9" opacity=".7"/>
+    <circle cx="612" cy="22" r="1.2" opacity=".9"/>
+    <circle cx="640" cy="150" r=".8" opacity=".6"/>
+    <circle cx="672" cy="60" r="1" opacity=".8"/>
+    <circle cx="698" cy="118" r="1.3" opacity=".9"/>
+    <circle cx="730" cy="30" r=".8" opacity=".7"/>
+    <circle cx="752" cy="170" r=".9" opacity=".7"/>
+    <circle cx="776" cy="78" r="1.1" opacity=".85"/>
+    <circle cx="790" cy="230" r=".7" opacity=".55"/>
+    <circle cx="40" cy="210" r=".9" opacity=".6"/>
+    <circle cx="82" cy="262" r=".7" opacity=".5"/>
+    <circle cx="160" cy="232" r="1" opacity=".65"/>
+    <circle cx="206" cy="300" r=".8" opacity=".5"/>
+    <circle cx="262" cy="214" r=".7" opacity=".55"/>
+    <circle cx="300" cy="268" r="1" opacity=".6"/>
+    <circle cx="352" cy="222" r=".8" opacity=".5"/>
+    <circle cx="395" cy="318" r=".7" opacity=".45"/>
+    <circle cx="440" cy="250" r=".9" opacity=".55"/>
+    <circle cx="498" cy="296" r=".8" opacity=".5"/>
+    <circle cx="556" cy="262" r=".7" opacity=".45"/>
+    <circle cx="604" cy="310" r=".9" opacity=".5"/>
+    <circle cx="656" cy="238" r=".8" opacity=".5"/>
+    <circle cx="712" cy="282" r="1" opacity=".55"/>
+    <circle cx="760" cy="330" r=".7" opacity=".45"/>
+    <circle cx="130" cy="352" r=".8" opacity=".45"/>
+    <circle cx="14" cy="150" r=".8" opacity=".6"/>
+    <circle cx="520" cy="150" r=".7" opacity=".6"/>
+    <circle cx="590" cy="350" r=".8" opacity=".4"/>
+    <circle cx="470" cy="350" r=".7" opacity=".4"/>
+    <circle cx="240" cy="360" r=".7" opacity=".4"/>
+    <circle cx="60" cy="330" r=".7" opacity=".4"/>
+    <circle cx="180" cy="160" r=".7" opacity=".5"/>
+    <circle cx="730" cy="380" r=".6" opacity=".35"/>
+    <circle cx="20" cy="290" r=".7" opacity=".45"/>
+    <circle cx="690" cy="340" r=".7" opacity=".4"/>
+  </g>
+  <g stroke="#fff" stroke-width=".9" stroke-linecap="round" opacity=".8" fill="none">
+    <path d="M360,17 V31 M353,24 H367"/>
+    <path d="M776,71 V85 M769,78 H783"/>
+    <path d="M248,135 V149 M241,142 H255"/>
+    <path d="M712,276 V288 M706,282 H718"/>
+  </g>
+
+  <!-- Moon -->
+  <g transform="rotate(-20 150 105)">
+    <circle cx="160" cy="105" r="105" fill="url(#moonGlow)"/>
+    <path d="M150,67 A38,38 0 0,1 150,143 A46,46 0 0,0 150,67 Z" fill="#fff3cc"/>
+  </g>
+
+  <!-- Firework trails -->
+  <g fill="none" stroke-linecap="round" stroke-dasharray="2 7" stroke-width="1.5">
+    <path d="M548,422 Q530,300 590,134" stroke="#ffd166" opacity=".35"/>
+    <path d="M478,422 Q492,260 432,86" stroke="#ff6fae" opacity=".3"/>
+    <path d="M706,422 Q752,340 730,254" stroke="#63e6d6" opacity=".3"/>
+  </g>
+
+  <!-- Fireworks -->
+  <g color="#ffd166" transform="translate(590,130)">
+    <circle r="46" fill="currentColor" opacity=".3" filter="url(#glow)"/>
+    <use xlink:href="#burst" transform="rotate(10) scale(1.2)"/>
+    <circle r="4" fill="#fff"/>
+  </g>
+  <g color="#ff6fae" transform="translate(432,82)">
+    <circle r="38" fill="currentColor" opacity=".3" filter="url(#glow)"/>
+    <use xlink:href="#burst" transform="rotate(-12) scale(.82)"/>
+    <circle r="3" fill="#fff"/>
+  </g>
+  <g color="#63e6d6" transform="translate(730,250)">
+    <circle r="30" fill="currentColor" opacity=".3" filter="url(#glow)"/>
+    <use xlink:href="#burst" transform="rotate(20) scale(.55)"/>
+    <circle r="2.5" fill="#fff"/>
+  </g>
+
+  <!-- Far lanterns -->
+  <use xlink:href="#lantern" transform="translate(745,396) scale(0.2)"/>
+  <use xlink:href="#lantern" transform="translate(650,400) scale(0.22)"/>
+  <use xlink:href="#lantern" transform="translate(40,392) scale(0.22)"/>
+  <use xlink:href="#lantern" transform="translate(75,378) scale(0.25)"/>
+  <use xlink:href="#lantern" transform="translate(760,120) scale(0.25)"/>
+  <use xlink:href="#lantern" transform="translate(680,40) scale(0.25)"/>
+  <use xlink:href="#lantern" transform="translate(700,180) scale(0.28)"/>
+  <use xlink:href="#lantern" transform="translate(520,30) scale(0.3)"/>
+  <use xlink:href="#lantern" transform="translate(500,370) scale(0.3)"/>
+  <use xlink:href="#lantern" transform="translate(610,395) scale(0.3)"/>
+  <use xlink:href="#lantern" transform="translate(555,245) scale(0.35)"/>
+  <use xlink:href="#lantern" transform="translate(750,330) scale(0.35)"/>
+  <use xlink:href="#lantern" transform="translate(340,30) scale(0.4)"/>
+  <use xlink:href="#lantern" transform="translate(640,270) scale(0.4)"/>
+  <use xlink:href="#lantern" transform="translate(470,165) scale(0.42)"/>
+  <use xlink:href="#lantern" transform="translate(680,380) scale(0.45)"/>
+  <use xlink:href="#lantern" transform="translate(270,90) scale(0.5)"/>
+  <use xlink:href="#lantern" transform="translate(600,330) scale(0.5)"/>
+  <use xlink:href="#lantern" transform="translate(420,380) scale(0.55)"/>
+  <use xlink:href="#lantern" transform="translate(330,160) scale(0.6)"/>
+  <use xlink:href="#lantern" transform="translate(520,300) scale(0.6)"/>
+  <use xlink:href="#lantern" transform="translate(210,230) scale(0.7)"/>
+  <use xlink:href="#lantern" transform="translate(460,210) scale(0.7)"/>
+  <use xlink:href="#lantern" transform="translate(380,270) scale(0.8)"/>
+  <use xlink:href="#lantern" transform="translate(120,300) scale(0.85)"/>
+  <use xlink:href="#lantern" transform="translate(300,330) scale(0.95)"/>
+
+  <!-- Town glow -->
+  <circle cx="560" cy="385" r="34" fill="#ffa94d" opacity=".14" filter="url(#glow)"/>
+  <circle cx="678" cy="402" r="28" fill="#ffa94d" opacity=".1" filter="url(#glow)"/>
+
+  <!-- Land silhouette -->
+  <g fill="#0c0818">
+    <path d="M0,440 L0,420 C40,414 70,398 110,402 C150,406 170,420 210,418 C260,414 290,392 340,398 C380,403 400,420 440,418 C470,416 490,420 515,420 L605,420 C650,420 670,404 710,402 C745,400 775,414 800,420 L800,440 Z"/>
+    <!-- trees -->
+    <path d="M22,420 L30,388 L38,420 Z M45,414 L52,386 L59,414 Z M66,410 L74,384 L82,410 Z M90,408 L97,382 L104,408 Z M112,410 L117,392 L122,410 Z"/>
+    <path d="M494,424 L500,398 L506,424 Z M614,424 L620,400 L626,424 Z"/>
+    <ellipse cx="480" cy="418" rx="10" ry="6"/>
+    <ellipse cx="632" cy="418" rx="12" ry="7"/>
+    <path d="M738,412 L745,384 L752,412 Z M759,416 L765,390 L771,416 Z M779,422 L785,400 L791,422 Z"/>
+    <!-- houses -->
+    <rect x="640" y="396" width="24" height="24"/>
+    <path d="M636,398 L652,383 L668,398 Z"/>
+    <rect x="672" y="392" width="20" height="28"/>
+    <path d="M668,394 L682,381 L696,394 Z"/>
+    <rect x="700" y="398" width="16" height="22"/>
+    <path d="M697,400 L708,389 L719,400 Z"/>
+    <!-- pagoda -->
+    <rect x="516" y="412" width="88" height="8"/>
+    <rect x="548" y="408" width="24" height="4"/>
+    <rect x="536" y="380" width="48" height="32"/>
+    <path d="M508,390 Q523.6,384.4 536.6,376 L583.4,376 Q596.4,384.4 612,390 Q560,386.5 508,390 Z"/>
+    <rect x="541" y="350" width="38" height="30"/>
+    <path d="M516,360 Q529.2,354.8 540.2,347 L579.8,347 Q590.8,354.8 604,360 Q560,356.75 516,360 Z"/>
+    <rect x="546" y="322" width="28" height="28"/>
+    <path d="M524,332 Q534.8,327.2 543.8,320 L576.2,320 Q585.2,327.2 596,332 Q560,329 524,332 Z"/>
+    <path d="M551,321 L560,305 L569,321 Z"/>
+    <line x1="560" y1="306" x2="560" y2="288" stroke="#0c0818" stroke-width="2.5"/>
+    <circle cx="560" cy="299" r="3"/>
+    <circle cx="560" cy="291" r="2.2"/>
+    <circle cx="560" cy="285" r="1.6"/>
+  </g>
+  <!-- lit windows and eave lamps -->
+  <g fill="#ffc45c">
+    <rect x="555" y="394" width="10" height="12"/>
+    <rect x="543" y="397" width="4" height="7"/>
+    <rect x="573" y="397" width="4" height="7"/>
+    <rect x="556" y="364" width="8" height="10"/>
+    <rect x="557" y="336" width="6" height="9"/>
+    <rect x="648" y="404" width="8" height="7"/>
+    <rect x="678" y="400" width="7" height="6"/>
+    <rect x="705" y="405" width="6" height="5"/>
+    <circle cx="508" cy="392" r="1.8" fill="#ff8a3a"/>
+    <circle cx="612" cy="392" r="1.8" fill="#ff8a3a"/>
+    <circle cx="516" cy="362" r="1.6" fill="#ff8a3a"/>
+    <circle cx="604" cy="362" r="1.6" fill="#ff8a3a"/>
+  </g>
+
+  <!-- Water -->
+  <rect y="440" width="800" height="160" fill="url(#water)"/>
+  <rect y="440" width="800" height="1.2" fill="#6a5a9a" opacity=".35"/>
+  <ellipse cx="590" cy="520" rx="70" ry="40" fill="#ffd166" opacity=".07" filter="url(#glow)"/>
+  <ellipse cx="432" cy="545" rx="55" ry="32" fill="#ff6fae" opacity=".06" filter="url(#glow)"/>
+  <ellipse cx="730" cy="480" rx="40" ry="22" fill="#63e6d6" opacity=".06" filter="url(#glow)"/>
+  <g fill="url(#reflGrad)" filter="url(#soft)">
+    <ellipse cx="235" cy="486" rx="9" ry="34"/>
+    <ellipse cx="205" cy="506" rx="8" ry="20"/>
+    <ellipse cx="300" cy="548" rx="6" ry="30"/>
+    <ellipse cx="420" cy="498" rx="5" ry="22"/>
+    <ellipse cx="520" cy="576" rx="4" ry="22"/>
+    <ellipse cx="600" cy="546" rx="4" ry="24"/>
+    <ellipse cx="680" cy="498" rx="4" ry="18"/>
+    <ellipse cx="560" cy="466" rx="3" ry="16"/>
+    <ellipse cx="652" cy="462" rx="3" ry="10"/>
+    <ellipse cx="682" cy="462" rx="3" ry="10"/>
+  </g>
+  <g stroke="#a9b4ee" stroke-width="1" stroke-linecap="round" opacity=".16" fill="none">
+    <path d="M340,462 h36 M400,474 h58 M470,458 h30 M540,490 h70 M620,470 h40 M700,500 h50 M360,512 h50 M450,530 h80 M600,520 h60 M680,548 h70 M520,566 h90 M400,582 h60 M740,590 h50 M330,490 h26"/>
+  </g>
+
+  <!-- Near lanterns -->
+  <use xlink:href="#lantern" transform="translate(235,395) scale(1.05)"/>
+  <use xlink:href="#lantern" transform="translate(205,468) scale(0.9)"/>
+
+  <!-- Foreground bank -->
+  <path d="M0,600 L0,528 C40,526 70,540 120,540 C170,540 215,546 250,562 C285,576 305,592 325,600 Z" fill="#06040e"/>
+  <path d="M0,528 C40,526 70,540 120,540 C170,540 215,546 250,562 C285,576 305,592 325,600" fill="none" stroke="#5a4b8a" stroke-width="1.2" opacity=".35"/>
+  <ellipse cx="140" cy="540" rx="70" ry="12" fill="#ffb347" opacity=".18" filter="url(#soft)"/>
+  <g stroke="#06040e" stroke-width="1.6" stroke-linecap="round" fill="none">
+    <path d="M236,556 l1,-18 M246,560 l-2,-20 M258,566 l2,-28 M266,570 l-1,-24 M276,576 l3,-26 M288,584 l1,-22 M298,590 l-2,-20"/>
+  </g>
+
+  <!-- Figures -->
+  <g fill="#06040e" stroke="#06040e" stroke-linecap="round">
+    <circle cx="124" cy="480" r="7" stroke="none"/>
+    <path d="M115,491 Q124,487 133,491 L137,519 L134,540 L127,540 L124,525 L121,540 L114,540 L111,519 Z" stroke="none"/>
+    <path d="M117,494 L139,474 M131,494 L156,477" fill="none" stroke-width="5"/>
+    <circle cx="92" cy="500" r="5.5" stroke="none"/>
+    <path d="M86,508 Q92,505 98,508 L100,526 L98,540 L93,540 L92,531 L91,540 L86,540 L84,526 Z" stroke="none"/>
+    <path d="M97,511 L108,497 M87,511 L84,526" fill="none" stroke-width="4"/>
+  </g>
+
+  <!-- Lantern being released -->
+  <use xlink:href="#lantern" transform="translate(147,448) scale(1.3)"/>
+
+  <!-- Vignette -->
+  <rect width="800" height="600" fill="url(#vignette)"/>
+</svg>

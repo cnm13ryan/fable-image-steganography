@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="900" viewBox="0 0 600 900">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#060f26"/>
+      <stop offset="0.45" stop-color="#0e2650"/>
+      <stop offset="0.8" stop-color="#184a6c"/>
+      <stop offset="1" stop-color="#2a7b8c"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f6a80"/>
+      <stop offset="0.3" stop-color="#124a62"/>
+      <stop offset="1" stop-color="#061a2b"/>
+    </linearGradient>
+    <radialGradient id="mglow">
+      <stop offset="0" stop-color="#f6e7b4" stop-opacity="0.45"/>
+      <stop offset="0.5" stop-color="#f6e7b4" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#f6e7b4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lglow">
+      <stop offset="0" stop-color="#ffb347" stop-opacity="0.5"/>
+      <stop offset="0.45" stop-color="#ff9f2e" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#ff9f2e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lampglow">
+      <stop offset="0" stop-color="#fff3b0" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#fff3b0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lant" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8842a"/>
+      <stop offset="0.55" stop-color="#f7a63a"/>
+      <stop offset="1" stop-color="#ffd978"/>
+    </linearGradient>
+    <linearGradient id="beam" gradientUnits="userSpaceOnUse" x1="118" y1="0" x2="556" y2="0">
+      <stop offset="0" stop-color="#fff2b0" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#fff2b0" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.5" r="0.75">
+      <stop offset="0.55" stop-color="#3c2a0a" stop-opacity="0"/>
+      <stop offset="1" stop-color="#3c2a0a" stop-opacity="0.2"/>
+    </radialGradient>
+    <clipPath id="scene">
+      <rect x="44" y="44" width="512" height="608"/>
+    </clipPath>
+    <g id="lantern">
+      <circle cx="0" cy="30" r="70" fill="url(#lglow)"/>
+      <path d="M-20,18 C-20,-6 20,-6 20,18 L16,60 L-16,60 Z" fill="url(#lant)"/>
+      <path d="M-19,28 L19,28 M-17.9,40 L17.9,40" fill="none" stroke="#000000" stroke-opacity="0.12" stroke-width="1"/>
+      <path d="M-16,60 L16,60 L16,64 L-16,64 Z" fill="#a65312"/>
+      <ellipse cx="0" cy="50" rx="9" ry="6" fill="#fff3c4" opacity="0.85"/>
+      <circle cx="0" cy="55" r="2.5" fill="#ffffff"/>
+    </g>
+    <g id="icon">
+      <path d="M-9,8 C-9,-3 9,-3 9,8 L7,26 L-7,26 Z" fill="#c98a2b"/>
+      <rect x="-7" y="26" width="14" height="2.5" fill="#8a5a14"/>
+      <circle cx="0" cy="20" r="2.2" fill="#fff6dc"/>
+    </g>
+    <path id="spark" d="M0,-6 L1.4,-1.4 L6,0 L1.4,1.4 L0,6 L-1.4,1.4 L-6,0 L-1.4,-1.4 Z" fill="#ffffff"/>
+  </defs>
+
+  <rect width="600" height="900" fill="#efe4cf"/>
+
+  <g clip-path="url(#scene)">
+    <rect x="44" y="44" width="512" height="468" fill="url(#sky)"/>
+
+    <g fill="#ffffff">
+      <circle cx="70" cy="80" r="1.4" opacity="0.85"/>
+      <circle cx="104" cy="128" r="1" opacity="0.6"/>
+      <circle cx="142" cy="52" r="1.2" opacity="0.7"/>
+      <circle cx="178" cy="150" r="1" opacity="0.55"/>
+      <circle cx="236" cy="62" r="1.5" opacity="0.9"/>
+      <circle cx="268" cy="112" r="1" opacity="0.6"/>
+      <circle cx="322" cy="52" r="1.2" opacity="0.7"/>
+      <circle cx="346" cy="120" r="1" opacity="0.55"/>
+      <circle cx="404" cy="48" r="1" opacity="0.6"/>
+      <circle cx="448" cy="104" r="1.3" opacity="0.7"/>
+      <circle cx="478" cy="56" r="1.1" opacity="0.6"/>
+      <circle cx="514" cy="140" r="1.2" opacity="0.7"/>
+      <circle cx="530" cy="214" r="1" opacity="0.55"/>
+      <circle cx="548" cy="300" r="1.2" opacity="0.6"/>
+      <circle cx="516" cy="334" r="1" opacity="0.5"/>
+      <circle cx="64" cy="250" r="1.3" opacity="0.7"/>
+      <circle cx="56" cy="420" r="1.1" opacity="0.5"/>
+      <circle cx="164" cy="330" r="1" opacity="0.5"/>
+      <circle cx="204" cy="402" r="1.2" opacity="0.6"/>
+      <circle cx="314" cy="292" r="1" opacity="0.5"/>
+      <circle cx="384" cy="330" r="1.1" opacity="0.55"/>
+      <circle cx="454" cy="384" r="1" opacity="0.5"/>
+      <circle cx="300" cy="424" r="1" opacity="0.45"/>
+      <circle cx="128" cy="252" r="1" opacity="0.5"/>
+      <circle cx="240" cy="212" r="1.2" opacity="0.6"/>
+      <circle cx="424" cy="300" r="1" opacity="0.55"/>
+      <circle cx="80" cy="180" r="1" opacity="0.5"/>
+      <circle cx="470" cy="430" r="1" opacity="0.4"/>
+      <circle cx="372" cy="90" r="1" opacity="0.5"/>
+      <circle cx="90" cy="380" r="1" opacity="0.45"/>
+    </g>
+    <use xlink:href="#spark" href="#spark" transform="translate(536,74)" opacity="0.9"/>
+    <use xlink:href="#spark" href="#spark" transform="translate(72,310) scale(0.8)" opacity="0.8"/>
+
+    <circle cx="430" cy="196" r="160" fill="url(#mglow)"/>
+    <circle cx="430" cy="196" r="62" fill="#f7ebc0"/>
+    <g fill="#e2d19a" opacity="0.55">
+      <circle cx="415" cy="180" r="9"/>
+      <circle cx="446" cy="214" r="6"/>
+      <circle cx="438" cy="168" r="4"/>
+      <circle cx="418" cy="222" r="5"/>
+      <circle cx="455" cy="190" r="3"/>
+    </g>
+
+    <polygon points="118,330 556,246 556,340 118,342" fill="url(#beam)"/>
+
+    <polygon points="300,512 340,502 385,494 430,498 480,488 520,494 556,490 556,512" fill="#14304f"/>
+    <g fill="#ffd27a" opacity="0.85">
+      <circle cx="466" cy="494" r="1.2"/>
+      <circle cx="488" cy="492" r="1.2"/>
+      <circle cx="506" cy="497" r="1.1"/>
+      <circle cx="530" cy="500" r="1.2"/>
+      <circle cx="545" cy="498" r="1"/>
+    </g>
+
+    <rect x="44" y="512" width="512" height="140" fill="url(#sea)"/>
+
+    <g stroke="#f6e7b4" stroke-linecap="round">
+      <line x1="406" y1="518" x2="454" y2="518" stroke-width="2.4" opacity="0.6"/>
+      <line x1="398" y1="526" x2="462" y2="526" stroke-width="2" opacity="0.5"/>
+      <line x1="410" y1="536" x2="450" y2="536" stroke-width="2" opacity="0.45"/>
+      <line x1="394" y1="548" x2="466" y2="548" stroke-width="2.2" opacity="0.38"/>
+      <line x1="414" y1="562" x2="446" y2="562" stroke-width="2" opacity="0.32"/>
+      <line x1="390" y1="578" x2="470" y2="578" stroke-width="2.4" opacity="0.26"/>
+      <line x1="406" y1="596" x2="454" y2="596" stroke-width="2.2" opacity="0.2"/>
+      <line x1="386" y1="616" x2="474" y2="616" stroke-width="2.6" opacity="0.15"/>
+      <line x1="400" y1="636" x2="460" y2="636" stroke-width="2.4" opacity="0.1"/>
+    </g>
+
+    <g stroke="#ffae4a" stroke-linecap="round" stroke-width="2">
+      <line x1="246" y1="518" x2="270" y2="518" opacity="0.35"/>
+      <line x1="240" y1="527" x2="276" y2="527" opacity="0.25"/>
+      <line x1="248" y1="540" x2="268" y2="540" opacity="0.16"/>
+      <line x1="320" y1="520" x2="340" y2="520" opacity="0.3"/>
+      <line x1="314" y1="531" x2="346" y2="531" opacity="0.18"/>
+    </g>
+
+    <g fill="none" stroke="#a8dcef" stroke-opacity="0.14" stroke-width="1.2">
+      <path d="M60,566 q18,-5 36,0 t36,0 t36,0 t36,0"/>
+      <path d="M300,590 q18,-5 36,0 t36,0 t36,0 t36,0 t36,0"/>
+      <path d="M90,618 q18,-5 36,0 t36,0 t36,0 t36,0"/>
+      <path d="M330,640 q18,-5 36,0 t36,0 t36,0 t36,0 t36,0"/>
+    </g>
+
+    <polygon points="44,470 58,460 76,464 92,458 112,452 130,456 150,460 166,468 184,474 200,486 216,498 236,512 230,530 200,540 150,536 100,544 44,538" fill="#081524"/>
+    <path d="M236,512 L230,530 L200,540 L150,536 L100,544 L44,538" fill="none" stroke="#a8dcef" stroke-opacity="0.3" stroke-width="1.2"/>
+
+    <rect x="134" y="442" width="30" height="28" fill="#cfc3a9"/>
+    <rect x="149" y="442" width="15" height="28" fill="#0a1628" opacity="0.3"/>
+    <rect x="156" y="426" width="4" height="14" fill="#2a2a33"/>
+    <polygon points="131,442 167,442 149,429" fill="#3b2a33"/>
+    <rect x="140" y="450" width="6" height="7" fill="#ffd27a"/>
+
+    <polygon points="96,462 128,462 122,352 102,352" fill="#e3d8c0"/>
+    <polygon points="99.8,392 124.2,392 125.3,412 98.7,412" fill="#9b3333"/>
+    <polygon points="97.6,432 126.4,432 127.5,452 96.5,452" fill="#9b3333"/>
+    <polygon points="112,352 122,352 128,462 112,462" fill="#0a1628" opacity="0.28"/>
+    <rect x="97" y="346" width="30" height="6" fill="#1d2433"/>
+    <circle cx="112" cy="336" r="34" fill="url(#lampglow)"/>
+    <rect x="104" y="326" width="16" height="20" fill="#ffe9a6"/>
+    <path d="M109.3,326 V346 M114.7,326 V346" stroke="#1d2433" stroke-width="1"/>
+    <rect x="102" y="323" width="20" height="3" fill="#1d2433"/>
+    <polygon points="102,323 122,323 112,310" fill="#9b3333"/>
+    <circle cx="112" cy="309" r="1.8" fill="#1d2433"/>
+
+    <use xlink:href="#lantern" href="#lantern" transform="translate(392,58) scale(0.35) rotate(8)"/>
+    <use xlink:href="#lantern" href="#lantern" transform="translate(150,58) scale(0.35) rotate(-6)"/>
+    <use xlink:href="#lantern" href="#lantern" transform="translate(486,88) scale(0.45) rotate(5)"/>
+    <use xlink:href="#lantern" href="#lantern" transform="translate(122,160) scale(0.5) rotate(-8)"/>
+    <use xlink:href="#lantern" href="#lantern" transform="translate(210,98) scale(0.6) rotate(6)"/>
+    <use xlink:href="#lantern" href="#lantern" transform="translate(300,148) scale(0.8) rotate(-5)"/>
+    <use xlink:href="#lantern" href="#lantern" transform="translate(356,250) scale(0.7) rotate(7)"/>
+    <use xlink:href="#lantern" href="#lantern" transform="translate(180,218) scale(1) rotate(-7)"/>
+    <use xlink:href="#lantern" href="#lantern" transform="translate(520,398) scale(0.6) rotate(4)"/>
+    <use xlink:href="#lantern" href="#lantern" transform="translate(330,382) scale(1.1) rotate(-4)"/>
+    <use xlink:href="#lantern" href="#lantern" transform="translate(258,440) scale(0.9) rotate(6)"/>
+    <use xlink:href="#lantern" href="#lantern" transform="translate(250,300) scale(1.4) rotate(-5)"/>
+  </g>
+
+  <g font-family="'Helvetica Neue', Helvetica, Arial, 'DejaVu Sans', sans-serif" text-anchor="middle">
+    <line x1="132" y1="686" x2="170" y2="686" stroke="#c98a2b" stroke-width="1"/>
+    <line x1="430" y1="686" x2="468" y2="686" stroke="#c98a2b" stroke-width="1"/>
+    <text x="300" y="690" font-size="11" letter-spacing="4" fill="#6b5a3e">PORT HALLOWAY PRESENTS</text>
+    <text x="300" y="748" font-family="Georgia, 'Times New Roman', 'DejaVu Serif', serif" font-size="46" font-weight="bold" letter-spacing="3" fill="#16233f" textLength="452" lengthAdjust="spacingAndGlyphs">LANTERN TIDE</text>
+    <text x="300" y="780" font-size="14" letter-spacing="5" fill="#16233f" textLength="400" lengthAdjust="spacing">MIDSUMMER FESTIVAL OF LIGHTS</text>
+    <line x1="112" y1="800" x2="290" y2="800" stroke="#c98a2b" stroke-width="1.2"/>
+    <line x1="310" y1="800" x2="488" y2="800" stroke="#c98a2b" stroke-width="1.2"/>
+    <path d="M300,795 L305,800 L300,805 L295,800 Z" fill="#c98a2b"/>
+    <use xlink:href="#icon" href="#icon" transform="translate(92,786)"/>
+    <use xlink:href="#icon" href="#icon" transform="translate(508,786)"/>
+    <text x="300" y="832" font-family="Georgia, 'Times New Roman', 'DejaVu Serif', serif" font-size="13" letter-spacing="2" fill="#16233f">OLD HARBOUR QUAY &#183; 21 JUNE 2027 &#183; FROM DUSK</text>
+    <text x="300" y="852" font-size="9.5" letter-spacing="2.5" fill="#7a6a4f">FREE ENTRY &#183; LANTERNS PROVIDED &#183; BRING A WISH</text>
+  </g>
+
+  <rect x="36" y="36" width="528" height="828" fill="none" stroke="#16233f" stroke-width="2"/>
+  <rect width="600" height="900" fill="url(#vignette)"/>
+</svg>

@@ -1,0 +1,238 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 960 600" width="960" height="600">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a76a8"/>
+      <stop offset="0.5" stop-color="#a7c2d8"/>
+      <stop offset="1" stop-color="#f7d9a6"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.35" stop-color="#ffeaa8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffeaa8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#86b25f"/>
+      <stop offset="1" stop-color="#3a6a33"/>
+    </linearGradient>
+    <linearGradient id="mist" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9fd0e4"/>
+      <stop offset="1" stop-color="#3f7f98"/>
+    </linearGradient>
+    <linearGradient id="trail" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d2bd93"/>
+      <stop offset="1" stop-color="#a78c62"/>
+    </linearGradient>
+    <g id="pine">
+      <rect x="-4" y="-14" width="8" height="16" fill="#4a3220"/>
+      <path d="M0,-118 L-13,-88 L-6,-90 L-22,-62 L-13,-64 L-31,-36 L-20,-38 L-40,-10 L40,-10 L20,-38 L31,-36 L13,-64 L22,-62 L6,-90 L13,-88 Z"/>
+    </g>
+    <g id="oak">
+      <path d="M-6,0 L-5,-48 L-18,-66 M5,-48 L17,-64 M0,-50 L0,-74" stroke="#5a3b22" stroke-width="9" stroke-linecap="round" fill="none"/>
+      <circle cx="0" cy="-92" r="34"/>
+      <circle cx="-30" cy="-72" r="24"/>
+      <circle cx="30" cy="-72" r="24"/>
+      <circle cx="-16" cy="-112" r="22"/>
+      <circle cx="18" cy="-112" r="22"/>
+      <circle cx="22" cy="-116" r="14" fill="#fff" opacity="0.12"/>
+      <circle cx="36" cy="-80" r="10" fill="#fff" opacity="0.1"/>
+    </g>
+    <path id="bird" d="M-10,0 Q-5,-7 0,0 Q5,-7 10,0" fill="none" stroke="#2b2b3a" stroke-width="2" stroke-linecap="round"/>
+    <path id="grass" d="M0,0 Q-3,-10 -8,-16 M0,0 Q0,-12 1,-19 M0,0 Q4,-10 9,-15" fill="none" stroke-width="2" stroke-linecap="round"/>
+    <g id="mushroom">
+      <rect x="-3" y="-8" width="6" height="9" rx="2" fill="#f1e3c8"/>
+      <path d="M-10,-7 Q0,-21 10,-7 Z" fill="#c8402f"/>
+      <circle cx="-4" cy="-11" r="1.5" fill="#fff"/>
+      <circle cx="3" cy="-13" r="1.2" fill="#fff"/>
+    </g>
+    <g id="deer">
+      <g stroke="#7a4e2a" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22,-30 L25,-5 L31,0"/>
+        <path d="M34,-30 L39,-5 L45,0"/>
+        <path d="M-20,-30 L-22,-5 L-18,0"/>
+        <path d="M-8,-30 L-10,-5 L-6,0"/>
+      </g>
+      <ellipse cx="8" cy="-44" rx="40" ry="20" fill="#8c5a30"/>
+      <ellipse cx="8" cy="-36" rx="28" ry="9" fill="#b98a5a" opacity="0.6"/>
+      <path d="M46,-52 L58,-46 L46,-40 Z" fill="#f3e9d6"/>
+      <path d="M-30,-54 L-46,-94 L-62,-86 L-16,-36 Z" fill="#8c5a30"/>
+      <ellipse cx="-56" cy="-95" rx="16" ry="9" transform="rotate(-20 -56 -95)" fill="#8c5a30"/>
+      <circle cx="-71" cy="-90" r="2.5" fill="#2a1b10"/>
+      <circle cx="-54" cy="-99" r="2" fill="#1a110a"/>
+      <path d="M-50,-102 L-44,-118 L-38,-100 Z" fill="#8c5a30"/>
+    </g>
+  </defs>
+
+  <rect width="960" height="600" fill="url(#sky)"/>
+  <circle cx="700" cy="165" r="170" fill="url(#glow)"/>
+  <circle cx="700" cy="165" r="42" fill="#fff6d2"/>
+
+  <use xlink:href="#bird" transform="translate(560,120)"/>
+  <use xlink:href="#bird" transform="translate(592,104) scale(0.8)"/>
+  <use xlink:href="#bird" transform="translate(620,128) scale(0.7)"/>
+  <use xlink:href="#bird" transform="translate(360,150) scale(0.9)"/>
+  <use xlink:href="#bird" transform="translate(392,168) scale(0.6)"/>
+
+  <path d="M0,330 L80,250 L150,290 L230,210 L320,280 L400,230 L480,300 L560,240 L640,290 L720,225 L800,282 L870,242 L960,300 L960,470 L0,470 Z" fill="#8296b0" opacity="0.8"/>
+  <path d="M0,362 L60,322 L140,347 L220,302 L300,342 L380,312 L460,352 L540,317 L620,347 L700,322 L780,352 L860,320 L960,352 L960,470 L0,470 Z" fill="#657d93" opacity="0.9"/>
+
+  <path d="M0,470 L0,392 L15,350 L30,390 L45,344 L60,388 L75,352 L90,392 L105,346 L120,390 L135,354 L150,394 L165,348 L180,390 L195,342 L210,388 L225,350 L240,392 L255,346 L270,390 L285,352 L300,394 L315,348 L330,390 L345,344 L360,392 L375,350 L390,388 L405,346 L420,392 L435,352 L450,390 L465,348 L480,394 L495,344 L510,390 L525,350 L540,392 L555,346 L570,388 L585,352 L600,392 L615,348 L630,390 L645,342 L660,392 L675,350 L690,388 L705,346 L720,392 L735,352 L750,390 L765,348 L780,394 L795,344 L810,390 L825,350 L840,392 L855,346 L870,388 L885,352 L900,392 L915,348 L930,390 L945,344 L960,392 L960,470 Z" fill="#577a7a"/>
+  <rect x="0" y="370" width="960" height="70" fill="url(#mist)"/>
+
+  <path d="M0,440 C150,420 250,452 400,432 C550,414 700,446 960,428 L960,600 L0,600 Z" fill="url(#ground)"/>
+
+  <g fill="#3c6a54">
+    <use xlink:href="#pine" transform="translate(30,452) scale(0.7)"/>
+    <use xlink:href="#pine" transform="translate(120,446) scale(0.55)"/>
+    <use xlink:href="#pine" transform="translate(240,450) scale(0.75)"/>
+    <use xlink:href="#pine" transform="translate(300,444) scale(0.5)"/>
+    <use xlink:href="#pine" transform="translate(360,448) scale(0.65)"/>
+    <use xlink:href="#pine" transform="translate(440,440) scale(0.6)"/>
+    <use xlink:href="#pine" transform="translate(520,438) scale(0.7)"/>
+    <use xlink:href="#pine" transform="translate(600,444) scale(0.55)"/>
+    <use xlink:href="#pine" transform="translate(670,448) scale(0.8)"/>
+    <use xlink:href="#pine" transform="translate(740,440) scale(0.6)"/>
+    <use xlink:href="#pine" transform="translate(810,446) scale(0.7)"/>
+    <use xlink:href="#pine" transform="translate(930,442) scale(0.65)"/>
+  </g>
+  <g fill="#4f8a40">
+    <use xlink:href="#oak" transform="translate(180,452) scale(0.7)"/>
+    <use xlink:href="#oak" transform="translate(470,446) scale(0.6)"/>
+    <use xlink:href="#oak" transform="translate(870,448) scale(0.75)"/>
+  </g>
+
+  <path d="M355,600 C400,545 425,505 468,456 L520,456 C488,505 520,545 548,600 Z" fill="url(#trail)"/>
+
+  <ellipse cx="170" cy="526" rx="120" ry="26" fill="url(#water)"/>
+  <ellipse cx="150" cy="520" rx="60" ry="8" fill="#fff" opacity="0.25"/>
+  <path d="M90,522 Q120,518 150,522 M180,532 Q210,528 240,532" stroke="#fff" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <g stroke="#3f6a2e" stroke-width="2.5" stroke-linecap="round" fill="none">
+    <path d="M60,540 L62,498 M70,544 L74,505 M80,546 L78,508 M268,536 L272,498 M280,540 L286,504"/>
+  </g>
+  <g fill="#6b4a2e">
+    <ellipse cx="62" cy="500" rx="2.5" ry="7"/>
+    <ellipse cx="272" cy="500" rx="2.5" ry="7"/>
+  </g>
+  <ellipse cx="170" cy="500" rx="170" ry="14" fill="#fff" opacity="0.18"/>
+
+  <use xlink:href="#oak" transform="translate(90,438) scale(1.5)" fill="#3f7a36"/>
+  <path d="M84,396 C130,386 160,378 206,374" stroke="#5a3b22" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <g transform="translate(200,376)">
+    <ellipse cx="0" cy="-17" rx="12" ry="17" fill="#7a5433"/>
+    <ellipse cx="0" cy="-13" rx="7" ry="10" fill="#c7a77c"/>
+    <path d="M-10,-24 Q-14,-12 -8,-3 M10,-24 Q14,-12 8,-3" stroke="#5e3f25" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <circle cx="0" cy="-32" r="10" fill="#7a5433"/>
+    <path d="M-9,-38 L-13,-48 L-3,-40 Z M9,-38 L13,-48 L3,-40 Z" fill="#7a5433"/>
+    <circle cx="-4" cy="-33" r="4" fill="#f4e7b0"/>
+    <circle cx="4" cy="-33" r="4" fill="#f4e7b0"/>
+    <circle cx="-4" cy="-33" r="2" fill="#1a110a"/>
+    <circle cx="4" cy="-33" r="2" fill="#1a110a"/>
+    <path d="M0,-30 L-2,-26 L2,-26 Z" fill="#e6a23c"/>
+    <path d="M-5,0 L-7,3 M-5,0 L-3,3 M5,0 L3,3 M5,0 L7,3" stroke="#e6a23c" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <use xlink:href="#deer" transform="translate(660,478) scale(0.6)"/>
+  <g transform="translate(660,478) scale(0.6)" fill="#f3e9d6" opacity="0.85">
+    <circle cx="-4" cy="-54" r="2.2"/><circle cx="10" cy="-50" r="2.2"/><circle cx="24" cy="-54" r="2.2"/><circle cx="2" cy="-44" r="2.2"/><circle cx="18" cy="-42" r="2.2"/><circle cx="32" cy="-47" r="2.2"/><circle cx="14" cy="-34" r="2"/>
+  </g>
+  <use xlink:href="#deer" transform="translate(560,500)"/>
+  <path transform="translate(560,500)" d="M-50,-104 C-56,-118 -52,-130 -40,-140 M-53,-118 L-64,-126 M-47,-132 L-46,-146 M-50,-104 C-40,-114 -30,-118 -22,-132 M-36,-116 L-32,-128" stroke="#5a3b22" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <use xlink:href="#pine" transform="translate(880,548) scale(1.5)" fill="#2f5e48"/>
+
+  <g transform="translate(790,530)">
+    <path d="M26,-14 C52,-8 54,24 30,26 C12,28 0,22 -6,14" stroke="#d9672b" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <circle cx="-7" cy="14" r="8" fill="#f6efe2"/>
+    <path d="M-16,0 C-32,-6 -30,-44 -8,-60 C14,-74 34,-50 30,-22 C28,-8 20,0 8,0 Z" fill="#d9672b"/>
+    <path d="M-16,0 C-26,-12 -22,-36 -8,-46 C0,-36 0,-14 -4,0 Z" fill="#f6efe2"/>
+    <path d="M-12,-18 L-14,0 M-1,-18 L-1,0" stroke="#c75b25" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="-14" cy="0" r="3" fill="#3a2418"/>
+    <circle cx="-1" cy="0" r="3" fill="#3a2418"/>
+    <circle cx="-12" cy="-66" r="13" fill="#d9672b"/>
+    <path d="M-22,-64 L-40,-56 L-20,-52 Z" fill="#f6efe2"/>
+    <circle cx="-39" cy="-57" r="2.2" fill="#2a1b10"/>
+    <path d="M-20,-76 L-24,-94 L-9,-78 Z M-6,-78 L4,-93 L5,-72 Z" fill="#d9672b"/>
+    <path d="M-19,-78 L-21,-87 L-13,-79 Z M-5,-78 L1,-87 L2,-75 Z" fill="#2a1b10"/>
+    <circle cx="-19" cy="-68" r="2" fill="#2a1b10"/>
+  </g>
+
+  <path d="M0,560 Q480,540 960,565 L960,600 L0,600 Z" fill="#2f5a2a" opacity="0.45"/>
+
+  <g transform="translate(700,582)">
+    <rect x="-70" y="-14" width="140" height="28" rx="14" fill="#6b4a2e"/>
+    <ellipse cx="68" cy="0" rx="8" ry="14" fill="#a07a52"/>
+    <ellipse cx="68" cy="0" rx="4" ry="8" fill="#6b4a2e" opacity="0.6"/>
+    <path d="M-50,-6 L-20,-6 M-40,4 L10,4 M20,-8 L50,-8" stroke="#55381f" stroke-width="2"/>
+  </g>
+  <g transform="translate(690,568)">
+    <path d="M10,-4 C28,-8 32,-36 16,-40 C6,-42 2,-32 8,-24" stroke="#9c5a2d" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <ellipse cx="0" cy="-10" rx="11" ry="9" fill="#9c5a2d"/>
+    <ellipse cx="2" cy="-7" rx="6" ry="5" fill="#d7b48c"/>
+    <circle cx="-11" cy="-19" r="6" fill="#9c5a2d"/>
+    <path d="M-14,-23 L-15,-31 L-10,-24 Z" fill="#9c5a2d"/>
+    <circle cx="-13" cy="-20" r="1.2" fill="#1a110a"/>
+    <circle cx="-8" cy="-12" r="2.5" fill="#6b3a1b"/>
+  </g>
+
+  <g transform="translate(305,551)">
+    <ellipse cx="0" cy="-11" rx="17" ry="11" fill="#b9a48a"/>
+    <circle cx="15" cy="-20" r="7.5" fill="#b9a48a"/>
+    <path d="M12,-26 L7,-45 L17,-27 Z M19,-26 L22,-45 L25,-26 Z" fill="#b9a48a"/>
+    <path d="M12,-28 L9,-40 L15,-28 Z M20,-27 L22,-40 L24,-27 Z" fill="#e8b4a6"/>
+    <circle cx="-16" cy="-11" r="4.5" fill="#f2ece3"/>
+    <circle cx="18" cy="-21" r="1.4" fill="#1a110a"/>
+    <path d="M-8,-2 L-10,0 M6,-2 L8,0" stroke="#9c8870" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <use xlink:href="#mushroom" transform="translate(212,586)"/>
+  <use xlink:href="#mushroom" transform="translate(226,592) scale(0.8)"/>
+  <use xlink:href="#mushroom" transform="translate(592,594)"/>
+  <use xlink:href="#mushroom" transform="translate(330,590) scale(0.7)"/>
+
+  <g stroke="#4f8a3a">
+    <use xlink:href="#grass" transform="translate(340,480) scale(1.2)"/>
+    <use xlink:href="#grass" transform="translate(410,470)"/>
+    <use xlink:href="#grass" transform="translate(620,500) scale(1.1)"/>
+    <use xlink:href="#grass" transform="translate(740,480)"/>
+    <use xlink:href="#grass" transform="translate(850,498) scale(1.2)"/>
+    <use xlink:href="#grass" transform="translate(260,470)"/>
+    <use xlink:href="#grass" transform="translate(560,520)"/>
+  </g>
+  <g stroke="#2f5a2a">
+    <use xlink:href="#grass" transform="translate(300,590) scale(1.8)"/>
+    <use xlink:href="#grass" transform="translate(600,580) scale(1.6)"/>
+    <use xlink:href="#grass" transform="translate(810,592) scale(1.8)"/>
+    <use xlink:href="#grass" transform="translate(520,595) scale(1.5)"/>
+    <use xlink:href="#grass" transform="translate(240,560) scale(1.4)"/>
+    <use xlink:href="#grass" transform="translate(900,570) scale(1.6)"/>
+  </g>
+  <g stroke="#3f7a36" fill="none" stroke-linecap="round">
+    <path d="M130,600 Q140,565 175,548 M150,600 Q165,575 200,570" stroke-width="3"/>
+    <path d="M138,581 l-9,-4 M138,581 l7,-8 M146,570 l-9,-5 M146,570 l6,-9 M156,560 l-8,-6 M156,560 l5,-9 M165,553 l-7,-7 M165,553 l4,-9" stroke-width="2"/>
+  </g>
+  <g fill="#fff">
+    <circle cx="380" cy="520" r="3"/><circle cx="395" cy="512" r="2.5"/><circle cx="640" cy="522" r="3"/><circle cx="655" cy="532" r="2.5"/><circle cx="250" cy="472" r="2.5"/><circle cx="820" cy="506" r="3"/><circle cx="470" cy="560" r="3"/>
+  </g>
+  <g fill="#f4c542">
+    <circle cx="380" cy="520" r="1.2"/><circle cx="395" cy="512" r="1"/><circle cx="640" cy="522" r="1.2"/><circle cx="655" cy="532" r="1"/><circle cx="250" cy="472" r="1"/><circle cx="820" cy="506" r="1.2"/><circle cx="470" cy="560" r="1.2"/>
+  </g>
+
+  <g fill="#2a5540">
+    <use xlink:href="#pine" transform="translate(-8,600) scale(2.4)"/>
+    <use xlink:href="#pine" transform="translate(965,600) scale(2.3)"/>
+  </g>
+
+  <g fill="#fff8dc" opacity="0.12">
+    <polygon points="700,165 250,600 340,600"/>
+    <polygon points="700,165 430,600 500,600"/>
+    <polygon points="700,165 610,600 660,600"/>
+    <polygon points="700,165 780,600 860,600"/>
+  </g>
+  <g fill="#fff" opacity="0.7">
+    <circle cx="330" cy="300" r="1.8"/><circle cx="420" cy="350" r="1.5"/><circle cx="470" cy="290" r="2"/><circle cx="610" cy="330" r="1.5"/><circle cx="640" cy="380" r="2"/><circle cx="520" cy="250" r="1.5"/>
+  </g>
+</svg>

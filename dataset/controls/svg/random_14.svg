@@ -1,0 +1,257 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <title>Squall at dusk</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#101329"/>
+      <stop offset="0.45" stop-color="#36315c"/>
+      <stop offset="0.7" stop-color="#8a566d"/>
+      <stop offset="0.88" stop-color="#e49a5a"/>
+      <stop offset="1" stop-color="#ffd27a"/>
+    </linearGradient>
+    <radialGradient id="sunGlow">
+      <stop offset="0" stop-color="#ffe09a" stop-opacity="0.9"/>
+      <stop offset="0.45" stop-color="#ffb46a" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ffb46a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="litCloud" gradientUnits="userSpaceOnUse" x1="0" y1="292" x2="0" y2="380">
+      <stop offset="0" stop-color="#4f3f63"/>
+      <stop offset="0.55" stop-color="#9c5f74"/>
+      <stop offset="1" stop-color="#e38f7c"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8c5a63"/>
+      <stop offset="0.1" stop-color="#363a5a"/>
+      <stop offset="0.5" stop-color="#1b2038"/>
+      <stop offset="1" stop-color="#0a0d1a"/>
+    </linearGradient>
+    <radialGradient id="seaGlow">
+      <stop offset="0" stop-color="#ffc98a" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#ffc98a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="haze" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9b08f" stop-opacity="0"/>
+      <stop offset="0.6" stop-color="#e9b08f" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#e9b08f" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="stormCloud" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="300">
+      <stop offset="0" stop-color="#0b0d1e"/>
+      <stop offset="0.55" stop-color="#1c1b34"/>
+      <stop offset="1" stop-color="#4b3d5b"/>
+    </linearGradient>
+    <radialGradient id="billow">
+      <stop offset="0" stop-color="#3d3a62" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#3d3a62" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="underLight">
+      <stop offset="0" stop-color="#e38b6c" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#e38b6c" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="flash">
+      <stop offset="0" stop-color="#e3e9ff" stop-opacity="0.55"/>
+      <stop offset="0.45" stop-color="#b7c3ff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#b7c3ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="shaft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b9c2e0" stop-opacity="0"/>
+      <stop offset="0.4" stop-color="#b9c2e0" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#b9c2e0" stop-opacity="0.04"/>
+    </linearGradient>
+    <pattern id="rain" width="26" height="60" patternUnits="userSpaceOnUse" patternTransform="rotate(-14)">
+      <line x1="5" y1="2" x2="5" y2="24" stroke="#d6dcff" stroke-width="1.3" stroke-linecap="round"/>
+      <line x1="18" y1="32" x2="18" y2="50" stroke="#d6dcff" stroke-width="1" stroke-linecap="round"/>
+    </pattern>
+    <linearGradient id="rainFadeV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.3" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="0.85" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="rainFadeH" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="0.55" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="rainMaskV">
+      <rect x="0" y="200" width="560" height="240" fill="url(#rainFadeV)"/>
+    </mask>
+    <mask id="rainMaskH">
+      <rect x="0" y="200" width="560" height="240" fill="url(#rainFadeH)"/>
+    </mask>
+    <linearGradient id="beam" gradientUnits="userSpaceOnUse" x1="680" y1="0" x2="60" y2="0">
+      <stop offset="0" stop-color="#ffe9a6" stop-opacity="0.7"/>
+      <stop offset="0.35" stop-color="#ffe9a6" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ffe9a6" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="lanternGlow">
+      <stop offset="0" stop-color="#fff6cf" stop-opacity="0.95"/>
+      <stop offset="0.4" stop-color="#ffe08a" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#ffe08a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="towerShade" gradientUnits="userSpaceOnUse" x1="658" y1="0" x2="702" y2="0">
+      <stop offset="0" stop-color="#000" stop-opacity="0.2"/>
+      <stop offset="0.3" stop-color="#000" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.78"/>
+    </linearGradient>
+    <clipPath id="towerClip">
+      <polygon points="658,454 702,454 692,346 668,346"/>
+    </clipPath>
+    <radialGradient id="vignette" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+  </defs>
+
+  <!-- sky and afterglow -->
+  <rect width="800" height="400" fill="url(#sky)"/>
+  <ellipse cx="600" cy="400" rx="300" ry="120" fill="url(#sunGlow)"/>
+
+  <!-- distant clouds lit from below -->
+  <g fill="url(#litCloud)">
+    <ellipse cx="60" cy="356" rx="130" ry="26"/>
+    <circle cx="110" cy="334" r="30"/>
+    <ellipse cx="235" cy="350" rx="115" ry="30"/>
+    <circle cx="200" cy="322" r="30"/>
+    <circle cx="262" cy="334" r="24"/>
+    <ellipse cx="430" cy="356" rx="135" ry="26"/>
+    <circle cx="396" cy="338" r="28"/>
+    <circle cx="470" cy="336" r="26"/>
+    <ellipse cx="620" cy="348" rx="115" ry="30"/>
+    <circle cx="588" cy="318" r="36"/>
+    <circle cx="652" cy="328" r="28"/>
+    <ellipse cx="780" cy="358" rx="110" ry="24"/>
+    <circle cx="758" cy="338" r="28"/>
+  </g>
+
+  <!-- sea -->
+  <rect y="400" width="800" height="200" fill="url(#sea)"/>
+  <ellipse cx="600" cy="412" rx="240" ry="16" fill="url(#seaGlow)"/>
+  <g fill="none" stroke="#8c86b0" stroke-linecap="round">
+    <path d="M0 420 Q200 412 400 420 T800 420" stroke-width="1" opacity="0.35"/>
+    <path d="M0 442 Q150 434 300 442 T600 442 T800 438" stroke-width="1.2" opacity="0.3"/>
+    <path d="M40 472 Q180 462 320 472 T600 470" stroke-width="1.4" opacity="0.28"/>
+    <path d="M0 508 Q120 497 240 508 T480 508 T720 503" stroke-width="1.6" opacity="0.25"/>
+    <path d="M60 550 Q200 538 340 550 T620 548" stroke-width="1.8" opacity="0.22"/>
+    <path d="M0 586 Q160 575 320 586 T640 583 T800 581" stroke-width="2" opacity="0.2"/>
+  </g>
+  <g stroke="#ffd9a0" stroke-linecap="round" opacity="0.55">
+    <line x1="548" y1="407" x2="612" y2="407" stroke-width="1.4"/>
+    <line x1="588" y1="413" x2="650" y2="413" stroke-width="1.2"/>
+    <line x1="530" y1="419" x2="575" y2="419" stroke-width="1.1"/>
+    <line x1="620" y1="423" x2="690" y2="423" stroke-width="1"/>
+  </g>
+  <rect y="376" width="800" height="28" fill="url(#haze)"/>
+
+  <!-- storm front -->
+  <g fill="url(#stormCloud)">
+    <rect x="-50" y="-60" width="900" height="270"/>
+    <circle cx="30" cy="200" r="60"/>
+    <circle cx="120" cy="210" r="65"/>
+    <circle cx="190" cy="215" r="60"/>
+    <circle cx="250" cy="225" r="75"/>
+    <circle cx="330" cy="220" r="60"/>
+    <circle cx="392" cy="224" r="68"/>
+    <circle cx="460" cy="212" r="58"/>
+    <circle cx="520" cy="215" r="68"/>
+    <circle cx="590" cy="200" r="52"/>
+    <circle cx="650" cy="205" r="62"/>
+    <circle cx="715" cy="212" r="55"/>
+    <circle cx="770" cy="222" r="60"/>
+  </g>
+  <circle cx="150" cy="140" r="120" fill="url(#billow)"/>
+  <circle cx="340" cy="100" r="140" fill="url(#billow)"/>
+  <circle cx="530" cy="150" r="110" fill="url(#billow)"/>
+  <circle cx="710" cy="110" r="130" fill="url(#billow)"/>
+  <ellipse cx="700" cy="258" rx="110" ry="30" fill="url(#underLight)"/>
+  <ellipse cx="520" cy="270" rx="100" ry="26" fill="url(#underLight)"/>
+  <ellipse cx="370" cy="286" rx="80" ry="22" fill="url(#underLight)"/>
+  <g fill="#292640">
+    <circle cx="40" cy="280" r="38"/>
+    <circle cx="90" cy="290" r="34"/>
+    <circle cx="140" cy="282" r="30"/>
+  </g>
+
+  <!-- rain shaft and lightning -->
+  <polygon points="40,270 330,270 362,400 72,400" fill="url(#shaft)"/>
+  <g>
+    <circle cx="214" cy="236" r="120" fill="url(#flash)"/>
+    <ellipse cx="186" cy="405" rx="70" ry="6" fill="#e4ebff" opacity="0.5"/>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M220 262 L204 300 L218 304 L196 352 L210 356 L186 404 M204 300 L182 322 M210 356 L232 376" stroke="#aebaff" stroke-width="7" opacity="0.35"/>
+      <path d="M220 262 L204 300 L218 304 L196 352 L210 356 L186 404 M204 300 L182 322 M210 356 L232 376" stroke="#ffffff" stroke-width="2.4" filter="url(#glow)"/>
+    </g>
+    <animate attributeName="opacity" calcMode="discrete" values="1;1;0.15;1;0.7;0;0;0;0;0;0;0;0.9;0.3;1;0;0;0;0;0;0;0" dur="7s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- rain -->
+  <g mask="url(#rainMaskV)" opacity="0.45">
+    <g mask="url(#rainMaskH)">
+      <rect x="-40" y="130" width="640" height="400" fill="url(#rain)">
+        <animateTransform attributeName="transform" type="translate" from="-14.5 -58.2" to="0 0" dur="0.5s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <!-- gulls heading home -->
+  <g fill="none" stroke="#1a1826" stroke-width="1.6" stroke-linecap="round">
+    <path d="M298 300 q7 -7 14 0 q7 -7 14 0"/>
+    <path d="M326 314 q5 -5 10 0 q5 -5 10 0"/>
+    <path d="M346 304 q6 -6 12 0 q6 -6 12 0"/>
+  </g>
+
+  <!-- rocks -->
+  <path d="M540 600 L548 560 L575 528 L612 492 L648 470 L690 460 L735 462 L772 476 L800 468 L800 600 Z" fill="#17161f"/>
+  <path d="M548 560 L575 528 L612 492 L648 470 L690 460 L735 462 L772 476 L800 468" fill="none" stroke="#c98a70" stroke-width="1.5" stroke-linejoin="round" opacity="0.45"/>
+  <path d="M600 600 L606 572 L640 548 L690 540 L740 552 L800 544 L800 600 Z" fill="#0c0b13"/>
+  <path d="M606 572 L640 548 L690 540 L740 552 L800 544" fill="none" stroke="#9a6b60" stroke-width="1.2" stroke-linejoin="round" opacity="0.35"/>
+  <g fill="none" stroke="#aab2d6" stroke-linecap="round" opacity="0.45">
+    <path d="M500 572 q18 -12 40 -2 q12 6 26 -4" stroke-width="1.6"/>
+    <path d="M470 596 q24 -14 52 -4" stroke-width="1.3"/>
+    <path d="M522 586 q14 -8 30 -2" stroke-width="1.2"/>
+  </g>
+
+  <!-- lighthouse -->
+  <g>
+    <rect x="650" y="450" width="60" height="14" rx="2" fill="#1d1a26"/>
+    <polygon points="658,454 702,454 692,346 668,346" fill="#cfc2b6"/>
+    <g clip-path="url(#towerClip)">
+      <rect x="650" y="372" width="60" height="20" fill="#a8333f"/>
+      <rect x="650" y="412" width="60" height="20" fill="#a8333f"/>
+      <rect x="650" y="340" width="60" height="120" fill="url(#towerShade)"/>
+    </g>
+    <line x1="668" y1="346" x2="658" y2="454" stroke="#f0b48c" stroke-width="1.2" opacity="0.7"/>
+    <rect x="655" y="338" width="50" height="9" rx="2" fill="#1d1a26"/>
+    <g stroke="#1d1a26" stroke-width="1.5">
+      <line x1="657" y1="327" x2="703" y2="327"/>
+      <line x1="659" y1="327" x2="659" y2="338"/>
+      <line x1="667" y1="327" x2="667" y2="338"/>
+      <line x1="693" y1="327" x2="693" y2="338"/>
+      <line x1="701" y1="327" x2="701" y2="338"/>
+    </g>
+    <circle cx="680" cy="322" r="34" fill="url(#lanternGlow)"/>
+    <rect x="669" y="306" width="22" height="32" fill="#ffe08a"/>
+    <g stroke="#1d1a26" stroke-width="1.6">
+      <line x1="676" y1="306" x2="676" y2="338"/>
+      <line x1="684" y1="306" x2="684" y2="338"/>
+      <line x1="669" y1="322" x2="691" y2="322"/>
+    </g>
+    <polygon points="663,306 697,306 680,288" fill="#1d1a26"/>
+    <circle cx="680" cy="286" r="2.5" fill="#1d1a26"/>
+    <circle cx="680" cy="322" r="14" fill="url(#lanternGlow)" opacity="0.6"/>
+  </g>
+
+  <!-- beam sweeping into the squall -->
+  <g>
+    <polygon points="680,322 60,228 60,416" fill="url(#beam)"/>
+    <polygon points="680,322 60,296 60,348" fill="url(#beam)" opacity="0.6"/>
+    <animateTransform attributeName="transform" type="rotate" values="0 680 322;-5 680 322;0 680 322;5 680 322;0 680 322" dur="10s" repeatCount="indefinite"/>
+  </g>
+
+  <rect width="800" height="600" fill="url(#vignette)"/>
+</svg>
