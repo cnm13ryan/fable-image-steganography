@@ -1,0 +1,378 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 600" width="800" height="600">
+  <title>Cottage garden with picket fence</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#79b8ee"/>
+      <stop offset="0.55" stop-color="#bfe0f8"/>
+      <stop offset="1" stop-color="#f6ecd4"/>
+    </linearGradient>
+    <radialGradient id="sunG">
+      <stop offset="0" stop-color="#fff9cf"/>
+      <stop offset="0.65" stop-color="#ffdd63"/>
+      <stop offset="1" stop-color="#ffc63a"/>
+    </radialGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#fff2b3" stop-opacity="0.85"/>
+      <stop offset="0.5" stop-color="#fff2b3" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#fff2b3" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#64b04d"/>
+      <stop offset="1" stop-color="#397f35"/>
+    </linearGradient>
+    <radialGradient id="sunCenter" cx="0.42" cy="0.4" r="0.62">
+      <stop offset="0" stop-color="#8d5c2c"/>
+      <stop offset="1" stop-color="#3a2211"/>
+    </radialGradient>
+    <pattern id="pickets" x="0" y="330" width="40" height="90" patternUnits="userSpaceOnUse">
+      <path d="M12 11 L20 1 L28 11 V90 H12 Z" fill="#f7f1e1" stroke="#cdbf9f" stroke-width="1.5" stroke-linejoin="round"/>
+    </pattern>
+
+    <g id="cloud" fill="#ffffff">
+      <ellipse cx="0" cy="0" rx="50" ry="16"/>
+      <circle cx="-22" cy="-8" r="18"/>
+      <circle cx="6" cy="-14" r="24"/>
+      <circle cx="32" cy="-6" r="16"/>
+    </g>
+
+    <g id="tree">
+      <path d="M-9 0 C -7 -40, -11 -80, -5 -125 L5 -125 C 11 -80, 7 -40, 9 0 Z" fill="#6b4a2b"/>
+      <path d="M-4 -118 C -14 -130, -26 -138, -34 -150 M4 -118 C 12 -132, 24 -140, 30 -152" stroke="#6b4a2b" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <g fill="#4a9442">
+        <circle cx="0" cy="-160" r="54"/>
+        <circle cx="-46" cy="-140" r="40"/>
+        <circle cx="48" cy="-136" r="42"/>
+        <circle cx="-22" cy="-108" r="36"/>
+        <circle cx="26" cy="-104" r="34"/>
+      </g>
+      <g fill="#5fae53">
+        <circle cx="-8" cy="-170" r="36"/>
+        <circle cx="38" cy="-150" r="26"/>
+        <circle cx="-44" cy="-146" r="24"/>
+        <circle cx="-14" cy="-118" r="22"/>
+        <circle cx="30" cy="-114" r="20"/>
+      </g>
+      <g fill="#7cc46a" opacity="0.8">
+        <circle cx="-16" cy="-182" r="18"/>
+        <circle cx="30" cy="-164" r="13"/>
+        <circle cx="-48" cy="-158" r="11"/>
+      </g>
+    </g>
+
+    <g id="tulip">
+      <path d="M0 0 C -16 -16, -32 -30, -34 -64 C -24 -44, -12 -28, -1 -10 Z" fill="#3e9a3c"/>
+      <path d="M0 0 C 16 -16, 32 -30, 34 -64 C 24 -44, 12 -28, 1 -10 Z" fill="#4aaa47"/>
+      <line x1="0" y1="0" x2="0" y2="-88" stroke="#3b8f3a" stroke-width="4" stroke-linecap="round"/>
+      <g transform="translate(0,-88)">
+        <path d="M0 2 C -12 2, -17 -10, -15 -22 C -14 -30, -10 -36, -9 -36 C -6 -30, -3 -28, 0 -27 C 3 -28, 6 -30, 9 -36 C 10 -36, 14 -30, 15 -22 C 17 -10, 12 2, 0 2 Z" fill="currentColor"/>
+        <path d="M0 2 C -12 2, -17 -10, -15 -22 C -14 -30, -10 -36, -9 -36 C -6 -30, -3 -28, 0 -27 Z" fill="#000000" opacity="0.13"/>
+        <path d="M0 -40 C -6 -36, -8 -28, -6 -20 C -3 -10, 3 -10, 6 -20 C 8 -28, 6 -36, 0 -40 Z" fill="currentColor"/>
+        <path d="M0 -40 C -6 -36, -8 -28, -6 -20 C -3 -10, 3 -10, 6 -20 C 8 -28, 6 -36, 0 -40 Z" fill="#ffffff" opacity="0.25"/>
+      </g>
+    </g>
+
+    <ellipse id="dp" cx="0" cy="-12" rx="3.8" ry="10"/>
+    <g id="daisyHead" fill="#ffffff" stroke="#e4ded0" stroke-width="0.6">
+      <use xlink:href="#dp"/>
+      <use xlink:href="#dp" transform="rotate(30)"/>
+      <use xlink:href="#dp" transform="rotate(60)"/>
+      <use xlink:href="#dp" transform="rotate(90)"/>
+      <use xlink:href="#dp" transform="rotate(120)"/>
+      <use xlink:href="#dp" transform="rotate(150)"/>
+      <use xlink:href="#dp" transform="rotate(180)"/>
+      <use xlink:href="#dp" transform="rotate(210)"/>
+      <use xlink:href="#dp" transform="rotate(240)"/>
+      <use xlink:href="#dp" transform="rotate(270)"/>
+      <use xlink:href="#dp" transform="rotate(300)"/>
+      <use xlink:href="#dp" transform="rotate(330)"/>
+      <circle r="6.5" fill="#f6c343" stroke="#dca52a" stroke-width="0.8"/>
+      <circle cx="-1.8" cy="-1.8" r="2.6" fill="#fde28a" stroke="none" opacity="0.8"/>
+    </g>
+    <g id="daisy">
+      <line x1="0" y1="0" x2="0" y2="-70" stroke="#3b8f3a" stroke-width="3" stroke-linecap="round"/>
+      <path d="M0 -32 C -8 -38, -20 -38, -26 -48 C -14 -50, -6 -44, 0 -36 Z" fill="#4aaa47"/>
+      <path d="M0 -18 C 8 -24, 20 -24, 26 -34 C 14 -36, 6 -30, 0 -22 Z" fill="#3e9a3c"/>
+      <use xlink:href="#daisyHead" transform="translate(0,-70)"/>
+    </g>
+
+    <path id="sp" d="M0 -16 C 6 -26, 7 -42, 0 -56 C -7 -42, -6 -26, 0 -16 Z"/>
+    <g id="sunHead">
+      <g fill="#e39a1c">
+        <use xlink:href="#sp" transform="rotate(10)"/>
+        <use xlink:href="#sp" transform="rotate(30)"/>
+        <use xlink:href="#sp" transform="rotate(50)"/>
+        <use xlink:href="#sp" transform="rotate(70)"/>
+        <use xlink:href="#sp" transform="rotate(90)"/>
+        <use xlink:href="#sp" transform="rotate(110)"/>
+        <use xlink:href="#sp" transform="rotate(130)"/>
+        <use xlink:href="#sp" transform="rotate(150)"/>
+        <use xlink:href="#sp" transform="rotate(170)"/>
+        <use xlink:href="#sp" transform="rotate(190)"/>
+        <use xlink:href="#sp" transform="rotate(210)"/>
+        <use xlink:href="#sp" transform="rotate(230)"/>
+        <use xlink:href="#sp" transform="rotate(250)"/>
+        <use xlink:href="#sp" transform="rotate(270)"/>
+        <use xlink:href="#sp" transform="rotate(290)"/>
+        <use xlink:href="#sp" transform="rotate(310)"/>
+        <use xlink:href="#sp" transform="rotate(330)"/>
+        <use xlink:href="#sp" transform="rotate(350)"/>
+      </g>
+      <g fill="#f7b92e" stroke="#d9951c" stroke-width="0.7">
+        <use xlink:href="#sp"/>
+        <use xlink:href="#sp" transform="rotate(20)"/>
+        <use xlink:href="#sp" transform="rotate(40)"/>
+        <use xlink:href="#sp" transform="rotate(60)"/>
+        <use xlink:href="#sp" transform="rotate(80)"/>
+        <use xlink:href="#sp" transform="rotate(100)"/>
+        <use xlink:href="#sp" transform="rotate(120)"/>
+        <use xlink:href="#sp" transform="rotate(140)"/>
+        <use xlink:href="#sp" transform="rotate(160)"/>
+        <use xlink:href="#sp" transform="rotate(180)"/>
+        <use xlink:href="#sp" transform="rotate(200)"/>
+        <use xlink:href="#sp" transform="rotate(220)"/>
+        <use xlink:href="#sp" transform="rotate(240)"/>
+        <use xlink:href="#sp" transform="rotate(260)"/>
+        <use xlink:href="#sp" transform="rotate(280)"/>
+        <use xlink:href="#sp" transform="rotate(300)"/>
+        <use xlink:href="#sp" transform="rotate(320)"/>
+        <use xlink:href="#sp" transform="rotate(340)"/>
+      </g>
+      <circle r="21" fill="url(#sunCenter)"/>
+      <circle r="21" fill="none" stroke="#2c1a0c" stroke-width="1.2" opacity="0.6"/>
+      <g fill="#1f120a" opacity="0.55">
+        <circle cx="3.5" cy="3.5" r="1.6"/><circle cx="-3.5" cy="3.5" r="1.6"/><circle cx="-3.5" cy="-3.5" r="1.6"/><circle cx="3.5" cy="-3.5" r="1.6"/>
+        <circle cx="10" cy="0" r="1.5"/><circle cx="5" cy="8.7" r="1.5"/><circle cx="-5" cy="8.7" r="1.5"/><circle cx="-10" cy="0" r="1.5"/><circle cx="-5" cy="-8.7" r="1.5"/><circle cx="5" cy="-8.7" r="1.5"/>
+        <circle cx="14.3" cy="5.9" r="1.4"/><circle cx="5.9" cy="14.3" r="1.4"/><circle cx="-5.9" cy="14.3" r="1.4"/><circle cx="-14.3" cy="5.9" r="1.4"/><circle cx="-14.3" cy="-5.9" r="1.4"/><circle cx="-5.9" cy="-14.3" r="1.4"/><circle cx="5.9" cy="-14.3" r="1.4"/><circle cx="14.3" cy="-5.9" r="1.4"/>
+      </g>
+    </g>
+    <g id="sunflower">
+      <line x1="0" y1="0" x2="0" y2="-190" stroke="#3a7d35" stroke-width="7" stroke-linecap="round"/>
+      <path d="M0 -72 C -18 -66, -46 -74, -54 -104 C -40 -112, -14 -100, -2 -82 Z" fill="#3f8f3a"/>
+      <path d="M-3 -78 Q -28 -86 -50 -102" stroke="#2f6e2b" stroke-width="1.4" fill="none"/>
+      <path d="M0 -118 C 18 -112, 46 -120, 54 -150 C 40 -158, 14 -146, 2 -128 Z" fill="#47a041"/>
+      <path d="M3 -124 Q 28 -132 50 -148" stroke="#2f6e2b" stroke-width="1.4" fill="none"/>
+      <use xlink:href="#sunHead" transform="translate(0,-190)"/>
+    </g>
+
+    <g id="lavender">
+      <line x1="0" y1="0" x2="0" y2="-98" stroke="#6aa365" stroke-width="2.4" stroke-linecap="round"/>
+      <g fill="#8a67c6">
+        <ellipse cx="-3.5" cy="-56" rx="4" ry="5"/>
+        <ellipse cx="3.5" cy="-62" rx="4" ry="5"/>
+        <ellipse cx="-3.5" cy="-68" rx="4" ry="5"/>
+        <ellipse cx="3.5" cy="-74" rx="3.8" ry="4.8"/>
+        <ellipse cx="-3.2" cy="-80" rx="3.6" ry="4.6"/>
+        <ellipse cx="3" cy="-86" rx="3.4" ry="4.4"/>
+        <ellipse cx="-2.6" cy="-92" rx="3" ry="4"/>
+        <ellipse cx="2.2" cy="-98" rx="2.6" ry="3.6"/>
+        <ellipse cx="0" cy="-104" rx="2.2" ry="3.4"/>
+      </g>
+      <g fill="#b7a0e3">
+        <circle cx="-4.5" cy="-58" r="1.3"/>
+        <circle cx="2.5" cy="-64" r="1.3"/>
+        <circle cx="-4.5" cy="-70" r="1.2"/>
+        <circle cx="2.5" cy="-76" r="1.2"/>
+        <circle cx="-4.2" cy="-82" r="1.1"/>
+        <circle cx="2" cy="-88" r="1.1"/>
+        <circle cx="-3.4" cy="-94" r="1"/>
+        <circle cx="1.6" cy="-100" r="1"/>
+      </g>
+    </g>
+    <g id="lavBush">
+      <g stroke="#7fae76" stroke-width="2.4" stroke-linecap="round" fill="none">
+        <path d="M0 -4 C -8 -12, -16 -14, -24 -26"/>
+        <path d="M0 -4 C 8 -12, 16 -14, 24 -26"/>
+        <path d="M0 -8 C -4 -18, -10 -24, -12 -38"/>
+        <path d="M0 -8 C 4 -18, 10 -24, 12 -38"/>
+        <path d="M0 -6 C -1 -18, -3 -26, -2 -40"/>
+      </g>
+      <use xlink:href="#lavender" transform="rotate(-10) scale(0.9)"/>
+      <use xlink:href="#lavender" transform="rotate(9) scale(0.94)"/>
+      <use xlink:href="#lavender" transform="rotate(-2)"/>
+    </g>
+
+    <g id="mini">
+      <circle cx="0" cy="-3.6" r="2.6"/>
+      <circle cx="3.4" cy="-1.1" r="2.6"/>
+      <circle cx="2.1" cy="2.9" r="2.6"/>
+      <circle cx="-2.1" cy="2.9" r="2.6"/>
+      <circle cx="-3.4" cy="-1.1" r="2.6"/>
+      <circle r="1.6" fill="#ffe27a"/>
+    </g>
+
+    <path id="blade" d="M-3 0 C -3 -12, -7 -24, -5 -38 C -1 -26, 2 -14, 3 0 Z"/>
+    <g id="tuft">
+      <use xlink:href="#blade" transform="rotate(-22) scale(1,0.9)"/>
+      <use xlink:href="#blade" transform="rotate(-8)"/>
+      <use xlink:href="#blade" transform="rotate(6) scale(1,1.1)"/>
+      <use xlink:href="#blade" transform="rotate(20) scale(-1,0.85)"/>
+      <use xlink:href="#blade" transform="translate(4,0) rotate(30) scale(-1,0.7)"/>
+    </g>
+
+    <g id="bwing">
+      <path d="M0 0 C -8 -16, -28 -24, -30 -8 C -31 3, -14 7, 0 3 Z" fill="#f08a2a" stroke="#4a2a0e" stroke-width="1.3" stroke-linejoin="round"/>
+      <path d="M0 3 C -11 4, -24 11, -19 21 C -14 28, -4 20, 0 9 Z" fill="#f6b14f" stroke="#4a2a0e" stroke-width="1.3" stroke-linejoin="round"/>
+      <circle cx="-18" cy="-9" r="2.4" fill="#ffffff" opacity="0.85"/>
+      <circle cx="-11" cy="15" r="1.7" fill="#ffffff" opacity="0.85"/>
+      <path d="M-4 -2 C -12 -8, -20 -12, -26 -10" stroke="#4a2a0e" stroke-width="0.8" fill="none" opacity="0.6"/>
+    </g>
+    <g id="butterfly">
+      <use xlink:href="#bwing"/>
+      <use xlink:href="#bwing" transform="scale(-1,1)"/>
+      <ellipse cx="0" cy="4" rx="2.2" ry="11" fill="#3a2410"/>
+      <circle cx="0" cy="-8" r="2.6" fill="#3a2410"/>
+      <path d="M-1 -10 C -4 -16, -8 -20, -12 -22 M1 -10 C 4 -16, 8 -20, 12 -22" stroke="#3a2410" stroke-width="1" fill="none" stroke-linecap="round"/>
+    </g>
+
+    <g id="bee">
+      <g fill="#e6f4ff" opacity="0.85" stroke="#9fc2dc" stroke-width="0.6">
+        <ellipse cx="-3" cy="-7" rx="5" ry="3" transform="rotate(-25 -3 -7)"/>
+        <ellipse cx="3" cy="-7" rx="5" ry="3" transform="rotate(25 3 -7)"/>
+      </g>
+      <ellipse rx="7" ry="4.5" fill="#f4c430"/>
+      <path d="M-3 -3.8 V3.8 M0.5 -4.3 V4.3 M4 -3.4 V3.4" stroke="#2b1a08" stroke-width="1.8"/>
+      <circle cx="-6.5" cy="-0.6" r="2.4" fill="#2b1a08"/>
+      <path d="M7 0 L9.5 0.4" stroke="#2b1a08" stroke-width="1" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <!-- sky, sun, clouds -->
+  <rect width="800" height="600" fill="url(#sky)"/>
+  <circle cx="650" cy="115" r="110" fill="url(#glow)"/>
+  <circle cx="650" cy="115" r="52" fill="url(#sunG)"/>
+  <g opacity="0.92">
+    <use xlink:href="#cloud" transform="translate(180,100)"/>
+    <use xlink:href="#cloud" transform="translate(430,70) scale(0.7)"/>
+    <use xlink:href="#cloud" transform="translate(540,178) scale(0.5)"/>
+  </g>
+
+  <!-- hills and tree -->
+  <path d="M0 282 C 120 236, 260 226, 400 258 C 520 284, 640 232, 800 250 L800 600 L0 600 Z" fill="#a9d1a0"/>
+  <path d="M0 330 C 160 292, 330 300, 500 318 C 620 330, 700 290, 800 300 L800 600 L0 600 Z" fill="#8fc672"/>
+  <use xlink:href="#tree" transform="translate(110,420)"/>
+
+  <!-- picket fence -->
+  <rect x="0" y="354" width="800" height="10" fill="#ebe3cb" stroke="#cdbf9f" stroke-width="1.2"/>
+  <rect x="0" y="388" width="800" height="10" fill="#ebe3cb" stroke="#cdbf9f" stroke-width="1.2"/>
+  <rect x="0" y="330" width="800" height="90" fill="url(#pickets)"/>
+
+  <!-- bird on the fence -->
+  <g transform="translate(459,331)">
+    <path d="M-2.5 -2 L-3 1 M2.5 -2 L3 1" stroke="#c57a2c" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M-8 -8 L-19 -13 L-16 -5 Z" fill="#55657f"/>
+    <ellipse cx="0" cy="-8" rx="10" ry="7" fill="#6e7f9a"/>
+    <ellipse cx="3" cy="-7" rx="6" ry="4.5" fill="#e87a4a"/>
+    <path d="M-7 -11 C -3 -15, 5 -14, 8 -10 C 4 -9, -2 -8, -7 -11 Z" fill="#596a85"/>
+    <circle cx="8" cy="-15" r="5.5" fill="#6e7f9a"/>
+    <path d="M13 -15.5 L19 -14 L13 -12.5 Z" fill="#f2b04a"/>
+    <circle cx="9.5" cy="-16.5" r="1.1" fill="#1b1b1b"/>
+  </g>
+
+  <!-- lawn -->
+  <path d="M0 417 C 150 409, 350 420, 500 415 C 650 409, 720 420, 800 416 L800 600 L0 600 Z" fill="url(#ground)"/>
+  <path d="M0 417 C 150 409, 350 420, 500 415 C 650 409, 720 420, 800 416 L800 440 C 650 434, 350 444, 0 440 Z" fill="#2f6e2b" opacity="0.25"/>
+
+  <!-- back grass -->
+  <g fill="#2f7a30">
+    <use xlink:href="#tuft" transform="translate(220,446) scale(0.6)"/>
+    <use xlink:href="#tuft" transform="translate(340,448) scale(0.55)"/>
+    <use xlink:href="#tuft" transform="translate(530,444) scale(0.6)"/>
+    <use xlink:href="#tuft" transform="translate(610,450) scale(0.6)"/>
+    <use xlink:href="#tuft" transform="translate(700,446) scale(0.5)"/>
+  </g>
+
+  <!-- sunflowers -->
+  <use xlink:href="#sunflower" transform="translate(552,452) scale(0.9)"/>
+  <use xlink:href="#sunflower" transform="translate(742,450) scale(0.86)"/>
+  <use xlink:href="#sunflower" transform="translate(646,456)"/>
+
+  <!-- lavender hedge -->
+  <g>
+    <use xlink:href="#lavBush" transform="translate(48,456)"/>
+    <use xlink:href="#lavBush" transform="translate(94,464) scale(1.05)"/>
+    <use xlink:href="#lavBush" transform="translate(140,458) scale(0.95)"/>
+    <use xlink:href="#lavBush" transform="translate(186,466)"/>
+    <use xlink:href="#lavBush" transform="translate(252,460) scale(1.02)"/>
+    <use xlink:href="#lavBush" transform="translate(298,468) scale(0.96)"/>
+    <use xlink:href="#lavBush" transform="translate(378,462)"/>
+    <use xlink:href="#lavBush" transform="translate(424,470) scale(1.04)"/>
+    <use xlink:href="#lavBush" transform="translate(486,464) scale(0.97)"/>
+    <use xlink:href="#lavBush" transform="translate(792,470) scale(0.98)"/>
+  </g>
+
+  <!-- tulips -->
+  <g>
+    <use xlink:href="#tulip" transform="translate(24,536)" color="#9a4fc9"/>
+    <use xlink:href="#tulip" transform="translate(60,548) rotate(3) scale(0.96)" color="#f5c531"/>
+    <use xlink:href="#tulip" transform="translate(228,512) scale(1.05)" color="#e23b3b"/>
+    <use xlink:href="#tulip" transform="translate(266,524) rotate(3)" color="#f5c531"/>
+    <use xlink:href="#tulip" transform="translate(306,508) rotate(-3) scale(1.1)" color="#f06ca3"/>
+    <use xlink:href="#tulip" transform="translate(348,522)" color="#e23b3b"/>
+    <use xlink:href="#tulip" transform="translate(390,510) rotate(2) scale(1.08)" color="#9a4fc9"/>
+    <use xlink:href="#tulip" transform="translate(432,526) rotate(-2)" color="#f08a2b"/>
+    <use xlink:href="#tulip" transform="translate(474,512) scale(1.1)" color="#f5c531"/>
+    <use xlink:href="#tulip" transform="translate(516,528) rotate(3)" color="#f06ca3"/>
+    <use xlink:href="#tulip" transform="translate(560,516) rotate(-2) scale(1.04)" color="#e23b3b"/>
+    <use xlink:href="#tulip" transform="translate(702,530) rotate(-2)" color="#f06ca3"/>
+    <use xlink:href="#tulip" transform="translate(770,540) rotate(3) scale(1.05)" color="#e23b3b"/>
+  </g>
+
+  <!-- daisies -->
+  <g>
+    <use xlink:href="#daisy" transform="translate(104,558) scale(1.1)"/>
+    <use xlink:href="#daisy" transform="translate(156,576) rotate(4)"/>
+    <use xlink:href="#daisy" transform="translate(246,582) scale(1.15)"/>
+    <use xlink:href="#daisy" transform="translate(326,566) rotate(-4)"/>
+    <use xlink:href="#daisy" transform="translate(404,584) scale(1.1)"/>
+    <use xlink:href="#daisy" transform="translate(458,562) rotate(3) scale(0.95)"/>
+    <use xlink:href="#daisy" transform="translate(546,580) scale(1.15)"/>
+    <use xlink:href="#daisy" transform="translate(626,562) rotate(-3)"/>
+    <use xlink:href="#daisy" transform="translate(696,586) scale(1.1)"/>
+    <use xlink:href="#daisy" transform="translate(764,574) rotate(4)"/>
+  </g>
+
+  <!-- ground-cover blossoms -->
+  <g fill="#6fa8e8">
+    <use xlink:href="#mini" transform="translate(190,590)"/>
+    <use xlink:href="#mini" transform="translate(202,582) scale(0.9)"/>
+    <use xlink:href="#mini" transform="translate(214,592)"/>
+    <use xlink:href="#mini" transform="translate(372,588)"/>
+    <use xlink:href="#mini" transform="translate(386,578) scale(0.85)"/>
+    <use xlink:href="#mini" transform="translate(600,590)"/>
+    <use xlink:href="#mini" transform="translate(612,580) scale(0.9)"/>
+    <use xlink:href="#mini" transform="translate(738,592)"/>
+  </g>
+  <g fill="#f7a1c4">
+    <use xlink:href="#mini" transform="translate(74,588)"/>
+    <use xlink:href="#mini" transform="translate(284,592)"/>
+    <use xlink:href="#mini" transform="translate(296,584) scale(0.9)"/>
+    <use xlink:href="#mini" transform="translate(500,590)"/>
+    <use xlink:href="#mini" transform="translate(512,582) scale(0.85)"/>
+    <use xlink:href="#mini" transform="translate(664,586)"/>
+    <use xlink:href="#mini" transform="translate(676,594) scale(0.9)"/>
+  </g>
+
+  <!-- front grass -->
+  <g fill="#3c9140">
+    <use xlink:href="#tuft" transform="translate(80,580) scale(0.7)"/>
+    <use xlink:href="#tuft" transform="translate(300,572) scale(0.65)"/>
+    <use xlink:href="#tuft" transform="translate(420,540) scale(0.55)"/>
+    <use xlink:href="#tuft" transform="translate(520,566) scale(0.7)"/>
+    <use xlink:href="#tuft" transform="translate(660,576) scale(0.6)"/>
+  </g>
+  <g fill="#2e7b31">
+    <use xlink:href="#tuft" transform="translate(20,600)"/>
+    <use xlink:href="#tuft" transform="translate(130,600) scale(0.9)"/>
+    <use xlink:href="#tuft" transform="translate(230,600) scale(1.1)"/>
+    <use xlink:href="#tuft" transform="translate(350,600)"/>
+    <use xlink:href="#tuft" transform="translate(440,600) scale(0.85)"/>
+    <use xlink:href="#tuft" transform="translate(580,600) scale(1.05)"/>
+    <use xlink:href="#tuft" transform="translate(720,600)"/>
+    <use xlink:href="#tuft" transform="translate(790,600) scale(0.9)"/>
+  </g>
+
+  <!-- visitors -->
+  <use xlink:href="#butterfly" transform="translate(330,238) rotate(-14) scale(1.05)"/>
+  <use xlink:href="#butterfly" transform="translate(405,302) rotate(12) scale(0.7)"/>
+  <use xlink:href="#bee" transform="translate(772,222) rotate(-10)"/>
+</svg>

@@ -1,0 +1,344 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfdff0"/>
+      <stop offset="1" stop-color="#fdebd2"/>
+    </linearGradient>
+    <linearGradient id="groundShade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000" stop-opacity="0.16"/>
+      <stop offset="0.35" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="awnShadow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8a5a30"/>
+      <stop offset="0.5" stop-color="#b27c47"/>
+      <stop offset="1" stop-color="#7c4e29"/>
+    </linearGradient>
+    <linearGradient id="woodV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c7975f"/>
+      <stop offset="1" stop-color="#9a6a3b"/>
+    </linearGradient>
+    <radialGradient id="orangeG" cx="0.35" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#ffb95e"/>
+      <stop offset="1" stop-color="#e2731d"/>
+    </radialGradient>
+    <radialGradient id="appleG" cx="0.35" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#f4706a"/>
+      <stop offset="1" stop-color="#b3212a"/>
+    </radialGradient>
+    <radialGradient id="lemonG" cx="0.35" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#fff28e"/>
+      <stop offset="1" stop-color="#e8bd1e"/>
+    </radialGradient>
+    <radialGradient id="pumpkinG" cx="0.35" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#ffb463"/>
+      <stop offset="1" stop-color="#d4711a"/>
+    </radialGradient>
+    <radialGradient id="potatoG" cx="0.35" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#dcbc8c"/>
+      <stop offset="1" stop-color="#9c7448"/>
+    </radialGradient>
+    <pattern id="stripes" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="#fff5e1"/>
+      <rect width="20" height="40" fill="#d7463c"/>
+    </pattern>
+    <pattern id="gingham" width="24" height="24" patternUnits="userSpaceOnUse">
+      <rect width="24" height="24" fill="#f4efe1"/>
+      <rect width="12" height="24" fill="#3f7d58" opacity="0.55"/>
+      <rect width="24" height="12" fill="#3f7d58" opacity="0.55"/>
+    </pattern>
+    <pattern id="cobble" width="44" height="26" patternUnits="userSpaceOnUse">
+      <rect width="44" height="26" fill="#a89a80"/>
+      <ellipse cx="11" cy="6.5" rx="10" ry="5.5" fill="#cabca2"/>
+      <ellipse cx="33" cy="6.5" rx="10" ry="5.5" fill="#bfb197"/>
+      <ellipse cx="22" cy="19.5" rx="10" ry="5.5" fill="#ccbea5"/>
+      <ellipse cx="0" cy="19.5" rx="10" ry="5.5" fill="#c4b59b"/>
+      <ellipse cx="44" cy="19.5" rx="10" ry="5.5" fill="#c4b59b"/>
+    </pattern>
+
+    <g id="orange">
+      <circle r="11" fill="url(#orangeG)"/>
+      <circle cx="-4" cy="-4" r="3" fill="#fff" opacity="0.35"/>
+    </g>
+    <g id="apple">
+      <circle r="11" fill="url(#appleG)"/>
+      <circle cx="-4" cy="-4" r="3" fill="#fff" opacity="0.3"/>
+      <path d="M0,-9 q1,-5 4,-7" stroke="#5a3a1e" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <ellipse cx="6" cy="-12" rx="4.5" ry="2" fill="#5aa345" transform="rotate(-30 6 -12)"/>
+    </g>
+    <g id="lemon">
+      <ellipse rx="12" ry="9" fill="url(#lemonG)" transform="rotate(-22)"/>
+      <circle cx="-4" cy="-3" r="2.5" fill="#fff" opacity="0.4"/>
+    </g>
+    <g id="lemon2">
+      <ellipse rx="12" ry="9" fill="url(#lemonG)" transform="rotate(25)"/>
+      <circle cx="-3" cy="-4" r="2.5" fill="#fff" opacity="0.4"/>
+    </g>
+    <g id="potato">
+      <ellipse rx="13" ry="9" fill="url(#potatoG)"/>
+      <circle cx="3" cy="2" r="1.2" fill="#6e4f2a" opacity="0.6"/>
+      <circle cx="-5" cy="-2" r="1.2" fill="#6e4f2a" opacity="0.6"/>
+    </g>
+    <g id="pumpkin">
+      <circle r="17" fill="url(#pumpkinG)"/>
+      <path d="M-6,-16 q-4,16 0,32 M6,-16 q4,16 0,32" stroke="#b55f12" stroke-width="1.6" fill="none" opacity="0.6"/>
+      <rect x="-3" y="-22" width="6" height="8" rx="2" fill="#5f7a3a"/>
+    </g>
+    <g id="garlic">
+      <path d="M0,-13 q2,-8 0,-14" stroke="#b7a98c" stroke-width="2" fill="none"/>
+      <ellipse rx="11" ry="13" fill="#f3eee2" stroke="#cfc4ab" stroke-width="1.2"/>
+      <path d="M-4,-10 q-2,10 0,20 M4,-10 q2,10 0,20" stroke="#cbbfa6" stroke-width="1.2" fill="none"/>
+    </g>
+    <g id="sunflower">
+      <g fill="#f5c842">
+        <ellipse cx="0" cy="-10" rx="3.5" ry="7"/>
+        <ellipse cx="0" cy="-10" rx="3.5" ry="7" transform="rotate(45)"/>
+        <ellipse cx="0" cy="-10" rx="3.5" ry="7" transform="rotate(90)"/>
+        <ellipse cx="0" cy="-10" rx="3.5" ry="7" transform="rotate(135)"/>
+        <ellipse cx="0" cy="-10" rx="3.5" ry="7" transform="rotate(180)"/>
+        <ellipse cx="0" cy="-10" rx="3.5" ry="7" transform="rotate(225)"/>
+        <ellipse cx="0" cy="-10" rx="3.5" ry="7" transform="rotate(270)"/>
+        <ellipse cx="0" cy="-10" rx="3.5" ry="7" transform="rotate(315)"/>
+      </g>
+      <circle r="6" fill="#6b4320"/>
+      <circle r="6" fill="none" stroke="#4e2f14" stroke-width="1"/>
+    </g>
+    <g id="window">
+      <rect x="-12" y="0" width="12" height="70" fill="#5c8a6b" stroke="#3f6a4d" stroke-width="1.5"/>
+      <rect x="48" y="0" width="12" height="70" fill="#5c8a6b" stroke="#3f6a4d" stroke-width="1.5"/>
+      <path d="M-9,8 h6 M-9,16 h6 M-9,24 h6 M-9,32 h6 M-9,40 h6 M-9,48 h6 M-9,56 h6 M51,8 h6 M51,16 h6 M51,24 h6 M51,32 h6 M51,40 h6 M51,48 h6 M51,56 h6" stroke="#3f6a4d" stroke-width="1" opacity="0.7"/>
+      <rect x="0" y="0" width="48" height="70" fill="#9bb8c9" stroke="#6b5a45" stroke-width="3"/>
+      <path d="M24,0 V70 M0,35 H48" stroke="#6b5a45" stroke-width="2"/>
+      <path d="M5,8 l10,-4 M5,18 l20,-10" stroke="#fff" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+      <rect x="-14" y="70" width="76" height="6" fill="#c9b494" stroke="#9a8364" stroke-width="1"/>
+    </g>
+    <g id="crate">
+      <rect x="0" y="0" width="140" height="60" fill="#d4a86e" stroke="#8a5a30" stroke-width="2"/>
+      <path d="M2,20 H138 M2,40 H138" stroke="#b07f4c" stroke-width="2"/>
+      <rect x="0" y="0" width="11" height="60" fill="#c08f58" stroke="#8a5a30" stroke-width="1.5"/>
+      <rect x="129" y="0" width="11" height="60" fill="#c08f58" stroke="#8a5a30" stroke-width="1.5"/>
+      <g fill="#6b4524">
+        <circle cx="5.5" cy="6" r="1.4"/><circle cx="5.5" cy="54" r="1.4"/>
+        <circle cx="134.5" cy="6" r="1.4"/><circle cx="134.5" cy="54" r="1.4"/>
+      </g>
+    </g>
+    <g id="tag">
+      <rect x="-21" y="-12" width="42" height="24" rx="2" fill="#fff8e6" stroke="#b7a584" stroke-width="1.2"/>
+      <circle cx="0" cy="-12" r="2" fill="#8a5a30"/>
+    </g>
+  </defs>
+
+  <!-- sky -->
+  <rect width="800" height="600" fill="url(#sky)"/>
+  <circle cx="72" cy="70" r="48" fill="#fff4c9" opacity="0.55"/>
+  <circle cx="72" cy="70" r="28" fill="#ffe99c"/>
+  <g fill="#fff" opacity="0.92">
+    <ellipse cx="300" cy="58" rx="22" ry="12"/>
+    <ellipse cx="324" cy="48" rx="28" ry="17"/>
+    <ellipse cx="352" cy="58" rx="22" ry="12"/>
+    <ellipse cx="522" cy="40" rx="18" ry="10"/>
+    <ellipse cx="542" cy="31" rx="23" ry="14"/>
+    <ellipse cx="564" cy="40" rx="17" ry="9"/>
+  </g>
+  <g stroke="#6a6f7a" stroke-width="1.6" fill="none" stroke-linecap="round">
+    <path d="M700,74 q6,-6 12,0 q6,-6 12,0"/>
+    <path d="M736,56 q5,-5 10,0 q5,-5 10,0"/>
+    <path d="M722,92 q4,-4 8,0 q4,-4 8,0"/>
+  </g>
+
+  <!-- wall behind -->
+  <rect x="0" y="180" width="800" height="222" fill="#eadfca"/>
+  <rect x="0" y="174" width="800" height="9" fill="#b99d7c"/>
+  <rect x="0" y="183" width="800" height="3" fill="#d8c6a9"/>
+  <use href="#window" x="44" y="214"/>
+  <use href="#window" x="712" y="214"/>
+  <rect x="38" y="283" width="60" height="12" rx="2" fill="#8f5e34" stroke="#6b4524" stroke-width="1.2"/>
+  <ellipse cx="54" cy="282" rx="7" ry="3" fill="#5b9a4a"/>
+  <ellipse cx="80" cy="282" rx="7" ry="3" fill="#5b9a4a"/>
+  <circle cx="47" cy="278" r="5" fill="#e25c74"/>
+  <circle cx="60" cy="275" r="5.5" fill="#f0a040"/>
+  <circle cx="72" cy="278" r="5" fill="#e25c74"/>
+  <circle cx="84" cy="275" r="5" fill="#f3d14d"/>
+  <circle cx="92" cy="280" r="4" fill="#e25c74"/>
+  <rect x="120" y="180" width="560" height="110" fill="url(#awnShadow)"/>
+
+  <!-- ground -->
+  <rect x="0" y="400" width="800" height="200" fill="url(#cobble)"/>
+  <rect x="0" y="400" width="800" height="200" fill="url(#groundShade)"/>
+  <rect x="0" y="397" width="800" height="5" fill="#8e8067"/>
+  <ellipse cx="400" cy="444" rx="300" ry="16" fill="#000" opacity="0.14"/>
+
+  <!-- posts -->
+  <rect x="148" y="130" width="16" height="312" fill="url(#wood)" stroke="#5e3a1b" stroke-width="1.5"/>
+  <rect x="636" y="130" width="16" height="312" fill="url(#wood)" stroke="#5e3a1b" stroke-width="1.5"/>
+
+  <!-- vendor -->
+  <path d="M528,276 Q560,266 592,276 L602,312 L518,312 Z" fill="#3e6d98"/>
+  <path d="M540,284 H580 L586,312 H534 Z" fill="#f1e8d4"/>
+  <rect x="553" y="260" width="14" height="16" rx="3" fill="#d9a27c"/>
+  <circle cx="560" cy="248" r="21" fill="#ecbb95"/>
+  <path d="M538,247 Q560,206 582,247 Q560,237 538,247 Z" fill="#cf4b40"/>
+  <circle cx="582" cy="246" r="4" fill="#cf4b40"/>
+  <path d="M584,247 q10,1 12,11" stroke="#cf4b40" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <g fill="#fff" opacity="0.75">
+    <circle cx="553" cy="237" r="1.6"/><circle cx="561" cy="231" r="1.6"/><circle cx="569" cy="237" r="1.6"/>
+  </g>
+  <circle cx="552" cy="250" r="2.2" fill="#3b2a20"/>
+  <circle cx="568" cy="250" r="2.2" fill="#3b2a20"/>
+  <path d="M547,244 q5,-3 9,0 M564,244 q5,-3 9,0" stroke="#5a3a1e" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M552,259 q8,7 16,0" stroke="#3b2a20" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <circle cx="547" cy="257" r="3.5" fill="#e8857a" opacity="0.45"/>
+  <circle cx="573" cy="257" r="3.5" fill="#e8857a" opacity="0.45"/>
+
+  <!-- hanging garlic -->
+  <path d="M152,196 V221" stroke="#c9b58d" stroke-width="2"/>
+  <use href="#garlic" x="154" y="284"/>
+  <use href="#garlic" x="149" y="259"/>
+  <use href="#garlic" x="152" y="234"/>
+
+  <!-- hanging chilies -->
+  <path d="M196,196 V214" stroke="#c9b58d" stroke-width="2"/>
+  <ellipse cx="192" cy="224" rx="5" ry="13" fill="#d4382e" transform="rotate(-25 192 224)"/>
+  <ellipse cx="201" cy="232" rx="5" ry="13" fill="#c22d26" transform="rotate(20 201 232)"/>
+  <ellipse cx="193" cy="246" rx="5" ry="13" fill="#e0463a" transform="rotate(-15 193 246)"/>
+  <ellipse cx="202" cy="254" rx="5" ry="13" fill="#d4382e" transform="rotate(25 202 254)"/>
+  <ellipse cx="194" cy="268" rx="5" ry="13" fill="#c22d26" transform="rotate(-22 194 268)"/>
+  <ellipse cx="201" cy="276" rx="5" ry="13" fill="#e0463a" transform="rotate(18 201 276)"/>
+  <ellipse cx="196" cy="290" rx="5" ry="13" fill="#d4382e" transform="rotate(-8 196 290)"/>
+
+  <!-- lantern -->
+  <path d="M612,196 V222" stroke="#6b4a2a" stroke-width="2"/>
+  <circle cx="612" cy="243" r="24" fill="#ffd36e" opacity="0.18"/>
+  <rect x="598" y="222" width="28" height="7" rx="2" fill="#2f2c2c"/>
+  <rect x="601" y="229" width="22" height="28" rx="3" fill="#3d3a3a"/>
+  <rect x="605" y="233" width="14" height="20" rx="2" fill="#ffd36e"/>
+  <rect x="599" y="256" width="26" height="6" rx="2" fill="#2f2c2c"/>
+
+  <!-- hanging sign -->
+  <path d="M325,196 V206 M475,196 V206" stroke="#6b4a2a" stroke-width="3"/>
+  <rect x="300" y="204" width="200" height="42" rx="4" fill="url(#wood)" stroke="#5a3416" stroke-width="2"/>
+  <circle cx="325" cy="211" r="2.5" fill="#3b2a20"/>
+  <circle cx="475" cy="211" r="2.5" fill="#3b2a20"/>
+  <text x="400" y="234" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="bold" letter-spacing="2" fill="#fff4e0" text-anchor="middle">FARM FRESH</text>
+
+  <!-- awning -->
+  <path d="M120,130 Q400,66 680,130 Z" fill="url(#stripes)" stroke="#8c2f28" stroke-width="2"/>
+  <path d="M120,130 Q400,66 680,130 Z" fill="#000" opacity="0.07"/>
+  <rect x="120" y="130" width="560" height="46" fill="url(#stripes)"/>
+  <path d="M120,176 a20,20 0 0 0 40,0 a20,20 0 0 0 40,0 a20,20 0 0 0 40,0 a20,20 0 0 0 40,0 a20,20 0 0 0 40,0 a20,20 0 0 0 40,0 a20,20 0 0 0 40,0 a20,20 0 0 0 40,0 a20,20 0 0 0 40,0 a20,20 0 0 0 40,0 a20,20 0 0 0 40,0 a20,20 0 0 0 40,0 a20,20 0 0 0 40,0 a20,20 0 0 0 40,0 Z" fill="url(#stripes)" stroke="#8c2f28" stroke-width="1.5"/>
+  <rect x="120" y="130" width="560" height="46" fill="none" stroke="#8c2f28" stroke-width="1.5"/>
+  <rect x="120" y="132" width="560" height="6" fill="#000" opacity="0.12"/>
+  <rect x="112" y="125" width="576" height="7" rx="3.5" fill="#6b3f1d"/>
+  <circle cx="112" cy="128.5" r="5" fill="#53301a"/>
+  <circle cx="688" cy="128.5" r="5" fill="#53301a"/>
+
+  <!-- table -->
+  <rect x="118" y="345" width="564" height="18" rx="2" fill="url(#woodV)" stroke="#6e4524" stroke-width="2"/>
+  <rect x="120" y="347" width="560" height="4" fill="#dcb07a" opacity="0.7"/>
+  <path d="M124,363 H676 V436 a23,10 0 0 1 -46,0 a23,10 0 0 1 -46,0 a23,10 0 0 1 -46,0 a23,10 0 0 1 -46,0 a23,10 0 0 1 -46,0 a23,10 0 0 1 -46,0 a23,10 0 0 1 -46,0 a23,10 0 0 1 -46,0 a23,10 0 0 1 -46,0 a23,10 0 0 1 -46,0 a23,10 0 0 1 -46,0 a23,10 0 0 1 -46,0 Z" fill="url(#gingham)" stroke="#2f6246" stroke-width="1.5"/>
+  <path d="M190,364 q-6,36 0,72 M270,364 q6,36 0,72 M350,364 q-6,36 0,72 M430,364 q6,36 0,72 M510,364 q-6,36 0,72 M590,364 q6,36 0,72" stroke="#1e3f2d" stroke-width="7" opacity="0.1" fill="none"/>
+  <rect x="124" y="363" width="552" height="8" fill="#000" opacity="0.15"/>
+
+  <!-- crate of oranges -->
+  <rect x="227" y="268" width="130" height="28" rx="4" fill="#5e3c1f"/>
+  <use href="#orange" x="248" y="270"/><use href="#orange" x="270" y="270"/><use href="#orange" x="292" y="270"/><use href="#orange" x="314" y="270"/><use href="#orange" x="336" y="270"/>
+  <use href="#orange" x="237" y="288"/><use href="#orange" x="259" y="288"/><use href="#orange" x="281" y="288"/><use href="#orange" x="303" y="288"/><use href="#orange" x="325" y="288"/><use href="#orange" x="347" y="288"/>
+  <use href="#crate" x="222" y="292"/>
+  <use href="#tag" x="292" y="318"/>
+  <text x="292" y="322" font-family="Georgia, serif" font-size="11" fill="#3b2a20" text-anchor="middle">2€/kg</text>
+
+  <!-- crate of apples -->
+  <rect x="383" y="268" width="130" height="28" rx="4" fill="#5e3c1f"/>
+  <use href="#apple" x="404" y="270"/><use href="#apple" x="426" y="270"/><use href="#apple" x="448" y="270"/><use href="#apple" x="470" y="270"/><use href="#apple" x="492" y="270"/>
+  <use href="#apple" x="393" y="288"/><use href="#apple" x="415" y="288"/><use href="#apple" x="437" y="288"/><use href="#apple" x="459" y="288"/><use href="#apple" x="481" y="288"/><use href="#apple" x="503" y="288"/>
+  <use href="#crate" x="378" y="292"/>
+  <use href="#tag" x="448" y="318"/>
+  <text x="448" y="322" font-family="Georgia, serif" font-size="11" fill="#3b2a20" text-anchor="middle">3€/kg</text>
+
+  <!-- crate of lemons -->
+  <rect x="539" y="268" width="130" height="28" rx="4" fill="#5e3c1f"/>
+  <use href="#lemon2" x="562" y="272"/><use href="#lemon" x="586" y="272"/><use href="#lemon2" x="610" y="272"/><use href="#lemon" x="634" y="272"/>
+  <use href="#lemon" x="550" y="289"/><use href="#lemon2" x="574" y="289"/><use href="#lemon" x="598" y="289"/><use href="#lemon2" x="622" y="289"/><use href="#lemon" x="646" y="289"/>
+  <use href="#crate" x="534" y="292"/>
+  <use href="#tag" x="604" y="318"/>
+  <text x="604" y="322" font-family="Georgia, serif" font-size="11" fill="#3b2a20" text-anchor="middle">4€/kg</text>
+
+  <!-- brass scale -->
+  <ellipse cx="170" cy="344" rx="22" ry="6" fill="#a9802f"/>
+  <rect x="166" y="302" width="8" height="42" fill="#c89a44"/>
+  <rect x="142" y="300" width="56" height="4" rx="2" fill="#c89a44"/>
+  <circle cx="170" cy="302" r="5" fill="#e0b85c" stroke="#8d6a22" stroke-width="1"/>
+  <path d="M146,304 L136,327 M146,304 L156,327 M194,304 L184,327 M194,304 L204,327" stroke="#9c7a2e" stroke-width="1.3"/>
+  <use href="#apple" transform="translate(146,320) scale(0.75)"/>
+  <rect x="189" y="316" width="10" height="12" rx="1" fill="#55555a"/>
+  <circle cx="194" cy="314" r="2.5" fill="#55555a"/>
+  <path d="M132,328 Q146,342 160,328 Z" fill="#c89a44" stroke="#8d6a22" stroke-width="1"/>
+  <path d="M180,328 Q194,342 208,328 Z" fill="#c89a44" stroke="#8d6a22" stroke-width="1"/>
+
+  <!-- chalkboard -->
+  <ellipse cx="86" cy="474" rx="40" ry="6" fill="#000" opacity="0.15"/>
+  <polygon points="56,388 116,388 126,472 46,472" fill="#2b3330" stroke="#7a5230" stroke-width="6" stroke-linejoin="round"/>
+  <text x="86" y="416" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#f6f1e3" text-anchor="middle">TODAY</text>
+  <path d="M66,421 H106" stroke="#f6f1e3" stroke-width="1.2" opacity="0.7"/>
+  <text x="86" y="440" font-family="Georgia, serif" font-size="11" fill="#f6f1e3" text-anchor="middle">apples 3€</text>
+  <text x="86" y="458" font-family="Georgia, serif" font-size="11" fill="#f6f1e3" text-anchor="middle">lemons 4€</text>
+
+  <!-- basket of potatoes -->
+  <ellipse cx="215" cy="472" rx="48" ry="7" fill="#000" opacity="0.15"/>
+  <use href="#potato" x="190" y="418"/><use href="#potato" x="214" y="411"/><use href="#potato" x="238" y="418"/>
+  <use href="#potato" x="202" y="424"/><use href="#potato" x="226" y="424"/>
+  <path d="M170,424 H260 Q258,470 215,472 Q172,470 170,424 Z" fill="#c9a26a" stroke="#8a6a3a" stroke-width="2"/>
+  <path d="M173,436 Q215,443 257,436 M176,448 Q215,455 254,448 M181,460 Q215,466 249,460" stroke="#a8865a" stroke-width="1.5" fill="none"/>
+  <path d="M190,424 q-2,22 2,46 M215,424 v47 M240,424 q2,22 -2,46" stroke="#b08f60" stroke-width="1.2" fill="none"/>
+  <rect x="166" y="420" width="98" height="8" rx="4" fill="#b48d58" stroke="#8a6a3a" stroke-width="1.5"/>
+
+  <!-- dropped orange -->
+  <ellipse cx="312" cy="491" rx="12" ry="3" fill="#000" opacity="0.15"/>
+  <use href="#orange" x="310" y="481"/>
+
+  <!-- crate of pumpkins -->
+  <ellipse cx="580" cy="468" rx="62" ry="7" fill="#000" opacity="0.15"/>
+  <use href="#pumpkin" x="548" y="410"/><use href="#pumpkin" x="582" y="404"/><use href="#pumpkin" x="616" y="410"/>
+  <rect x="520" y="420" width="120" height="44" fill="#c99a63" stroke="#8a5a30" stroke-width="2"/>
+  <path d="M522,434 H638 M522,450 H638" stroke="#a87b4a" stroke-width="1.5"/>
+  <rect x="520" y="420" width="10" height="44" fill="#b88a55" stroke="#8a5a30" stroke-width="1.5"/>
+  <rect x="630" y="420" width="10" height="44" fill="#b88a55" stroke="#8a5a30" stroke-width="1.5"/>
+
+  <!-- bucket of sunflowers -->
+  <ellipse cx="667" cy="482" rx="24" ry="5" fill="#000" opacity="0.15"/>
+  <path d="M662,430 Q660,412 659,392 M668,430 Q676,408 679,384 M666,430 Q668,418 669,404" stroke="#4f7a36" stroke-width="2.5" fill="none"/>
+  <ellipse cx="655" cy="414" rx="7" ry="3" fill="#5b9a4a" transform="rotate(-30 655 414)"/>
+  <ellipse cx="676" cy="412" rx="7" ry="3" fill="#5b9a4a" transform="rotate(35 676 412)"/>
+  <use href="#sunflower" x="659" y="390"/>
+  <use href="#sunflower" x="679" y="382"/>
+  <use href="#sunflower" x="669" y="404"/>
+  <polygon points="648,430 686,430 681,480 653,480" fill="#8aa0b3" stroke="#5f7485" stroke-width="2"/>
+  <path d="M651,455 H684" stroke="#5f7485" stroke-width="1.5" opacity="0.6"/>
+  <rect x="646" y="427" width="42" height="6" rx="2" fill="#a3b7c6" stroke="#5f7485" stroke-width="1.5"/>
+
+  <!-- cat -->
+  <g transform="translate(10,0)">
+    <ellipse cx="707" cy="482" rx="27" ry="5" fill="#000" opacity="0.15"/>
+    <path d="M726,476 q24,-4 18,-28 q-3,-10 -11,-8" stroke="#6f7177" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <path d="M686,480 Q683,432 706,428 Q729,432 726,480 Z" fill="#7d7f85"/>
+    <ellipse cx="706" cy="464" rx="9" ry="13" fill="#d9dbe0"/>
+    <ellipse cx="697" cy="479" rx="8" ry="4" fill="#8b8d93"/>
+    <ellipse cx="715" cy="479" rx="8" ry="4" fill="#8b8d93"/>
+    <polygon points="693,424 696,404 707,417" fill="#7d7f85"/>
+    <polygon points="719,424 716,404 705,417" fill="#7d7f85"/>
+    <polygon points="696,421 698,410 704,418" fill="#e7a8a8"/>
+    <polygon points="716,421 714,410 708,418" fill="#e7a8a8"/>
+    <circle cx="706" cy="429" r="14" fill="#7d7f85"/>
+    <ellipse cx="700" cy="428" rx="2.6" ry="3.2" fill="#9ed45f"/>
+    <ellipse cx="712" cy="428" rx="2.6" ry="3.2" fill="#9ed45f"/>
+    <ellipse cx="700" cy="428" rx="1" ry="2.6" fill="#1f2a1a"/>
+    <ellipse cx="712" cy="428" rx="1" ry="2.6" fill="#1f2a1a"/>
+    <polygon points="704,434 708,434 706,437" fill="#e59aa1"/>
+    <path d="M706,437 q-3,3 -6,2 M706,437 q3,3 6,2" stroke="#4a4c52" stroke-width="1" fill="none"/>
+    <path d="M690,432 l-12,-2 M690,435 l-12,2 M722,432 l12,-2 M722,435 l12,2" stroke="#e6e8ec" stroke-width="1"/>
+  </g>
+</svg>

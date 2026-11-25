@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 940" width="640" height="940">
+  <title>Violin and bow</title>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="72%">
+      <stop offset="0" stop-color="#2b2126"/>
+      <stop offset="1" stop-color="#0a0809"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ffb066" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#ffb066" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="varnish" cx="35%" cy="28%" r="85%">
+      <stop offset="0" stop-color="#eaa94f"/>
+      <stop offset=".35" stop-color="#cc6a2a"/>
+      <stop offset=".72" stop-color="#8f3515"/>
+      <stop offset="1" stop-color="#5a1e0b"/>
+    </radialGradient>
+    <linearGradient id="maple" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e6b872"/>
+      <stop offset=".5" stop-color="#cf944b"/>
+      <stop offset="1" stop-color="#a86b2e"/>
+    </linearGradient>
+    <linearGradient id="ebony" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2a2320"/>
+      <stop offset=".5" stop-color="#120e0c"/>
+      <stop offset="1" stop-color="#231c18"/>
+    </linearGradient>
+    <path id="body" d="M300 378C365 378 412 420 413 495C414 535 383 548 390 562C380 566 372 585 373 605C374 625 381 644 390 650C378 668 438 700 441 755C441 810 390 862 300 862C210 862 159 810 159 755C162 700 222 668 210 650C219 644 226 625 227 605C228 585 220 566 210 562C217 548 186 535 187 495C188 420 235 378 300 378Z"/>
+    <clipPath id="bodyClip"><use xlink:href="#body"/></clipPath>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <g id="fhole" fill="#0b0806">
+      <circle cx="340" cy="585" r="7"/>
+      <circle cx="370" cy="714" r="8.5"/>
+      <path d="M342.8 591Q350 628 354.2 650Q359 678 371.2 708L366.8 708Q353 678 347.8 650Q344 628 339.2 591Z"/>
+      <path d="M348.2 645L342 650L348.2 655ZM353.8 645L360 650L353.8 655Z"/>
+    </g>
+  </defs>
+
+  <rect width="640" height="940" fill="url(#bg)"/>
+  <ellipse cx="320" cy="520" rx="300" ry="430" fill="url(#glow)"/>
+
+  <!-- bow, lying behind the violin -->
+  <g transform="translate(56 900) rotate(-55)">
+    <line x1="34" y1="17" x2="972" y2="14" stroke="#efe7d6" stroke-width="3.6" opacity=".85"/>
+    <line x1="34" y1="16" x2="972" y2="13" stroke="#fff" stroke-width="1" opacity=".5"/>
+    <path d="M0 -3Q490 5 980 -1.5L980 1.5Q490 11 0 3Z" fill="#5a2d14"/>
+    <path d="M6 -1.4Q490 6.5 976 -.3" fill="none" stroke="#a0623a" stroke-width="1.1" opacity=".9"/>
+    <path d="M22 0L80 0L74 19L32 19Z" fill="#15100d"/>
+    <line x1="32" y1="19" x2="74" y2="19" stroke="#c9ccd1" stroke-width="2"/>
+    <circle cx="52" cy="10" r="3.4" fill="#ddd6c6"/>
+    <rect x="-16" y="-4" width="20" height="8" rx="2" fill="#15100d"/>
+    <rect x="-8" y="-4" width="4" height="8" fill="#c9ccd1"/>
+    <rect x="82" y="-3.8" width="62" height="7.6" fill="#b9bdc3"/>
+    <rect x="144" y="-3.8" width="26" height="7.6" fill="#2a1b12"/>
+    <path d="M960 -2L981 -1.5Q986 6 981 13Q976 16 970 14L962 6Z" fill="#ece5d5" stroke="#5a2d14" stroke-width="1"/>
+  </g>
+
+  <!-- violin -->
+  <g transform="translate(20 15)">
+    <use xlink:href="#body" fill="#000" opacity=".55" transform="translate(12 18)" filter="url(#soft)"/>
+    <use xlink:href="#body" fill="url(#varnish)" stroke="#3a1507" stroke-width="2.2"/>
+    <use xlink:href="#body" clip-path="url(#bodyClip)" fill="none" stroke="#3a1507" stroke-width="14" opacity=".28"/>
+    <use xlink:href="#body" fill="none" stroke="#2a0f05" stroke-width="1.5" opacity=".9" transform="translate(300 620) scale(.958 .975) translate(-300 -620)"/>
+    <use xlink:href="#body" fill="none" stroke="#f1b56a" stroke-width="1" opacity=".3" transform="translate(300 620) scale(.99 .994) translate(-300 -620)"/>
+    <ellipse cx="250" cy="450" rx="72" ry="26" transform="rotate(-42 250 450)" fill="#fff" opacity=".1"/>
+    <ellipse cx="205" cy="770" rx="16" ry="55" fill="#fff" opacity=".05"/>
+
+    <use xlink:href="#fhole"/>
+    <use xlink:href="#fhole" transform="matrix(-1 0 0 1 600 0)"/>
+
+    <!-- neck, pegbox, scroll -->
+    <path d="M281 206L319 206L325 392L275 392Z" fill="url(#maple)"/>
+    <path d="M283 206L317 206L321 150L317 132L283 132L279 150Z" fill="url(#maple)" stroke="#4a2a12" stroke-width="1.5"/>
+    <circle cx="306" cy="118" r="29" fill="url(#maple)" stroke="#4a2a12" stroke-width="1.5"/>
+    <path d="M278 120A28 28 0 0 1 306 92A26 26 0 0 1 332 118A22 22 0 0 1 310 140A18 18 0 0 1 292 122A12 12 0 0 1 304 110A8 8 0 0 1 312 118A5 5 0 0 1 307 123" fill="none" stroke="#3a2010" stroke-width="2.2" stroke-linecap="round"/>
+    <circle cx="305" cy="120" r="2.4" fill="#3a2010"/>
+
+    <!-- pegs -->
+    <path d="M283 152H262M283 182H262M317 166H338M317 198H338" stroke="#1f1410" stroke-width="5" stroke-linecap="round"/>
+    <g fill="#1f1410">
+      <ellipse cx="258" cy="152" rx="5" ry="9"/>
+      <ellipse cx="258" cy="182" rx="5" ry="9"/>
+      <ellipse cx="342" cy="166" rx="5" ry="9"/>
+      <ellipse cx="342" cy="198" rx="5" ry="9"/>
+    </g>
+    <path d="M289 201L287 152M296.5 201L293 182M303.5 201L307 166M311 201L313 198" stroke="#cfd0cc" stroke-width="1" fill="none" opacity=".8"/>
+
+    <!-- fingerboard and nut -->
+    <path d="M284 206L316 206L323 478Q300 494 277 478Z" fill="url(#ebony)"/>
+    <rect x="283" y="201" width="34" height="6" rx="1.5" fill="#e9e2d0"/>
+
+    <!-- tailpiece, chinrest, end button -->
+    <path d="M300 768Q315 770 317 790L323 840Q323 858 300 860Q277 858 277 840L283 790Q285 770 300 768Z" fill="url(#ebony)" stroke="#3a2e26" stroke-width="1"/>
+    <ellipse cx="236" cy="818" rx="37" ry="27" transform="rotate(-15 236 818)" fill="#161110" stroke="#352a24" stroke-width="1.2"/>
+    <ellipse cx="228" cy="806" rx="16" ry="8" transform="rotate(-15 228 806)" fill="#fff" opacity=".06"/>
+    <circle cx="300" cy="863" r="4.2" fill="#1f1410" stroke="#6b4a2a" stroke-width="1"/>
+
+    <!-- bridge -->
+    <path d="M272 668L272 660L279 657L281 648C286 638 294 636 300 636C306 636 314 638 319 648L321 657L328 660L328 668L316 668L316 661Q300 656 284 661L284 668Z" fill="#e2c28c" stroke="#7a4a1e" stroke-width="1.2" stroke-linejoin="round"/>
+    <circle cx="288" cy="654" r="2.2" fill="#5b2e12" opacity=".8"/>
+    <circle cx="312" cy="654" r="2.2" fill="#5b2e12" opacity=".8"/>
+
+    <!-- strings -->
+    <g fill="none" stroke="#dcddd9" stroke-linejoin="round">
+      <path d="M289 206L283 645L289 787" stroke-width="1.7"/>
+      <path d="M296.5 206L294 639L296.5 787" stroke-width="1.4"/>
+      <path d="M303.5 206L306 639L303.5 787" stroke-width="1.2"/>
+      <path d="M311 206L317 645L311 787" stroke-width="1"/>
+    </g>
+    <g fill="#c7cacf" stroke="#5b5e63" stroke-width=".6">
+      <circle cx="289" cy="787" r="3"/>
+      <circle cx="296.5" cy="787" r="3"/>
+      <circle cx="303.5" cy="787" r="3"/>
+      <circle cx="311" cy="787" r="3"/>
+    </g>
+  </g>
+</svg>

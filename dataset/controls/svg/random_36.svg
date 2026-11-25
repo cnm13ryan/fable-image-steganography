@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="600" height="700">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="72%">
+      <stop offset="0" stop-color="#3d4250"/>
+      <stop offset="0.6" stop-color="#1f222a"/>
+      <stop offset="1" stop-color="#0c0e12"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fdf0b6"/>
+      <stop offset="0.3" stop-color="#ddb958"/>
+      <stop offset="0.65" stop-color="#b58b25"/>
+      <stop offset="1" stop-color="#6c5010"/>
+    </linearGradient>
+    <linearGradient id="goldRev" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6c5010"/>
+      <stop offset="0.35" stop-color="#b58b25"/>
+      <stop offset="0.7" stop-color="#e3c467"/>
+      <stop offset="1" stop-color="#fff4c4"/>
+    </linearGradient>
+    <radialGradient id="dial" cx="38%" cy="34%" r="78%">
+      <stop offset="0" stop-color="#fffbf1"/>
+      <stop offset="0.65" stop-color="#f4ead2"/>
+      <stop offset="1" stop-color="#d8caa2"/>
+    </radialGradient>
+    <linearGradient id="steel" gradientUnits="userSpaceOnUse" x1="293" y1="0" x2="307" y2="0">
+      <stop offset="0" stop-color="#6d95d8"/>
+      <stop offset="0.45" stop-color="#1f3f80"/>
+      <stop offset="1" stop-color="#081432"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff6d5" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff6d5" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#fff6d5" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glare" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="caseShadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+    <filter id="blur3" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="handShadow" filterUnits="userSpaceOnUse" x="120" y="220" width="360" height="360">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.6" result="blur"/>
+      <feOffset in="blur" dx="1.5" dy="2.5" result="off"/>
+      <feComponentTransfer in="off" result="shade">
+        <feFuncA type="linear" slope="0.45"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode in="shade"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="dialClip">
+      <circle cx="300" cy="400" r="178"/>
+    </clipPath>
+  </defs>
+
+  <rect width="600" height="700" fill="url(#bg)"/>
+
+  <circle cx="310" cy="414" r="200" fill="#000" opacity="0.55" filter="url(#caseShadow)"/>
+
+  <g fill="none" stroke-linecap="round">
+    <path d="M300 126 C303 94 334 80 370 66 S450 36 486 12 S540 -24 562 -42" stroke="#6c5010" stroke-width="2.5"/>
+    <path d="M300 126 C303 94 334 80 370 66 S450 36 486 12 S540 -24 562 -42" stroke="url(#gold)" stroke-width="7" stroke-dasharray="8 12"/>
+  </g>
+
+  <circle cx="300" cy="160" r="30" fill="none" stroke="url(#gold)" stroke-width="8"/>
+  <circle cx="300" cy="160" r="27.5" fill="none" stroke="#fff5cc" stroke-width="1.2" opacity="0.45"/>
+
+  <rect x="289" y="184" width="22" height="24" rx="3" fill="url(#goldRev)"/>
+
+  <rect x="282" y="166" width="36" height="22" rx="6" fill="url(#gold)" stroke="#5a420a" stroke-width="0.8"/>
+  <g stroke="#5a420a" stroke-width="1.4" opacity="0.5">
+    <line x1="288" y1="169" x2="288" y2="185"/>
+    <line x1="294" y1="169" x2="294" y2="185"/>
+    <line x1="300" y1="169" x2="300" y2="185"/>
+    <line x1="306" y1="169" x2="306" y2="185"/>
+    <line x1="312" y1="169" x2="312" y2="185"/>
+  </g>
+
+  <circle cx="300" cy="400" r="200" fill="url(#gold)"/>
+  <circle cx="300" cy="400" r="197" fill="none" stroke="#4a3608" stroke-width="5" stroke-dasharray="1.3 2.7058" opacity="0.4"/>
+  <circle cx="300" cy="400" r="191.8" fill="none" stroke="#5a420a" stroke-width="1.2" opacity="0.7"/>
+  <circle cx="300" cy="400" r="190.4" fill="none" stroke="#fff3c2" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="300" cy="400" r="186" fill="url(#goldRev)"/>
+  <circle cx="300" cy="400" r="183.5" fill="none" stroke="#4a3608" stroke-width="5" stroke-dasharray="0.8 2.2025" opacity="0.22"/>
+  <circle cx="300" cy="400" r="186" fill="none" stroke="#5a420a" stroke-width="0.6" opacity="0.6"/>
+  <circle cx="300" cy="400" r="181" fill="#3a2a08"/>
+  <path d="M113 332 A199 199 0 0 1 452.5 272" fill="none" stroke="url(#rim)" stroke-width="2.2" stroke-linecap="round"/>
+
+  <circle cx="300" cy="400" r="178" fill="url(#dial)"/>
+  <circle cx="300" cy="400" r="179" fill="none" stroke="#000" stroke-width="7" opacity="0.28" filter="url(#blur3)" clip-path="url(#dialClip)"/>
+
+  <g fill="none" stroke="#9a8450">
+    <circle cx="300" cy="400" r="65" stroke-width="110" stroke-dasharray="0.7 3.5542" opacity="0.2"/>
+    <g stroke-width="0.7" opacity="0.28">
+      <circle cx="300" cy="400" r="14"/>
+      <circle cx="300" cy="400" r="20"/>
+      <circle cx="300" cy="400" r="26"/>
+      <circle cx="300" cy="400" r="32"/>
+      <circle cx="300" cy="400" r="38"/>
+      <circle cx="300" cy="400" r="44"/>
+      <circle cx="300" cy="400" r="50"/>
+      <circle cx="300" cy="400" r="56"/>
+      <circle cx="300" cy="400" r="62"/>
+      <circle cx="300" cy="400" r="68"/>
+      <circle cx="300" cy="400" r="74"/>
+      <circle cx="300" cy="400" r="80"/>
+      <circle cx="300" cy="400" r="86"/>
+      <circle cx="300" cy="400" r="92"/>
+      <circle cx="300" cy="400" r="98"/>
+      <circle cx="300" cy="400" r="104"/>
+      <circle cx="300" cy="400" r="110"/>
+      <circle cx="300" cy="400" r="116"/>
+    </g>
+    <circle cx="300" cy="400" r="120" stroke-width="0.9" opacity="0.8"/>
+  </g>
+
+  <g fill="none" stroke="#3a2f18">
+    <circle cx="300" cy="400" r="157" stroke-width="0.8"/>
+    <circle cx="300" cy="400" r="167" stroke-width="0.8"/>
+    <circle cx="300" cy="400" r="162" stroke-width="10" stroke-dasharray="1 15.9646" stroke-dashoffset="0.5"/>
+    <circle cx="300" cy="400" r="162" stroke-width="10" stroke-dasharray="2.4 82.423" stroke-dashoffset="1.2"/>
+  </g>
+
+  <g font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#2b2416" text-anchor="middle">
+    <text x="300" y="268" dy="0.35em">XII</text>
+    <text x="366" y="285.7" dy="0.35em">I</text>
+    <text x="414.3" y="334" dy="0.35em">II</text>
+    <text x="432" y="400" dy="0.35em">III</text>
+    <text x="414.3" y="466" dy="0.35em">IIII</text>
+    <text x="366" y="514.3" dy="0.35em">V</text>
+    <text x="300" y="532" dy="0.35em">VI</text>
+    <text x="234" y="514.3" dy="0.35em">VII</text>
+    <text x="185.7" y="466" dy="0.35em">VIII</text>
+    <text x="168" y="400" dy="0.35em">IX</text>
+    <text x="185.7" y="334" dy="0.35em">X</text>
+    <text x="234" y="285.7" dy="0.35em">XI</text>
+  </g>
+
+  <text x="300" y="341" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="18" fill="#2b2416">Halcyon</text>
+  <text x="300" y="355" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="6.5" letter-spacing="2.2" fill="#5a4a2a">CHRONOMÈTRE</text>
+
+  <g>
+    <circle cx="300" cy="466" r="33" fill="#ecdfc0" stroke="#8a7340" stroke-width="0.8"/>
+    <circle cx="300" cy="466" r="33" fill="none" stroke="#000" stroke-width="2" opacity="0.12"/>
+    <g fill="none" stroke="#3a2f18">
+      <circle cx="300" cy="466" r="27" stroke-width="0.6"/>
+      <circle cx="300" cy="466" r="29.5" stroke-width="5" stroke-dasharray="0.6 2.4892" stroke-dashoffset="0.3"/>
+      <circle cx="300" cy="466" r="29.5" stroke-width="5" stroke-dasharray="1.3 14.1462" stroke-dashoffset="0.65"/>
+    </g>
+    <g font-family="Georgia, 'Times New Roman', serif" font-size="7" fill="#3a2f18" text-anchor="middle">
+      <text x="300" y="446" dy="0.35em">60</text>
+      <text x="320" y="466" dy="0.35em">15</text>
+      <text x="300" y="486" dy="0.35em">30</text>
+      <text x="280" y="466" dy="0.35em">45</text>
+    </g>
+    <g filter="url(#handShadow)">
+      <g transform="rotate(216 300 466)">
+        <path d="M298.7 473 L300 440 L301.3 473 Z" fill="url(#steel)"/>
+        <circle cx="300" cy="466" r="2.4" fill="url(#steel)"/>
+      </g>
+    </g>
+  </g>
+
+  <g filter="url(#handShadow)">
+    <g transform="rotate(304 300 400)">
+      <path d="M296.8 404 L297.5 334 L302.5 334 L303.2 404 Z" fill="url(#steel)"/>
+      <circle cx="300" cy="326" r="8" fill="none" stroke="url(#steel)" stroke-width="4"/>
+      <path d="M296.4 318.5 L300 300 L303.6 318.5 Z" fill="url(#steel)"/>
+      <path d="M297 400 L303 400 L302 419 L298 419 Z" fill="url(#steel)"/>
+    </g>
+    <g transform="rotate(48 300 400)">
+      <path d="M296.8 404 L297.4 288 L302.6 288 L303.2 404 Z" fill="url(#steel)"/>
+      <circle cx="300" cy="280" r="7.5" fill="none" stroke="url(#steel)" stroke-width="3.6"/>
+      <path d="M296.6 272.5 L300 246 L303.4 272.5 Z" fill="url(#steel)"/>
+      <path d="M297 400 L303 400 L302 425 L298 425 Z" fill="url(#steel)"/>
+    </g>
+  </g>
+
+  <circle cx="300" cy="400" r="6.5" fill="url(#gold)" stroke="#5a420a" stroke-width="0.8"/>
+  <circle cx="300" cy="400" r="2.2" fill="#1a1a1a"/>
+
+  <g clip-path="url(#dialClip)">
+    <ellipse cx="236" cy="318" rx="100" ry="50" fill="url(#glare)" transform="rotate(-42 236 318)"/>
+    <ellipse cx="372" cy="522" rx="62" ry="24" fill="url(#glare)" opacity="0.35" transform="rotate(-42 372 522)"/>
+  </g>
+</svg>

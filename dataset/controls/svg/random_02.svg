@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 640" width="800" height="640">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b1844"/>
+      <stop offset="0.6" stop-color="#0d0b24"/>
+      <stop offset="1" stop-color="#05040c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f5b942" stop-opacity="0.3"/>
+      <stop offset="0.55" stop-color="#f5b942" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#f5b942" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.5" r="0.8">
+      <stop offset="0.7" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.5"/>
+    </radialGradient>
+    <radialGradient id="disc" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2e2e2e"/>
+      <stop offset="0.35" stop-color="#1c1c1c"/>
+      <stop offset="0.9" stop-color="#121212"/>
+      <stop offset="1" stop-color="#050505"/>
+    </radialGradient>
+    <radialGradient id="sheen" gradientUnits="userSpaceOnUse" cx="330" cy="300" r="230">
+      <stop offset="0.34" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.6" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="0.97" stop-color="#ffffff" stop-opacity="0.03"/>
+    </radialGradient>
+    <radialGradient id="label" cx="0.38" cy="0.32" r="0.75">
+      <stop offset="0" stop-color="#ffd977"/>
+      <stop offset="0.6" stop-color="#f0a53a"/>
+      <stop offset="1" stop-color="#c8681c"/>
+    </radialGradient>
+    <radialGradient id="pivot" cx="0.35" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#9a9a9a"/>
+      <stop offset="0.5" stop-color="#4a4a4a"/>
+      <stop offset="1" stop-color="#1e1e1e"/>
+    </radialGradient>
+    <linearGradient id="wave" gradientUnits="userSpaceOnUse" x1="60" y1="0" x2="732" y2="0">
+      <stop offset="0" stop-color="#4ecdc4"/>
+      <stop offset="0.5" stop-color="#f5b942"/>
+      <stop offset="1" stop-color="#ff6b6b"/>
+    </linearGradient>
+    <linearGradient id="staff" gradientUnits="userSpaceOnUse" x1="40" y1="0" x2="770" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.12" stop-color="#fff" stop-opacity="0.4"/>
+      <stop offset="0.88" stop-color="#fff" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <clipPath id="discClip"><circle cx="330" cy="300" r="230"/></clipPath>
+    <path id="sl" fill="none" d="M40,32 C220,10 360,54 560,26 C650,12 710,16 770,36"/>
+    <path id="labelTop" d="M272,300 A58,58 0 0 1 388,300"/>
+    <path id="labelBot" d="M264,300 A66,66 0 0 0 396,300"/>
+    <g id="head"><ellipse rx="9" ry="6" transform="rotate(-20)"/></g>
+    <g id="note8">
+      <use xlink:href="#head"/>
+      <rect x="7" y="-46" width="3" height="46"/>
+      <path d="M10,-46 C20,-42 28,-30 22,-14 C24,-26 18,-34 10,-34 Z"/>
+    </g>
+    <g id="noteq">
+      <use xlink:href="#head"/>
+      <rect x="7" y="-46" width="3" height="46"/>
+    </g>
+    <g id="beam2">
+      <use xlink:href="#head"/>
+      <use xlink:href="#head" x="34" y="-6"/>
+      <rect x="7" y="-48" width="3" height="48"/>
+      <rect x="41" y="-54" width="3" height="48"/>
+      <path d="M7,-50 L44,-56 L44,-49 L7,-43 Z"/>
+    </g>
+  </defs>
+
+  <!-- background -->
+  <rect width="800" height="640" fill="url(#bg)"/>
+  <g fill="#fff">
+    <circle cx="48" cy="96" r="1.2" opacity="0.6"/>
+    <circle cx="118" cy="146" r="0.8" opacity="0.5"/>
+    <circle cx="72" cy="420" r="1" opacity="0.5"/>
+    <circle cx="36" cy="520" r="0.9" opacity="0.4"/>
+    <circle cx="26" cy="300" r="1" opacity="0.5"/>
+    <circle cx="612" cy="186" r="1" opacity="0.5"/>
+    <circle cx="772" cy="150" r="1.3" opacity="0.6"/>
+    <circle cx="748" cy="306" r="0.9" opacity="0.5"/>
+    <circle cx="586" cy="470" r="0.8" opacity="0.4"/>
+    <circle cx="782" cy="442" r="1.1" opacity="0.5"/>
+    <circle cx="700" cy="230" r="0.7" opacity="0.4"/>
+    <circle cx="640" cy="410" r="0.8" opacity="0.4"/>
+  </g>
+  <circle cx="330" cy="300" r="330" fill="url(#glow)"/>
+  <rect width="800" height="640" fill="url(#vig)"/>
+
+  <!-- staff ribbon -->
+  <g fill="none" stroke="url(#staff)" stroke-width="1.2">
+    <use xlink:href="#sl"/>
+    <use xlink:href="#sl" y="8"/>
+    <use xlink:href="#sl" y="16"/>
+    <use xlink:href="#sl" y="24"/>
+    <use xlink:href="#sl" y="32"/>
+  </g>
+  <g fill="#f5b942" opacity="0.9">
+    <use xlink:href="#note8" transform="translate(144,37.6) scale(0.55)"/>
+    <use xlink:href="#noteq" transform="translate(218.6,51.2) scale(0.55)"/>
+    <use xlink:href="#beam2" transform="translate(292.5,43.25) scale(0.55)"/>
+    <use xlink:href="#noteq" transform="translate(367.8,42.85) scale(0.55)"/>
+    <use xlink:href="#note8" transform="translate(446,55.2) scale(0.55)"/>
+    <use xlink:href="#noteq" transform="translate(513,47.4) scale(0.55)"/>
+    <use xlink:href="#note8" transform="translate(634,42.2) scale(0.55)"/>
+    <use xlink:href="#noteq" transform="translate(724,44) scale(0.55)"/>
+  </g>
+
+  <!-- sound ripples -->
+  <g fill="none" stroke="#f5b942" stroke-linecap="round">
+    <path d="M515.3,114.7 A262,262 0 0 1 515.3,485.3" stroke-width="1.5" opacity="0.3"/>
+    <path d="M536.5,93.5 A292,292 0 0 1 536.5,506.5" stroke-width="1.2" opacity="0.22" stroke-dasharray="3 9"/>
+    <path d="M557.7,72.3 A322,322 0 0 1 557.7,527.7" stroke-width="1.2" opacity="0.16" stroke-dasharray="3 9"/>
+    <path d="M607.4,83.3 A352,352 0 0 1 607.4,516.7" stroke-width="1" opacity="0.1" stroke-dasharray="2 10"/>
+  </g>
+
+  <!-- waveform -->
+  <path d="M60,581 v6 M72,579 v10 M84,580 v8 M96,576 v16 M108,578 v12 M120,573 v22 M132,577 v14 M144,569 v30 M156,575 v18 M168,571 v26 M180,566 v36 M192,574 v20 M204,562 v44 M216,570 v28 M228,565 v38 M240,558 v52 M252,569 v30 M264,561 v46 M276,554 v60 M288,567 v34 M300,556 v56 M312,563 v42 M324,551 v66 M336,565 v38 M348,555 v58 M360,549 v70 M372,562 v44 M384,553 v62 M396,559 v50 M408,548 v72 M420,564 v40 M432,552 v64 M444,557 v54 M456,550 v68 M468,566 v36 M480,555 v58 M492,561 v46 M504,553 v62 M516,569 v30 M528,558 v52 M540,564 v40 M552,556 v56 M564,571 v26 M576,562 v44 M588,567 v34 M600,560 v48 M612,574 v20 M624,566 v36 M636,570 v28 M648,564 v40 M660,576 v16 M672,571 v26 M684,575 v18 M696,573 v22 M708,579 v10 M720,577 v14 M732,581 v6" fill="none" stroke="url(#wave)" stroke-width="6" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- platter and record -->
+  <circle cx="336" cy="310" r="240" fill="#000" opacity="0.5"/>
+  <circle cx="330" cy="300" r="238" fill="#0e0e18" stroke="#2a2a3c" stroke-width="3"/>
+  <circle cx="330" cy="300" r="234" fill="none" stroke="#777" stroke-width="1.5" stroke-dasharray="1.5 4" opacity="0.45"/>
+  <circle cx="330" cy="300" r="230" fill="url(#disc)"/>
+  <g fill="none" stroke="#3d3d3d" stroke-width="1" opacity="0.7">
+    <circle cx="330" cy="300" r="218"/>
+    <circle cx="330" cy="300" r="209"/>
+    <circle cx="330" cy="300" r="200"/>
+    <circle cx="330" cy="300" r="191"/>
+    <circle cx="330" cy="300" r="182"/>
+    <circle cx="330" cy="300" r="173"/>
+    <circle cx="330" cy="300" r="164"/>
+    <circle cx="330" cy="300" r="155"/>
+    <circle cx="330" cy="300" r="146"/>
+    <circle cx="330" cy="300" r="137"/>
+    <circle cx="330" cy="300" r="128"/>
+    <circle cx="330" cy="300" r="119"/>
+    <circle cx="330" cy="300" r="110"/>
+    <circle cx="330" cy="300" r="101"/>
+    <circle cx="330" cy="300" r="92"/>
+  </g>
+  <g fill="none" stroke="#4e4e4e" stroke-width="2" opacity="0.55">
+    <circle cx="330" cy="300" r="197"/>
+    <circle cx="330" cy="300" r="160"/>
+    <circle cx="330" cy="300" r="123"/>
+  </g>
+  <g fill="url(#sheen)" filter="url(#soft)" clip-path="url(#discClip)">
+    <path d="M330,300 L389.5,77.8 A230,230 0 0 1 559.1,279.9 Z" opacity="0.5"/>
+    <path d="M330,300 L270.5,522.2 A230,230 0 0 1 100.9,320.1 Z" opacity="0.5"/>
+    <path d="M330,300 L445,100.8 A230,230 0 0 1 546.1,221.3 Z"/>
+    <path d="M330,300 L215,499.2 A230,230 0 0 1 113.9,378.7 Z"/>
+  </g>
+  <circle cx="330" cy="300" r="229" fill="none" stroke="#fff" stroke-width="1" opacity="0.07"/>
+
+  <!-- label -->
+  <circle cx="330" cy="300" r="78" fill="url(#label)"/>
+  <circle cx="330" cy="300" r="78" fill="none" stroke="#8a3f10" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="330" cy="300" r="71" fill="none" stroke="#8a3f10" stroke-width="0.8" opacity="0.5"/>
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#4a2208">
+    <text font-size="9" font-weight="bold" letter-spacing="1.6" text-anchor="middle">
+      <textPath xlink:href="#labelTop" startOffset="50%">LONG PLAY · 33⅓ RPM</textPath>
+    </text>
+    <text font-size="9" font-weight="bold" letter-spacing="1.6" text-anchor="middle">
+      <textPath xlink:href="#labelBot" startOffset="50%">STEREO · SIDE A</textPath>
+    </text>
+    <text x="330" y="287" text-anchor="middle" font-size="15" font-weight="bold" letter-spacing="2">NOCTURNE</text>
+    <text x="330" y="333" text-anchor="middle" font-size="9" font-style="italic" letter-spacing="2.5">records</text>
+  </g>
+  <circle cx="330" cy="300" r="7" fill="#0a0a0a"/>
+  <circle cx="330" cy="300" r="3.6" fill="#cfcfcf"/>
+  <circle cx="329" cy="299" r="1.4" fill="#fff" opacity="0.8"/>
+
+  <!-- tonearm -->
+  <path d="M657,125 L504,181 L472,197" fill="none" stroke="#000" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" opacity="0.35" filter="url(#blur)"/>
+  <g stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M655,120 L700,103" stroke="#4a4a4a" stroke-width="8"/>
+    <rect x="690" y="92" width="28" height="20" rx="3" fill="#3a3a3a" stroke="#8a8a8a" stroke-width="1.2" transform="rotate(-20 704 102)"/>
+    <path d="M655,120 L502,176" stroke="#4a4a4a" stroke-width="10"/>
+    <path d="M654,118 L501,174" stroke="#c9c9c9" stroke-width="3" opacity="0.9"/>
+    <path d="M502,176 L470,192" stroke="#232323" stroke-width="13"/>
+    <path d="M501,174 L470,190" stroke="#6e6e6e" stroke-width="3"/>
+    <circle cx="502" cy="176" r="6" fill="#5a5a5a" stroke="#9a9a9a" stroke-width="1"/>
+    <path d="M466,195 L462,203" stroke="#e8e8e8" stroke-width="2"/>
+  </g>
+  <circle cx="655" cy="120" r="24" fill="url(#pivot)" stroke="#5a5a5a" stroke-width="1.5"/>
+  <circle cx="655" cy="120" r="9" fill="#151515" stroke="#7a7a7a" stroke-width="1"/>
+  <circle cx="652" cy="117" r="3" fill="#aaa" opacity="0.6"/>
+
+  <!-- floating notes -->
+  <g transform="translate(600,430) rotate(-10)" fill="#f5b942">
+    <use xlink:href="#note8" filter="url(#blur)" opacity="0.7"/>
+    <use xlink:href="#note8"/>
+  </g>
+  <g transform="translate(646,338) rotate(8) scale(0.9)" fill="#4ecdc4" opacity="0.9">
+    <use xlink:href="#beam2" filter="url(#blur)" opacity="0.7"/>
+    <use xlink:href="#beam2"/>
+  </g>
+  <g transform="translate(722,252) rotate(-14) scale(0.75)" fill="#ff6b6b" opacity="0.85">
+    <use xlink:href="#note8" filter="url(#blur)" opacity="0.7"/>
+    <use xlink:href="#note8"/>
+  </g>
+  <g transform="translate(700,458) rotate(12) scale(0.6)" fill="#f5b942" opacity="0.6">
+    <use xlink:href="#note8"/>
+  </g>
+  <g transform="translate(742,392) rotate(-6) scale(0.55)" fill="#f5b942" opacity="0.45">
+    <use xlink:href="#beam2"/>
+  </g>
+  <g transform="translate(60,166) rotate(-12) scale(0.55)" fill="#4ecdc4" opacity="0.5">
+    <use xlink:href="#note8"/>
+  </g>
+  <g transform="translate(588,236) rotate(6) scale(0.5)" fill="#f5b942" opacity="0.5">
+    <use xlink:href="#noteq"/>
+  </g>
+
+  <!-- title -->
+  <g text-anchor="end">
+    <text x="760" y="498" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="4" fill="#f5b942" opacity="0.85">NOW PLAYING</text>
+    <text x="760" y="524" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-style="italic" fill="#fff" opacity="0.92">Nocturne in Blue</text>
+  </g>
+</svg>

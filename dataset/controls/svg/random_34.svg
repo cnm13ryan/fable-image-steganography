@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7ecdb"/>
+      <stop offset="1" stop-color="#efdcc3"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#e2c39b" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#e2c39b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="table" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#97aa93"/>
+      <stop offset="1" stop-color="#6f8872"/>
+    </linearGradient>
+    <linearGradient id="cup" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ebe2d3"/>
+      <stop offset="0.2" stop-color="#fffdf8"/>
+      <stop offset="0.6" stop-color="#f3ebdd"/>
+      <stop offset="1" stop-color="#d6c8b3"/>
+    </linearGradient>
+    <linearGradient id="saucer" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#eee5d6"/>
+      <stop offset="0.25" stop-color="#fffdf8"/>
+      <stop offset="0.65" stop-color="#f3ebdd"/>
+      <stop offset="1" stop-color="#dbcdb8"/>
+    </linearGradient>
+    <linearGradient id="inner" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9bba6"/>
+      <stop offset="0.55" stop-color="#e4d9c8"/>
+      <stop offset="1" stop-color="#f5eee3"/>
+    </linearGradient>
+    <radialGradient id="tea" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#e59c49"/>
+      <stop offset="0.5" stop-color="#b8661c"/>
+      <stop offset="1" stop-color="#6b380d"/>
+    </radialGradient>
+    <linearGradient id="steam" gradientUnits="userSpaceOnUse" x1="0" y1="200" x2="0" y2="85">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="0.6" stop-color="#ffffff" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur" x="-30%" y="-15%" width="160%" height="130%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="soft" x="-10%" y="-100%" width="120%" height="300%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+
+  <!-- wall and table -->
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <circle cx="200" cy="175" r="175" fill="url(#halo)"/>
+  <rect y="236" width="400" height="164" fill="url(#table)"/>
+
+  <!-- saucer shadow -->
+  <ellipse cx="208" cy="345" rx="120" ry="9" fill="#000" opacity="0.22" filter="url(#soft)"/>
+
+  <!-- saucer -->
+  <ellipse cx="200" cy="312" rx="118" ry="32" fill="#c7b9a3"/>
+  <ellipse cx="200" cy="308" rx="118" ry="32" fill="url(#saucer)"/>
+  <ellipse cx="200" cy="308" rx="104" ry="28.2" fill="none" stroke="#d9a441" stroke-width="1.5" opacity="0.85"/>
+  <ellipse cx="200" cy="306" rx="74" ry="20" fill="#e6dbc9"/>
+  <ellipse cx="210" cy="305" rx="60" ry="15" fill="#000" opacity="0.12"/>
+
+  <!-- teaspoon -->
+  <path d="M252,326 L300,311" fill="none" stroke="#cdd2d6" stroke-width="4.5" stroke-linecap="round"/>
+  <ellipse cx="244" cy="328" rx="10" ry="6.5" transform="rotate(-15 244 328)" fill="#dfe3e6" stroke="#aeb6bc" stroke-width="0.8"/>
+  <path d="M256,324 L296,311.5" fill="none" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- handle -->
+  <path d="M255,228 C316,210 326,298 243,280" fill="none" stroke="#d9ccb8" stroke-width="13" stroke-linecap="round"/>
+  <path d="M255,228 C316,210 326,298 243,280" fill="none" stroke="#f6efe4" stroke-width="4.5" stroke-linecap="round"/>
+
+  <!-- cup body -->
+  <path d="M130,200 L152,304 C152,323 248,323 248,304 L270,200 A70,18 0 0 1 130,200 Z" fill="url(#cup)" stroke="#d6c8b4" stroke-width="1"/>
+  <path d="M133.2,215 A66.8,17.2 0 0 0 266.8,215" fill="none" stroke="#d9a441" stroke-width="2.5"/>
+  <path d="M134.5,221 A65.5,16.8 0 0 0 265.5,221" fill="none" stroke="#d9a441" stroke-width="1"/>
+
+  <!-- rim and tea -->
+  <ellipse cx="200" cy="200" rx="70" ry="18" fill="url(#inner)" stroke="#fbf7f0" stroke-width="3"/>
+  <ellipse cx="200" cy="203" rx="62" ry="13.5" fill="url(#tea)"/>
+  <ellipse cx="200" cy="203" rx="62" ry="13.5" fill="none" stroke="#f0b46a" stroke-width="1" opacity="0.5"/>
+  <ellipse cx="182" cy="199" rx="16" ry="4.5" fill="#fff" opacity="0.28"/>
+  <ellipse cx="178" cy="198" rx="6" ry="2" fill="#fff" opacity="0.5"/>
+
+  <!-- tea bag string and tag -->
+  <path d="M176,207 Q166,207 161,215 L160,262" fill="none" stroke="#bfae98" stroke-width="1.5" stroke-linecap="round"/>
+  <g transform="translate(160,270) rotate(-6)">
+    <rect x="-10" y="-8" width="20" height="16" rx="2" fill="#c9553f"/>
+    <rect x="-7" y="-3" width="14" height="9" rx="1" fill="none" stroke="#f3d6c9" stroke-width="1"/>
+    <circle cx="0" cy="-5.5" r="1" fill="#f3d6c9"/>
+  </g>
+
+  <!-- steam -->
+  <g fill="none" stroke="url(#steam)" stroke-linecap="round" filter="url(#blur)">
+    <path d="M172,198 C156,178 194,162 176,142 C160,124 188,110 178,90" stroke-width="7"/>
+    <path d="M203,200 C188,180 226,160 208,140 C192,122 220,106 212,82" stroke-width="6"/>
+    <path d="M233,196 C220,180 252,164 238,146 C226,130 250,114 242,92" stroke-width="5"/>
+  </g>
+</svg>

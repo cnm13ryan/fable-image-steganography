@@ -1,0 +1,345 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t">
+  <title id="t">A cozy library corner at night: a tall walnut bookshelf full of books, a sleeping cat, a globe, a trailing plant, a ladder, a candle and a floor lamp</title>
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3d5656"/>
+      <stop offset="1" stop-color="#22363a"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a4b28"/>
+      <stop offset="1" stop-color="#4b2d15"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#121f36"/>
+      <stop offset="1" stop-color="#2d4670"/>
+    </linearGradient>
+    <radialGradient id="globe" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#6fb3dc"/>
+      <stop offset="1" stop-color="#245f8c"/>
+    </radialGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#ffd27a" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#ffd27a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lampGlow">
+      <stop offset="0" stop-color="#ffd27a" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#ffd27a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.45" r="0.72">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.5"/>
+    </radialGradient>
+    <clipPath id="globeClip"><circle cx="570" cy="116" r="22"/></clipPath>
+    <mask id="crescent">
+      <circle cx="108" cy="130" r="12" fill="#fff"/>
+      <circle cx="114" cy="126" r="10" fill="#000"/>
+    </mask>
+  </defs>
+
+  <!-- wall and floor -->
+  <rect width="800" height="600" fill="url(#wall)"/>
+  <rect x="0" y="500" width="800" height="100" fill="url(#floor)"/>
+  <g stroke="#3a2211" stroke-width="1" stroke-opacity="0.7">
+    <path d="M0 520H800M0 540H800M0 560H800M0 580H800"/>
+    <path d="M120 500V520M640 500V520M380 520V540M250 540V560M520 560V580M700 560V580M90 580V600M430 580V600"/>
+  </g>
+  <rect x="0" y="492" width="800" height="9" fill="#4a3220"/>
+  <rect x="0" y="492" width="800" height="2" fill="#6b4a30"/>
+
+  <!-- window with night sky -->
+  <g>
+    <rect x="36" y="96" width="100" height="160" fill="#e6dfcf"/>
+    <rect x="42" y="102" width="88" height="148" fill="url(#sky)"/>
+    <g fill="#fff">
+      <circle cx="56" cy="118" r="1.3"/>
+      <circle cx="70" cy="140" r="1"/>
+      <circle cx="62" cy="160" r="1.2"/>
+      <circle cx="98" cy="112" r="1"/>
+      <circle cx="120" cy="152" r="1.3"/>
+      <circle cx="78" cy="124" r="0.9"/>
+      <circle cx="112" cy="168" r="1"/>
+      <circle cx="52" cy="192" r="1.1"/>
+      <circle cx="90" cy="150" r="0.8"/>
+    </g>
+    <circle cx="108" cy="130" r="12" fill="#f6f0d8" mask="url(#crescent)"/>
+    <path d="M42 232Q70 206 100 222T130 212V250H42Z" fill="#0d1726"/>
+    <rect x="83" y="102" width="6" height="148" fill="#e6dfcf"/>
+    <rect x="42" y="173" width="88" height="6" fill="#e6dfcf"/>
+    <rect x="30" y="256" width="112" height="8" fill="#e6dfcf"/>
+    <rect x="30" y="264" width="112" height="4" fill="#b9b1a0"/>
+  </g>
+
+  <!-- wall clock -->
+  <g>
+    <circle cx="735" cy="150" r="30" fill="#5a3a22"/>
+    <circle cx="735" cy="150" r="25" fill="#f3ead5"/>
+    <path d="M735 128V132M757 150H753M735 172V168M713 150H717" stroke="#5a3a22" stroke-width="2"/>
+    <path d="M735 150L723 143M735 150L752 140" stroke="#2b2b2b" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="735" cy="150" r="2" fill="#2b2b2b"/>
+  </g>
+
+  <!-- floor lamp -->
+  <g>
+    <circle cx="750" cy="310" r="70" fill="url(#lampGlow)"/>
+    <ellipse cx="750" cy="512" rx="22" ry="5" fill="#2b2b2b"/>
+    <rect x="748" y="318" width="4" height="194" fill="#3a3a3a"/>
+    <polygon points="724,322 776,322 766,286 734,286" fill="#e9c88a"/>
+    <polygon points="724,322 776,322 766,286 734,286" fill="none" stroke="#b58d4c" stroke-width="1.5"/>
+    <ellipse cx="750" cy="322" rx="26" ry="4" fill="#f4dca6"/>
+  </g>
+
+  <!-- rug and shelf shadow -->
+  <polygon points="150,566 650,566 700,598 100,598" fill="#7a2a2a"/>
+  <polygon points="170,572 630,572 672,592 128,592" fill="none" stroke="#c9a24a" stroke-width="2"/>
+  <path d="M400 574L420 582L400 590L380 582Z" fill="#c9a24a" opacity="0.7"/>
+  <polygon points="170,560 630,560 662,578 138,578" fill="#000" opacity="0.28"/>
+
+  <!-- stack of books on the floor -->
+  <ellipse cx="128" cy="560" rx="32" ry="4" fill="#000" opacity="0.3"/>
+  <g stroke="#000" stroke-opacity="0.3" stroke-width="1">
+    <rect x="100" y="548" width="56" height="12" fill="#7a4a8a"/>
+    <rect x="104" y="537" width="50" height="11" fill="#d9a441"/>
+    <rect x="102" y="527" width="46" height="10" fill="#2a7a7a"/>
+  </g>
+  <path d="M148 551V557M146 540V545M140 530V534" stroke="#e9d28b" stroke-width="2" stroke-opacity="0.85" fill="none"/>
+
+  <!-- bookshelf -->
+  <g transform="translate(0,20)">
+    <rect x="164" y="534" width="472" height="8" fill="#43291a"/>
+    <rect x="170" y="50" width="460" height="490" fill="#5a3a22"/>
+    <rect x="160" y="42" width="480" height="10" fill="#7a4f2a"/>
+    <rect x="160" y="42" width="480" height="2" fill="#9a6b3e"/>
+    <rect x="170" y="50" width="4" height="490" fill="#7a4f2a" opacity="0.6"/>
+    <rect x="626" y="50" width="4" height="490" fill="#2e1b0e" opacity="0.7"/>
+    <rect x="186" y="66" width="428" height="458" fill="#2e1d10"/>
+    <g fill="#000" opacity="0.35">
+      <rect x="186" y="66" width="428" height="8"/>
+      <rect x="186" y="160" width="428" height="8"/>
+      <rect x="186" y="254" width="428" height="8"/>
+      <rect x="186" y="348" width="428" height="8"/>
+      <rect x="186" y="442" width="428" height="8"/>
+    </g>
+
+    <!-- shelf 1 -->
+    <g stroke="#000" stroke-opacity="0.3" stroke-width="1">
+      <rect x="190" y="82" width="22" height="66" fill="#b23a3a"/>
+      <rect x="212" y="88" width="18" height="60" fill="#2f6b8a"/>
+      <rect x="230" y="78" width="26" height="70" fill="#d9a441"/>
+      <rect x="256" y="90" width="16" height="58" fill="#3f7a4a"/>
+      <rect x="272" y="84" width="24" height="64" fill="#e8dcc2"/>
+      <rect x="296" y="76" width="20" height="72" fill="#7a4a8a"/>
+      <rect x="316" y="86" width="28" height="62" fill="#c96a3a"/>
+      <rect x="344" y="80" width="18" height="68" fill="#1f3f6a"/>
+      <rect x="362" y="92" width="22" height="56" fill="#4a4a4a"/>
+      <rect x="384" y="82" width="20" height="66" fill="#2a7a7a"/>
+      <rect x="404" y="88" width="24" height="60" fill="#c4486a"/>
+      <rect x="460" y="98" width="22" height="50" fill="#8a5a3a"/>
+      <rect x="482" y="86" width="20" height="62" fill="#3f7a4a"/>
+    </g>
+    <g transform="rotate(11.5 450 148)">
+      <rect x="432" y="84" width="18" height="64" fill="#2f6b8a" stroke="#000" stroke-opacity="0.3" stroke-width="1"/>
+      <path d="M435 94H447M435 139H447" stroke="#e9d28b" stroke-width="2" stroke-opacity="0.85" fill="none"/>
+    </g>
+    <path d="M193 92H209M193 139H209M215 98H227M215 139H227M233 88H253M233 139H253M259 100H269M259 139H269M299 86H313M299 139H313M319 96H341M319 139H341M347 90H359M347 139H359M365 102H381M365 139H381M387 92H401M387 139H401M407 98H425M407 139H425M463 108H479M463 139H479M485 96H499M485 139H499" stroke="#e9d28b" stroke-width="2" stroke-opacity="0.85" fill="none"/>
+    <path d="M275 94H293M275 139H293" stroke="#6b4423" stroke-width="2" stroke-opacity="0.8" fill="none"/>
+    <rect x="504" y="112" width="6" height="36" fill="#3a3a3a"/>
+    <rect x="504" y="145" width="16" height="3" fill="#3a3a3a"/>
+    <!-- globe -->
+    <rect x="556" y="140" width="28" height="8" rx="3" fill="#43291a"/>
+    <rect x="568" y="133" width="4" height="8" fill="#c9a24a"/>
+    <circle cx="570" cy="116" r="22" fill="url(#globe)"/>
+    <g clip-path="url(#globeClip)" fill="#4f8a4a">
+      <path d="M550 110q8-12 20-6q8 4 2 12q-10 6-18 0z"/>
+      <ellipse cx="582" cy="126" rx="9" ry="6"/>
+      <ellipse cx="560" cy="130" rx="6" ry="4"/>
+    </g>
+    <ellipse cx="561" cy="105" rx="6" ry="3.5" fill="#fff" opacity="0.25"/>
+    <path d="M570 91A25 25 0 0 1 570 141" fill="none" stroke="#c9a24a" stroke-width="2.5" transform="rotate(22 570 116)"/>
+
+    <!-- shelf 2 -->
+    <g stroke="#000" stroke-opacity="0.3" stroke-width="1">
+      <rect x="190" y="178" width="20" height="64" fill="#2a7a7a"/>
+      <rect x="210" y="172" width="26" height="70" fill="#b23a3a"/>
+      <rect x="236" y="186" width="16" height="56" fill="#e8dcc2"/>
+      <rect x="252" y="176" width="24" height="66" fill="#1f3f6a"/>
+      <rect x="276" y="182" width="20" height="60" fill="#d9a441"/>
+      <rect x="296" y="174" width="18" height="68" fill="#3f7a4a"/>
+      <rect x="314" y="184" width="28" height="58" fill="#8a5a3a"/>
+      <rect x="342" y="170" width="22" height="72" fill="#7a4a8a"/>
+      <rect x="364" y="180" width="18" height="62" fill="#c96a3a"/>
+      <rect x="382" y="176" width="24" height="66" fill="#4a4a4a"/>
+      <rect x="414" y="228" width="60" height="14" fill="#c4486a"/>
+      <rect x="418" y="215" width="54" height="13" fill="#2f6b8a"/>
+      <rect x="416" y="203" width="50" height="12" fill="#d9a441"/>
+      <rect x="484" y="182" width="22" height="60" fill="#2f6b8a"/>
+      <rect x="506" y="172" width="18" height="70" fill="#b23a3a"/>
+      <rect x="524" y="186" width="26" height="56" fill="#e8dcc2"/>
+      <rect x="550" y="176" width="20" height="66" fill="#3f7a4a"/>
+      <rect x="570" y="180" width="24" height="62" fill="#1f3f6a"/>
+      <rect x="594" y="174" width="16" height="68" fill="#d9a441"/>
+    </g>
+    <path d="M193 188H207M193 233H207M213 182H233M213 233H233M255 186H273M255 233H273M279 192H293M279 233H293M299 184H311M299 233H311M317 194H339M317 233H339M345 180H361M345 233H361M367 190H379M367 233H379M385 186H403M385 233H403M466 231V239M464 218V225M458 206V212M487 192H503M487 233H503M509 182H521M509 233H521M553 186H567M553 233H567M573 190H591M573 233H591M597 184H607M597 233H607" stroke="#e9d28b" stroke-width="2" stroke-opacity="0.85" fill="none"/>
+    <path d="M239 196H249M239 233H249M527 196H547M527 233H547" stroke="#6b4423" stroke-width="2" stroke-opacity="0.8" fill="none"/>
+
+    <!-- shelf 3 -->
+    <g stroke="#000" stroke-opacity="0.3" stroke-width="1">
+      <rect x="330" y="270" width="24" height="66" fill="#c96a3a"/>
+      <rect x="354" y="276" width="18" height="60" fill="#2f6b8a"/>
+      <rect x="372" y="266" width="22" height="70" fill="#e8dcc2"/>
+      <rect x="394" y="278" width="20" height="58" fill="#7a4a8a"/>
+      <rect x="414" y="272" width="26" height="64" fill="#d9a441"/>
+      <rect x="440" y="268" width="16" height="68" fill="#b23a3a"/>
+      <rect x="456" y="280" width="24" height="56" fill="#2a7a7a"/>
+      <rect x="480" y="270" width="20" height="66" fill="#4a4a4a"/>
+      <rect x="500" y="274" width="22" height="62" fill="#3f7a4a"/>
+      <rect x="522" y="264" width="18" height="72" fill="#1f3f6a"/>
+      <rect x="540" y="276" width="26" height="60" fill="#8a5a3a"/>
+      <rect x="566" y="270" width="20" height="66" fill="#c4486a"/>
+      <rect x="586" y="278" width="24" height="58" fill="#d9a441"/>
+    </g>
+    <path d="M333 280H351M333 327H351M357 286H369M357 327H369M397 288H411M397 327H411M417 282H437M417 327H437M443 278H453M443 327H453M459 290H477M459 327H477M483 280H497M483 327H497M503 284H519M503 327H519M525 274H537M525 327H537M543 286H563M543 327H563M569 280H583M569 327H583M589 288H607M589 327H607" stroke="#e9d28b" stroke-width="2" stroke-opacity="0.85" fill="none"/>
+    <path d="M375 276H391M375 327H391" stroke="#6b4423" stroke-width="2" stroke-opacity="0.8" fill="none"/>
+    <!-- sleeping cat -->
+    <g transform="translate(12,0)">
+      <ellipse cx="252" cy="319" rx="46" ry="17" fill="#8c8c94"/>
+      <path d="M232 305q5 10 2 20M248 303q5 10 2 20M264 305q5 10 2 20" fill="none" stroke="#6d6d75" stroke-width="3" stroke-linecap="round"/>
+      <path d="M214 314C196 318 196 332 212 334S244 332 262 334" fill="none" stroke="#6d6d75" stroke-width="8" stroke-linecap="round"/>
+      <ellipse cx="280" cy="332" rx="8" ry="4" fill="#9a9aa2"/>
+      <ellipse cx="296" cy="333" rx="8" ry="4" fill="#9a9aa2"/>
+      <polygon points="276,307 279,292 288,300" fill="#8c8c94"/>
+      <polygon points="289,300 298,291 301,306" fill="#8c8c94"/>
+      <polygon points="279,304 280,296 286,301" fill="#d9a0a8"/>
+      <polygon points="291,301 297,295 298,303" fill="#d9a0a8"/>
+      <circle cx="288" cy="314" r="14" fill="#8c8c94"/>
+      <path d="M279 316q3 3 6 0M291 316q3 3 6 0" fill="none" stroke="#3a3a40" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M288 320l-1.5 2h3z" fill="#d9a0a8"/>
+      <path d="M284 322L272 320M284 324L273 327M292 322L304 320M292 324L303 327" stroke="#e6e6ea" stroke-width="0.8" stroke-opacity="0.7"/>
+    </g>
+
+    <!-- shelf 4 -->
+    <g stroke="#000" stroke-opacity="0.3" stroke-width="1">
+      <rect x="190" y="360" width="18" height="70" fill="#1f3f6a"/>
+      <rect x="208" y="370" width="24" height="60" fill="#d9a441"/>
+      <rect x="232" y="364" width="20" height="66" fill="#b23a3a"/>
+      <rect x="252" y="374" width="26" height="56" fill="#2a7a7a"/>
+      <rect x="278" y="362" width="16" height="68" fill="#e8dcc2"/>
+      <rect x="294" y="368" width="22" height="62" fill="#7a4a8a"/>
+      <rect x="316" y="358" width="20" height="72" fill="#3f7a4a"/>
+      <rect x="336" y="372" width="28" height="58" fill="#c96a3a"/>
+      <rect x="364" y="366" width="18" height="64" fill="#4a4a4a"/>
+      <rect x="382" y="370" width="24" height="60" fill="#2f6b8a"/>
+      <rect x="406" y="362" width="20" height="68" fill="#c4486a"/>
+      <rect x="426" y="374" width="22" height="56" fill="#8a5a3a"/>
+      <rect x="480" y="380" width="22" height="50" fill="#d9a441"/>
+      <rect x="502" y="366" width="20" height="64" fill="#b23a3a"/>
+      <rect x="522" y="372" width="18" height="58" fill="#1f3f6a"/>
+      <rect x="550" y="416" width="58" height="14" fill="#3f7a4a"/>
+      <rect x="554" y="404" width="52" height="12" fill="#e8dcc2"/>
+      <rect x="552" y="392" width="50" height="12" fill="#7a4a8a"/>
+    </g>
+    <g transform="rotate(11 470 430)">
+      <rect x="452" y="364" width="18" height="66" fill="#2a7a7a" stroke="#000" stroke-opacity="0.3" stroke-width="1"/>
+      <path d="M455 374H467M455 421H467" stroke="#e9d28b" stroke-width="2" stroke-opacity="0.85" fill="none"/>
+    </g>
+    <path d="M193 370H205M193 421H205M211 380H229M211 421H229M235 374H249M235 421H249M255 384H275M255 421H275M297 378H313M297 421H313M319 368H333M319 421H333M339 382H361M339 421H361M367 376H379M367 421H379M385 380H403M385 421H403M409 372H423M409 421H423M429 384H445M429 421H445M483 390H499M483 421H499M505 376H519M505 421H519M525 382H537M525 421H537M600 419V427M594 395V401" stroke="#e9d28b" stroke-width="2" stroke-opacity="0.85" fill="none"/>
+    <path d="M281 372H291M281 421H291M598 407V413" stroke="#6b4423" stroke-width="2" stroke-opacity="0.8" fill="none"/>
+    <!-- mug -->
+    <rect x="566" y="372" width="22" height="20" rx="3" fill="#c96a3a"/>
+    <path d="M588 377a6 6 0 0 1 0 11" fill="none" stroke="#c96a3a" stroke-width="3"/>
+    <rect x="566" y="372" width="22" height="4" rx="2" fill="#e08a5a"/>
+    <path d="M573 368q2-4 0-8M581 368q-2-4 0-8" fill="none" stroke="#fff" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- shelf 5 -->
+    <g stroke="#000" stroke-opacity="0.3" stroke-width="1">
+      <rect x="192" y="508" width="70" height="16" fill="#4a4a4a"/>
+      <rect x="196" y="494" width="64" height="14" fill="#b23a3a"/>
+      <rect x="194" y="481" width="60" height="13" fill="#d9a441"/>
+      <rect x="198" y="469" width="54" height="12" fill="#2f6b8a"/>
+      <rect x="272" y="450" width="26" height="74" fill="#1f3f6a"/>
+      <rect x="298" y="456" width="22" height="68" fill="#8a5a3a"/>
+      <rect x="320" y="448" width="30" height="76" fill="#3f7a4a"/>
+      <rect x="350" y="460" width="20" height="64" fill="#e8dcc2"/>
+      <rect x="370" y="452" width="26" height="72" fill="#7a4a8a"/>
+      <rect x="396" y="458" width="24" height="66" fill="#c96a3a"/>
+      <rect x="420" y="450" width="18" height="74" fill="#2a7a7a"/>
+      <rect x="438" y="464" width="28" height="60" fill="#b23a3a"/>
+      <rect x="466" y="454" width="22" height="70" fill="#d9a441"/>
+      <rect x="488" y="460" width="26" height="64" fill="#4a4a4a"/>
+      <rect x="514" y="448" width="20" height="76" fill="#2f6b8a"/>
+      <rect x="534" y="456" width="24" height="68" fill="#c4486a"/>
+      <rect x="558" y="462" width="18" height="62" fill="#e8dcc2"/>
+      <rect x="576" y="452" width="30" height="72" fill="#1f3f6a"/>
+    </g>
+    <path d="M254 511V521M252 497V505M246 484V491M244 472V478M275 460H295M275 515H295M301 466H317M301 515H317M323 458H347M323 515H347M373 462H393M373 515H393M399 468H417M399 515H417M423 460H435M423 515H435M441 474H463M441 515H463M469 464H485M469 515H485M491 470H511M491 515H511M517 458H531M517 515H531M537 466H555M537 515H555M579 462H603M579 515H603" stroke="#e9d28b" stroke-width="2" stroke-opacity="0.85" fill="none"/>
+    <path d="M353 470H367M353 515H367M561 472H573M561 515H573" stroke="#6b4423" stroke-width="2" stroke-opacity="0.8" fill="none"/>
+
+    <!-- shelf boards -->
+    <g>
+      <rect x="186" y="148" width="428" height="12" fill="#6b4423"/>
+      <rect x="186" y="148" width="428" height="3" fill="#8f6238"/>
+      <rect x="186" y="242" width="428" height="12" fill="#6b4423"/>
+      <rect x="186" y="242" width="428" height="3" fill="#8f6238"/>
+      <rect x="186" y="336" width="428" height="12" fill="#6b4423"/>
+      <rect x="186" y="336" width="428" height="3" fill="#8f6238"/>
+      <rect x="186" y="430" width="428" height="12" fill="#6b4423"/>
+      <rect x="186" y="430" width="428" height="3" fill="#8f6238"/>
+      <rect x="186" y="524" width="428" height="3" fill="#7a4f2a"/>
+    </g>
+
+    <!-- trailing plant on top -->
+    <g>
+      <path d="M204 20C190 30 176 40 172 70S178 120 168 160" fill="none" stroke="#4f8a4a" stroke-width="2"/>
+      <path d="M228 18C240 24 250 36 262 46" fill="none" stroke="#4f8a4a" stroke-width="2"/>
+      <g fill="#5a9a52">
+        <ellipse cx="196" cy="26" rx="7" ry="4" transform="rotate(-30 196 26)"/>
+        <ellipse cx="184" cy="36" rx="7" ry="4" transform="rotate(-50 184 36)"/>
+        <ellipse cx="176" cy="52" rx="7" ry="4" transform="rotate(-70 176 52)"/>
+        <ellipse cx="172" cy="72" rx="7" ry="4" transform="rotate(20 172 72)"/>
+        <ellipse cx="176" cy="92" rx="7" ry="4" transform="rotate(40 176 92)"/>
+        <ellipse cx="174" cy="112" rx="7" ry="4" transform="rotate(-20 174 112)"/>
+        <ellipse cx="170" cy="134" rx="7" ry="4" transform="rotate(30 170 134)"/>
+        <ellipse cx="168" cy="154" rx="7" ry="4" transform="rotate(-10 168 154)"/>
+        <ellipse cx="240" cy="26" rx="7" ry="4" transform="rotate(30 240 26)"/>
+        <ellipse cx="252" cy="36" rx="7" ry="4" transform="rotate(45 252 36)"/>
+        <ellipse cx="262" cy="46" rx="7" ry="4" transform="rotate(60 262 46)"/>
+      </g>
+      <polygon points="200,16 230,16 226,42 204,42" fill="#b5603a"/>
+      <rect x="198" y="11" width="34" height="6" rx="1" fill="#c9714a"/>
+      <g fill="#4f8a4a">
+        <ellipse cx="206" cy="8" rx="8" ry="4.5" transform="rotate(-25 206 8)"/>
+        <ellipse cx="224" cy="7" rx="8" ry="4.5" transform="rotate(25 224 7)"/>
+        <ellipse cx="215" cy="4" rx="7" ry="4"/>
+        <ellipse cx="233" cy="12" rx="7" ry="4" transform="rotate(55 233 12)"/>
+        <ellipse cx="197" cy="13" rx="7" ry="4" transform="rotate(-55 197 13)"/>
+      </g>
+    </g>
+
+    <!-- candle on top -->
+    <circle cx="500" cy="4" r="16" fill="url(#glow)"/>
+    <ellipse cx="500" cy="42" rx="11" ry="3" fill="#c9a24a"/>
+    <rect x="497" y="30" width="6" height="12" fill="#c9a24a"/>
+    <ellipse cx="500" cy="30" rx="7" ry="2.5" fill="#dbb45a"/>
+    <rect x="495" y="10" width="10" height="20" fill="#f3ead5"/>
+    <path d="M500 10V7" stroke="#3a3a3a" stroke-width="1"/>
+    <ellipse cx="500" cy="3" rx="3" ry="5.5" fill="#ffb347"/>
+    <ellipse cx="500" cy="4.5" rx="1.5" ry="3" fill="#fff0b0"/>
+
+    <!-- stack of books on top -->
+    <g stroke="#000" stroke-opacity="0.3" stroke-width="1">
+      <rect x="540" y="30" width="64" height="12" fill="#b23a3a"/>
+      <rect x="544" y="20" width="56" height="10" fill="#e8dcc2"/>
+      <rect x="542" y="10" width="52" height="10" fill="#1f3f6a"/>
+    </g>
+    <path d="M596 33V39M586 13V17" stroke="#e9d28b" stroke-width="2" stroke-opacity="0.85" fill="none"/>
+    <path d="M592 23V27" stroke="#6b4423" stroke-width="2" stroke-opacity="0.8" fill="none"/>
+  </g>
+
+  <!-- library ladder leaning on the shelf -->
+  <g stroke-linecap="round">
+    <path d="M638 138H670M644 208H676M650 278H682M656 348H688M662 418H694M668 488H700M673 548H705" stroke="#a06b3a" stroke-width="5"/>
+    <path d="M634 88L676 588M666 88L708 588" stroke="#7a4b28" stroke-width="7"/>
+  </g>
+
+  <!-- vignette -->
+  <rect width="800" height="600" fill="url(#vig)"/>
+</svg>

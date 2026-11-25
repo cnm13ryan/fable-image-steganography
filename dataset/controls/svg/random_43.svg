@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7fbdee"/>
+      <stop offset="1" stop-color="#e9f5fc"/>
+    </linearGradient>
+    <linearGradient id="lawn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#86c95a"/>
+      <stop offset="1" stop-color="#4c9630"/>
+    </linearGradient>
+    <linearGradient id="hedgeV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5fa84a"/>
+      <stop offset="1" stop-color="#2a5a26"/>
+    </linearGradient>
+    <radialGradient id="water" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#c6ecf9"/>
+      <stop offset="1" stop-color="#58aedb"/>
+    </radialGradient>
+    <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ebe4d3"/>
+      <stop offset="1" stop-color="#b3a78e"/>
+    </linearGradient>
+    <linearGradient id="stoneSide" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8f8369"/>
+      <stop offset="0.45" stop-color="#ddd5c2"/>
+      <stop offset="1" stop-color="#8f8369"/>
+    </linearGradient>
+    <radialGradient id="foliage" cx="0.5" cy="0.3" r="0.75">
+      <stop offset="0" stop-color="#9ad96f"/>
+      <stop offset="1" stop-color="#2d6b29"/>
+    </radialGradient>
+    <radialGradient id="hedge" cx="0.5" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#63ab4c"/>
+      <stop offset="1" stop-color="#2a5a26"/>
+    </radialGradient>
+    <g id="flower">
+      <circle cx="-4" cy="0" r="3.2"/><circle cx="4" cy="0" r="3.2"/>
+      <circle cx="0" cy="-4" r="3.2"/><circle cx="0" cy="4" r="3.2"/>
+      <circle r="2.2" fill="#ffd54a"/>
+    </g>
+    <g id="tulip">
+      <path d="M0 0 V-14" stroke="#3b7a2a" stroke-width="1.6" fill="none"/>
+      <path d="M-5 -13 C-7 -19 -4 -24 -2 -24 L0 -20 L2 -24 C4 -24 7 -19 5 -13 Q0 -9 -5 -13 Z"/>
+    </g>
+    <g id="butterfly">
+      <path d="M0 0 C-6 -8 -12 -4 -8 2 C-12 6 -5 8 0 2 C5 8 12 6 8 2 C12 -4 6 -8 0 0 Z"/>
+      <ellipse cy="1" rx="1.2" ry="4" fill="#333"/>
+    </g>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#sky)"/>
+  <circle cx="650" cy="95" r="62" fill="#fff6c8" opacity="0.5"/>
+  <circle cx="650" cy="95" r="34" fill="#fff0a0"/>
+  <g fill="#fff" opacity="0.85">
+    <ellipse cx="150" cy="112" rx="62" ry="18"/>
+    <ellipse cx="175" cy="98" rx="40" ry="22"/>
+    <ellipse cx="120" cy="102" rx="34" ry="17"/>
+    <ellipse cx="470" cy="72" rx="52" ry="15"/>
+    <ellipse cx="492" cy="60" rx="30" ry="16"/>
+  </g>
+  <g fill="none" stroke="#56687a" stroke-width="1.5" stroke-linecap="round">
+    <path d="M300 128 q6 -6 12 0 q6 -6 12 0"/>
+    <path d="M335 146 q5 -5 10 0 q5 -5 10 0"/>
+    <path d="M560 150 q5 -5 10 0 q5 -5 10 0"/>
+  </g>
+
+  <path d="M0 290 Q40 230 90 265 Q130 215 180 255 Q220 205 270 250 Q320 215 360 255 Q400 225 440 255 Q480 210 530 250 Q580 215 620 255 Q660 220 710 255 Q750 225 800 270 V320 H0 Z" fill="#74b06a"/>
+  <path d="M0 302 Q60 258 110 286 Q160 248 210 282 Q260 243 310 280 Q360 252 400 282 Q450 247 500 282 Q550 252 600 282 Q650 247 700 282 Q750 257 800 292 V320 H0 Z" fill="#4f8f49"/>
+
+  <rect x="0" y="320" width="800" height="280" fill="url(#lawn)"/>
+  <g fill="#a3dc74" opacity="0.3">
+    <ellipse cx="290" cy="372" rx="110" ry="12"/>
+    <ellipse cx="520" cy="392" rx="130" ry="14"/>
+    <ellipse cx="150" cy="500" rx="80" ry="10"/>
+  </g>
+  <rect x="0" y="290" width="800" height="38" rx="7" fill="url(#hedgeV)"/>
+  <rect x="0" y="290" width="800" height="9" rx="4" fill="#7cbb5c" opacity="0.6"/>
+
+  <g id="sideL">
+    <path d="M62 352 L66 262 L80 262 L84 352 Z" fill="#6e4b2f"/>
+    <g fill="url(#foliage)">
+      <circle cx="73" cy="228" r="50"/>
+      <circle cx="38" cy="254" r="34"/>
+      <circle cx="110" cy="250" r="36"/>
+      <circle cx="82" cy="192" r="32"/>
+    </g>
+    <path d="M228 324 L250 262 L272 324 Z" fill="url(#hedge)"/>
+    <path d="M237 324 h26 l-3 14 h-20 z" fill="#b5613b"/>
+    <circle cx="95" cy="354" r="42" fill="url(#hedge)"/>
+    <circle cx="152" cy="346" r="34" fill="url(#foliage)"/>
+    <g fill="#f7a9c4">
+      <circle cx="140" cy="332" r="4"/><circle cx="160" cy="326" r="4"/><circle cx="170" cy="345" r="4"/>
+      <circle cx="148" cy="356" r="4"/><circle cx="130" cy="350" r="4"/>
+    </g>
+    <ellipse cx="80" cy="446" rx="66" ry="20" fill="#5a3f2b"/>
+    <g fill="#4e9a38">
+      <circle cx="35" cy="444" r="10"/><circle cx="65" cy="450" r="12"/><circle cx="97" cy="444" r="11"/><circle cx="125" cy="449" r="10"/>
+    </g>
+    <use href="#tulip" x="33" y="440" fill="#e0314f"/>
+    <use href="#tulip" x="55" y="446" fill="#ffd23c"/>
+    <use href="#tulip" x="79" y="438" fill="#ff8a3c"/>
+    <use href="#tulip" x="103" y="446" fill="#e0314f"/>
+    <use href="#tulip" x="125" y="440" fill="#ffd23c"/>
+    <use href="#flower" x="45" y="452" fill="#fff"/>
+    <use href="#flower" x="90" y="454" fill="#c86be0"/>
+    <use href="#flower" x="115" y="452" fill="#fff"/>
+  </g>
+  <use href="#sideL" transform="translate(800 0) scale(-1 1)"/>
+
+  <ellipse cx="400" cy="462" rx="235" ry="82" fill="#d8ccb3" stroke="#b3a689" stroke-width="3"/>
+  <g fill="none" stroke="#c3b69a" stroke-width="1.5">
+    <ellipse cx="400" cy="462" rx="196" ry="66"/>
+    <ellipse cx="400" cy="462" rx="150" ry="50"/>
+    <path d="M400 380 V544 M165 462 H635 M234 404 L566 520 M566 404 L234 520"/>
+  </g>
+  <g fill="#cfc3a9" stroke="#ab9e82" stroke-width="2">
+    <rect x="372" y="550" width="56" height="18" rx="8"/>
+    <rect x="365" y="575" width="70" height="20" rx="9"/>
+  </g>
+
+  <ellipse cx="416" cy="470" rx="140" ry="40" fill="#000" opacity="0.12"/>
+  <path d="M270 440 A130 40 0 0 0 530 440 V462 A130 40 0 0 1 270 462 Z" fill="url(#stoneSide)" stroke="#8a7e66" stroke-width="1.5"/>
+  <ellipse cx="400" cy="440" rx="130" ry="40" fill="url(#stone)" stroke="#8a7e66" stroke-width="1.5"/>
+  <ellipse cx="400" cy="440" rx="114" ry="31" fill="url(#water)"/>
+  <g fill="none" stroke="#fff" stroke-opacity="0.5">
+    <ellipse cx="400" cy="440" rx="96" ry="25" stroke-width="1.5"/>
+    <ellipse cx="400" cy="440" rx="72" ry="18" stroke-width="1.2"/>
+    <ellipse cx="400" cy="440" rx="48" ry="11" stroke-width="1"/>
+  </g>
+  <ellipse cx="362" cy="430" rx="28" ry="6" fill="#fff" opacity="0.3"/>
+  <ellipse cx="400" cy="442" rx="30" ry="10" fill="url(#stone)" stroke="#8a7e66" stroke-width="1.2"/>
+  <rect x="388" y="352" width="24" height="88" fill="url(#stoneSide)"/>
+  <g fill="none" stroke="#d9eefa" stroke-width="2.5" stroke-linecap="round" opacity="0.85">
+    <path d="M372 337 C366 370 360 400 362 426"/>
+    <path d="M428 337 C434 370 440 400 438 426"/>
+  </g>
+  <path d="M338 350 Q400 402 462 350 Z" fill="url(#stoneSide)" stroke="#8a7e66" stroke-width="1.5"/>
+  <ellipse cx="400" cy="350" rx="62" ry="16" fill="url(#stone)" stroke="#8a7e66" stroke-width="1.5"/>
+  <ellipse cx="400" cy="350" rx="52" ry="11" fill="url(#water)"/>
+  <ellipse cx="400" cy="349" rx="12" ry="4" fill="url(#stone)"/>
+  <rect x="393" y="300" width="14" height="50" fill="url(#stoneSide)"/>
+  <path d="M378 300 Q400 324 422 300 Z" fill="url(#stoneSide)" stroke="#8a7e66" stroke-width="1.2"/>
+  <ellipse cx="400" cy="300" rx="22" ry="6" fill="url(#stone)" stroke="#8a7e66" stroke-width="1.2"/>
+  <ellipse cx="400" cy="300" rx="16" ry="4" fill="url(#water)"/>
+  <path d="M396 302 Q398 250 400 228 Q402 250 404 302 Z" fill="#e6f5fc" opacity="0.9"/>
+  <g fill="none" stroke="#d9eefa" stroke-width="2.5" stroke-linecap="round" opacity="0.9">
+    <path d="M400 230 C388 240 376 280 372 340"/>
+    <path d="M400 230 C412 240 424 280 428 340"/>
+    <path d="M400 230 C395 248 388 295 390 343"/>
+    <path d="M400 230 C405 248 412 295 410 343"/>
+    <path d="M340 353 C330 380 318 405 316 430"/>
+    <path d="M460 353 C470 380 482 405 484 430"/>
+    <path d="M364 363 C360 390 352 412 350 438"/>
+    <path d="M436 363 C440 390 448 412 450 438"/>
+    <path d="M400 366 C400 390 400 415 400 440"/>
+  </g>
+  <g fill="#f0f9fe">
+    <circle cx="400" cy="224" r="3.5"/>
+    <circle cx="389" cy="232" r="2.2"/><circle cx="411" cy="232" r="2.2"/>
+    <circle cx="382" cy="246" r="1.8"/><circle cx="418" cy="246" r="1.8"/>
+    <circle cx="394" cy="214" r="1.5"/><circle cx="407" cy="216" r="1.5"/>
+    <circle cx="312" cy="428" r="2.5"/><circle cx="321" cy="433" r="1.8"/><circle cx="306" cy="434" r="1.5"/>
+    <circle cx="488" cy="428" r="2.5"/><circle cx="479" cy="433" r="1.8"/><circle cx="494" cy="434" r="1.5"/>
+    <circle cx="347" cy="441" r="2"/><circle cx="453" cy="441" r="2"/><circle cx="396" cy="443" r="2"/><circle cx="405" cy="441" r="1.6"/>
+  </g>
+
+  <g id="bedL">
+    <ellipse cx="120" cy="552" rx="112" ry="30" fill="#5a3f2b"/>
+    <g fill="#4e9a38">
+      <circle cx="40" cy="548" r="12"/><circle cx="75" cy="557" r="14"/><circle cx="110" cy="546" r="13"/>
+      <circle cx="150" cy="557" r="14"/><circle cx="192" cy="548" r="12"/><circle cx="130" cy="566" r="10"/>
+    </g>
+    <use href="#tulip" x="58" y="548" fill="#e0314f"/>
+    <use href="#tulip" x="104" y="546" fill="#ffd23c"/>
+    <use href="#tulip" x="134" y="548" fill="#ff8a3c"/>
+    <use href="#tulip" x="178" y="550" fill="#e0314f"/>
+    <use href="#flower" x="44" y="542" fill="#f25c7c"/>
+    <use href="#flower" x="72" y="556" fill="#fff"/>
+    <use href="#flower" x="92" y="540" fill="#f6a23b"/>
+    <use href="#flower" x="118" y="558" fill="#f25c7c"/>
+    <use href="#flower" x="150" y="542" fill="#c86be0"/>
+    <use href="#flower" x="166" y="558" fill="#fff"/>
+    <use href="#flower" x="196" y="544" fill="#f6a23b"/>
+    <use href="#flower" x="86" y="568" fill="#c86be0"/>
+    <use href="#flower" x="148" y="570" fill="#f25c7c"/>
+  </g>
+  <use href="#bedL" transform="translate(800 0) scale(-1 1)"/>
+
+  <ellipse cx="618" cy="438" rx="42" ry="7" fill="#000" opacity="0.15"/>
+  <g fill="#9c6436" stroke="#5e3a1a" stroke-width="1.5">
+    <rect x="585" y="398" width="70" height="7" rx="2"/>
+    <rect x="589" y="403" width="5" height="18"/>
+    <rect x="646" y="403" width="5" height="18"/>
+    <rect x="585" y="418" width="70" height="8" rx="2"/>
+    <rect x="589" y="426" width="5" height="12"/>
+    <rect x="646" y="426" width="5" height="12"/>
+  </g>
+
+  <use href="#butterfly" x="300" y="372" fill="#f6b73c"/>
+  <use href="#butterfly" x="560" y="330" fill="#86cfff" transform="rotate(-20 560 330)"/>
+  <use href="#butterfly" x="230" y="470" fill="#ff8fb1" transform="rotate(15 230 470)"/>
+</svg>

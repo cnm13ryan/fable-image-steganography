@@ -1,0 +1,295 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0f1733"/>
+      <stop offset="0.2" stop-color="#2f2f5e"/>
+      <stop offset="0.36" stop-color="#6b4470"/>
+      <stop offset="0.5" stop-color="#c0665f"/>
+      <stop offset="0.62" stop-color="#eaa36c"/>
+      <stop offset="0.8" stop-color="#f3c27e"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34304a"/>
+      <stop offset="1" stop-color="#1a1826"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#ffe9a6" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffe9a6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="wglow">
+      <stop offset="0" stop-color="#ffd466" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ffd466" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- lit window -->
+    <g id="wl">
+      <rect x="-14" y="-14" width="54" height="62" fill="url(#wglow)"/>
+      <rect x="-3" y="-3" width="32" height="40" fill="#f3ead4"/>
+      <rect x="0" y="0" width="26" height="34" fill="#ffd466"/>
+      <rect x="12" y="0" width="2" height="34" fill="#f3ead4"/>
+      <rect x="0" y="16" width="26" height="2" fill="#f3ead4"/>
+      <rect x="-5" y="34" width="36" height="3" fill="#f3ead4"/>
+    </g>
+    <!-- dark window -->
+    <g id="wd">
+      <rect x="-3" y="-3" width="32" height="40" fill="#f3ead4"/>
+      <rect x="0" y="0" width="26" height="34" fill="#2a2d4d"/>
+      <rect x="2" y="2" width="7" height="13" fill="#3b4169"/>
+      <rect x="12" y="0" width="2" height="34" fill="#f3ead4"/>
+      <rect x="0" y="16" width="26" height="2" fill="#f3ead4"/>
+      <rect x="-5" y="34" width="36" height="3" fill="#f3ead4"/>
+    </g>
+    <!-- door (panel colour inherited from use) -->
+    <g id="door">
+      <rect x="-6" y="62" width="40" height="5" fill="#6b6577"/>
+      <rect x="-3" y="-15" width="34" height="77" fill="#f3ead4"/>
+      <rect x="0" y="-12" width="28" height="9" fill="#ffd466"/>
+      <rect x="0" y="0" width="28" height="62"/>
+      <rect x="4" y="5" width="20" height="20" fill="none" stroke="#f3ead4" stroke-opacity="0.45" stroke-width="1.5"/>
+      <rect x="4" y="31" width="20" height="26" fill="none" stroke="#f3ead4" stroke-opacity="0.45" stroke-width="1.5"/>
+      <circle cx="23" cy="34" r="1.8" fill="#f3ead4"/>
+    </g>
+    <!-- flower box -->
+    <g id="fbox">
+      <ellipse cx="13" cy="3" rx="15" ry="3" fill="#4f7d4a"/>
+      <circle cx="3" cy="2" r="2.6" fill="#e7627a"/>
+      <circle cx="9" cy="0" r="2.6" fill="#f2b84b"/>
+      <circle cx="15" cy="2" r="2.6" fill="#e7627a"/>
+      <circle cx="21" cy="0" r="2.6" fill="#f2b84b"/>
+      <rect x="-2" y="3" width="30" height="7" rx="1" fill="#5c3d33"/>
+    </g>
+    <!-- potted plant -->
+    <g id="plant">
+      <circle cx="0" cy="-7" r="7" fill="#3e6b4a"/>
+      <circle cx="-3" cy="-9" r="3" fill="#4f8a5c"/>
+      <polygon points="-6,0 6,0 5,8 -5,8" fill="#a0523d"/>
+    </g>
+    <!-- cat -->
+    <g id="cat" fill="#2b2235">
+      <ellipse cx="0" cy="12" rx="8" ry="6"/>
+      <circle cx="0" cy="2" r="5"/>
+      <polygon points="-4.5,-1 -5.5,-7 -1,-2.5"/>
+      <polygon points="4.5,-1 5.5,-7 1,-2.5"/>
+      <path d="M7 14q6 -1 5 -9" fill="none" stroke="#2b2235" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <!-- street lamp -->
+    <g id="lamp">
+      <circle cx="0" cy="-88" r="46" fill="url(#glow)"/>
+      <rect x="-7" y="-8" width="14" height="8" fill="#1f1d2a"/>
+      <rect x="-2" y="-84" width="4" height="78" fill="#1f1d2a"/>
+      <polygon points="-10,-96 0,-106 10,-96" fill="#1f1d2a"/>
+      <rect x="-8" y="-96" width="16" height="14" fill="#1f1d2a"/>
+      <rect x="-5" y="-94" width="10" height="11" fill="#ffe08a"/>
+    </g>
+  </defs>
+
+  <!-- sky -->
+  <rect width="800" height="500" fill="url(#sky)"/>
+
+  <!-- stars -->
+  <g fill="#fff6dc">
+    <circle cx="30" cy="40" r="1.2"/>
+    <circle cx="75" cy="22" r="0.9"/>
+    <circle cx="120" cy="60" r="1.5"><animate attributeName="opacity" values="1;0.2;1" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="160" cy="30" r="1"/>
+    <circle cx="210" cy="70" r="0.8"/>
+    <circle cx="240" cy="95" r="0.9"/>
+    <circle cx="250" cy="25" r="1.3"/>
+    <circle cx="300" cy="55" r="1"/>
+    <circle cx="345" cy="18" r="1.6"><animate attributeName="opacity" values="1;0.3;1" dur="4.2s" repeatCount="indefinite"/></circle>
+    <circle cx="365" cy="118" r="0.8"/>
+    <circle cx="390" cy="45" r="0.9"/>
+    <circle cx="430" cy="80" r="1.2"/>
+    <circle cx="470" cy="30" r="1"/>
+    <circle cx="505" cy="95" r="0.7"/>
+    <circle cx="515" cy="60" r="1.4"><animate attributeName="opacity" values="1;0.25;1" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="555" cy="20" r="0.9"/>
+    <circle cx="600" cy="50" r="1.1"/>
+    <circle cx="640" cy="25" r="1.3"/>
+    <circle cx="700" cy="20" r="0.8"/>
+    <circle cx="745" cy="35" r="1"/>
+    <circle cx="775" cy="80" r="1.5"/>
+    <circle cx="60" cy="100" r="0.9"/>
+    <circle cx="20" cy="110" r="1"/>
+    <circle cx="190" cy="118" r="1.1"/>
+    <circle cx="330" cy="100" r="0.8"/>
+    <circle cx="455" cy="120" r="1"/>
+    <circle cx="590" cy="100" r="1.2"/>
+    <circle cx="770" cy="130" r="0.9"/>
+  </g>
+
+  <!-- moon -->
+  <circle cx="690" cy="75" r="64" fill="url(#glow)" opacity="0.4"/>
+  <circle cx="690" cy="75" r="26" fill="#f7f2dc"/>
+  <circle cx="681" cy="67" r="4" fill="#e6dfc0"/>
+  <circle cx="698" cy="86" r="6" fill="#e6dfc0"/>
+  <circle cx="697" cy="64" r="2.5" fill="#e6dfc0"/>
+
+  <!-- cloud streaks -->
+  <g fill="#f8c9a2" opacity="0.5">
+    <ellipse cx="150" cy="98" rx="60" ry="4"/>
+    <ellipse cx="90" cy="132" rx="40" ry="3"/>
+    <ellipse cx="440" cy="142" rx="55" ry="4"/>
+    <ellipse cx="655" cy="152" rx="48" ry="3.5"/>
+  </g>
+
+  <!-- birds -->
+  <g fill="none" stroke="#1a1a2e" stroke-width="1.5" stroke-linecap="round">
+    <path d="M158 140q5 -5 10 0q5 -5 10 0"/>
+    <path d="M186 126q4 -4 8 0q4 -4 8 0"/>
+    <path d="M206 150q4 -4 8 0q4 -4 8 0"/>
+  </g>
+
+  <!-- sidewalk and road -->
+  <rect x="0" y="380" width="800" height="18" fill="#8d879b"/>
+  <path d="M40 380v18M80 380v18M120 380v18M160 380v18M200 380v18M240 380v18M280 380v18M320 380v18M360 380v18M400 380v18M440 380v18M480 380v18M520 380v18M560 380v18M600 380v18M640 380v18M680 380v18M720 380v18M760 380v18" stroke="#7a748c" stroke-width="1.2"/>
+  <rect x="0" y="398" width="800" height="5" fill="#5a546e"/>
+  <rect x="0" y="403" width="800" height="97" fill="url(#road)"/>
+  <line x1="0" y1="474" x2="800" y2="474" stroke="#d9c27a" stroke-width="3" stroke-dasharray="26 20" opacity="0.6"/>
+  <ellipse cx="140" cy="406" rx="60" ry="12" fill="#ffe08a" opacity="0.12"/>
+  <ellipse cx="478" cy="406" rx="60" ry="12" fill="#ffe08a" opacity="0.12"/>
+  <ellipse cx="600" cy="462" rx="15" ry="5" fill="#26233a" stroke="#4a4660" stroke-width="1.5"/>
+
+  <!-- house 1: terracotta gable -->
+  <g>
+    <rect x="0" y="180" width="140" height="200" fill="#c96a5b"/>
+    <rect x="108" y="126" width="14" height="40" fill="#6a3f3f"/>
+    <rect x="106" y="123" width="18" height="5" fill="#4d2e2e"/>
+    <polygon points="-8,184 70,118 148,184" fill="#3e2a3f"/>
+    <path d="M44 140H96M26 155H114M9 170H131" stroke="#000" stroke-opacity="0.15" stroke-width="1.5"/>
+    <path d="M-8 184L70 118L148 184" fill="none" stroke="#f3ead4" stroke-width="3" stroke-linejoin="round"/>
+    <use xlink:href="#wl" x="29" y="210"/>
+    <use xlink:href="#wd" x="85" y="210"/>
+    <use xlink:href="#fbox" x="29" y="244"/>
+    <use xlink:href="#fbox" x="85" y="244"/>
+    <use xlink:href="#door" x="28" y="318" fill="#2f3e5c"/>
+    <use xlink:href="#wl" x="85" y="306"/>
+    <use xlink:href="#plant" x="70" y="372"/>
+  </g>
+
+  <!-- house 2: mustard flat roof with awning -->
+  <g>
+    <rect x="140" y="205" width="110" height="175" fill="#e5bd6c"/>
+    <rect x="136" y="197" width="118" height="10" fill="#4a3b3b"/>
+    <rect x="175" y="187" width="40" height="12" fill="#4a3b3b"/>
+    <circle cx="195" cy="193" r="3" fill="#e5bd6c"/>
+    <use xlink:href="#wd" x="157" y="225"/>
+    <use xlink:href="#wl" x="207" y="225"/>
+    <use xlink:href="#door" x="156" y="318" fill="#6b3a3a"/>
+    <use xlink:href="#wl" x="207" y="306"/>
+    <polygon points="201,298 239,298 243,311 197,311" fill="#b4473f"/>
+    <path d="M204.5 298v13M211.5 298v13M218.5 298v13M225.5 298v13M232.5 298v13" stroke="#f3ead4" stroke-width="3" stroke-opacity="0.85"/>
+  </g>
+
+  <!-- house 3: tall slate-blue gable -->
+  <g>
+    <rect x="250" y="160" width="130" height="220" fill="#5f8796"/>
+    <rect x="265" y="110" width="14" height="42" fill="#3b3b4a"/>
+    <rect x="263" y="107" width="18" height="5" fill="#2b2b38"/>
+    <polygon points="242,164 315,80 388,164" fill="#2f3a4a"/>
+    <path d="M293 105H337M276 125H354M258 145H372" stroke="#000" stroke-opacity="0.15" stroke-width="1.5"/>
+    <path d="M242 164L315 80L388 164" fill="none" stroke="#f3ead4" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="315" cy="128" r="10" fill="#f3ead4"/>
+    <circle cx="315" cy="128" r="7.5" fill="#ffd466"/>
+    <path d="M315 120.5V135.5M307.5 128H322.5" stroke="#f3ead4" stroke-width="1.5"/>
+    <use xlink:href="#wl" x="277" y="178"/>
+    <use xlink:href="#wl" x="327" y="178"/>
+    <use xlink:href="#wd" x="277" y="240"/>
+    <use xlink:href="#wl" x="327" y="240"/>
+    <use xlink:href="#door" x="276" y="318" fill="#e0a458"/>
+    <use xlink:href="#wl" x="327" y="306"/>
+    <use xlink:href="#cat" x="340" y="322"/>
+    <use xlink:href="#plant" x="264" y="372"/>
+    <use xlink:href="#plant" x="316" y="372"/>
+  </g>
+
+  <!-- house 4: dusty pink mansard with dormer -->
+  <g>
+    <rect x="380" y="215" width="100" height="165" fill="#d8a39b"/>
+    <polygon points="374,219 390,183 470,183 486,219" fill="#4a3340"/>
+    <rect x="374" y="216" width="112" height="4" fill="#f3ead4"/>
+    <rect x="418" y="190" width="24" height="26" fill="#f3ead4"/>
+    <rect x="421" y="193" width="18" height="21" fill="#ffd466"/>
+    <path d="M430 193V214M421 203H439" stroke="#f3ead4" stroke-width="1.5"/>
+    <polygon points="414,191 430,180 446,191" fill="#2f2230"/>
+    <use xlink:href="#wd" x="392" y="238"/>
+    <use xlink:href="#wl" x="442" y="238"/>
+    <use xlink:href="#fbox" x="392" y="272"/>
+    <use xlink:href="#fbox" x="442" y="272"/>
+    <use xlink:href="#door" x="391" y="318" fill="#3f5f4a"/>
+    <use xlink:href="#wl" x="442" y="306"/>
+  </g>
+
+  <!-- house 5: sage gable with attic window -->
+  <g>
+    <rect x="480" y="175" width="140" height="205" fill="#8aa07a"/>
+    <rect x="590" y="120" width="14" height="42" fill="#5a4a3f"/>
+    <rect x="588" y="117" width="18" height="5" fill="#3d3229"/>
+    <polygon points="472,179 550,105 628,179" fill="#3a3a2f"/>
+    <path d="M524 130H576M503 150H597M484 168H616" stroke="#000" stroke-opacity="0.15" stroke-width="1.5"/>
+    <path d="M472 179L550 105L628 179" fill="none" stroke="#f3ead4" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="538" y="132" width="24" height="28" fill="#f3ead4"/>
+    <rect x="541" y="135" width="18" height="22" fill="#2a2d4d"/>
+    <path d="M550 135V157M541 146H559" stroke="#f3ead4" stroke-width="1.5"/>
+    <use xlink:href="#wl" x="497" y="193"/>
+    <use xlink:href="#wd" x="537" y="193"/>
+    <use xlink:href="#wl" x="577" y="193"/>
+    <use xlink:href="#wd" x="497" y="250"/>
+    <use xlink:href="#wl" x="537" y="250"/>
+    <use xlink:href="#wl" x="577" y="250"/>
+    <use xlink:href="#wl" x="497" y="306"/>
+    <use xlink:href="#door" x="536" y="318" fill="#6b4a7a"/>
+    <use xlink:href="#wl" x="577" y="306"/>
+  </g>
+
+  <!-- house 6: mauve flat roof with cornice -->
+  <g>
+    <rect x="620" y="195" width="180" height="185" fill="#9c6b7e"/>
+    <rect x="650" y="160" width="18" height="22" fill="#5a3f4c"/>
+    <rect x="648" y="157" width="22" height="5" fill="#3b2a36"/>
+    <rect x="752" y="160" width="18" height="22" fill="#5a3f4c"/>
+    <rect x="750" y="157" width="22" height="5" fill="#3b2a36"/>
+    <path d="M786 179V148M778 152H794M780 160H792" stroke="#2b2235" stroke-width="1.5"/>
+    <rect x="620" y="179" width="180" height="12" fill="#4d3744"/>
+    <rect x="614" y="189" width="192" height="10" fill="#f3ead4"/>
+    <line x1="622" y1="201" x2="800" y2="201" stroke="#f3ead4" stroke-width="4" stroke-dasharray="6 8"/>
+    <rect x="620" y="282" width="180" height="4" fill="#f3ead4" opacity="0.8"/>
+    <use xlink:href="#wl" x="642" y="222"/>
+    <use xlink:href="#wl" x="697" y="222"/>
+    <use xlink:href="#wd" x="752" y="222"/>
+    <use xlink:href="#wd" x="642" y="306"/>
+    <use xlink:href="#door" x="696" y="318" fill="#2a2a35"/>
+    <use xlink:href="#wl" x="752" y="306"/>
+    <use xlink:href="#plant" x="684" y="372"/>
+    <use xlink:href="#plant" x="736" y="372"/>
+  </g>
+
+  <!-- street furniture -->
+  <use xlink:href="#lamp" x="140" y="380"/>
+  <use xlink:href="#lamp" x="478" y="380"/>
+  <use xlink:href="#cat" x="500" y="362"/>
+
+  <!-- bicycle leaning by house 2 -->
+  <g fill="none" stroke="#1f1d2a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="204" cy="370" r="9.5"/>
+    <circle cx="236" cy="370" r="9.5"/>
+    <path d="M204 370L214 353L228 354L236 370M214 353L221 371L204 370M221 371L228 354"/>
+    <path d="M209 352L217 352" stroke-width="3"/>
+    <path d="M226 354L233 349" stroke-width="2.5"/>
+  </g>
+
+  <!-- parked car -->
+  <ellipse cx="340" cy="457" rx="62" ry="4" fill="#000" opacity="0.3"/>
+  <g>
+    <rect x="280" y="424" width="120" height="24" rx="7" fill="#3f8a8a"/>
+    <path d="M300 426L313 409L367 409L383 426Z" fill="#3f8a8a"/>
+    <path d="M305 424L316 412L339 412L339 424ZM345 424L345 412L364 412L375 424Z" fill="#8fa5c4"/>
+    <path d="M342 412V446" stroke="#2f6a6a" stroke-width="1.5"/>
+    <rect x="280" y="432" width="5" height="6" rx="1" fill="#ffe8a0"/>
+    <rect x="395" y="432" width="5" height="6" rx="1" fill="#ff6b6b"/>
+    <circle cx="305" cy="448" r="9" fill="#1a1a22"/>
+    <circle cx="305" cy="448" r="3.5" fill="#8a8a94"/>
+    <circle cx="375" cy="448" r="9" fill="#1a1a22"/>
+    <circle cx="375" cy="448" r="3.5" fill="#8a8a94"/>
+  </g>
+</svg>

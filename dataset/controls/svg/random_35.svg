@@ -1,0 +1,246 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 900" width="1200" height="900">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#090c26"/>
+      <stop offset="0.32" stop-color="#262a5e"/>
+      <stop offset="0.58" stop-color="#6a3f7c"/>
+      <stop offset="0.8" stop-color="#d4735c"/>
+      <stop offset="1" stop-color="#f8c98d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd9a3" stop-opacity="0.95"/>
+      <stop offset="0.25" stop-color="#ffb57a" stop-opacity="0.55"/>
+      <stop offset="0.6" stop-color="#ff9e6a" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#ff9e6a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.45" r="0.55">
+      <stop offset="0" stop-color="#fff6d9"/>
+      <stop offset="0.7" stop-color="#ffd48a"/>
+      <stop offset="1" stop-color="#ffb46a"/>
+    </radialGradient>
+    <linearGradient id="far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9d95c9"/>
+      <stop offset="1" stop-color="#5d589a"/>
+    </linearGradient>
+    <linearGradient id="mid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5b4c86"/>
+      <stop offset="1" stop-color="#372d5e"/>
+    </linearGradient>
+    <linearGradient id="near" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#372c58"/>
+      <stop offset="1" stop-color="#211a39"/>
+    </linearGradient>
+    <linearGradient id="mist" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3d3068"/>
+      <stop offset="0.5" stop-color="#1f1a40"/>
+      <stop offset="1" stop-color="#0b0920"/>
+    </linearGradient>
+    <linearGradient id="tint" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d89a7e" stop-opacity="0.15"/>
+      <stop offset="0.35" stop-color="#2f2552" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#06051a" stop-opacity="0.6"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.5" r="0.72">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.65" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.45"/>
+    </radialGradient>
+    <clipPath id="lake">
+      <rect x="0" y="600" width="1200" height="300"/>
+    </clipPath>
+    <filter id="ripple" x="-0.05" y="-0.05" width="1.1" height="1.1">
+      <feTurbulence type="fractalNoise" baseFrequency="0.012 0.09" numOctaves="2" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="16" xChannelSelector="R" yChannelSelector="G"/>
+      <feGaussianBlur stdDeviation="0.7"/>
+    </filter>
+    <filter id="soft" x="-0.2" y="-2" width="1.4" height="5">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <path id="pine" d="M0,-64 L10,-44 L5,-44 L16,-26 L8,-26 L22,-6 L-22,-6 L-8,-26 L-16,-26 L-5,-44 L-10,-44 Z M-2,-6 L2,-6 L2,4 L-2,4 Z"/>
+  </defs>
+
+  <g id="scene">
+    <rect x="0" y="0" width="1200" height="600" fill="url(#sky)"/>
+
+    <g fill="#ffffff">
+      <circle cx="40" cy="30" r="1.4" opacity="0.9"/>
+      <circle cx="95" cy="80" r="1" opacity="0.7"/>
+      <circle cx="150" cy="22" r="1.2" opacity="0.8"/>
+      <circle cx="210" cy="65" r="0.9" opacity="0.6"/>
+      <circle cx="260" cy="120" r="1.3" opacity="0.85"/>
+      <circle cx="320" cy="40" r="1" opacity="0.7"/>
+      <circle cx="370" cy="95" r="1.5" opacity="0.9"/>
+      <circle cx="430" cy="30" r="0.9" opacity="0.6"/>
+      <circle cx="480" cy="140" r="1.1" opacity="0.7"/>
+      <circle cx="540" cy="60" r="1.4" opacity="0.85"/>
+      <circle cx="600" cy="110" r="0.9" opacity="0.6"/>
+      <circle cx="650" cy="25" r="1.2" opacity="0.8"/>
+      <circle cx="700" cy="75" r="1" opacity="0.7"/>
+      <circle cx="760" cy="130" r="1.3" opacity="0.75"/>
+      <circle cx="820" cy="45" r="0.9" opacity="0.6"/>
+      <circle cx="880" cy="100" r="1.5" opacity="0.9"/>
+      <circle cx="940" cy="30" r="1" opacity="0.7"/>
+      <circle cx="1000" cy="85" r="1.2" opacity="0.8"/>
+      <circle cx="1060" cy="140" r="0.9" opacity="0.6"/>
+      <circle cx="1110" cy="50" r="1.4" opacity="0.9"/>
+      <circle cx="1160" cy="110" r="1" opacity="0.7"/>
+      <circle cx="70" cy="170" r="1.1" opacity="0.7"/>
+      <circle cx="180" cy="200" r="0.9" opacity="0.5"/>
+      <circle cx="300" cy="180" r="1.2" opacity="0.7"/>
+      <circle cx="410" cy="210" r="0.8" opacity="0.5"/>
+      <circle cx="520" cy="190" r="1" opacity="0.6"/>
+      <circle cx="620" cy="170" r="0.9" opacity="0.5"/>
+      <circle cx="1000" cy="200" r="0.8" opacity="0.5"/>
+      <circle cx="1130" cy="180" r="1.1" opacity="0.6"/>
+      <circle cx="1180" cy="240" r="0.9" opacity="0.5"/>
+      <circle cx="130" cy="260" r="0.8" opacity="0.45"/>
+      <circle cx="240" cy="240" r="1" opacity="0.5"/>
+      <circle cx="350" cy="270" r="0.8" opacity="0.4"/>
+      <circle cx="460" cy="250" r="0.9" opacity="0.45"/>
+      <circle cx="560" cy="240" r="0.8" opacity="0.4"/>
+      <circle cx="20" cy="110" r="1" opacity="0.6"/>
+      <circle cx="590" cy="20" r="0.8" opacity="0.5"/>
+      <circle cx="720" cy="15" r="1" opacity="0.6"/>
+      <circle cx="860" cy="15" r="0.9" opacity="0.55"/>
+      <circle cx="1040" cy="20" r="1.1" opacity="0.7"/>
+      <circle cx="900" cy="230" r="0.8" opacity="0.3"/>
+      <circle cx="1090" cy="290" r="0.8" opacity="0.35"/>
+      <circle cx="200" cy="320" r="0.8" opacity="0.3"/>
+      <circle cx="450" cy="330" r="0.7" opacity="0.3"/>
+    </g>
+
+    <g filter="url(#soft)">
+      <ellipse cx="150" cy="330" rx="120" ry="5" fill="#7a4e82" opacity="0.5"/>
+      <ellipse cx="270" cy="298" rx="85" ry="4" fill="#6b4478" opacity="0.45"/>
+      <ellipse cx="700" cy="262" rx="110" ry="4.5" fill="#ffbf94" opacity="0.45"/>
+      <ellipse cx="990" cy="296" rx="130" ry="5" fill="#ffc29a" opacity="0.5"/>
+      <ellipse cx="1070" cy="326" rx="90" ry="4" fill="#ffb088" opacity="0.4"/>
+    </g>
+
+    <circle cx="835" cy="340" r="210" fill="url(#glow)"/>
+    <circle cx="835" cy="340" r="58" fill="url(#sun)"/>
+
+    <g filter="url(#soft)">
+      <ellipse cx="860" cy="356" rx="120" ry="3.5" fill="#7c3f5e" opacity="0.6"/>
+      <ellipse cx="790" cy="318" rx="70" ry="2.5" fill="#8a4a66" opacity="0.4"/>
+    </g>
+
+    <g fill="none" stroke="#2b1d3a" stroke-width="1.6" stroke-linecap="round" opacity="0.85">
+      <path d="M70,402 q7,-6 14,0 q7,-6 14,0"/>
+      <path d="M104,390 q6,-5 12,0 q6,-5 12,0"/>
+      <path d="M132,408 q5,-4 10,0 q5,-4 10,0"/>
+      <path d="M1118,332 q6,-5 12,0 q6,-5 12,0"/>
+      <path d="M1140,344 q5,-4 10,0 q5,-4 10,0"/>
+    </g>
+
+    <path fill="url(#far)" d="M0,620 L0,478 L35,458 L70,466 L120,428 L165,446 L205,392 L240,405 L280,352 L325,338 L360,296 L395,268 L420,230 L445,262 L470,255 L505,282 L545,318 L585,336 L615,306 L650,322 L690,352 L725,318 L760,348 L800,374 L840,380 L880,366 L905,348 L945,386 L985,362 L1030,392 L1070,372 L1110,398 L1150,422 L1200,404 L1200,620 Z"/>
+
+    <g fill="#3d3875" opacity="0.35">
+      <path d="M420,230 L395,268 L360,296 L325,338 L280,352 L240,405 L205,392 L260,470 L340,440 L395,380 L425,300 Z"/>
+      <path d="M615,306 L585,336 L545,318 L560,380 L600,370 Z"/>
+      <path d="M725,318 L690,352 L650,322 L670,400 L720,370 Z"/>
+      <path d="M905,348 L880,366 L840,380 L860,430 L900,400 Z"/>
+      <path d="M1070,372 L1030,392 L985,362 L1010,440 L1060,420 Z"/>
+      <path d="M120,428 L70,466 L35,458 L60,520 L110,490 Z"/>
+    </g>
+    <g fill="#c0b8e6" opacity="0.25">
+      <path d="M420,230 L445,262 L470,255 L505,282 L545,318 L520,380 L470,350 L435,300 Z"/>
+      <path d="M615,306 L650,322 L690,352 L670,400 L630,360 Z"/>
+      <path d="M725,318 L760,348 L800,374 L780,420 L745,370 Z"/>
+    </g>
+
+    <g fill="#f3f0ff" opacity="0.92">
+      <path d="M360,296 L395,268 L420,230 L445,262 L470,255 L505,282 L494,290 L480,276 L466,284 L452,278 L440,292 L428,274 L415,290 L402,280 L390,298 L376,288 Z"/>
+      <path d="M585,336 L615,306 L650,322 L640,330 L630,322 L620,334 L610,322 L598,338 Z"/>
+      <path d="M690,352 L725,318 L760,348 L748,350 L738,338 L728,350 L718,336 L706,352 Z"/>
+      <path d="M880,366 L905,348 L945,386 L934,384 L926,374 L916,380 L906,364 L894,372 Z"/>
+      <path d="M165,446 L205,392 L240,405 L230,414 L222,404 L212,418 L203,404 L192,420 L180,440 Z"/>
+      <path d="M1030,392 L1070,372 L1110,398 L1100,400 L1090,391 L1080,396 L1070,384 L1058,394 L1046,402 Z"/>
+      <path d="M70,466 L120,428 L165,446 L154,452 L144,444 L134,452 L122,440 L110,456 L96,450 L84,462 Z"/>
+    </g>
+
+    <rect x="0" y="420" width="1200" height="100" fill="url(#mist)"/>
+
+    <path fill="url(#mid)" d="M0,620 L0,526 L40,498 L95,480 L130,492 L190,448 L240,474 L285,440 L350,470 L395,426 L440,448 L510,406 L545,438 L610,416 L660,454 L700,424 L765,458 L815,430 L870,464 L920,438 L970,470 L1015,446 L1075,474 L1125,452 L1170,470 L1200,458 L1200,620 Z"/>
+
+    <rect x="0" y="500" width="1200" height="80" fill="url(#mist)" opacity="0.8"/>
+
+    <path fill="url(#near)" d="M0,620 L0,566 L40,550 L95,518 L150,540 L190,512 L250,546 L300,528 L345,556 L410,520 L455,538 L520,508 L575,548 L625,530 L690,560 L740,536 L800,562 L850,540 L915,568 L960,548 L1020,574 L1080,552 L1140,576 L1200,560 L1200,620 Z"/>
+
+    <g fill="#16112b">
+      <path d="M0,600 L0,560 L40,552 L90,556 L150,548 L210,556 L270,566 L330,580 L390,596 L400,600 Z"/>
+      <path d="M1200,600 L1200,555 L1150,550 L1090,558 L1030,566 L970,580 L920,594 L900,600 Z"/>
+      <use xlink:href="#pine" transform="translate(20,558) scale(1)"/>
+      <use xlink:href="#pine" transform="translate(38,556) scale(0.8)"/>
+      <use xlink:href="#pine" transform="translate(60,556) scale(1.25)"/>
+      <use xlink:href="#pine" transform="translate(105,556) scale(0.9)"/>
+      <use xlink:href="#pine" transform="translate(128,553) scale(1.1)"/>
+      <use xlink:href="#pine" transform="translate(150,550) scale(1.35)"/>
+      <use xlink:href="#pine" transform="translate(170,552) scale(0.75)"/>
+      <use xlink:href="#pine" transform="translate(190,555) scale(1.05)"/>
+      <use xlink:href="#pine" transform="translate(212,558) scale(0.9)"/>
+      <use xlink:href="#pine" transform="translate(235,562) scale(1.15)"/>
+      <use xlink:href="#pine" transform="translate(258,566) scale(0.95)"/>
+      <use xlink:href="#pine" transform="translate(280,570) scale(0.85)"/>
+      <use xlink:href="#pine" transform="translate(300,576) scale(0.6)"/>
+      <use xlink:href="#pine" transform="translate(320,580) scale(0.7)"/>
+      <use xlink:href="#pine" transform="translate(360,590) scale(0.55)"/>
+      <use xlink:href="#pine" transform="translate(1180,555) scale(1.15)"/>
+      <use xlink:href="#pine" transform="translate(1160,553) scale(0.8)"/>
+      <use xlink:href="#pine" transform="translate(1140,553) scale(0.9)"/>
+      <use xlink:href="#pine" transform="translate(1120,557) scale(1.05)"/>
+      <use xlink:href="#pine" transform="translate(1100,559) scale(1.3)"/>
+      <use xlink:href="#pine" transform="translate(1080,562) scale(0.8)"/>
+      <use xlink:href="#pine" transform="translate(1060,564) scale(1)"/>
+      <use xlink:href="#pine" transform="translate(1038,568) scale(1.1)"/>
+      <use xlink:href="#pine" transform="translate(1015,571) scale(0.85)"/>
+      <use xlink:href="#pine" transform="translate(995,577) scale(0.6)"/>
+      <use xlink:href="#pine" transform="translate(975,581) scale(0.7)"/>
+      <use xlink:href="#pine" transform="translate(957,586) scale(0.65)"/>
+      <use xlink:href="#pine" transform="translate(940,590) scale(0.55)"/>
+    </g>
+  </g>
+
+  <rect x="0" y="600" width="1200" height="300" fill="url(#water)"/>
+  <g clip-path="url(#lake)">
+    <g filter="url(#ripple)" opacity="0.6">
+      <use xlink:href="#scene" transform="translate(0,1200) scale(1,-1)"/>
+    </g>
+  </g>
+  <rect x="0" y="600" width="1200" height="300" fill="url(#tint)"/>
+
+  <g fill="#ffe3b8">
+    <ellipse cx="838" cy="650" rx="34" ry="1.6" opacity="0.35"/>
+    <ellipse cx="829" cy="668" rx="46" ry="1.8" opacity="0.3"/>
+    <ellipse cx="843" cy="690" rx="28" ry="1.5" opacity="0.4"/>
+    <ellipse cx="834" cy="712" rx="58" ry="2" opacity="0.3"/>
+    <ellipse cx="846" cy="736" rx="40" ry="1.8" opacity="0.35"/>
+    <ellipse cx="828" cy="760" rx="70" ry="2.2" opacity="0.28"/>
+    <ellipse cx="840" cy="786" rx="48" ry="2" opacity="0.32"/>
+    <ellipse cx="832" cy="812" rx="82" ry="2.4" opacity="0.26"/>
+    <ellipse cx="848" cy="838" rx="56" ry="2.2" opacity="0.3"/>
+    <ellipse cx="836" cy="866" rx="96" ry="2.6" opacity="0.22"/>
+    <ellipse cx="840" cy="888" rx="70" ry="2.4" opacity="0.2"/>
+  </g>
+  <g fill="#cfc3ee">
+    <ellipse cx="200" cy="640" rx="40" ry="1.4" opacity="0.18"/>
+    <ellipse cx="420" cy="662" rx="60" ry="1.6" opacity="0.16"/>
+    <ellipse cx="600" cy="700" rx="50" ry="1.6" opacity="0.16"/>
+    <ellipse cx="150" cy="722" rx="70" ry="1.8" opacity="0.15"/>
+    <ellipse cx="1000" cy="652" rx="45" ry="1.4" opacity="0.18"/>
+    <ellipse cx="1100" cy="742" rx="80" ry="2" opacity="0.14"/>
+    <ellipse cx="350" cy="790" rx="90" ry="2" opacity="0.14"/>
+    <ellipse cx="650" cy="822" rx="60" ry="2" opacity="0.14"/>
+    <ellipse cx="250" cy="860" rx="110" ry="2.4" opacity="0.12"/>
+    <ellipse cx="1050" cy="862" rx="100" ry="2.4" opacity="0.12"/>
+    <ellipse cx="500" cy="882" rx="80" ry="2.2" opacity="0.12"/>
+  </g>
+
+  <line x1="0" y1="600" x2="1200" y2="600" stroke="#f6c796" stroke-opacity="0.45" stroke-width="1.2"/>
+  <rect x="0" y="0" width="1200" height="900" fill="url(#vig)"/>
+</svg>

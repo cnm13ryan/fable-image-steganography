@@ -1,0 +1,258 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1120" height="640" viewBox="0 0 1120 640">
+  <defs>
+    <radialGradient id="wall" cx="560" cy="300" r="640" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2f565c"/>
+      <stop offset="0.5" stop-color="#1c383e"/>
+      <stop offset="1" stop-color="#0a1417"/>
+    </radialGradient>
+    <linearGradient id="woodH" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6e4626"/>
+      <stop offset="0.18" stop-color="#815532"/>
+      <stop offset="0.36" stop-color="#5c381d"/>
+      <stop offset="0.55" stop-color="#7a5030"/>
+      <stop offset="0.72" stop-color="#58341a"/>
+      <stop offset="0.9" stop-color="#74502f"/>
+      <stop offset="1" stop-color="#4d2c15"/>
+    </linearGradient>
+    <linearGradient id="woodV" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6e4626"/>
+      <stop offset="0.18" stop-color="#815532"/>
+      <stop offset="0.36" stop-color="#5c381d"/>
+      <stop offset="0.55" stop-color="#7a5030"/>
+      <stop offset="0.72" stop-color="#58341a"/>
+      <stop offset="0.9" stop-color="#74502f"/>
+      <stop offset="1" stop-color="#4d2c15"/>
+    </linearGradient>
+    <pattern id="grainH" patternUnits="userSpaceOnUse" width="540" height="16">
+      <path d="M0,8C60,4 120,12 180,8S300,4 360,8S480,12 540,8" fill="none" stroke="#2b190b" stroke-width="1.2" opacity="0.35"/>
+      <path d="M0,3C120,0 180,6 270,3S420,6 540,3" fill="none" stroke="#2b190b" stroke-width="0.7" opacity="0.25"/>
+    </pattern>
+    <pattern id="grainV" patternUnits="userSpaceOnUse" width="16" height="540">
+      <path d="M8,0C4,60 12,120 8,180S4,300 8,360S12,480 8,540" fill="none" stroke="#2b190b" stroke-width="1.2" opacity="0.35"/>
+      <path d="M3,0C0,120 6,180 3,270S6,420 3,540" fill="none" stroke="#2b190b" stroke-width="0.7" opacity="0.25"/>
+    </pattern>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.22"/>
+    </linearGradient>
+    <linearGradient id="brass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8a6420"/>
+      <stop offset="0.35" stop-color="#e2c478"/>
+      <stop offset="0.6" stop-color="#c49a3f"/>
+      <stop offset="1" stop-color="#7a5618"/>
+    </linearGradient>
+    <radialGradient id="ringShade" cx="0" cy="0" r="225" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1e1e1e"/>
+      <stop offset="0.76" stop-color="#1e1e1e"/>
+      <stop offset="0.84" stop-color="#2b2b2b"/>
+      <stop offset="1" stop-color="#090909"/>
+    </radialGradient>
+    <radialGradient id="faceShade" cx="-50" cy="-60" r="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="0.45" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.22"/>
+    </radialGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2f2f2"/>
+      <stop offset="0.5" stop-color="#a9a9a9"/>
+      <stop offset="1" stop-color="#5f5f5f"/>
+    </linearGradient>
+    <linearGradient id="barrel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9a9a9a"/>
+      <stop offset="0.25" stop-color="#3c3c3c"/>
+      <stop offset="0.5" stop-color="#777777"/>
+      <stop offset="0.75" stop-color="#2a2a2a"/>
+      <stop offset="1" stop-color="#0f0f0f"/>
+    </linearGradient>
+    <linearGradient id="shaft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a80d8"/>
+      <stop offset="0.5" stop-color="#1c3f7e"/>
+      <stop offset="1" stop-color="#0e2550"/>
+    </linearGradient>
+    <linearGradient id="flight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#63a0f5"/>
+      <stop offset="0.48" stop-color="#2b63c2"/>
+      <stop offset="0.52" stop-color="#1f4f9f"/>
+      <stop offset="1" stop-color="#143572"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <filter id="dartBlur" x="-10%" y="-40%" width="120%" height="180%">
+      <feGaussianBlur stdDeviation="1.3"/>
+    </filter>
+    <filter id="smudge" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <path id="dartShadow" d="M0,0L23,-1.3L23,-2.8L28,-3.6L58,-3.6L63,-2.4L63,-1.8L96,-1.4C104,-5 112,-13 118,-18L126,-17.5Q128,-9 128.5,-1.5L128.5,1.5Q128,9 126,17.5L118,18C112,13 104,5 96,1.4L63,1.8L63,2.4L58,3.6L28,3.6L23,2.8L23,1.3Z" fill="#000" opacity="0.38" filter="url(#dartBlur)"/>
+    <g id="dartBody">
+      <path d="M0,0L23,-1.3L23,1.3Z" fill="url(#steel)" stroke="#7a7a7a" stroke-width="0.3"/>
+      <path d="M23,-2.8L28,-3.6L58,-3.6L63,-2.4L63,2.4L58,3.6L28,3.6L23,2.8Z" fill="url(#barrel)"/>
+      <path d="M31,-3.5V3.5M35,-3.5V3.5M39,-3.5V3.5M43,-3.5V3.5M47,-3.5V3.5M51,-3.5V3.5M55,-3.5V3.5" stroke="#050505" stroke-width="0.7" opacity="0.55"/>
+      <path d="M63,-1.8L96,-1.4L96,1.4L63,1.8Z" fill="url(#shaft)"/>
+      <path d="M94,-1.4C104,-5 112,-13 118,-18L126,-17.5Q128,-9 128.5,-1.5L128.5,1.5Q128,9 126,17.5L118,18C112,13 104,5 94,1.4Z" fill="url(#flight)" stroke="#102a55" stroke-width="0.6" stroke-linejoin="round"/>
+      <path d="M94,0L128.5,0" stroke="#0c1f40" stroke-width="1"/>
+      <path d="M100,-4C108,-8 114,-12.5 119,-16.2M100,4C108,8 114,12.5 119,16.2" fill="none" stroke="#a7c6f7" stroke-width="1.1" opacity="0.7"/>
+    </g>
+  </defs>
+
+  <!-- wall -->
+  <rect width="1120" height="640" fill="url(#wall)"/>
+
+  <!-- cabinet shadow -->
+  <rect x="26" y="62" width="1086" height="540" rx="6" fill="#000" opacity="0.5" filter="url(#softShadow)"/>
+
+  <!-- back panel -->
+  <rect x="290" y="50" width="540" height="540" rx="5" fill="url(#woodH)" stroke="#2a160a" stroke-width="2"/>
+  <rect x="290" y="50" width="540" height="540" rx="5" fill="url(#grainH)"/>
+  <rect x="308" y="68" width="504" height="504" rx="3" fill="#000" opacity="0.16"/>
+  <path d="M308,572V68H812" fill="none" stroke="#1a0d05" stroke-width="3" opacity="0.8"/>
+  <path d="M812,68V572H308" fill="none" stroke="#a5744a" stroke-width="2" opacity="0.5"/>
+
+  <!-- left door -->
+  <rect x="20" y="50" width="270" height="540" rx="5" fill="url(#woodV)" stroke="#2a160a" stroke-width="2"/>
+  <rect x="20" y="50" width="270" height="540" rx="5" fill="url(#grainV)"/>
+  <rect x="42" y="72" width="226" height="496" fill="#2b3732" stroke="#161d19" stroke-width="3"/>
+  <path d="M42,568V72H268" fill="none" stroke="#000" stroke-width="3" opacity="0.35"/>
+  <path d="M268,72V568H42" fill="none" stroke="#9a6a3f" stroke-width="2" opacity="0.45"/>
+  <rect x="42" y="558" width="226" height="10" fill="#4a2c15"/>
+  <path d="M42,558H268" stroke="#8a5b34" stroke-width="1.5"/>
+
+  <!-- right door -->
+  <rect x="830" y="50" width="270" height="540" rx="5" fill="url(#woodV)" stroke="#2a160a" stroke-width="2"/>
+  <rect x="830" y="50" width="270" height="540" rx="5" fill="url(#grainV)"/>
+  <rect x="852" y="72" width="226" height="496" fill="#2b3732" stroke="#161d19" stroke-width="3"/>
+  <path d="M852,568V72H1078" fill="none" stroke="#000" stroke-width="3" opacity="0.35"/>
+  <path d="M1078,72V568H852" fill="none" stroke="#9a6a3f" stroke-width="2" opacity="0.45"/>
+  <rect x="852" y="558" width="226" height="10" fill="#4a2c15"/>
+  <path d="M852,558H1078" stroke="#8a5b34" stroke-width="1.5"/>
+
+  <!-- sheen -->
+  <rect x="20" y="50" width="1080" height="540" fill="url(#sheen)"/>
+
+  <!-- hinges -->
+  <g stroke="#4f3a12" stroke-width="1">
+    <rect x="283" y="112" width="14" height="42" rx="3" fill="url(#brass)"/>
+    <rect x="283" y="436" width="14" height="42" rx="3" fill="url(#brass)"/>
+    <rect x="823" y="112" width="14" height="42" rx="3" fill="url(#brass)"/>
+    <rect x="823" y="436" width="14" height="42" rx="3" fill="url(#brass)"/>
+  </g>
+  <g fill="#6b4e1a">
+    <circle cx="290" cy="121" r="1.4"/><circle cx="290" cy="145" r="1.4"/>
+    <circle cx="290" cy="445" r="1.4"/><circle cx="290" cy="469" r="1.4"/>
+    <circle cx="830" cy="121" r="1.4"/><circle cx="830" cy="145" r="1.4"/>
+    <circle cx="830" cy="445" r="1.4"/><circle cx="830" cy="469" r="1.4"/>
+  </g>
+
+  <!-- chalk smudges -->
+  <ellipse cx="150" cy="470" rx="75" ry="40" fill="#fff" opacity="0.06" filter="url(#smudge)"/>
+  <ellipse cx="980" cy="500" rx="80" ry="34" fill="#fff" opacity="0.06" filter="url(#smudge)"/>
+
+  <!-- left chalkboard: game score -->
+  <g font-family="'Chalkboard SE','Comic Sans MS','Segoe Print','Bradley Hand',cursive" fill="#f1ece0" text-anchor="middle" opacity="0.92">
+    <text x="100" y="128" font-size="32">JO</text>
+    <text x="212" y="128" font-size="32">SAM</text>
+    <g font-size="30">
+      <text x="100" y="196">501</text>
+      <text x="100" y="242">441</text>
+      <text x="100" y="288">356</text>
+      <text x="100" y="334">176</text>
+      <text x="212" y="196">501</text>
+      <text x="212" y="242">461</text>
+      <text x="212" y="288">381</text>
+      <text x="212" y="334">301</text>
+    </g>
+  </g>
+  <g fill="none" stroke="#f1ece0" stroke-linecap="round" opacity="0.85">
+    <path d="M155,96Q153,320 157,548" stroke-width="2.5"/>
+    <path d="M56,146Q155,151 254,144" stroke-width="2.5"/>
+    <path d="M78,188L122,185M78,234L122,231M78,280L122,277M190,188L234,185M190,234L234,231M190,280L234,277" stroke-width="2"/>
+  </g>
+  <g transform="rotate(4 84 548)">
+    <rect x="63" y="544" width="46" height="16" rx="2" fill="#000" opacity="0.3"/>
+    <rect x="62" y="542" width="46" height="16" rx="2" fill="#5a3b2a"/>
+    <rect x="62" y="552" width="46" height="6" rx="1" fill="#2e2e2e"/>
+  </g>
+
+  <!-- right chalkboard: the big one -->
+  <g transform="rotate(-6 965 310)">
+    <g font-family="'Chalkboard SE','Comic Sans MS','Segoe Print','Bradley Hand',cursive" fill="#f1ece0" text-anchor="middle" opacity="0.92">
+      <text x="965" y="238" font-size="26" letter-spacing="2">ONE HUNDRED</text>
+      <text x="965" y="350" font-size="112" font-weight="bold">180</text>
+      <text x="965" y="394" font-size="26" letter-spacing="2">AND EIGHTY!</text>
+    </g>
+    <g fill="none" stroke="#f1ece0" stroke-linecap="round" opacity="0.85">
+      <path d="M878,416Q965,426 1052,414" stroke-width="3"/>
+      <path d="M900,430Q965,436 1030,428" stroke-width="2.5"/>
+    </g>
+  </g>
+  <g transform="rotate(-6 1020 553)">
+    <rect x="1003" y="550.5" width="36" height="8" rx="2.5" fill="#000" opacity="0.35"/>
+    <rect x="1002" y="549" width="36" height="8" rx="2.5" fill="#f3eee2"/>
+  </g>
+
+  <!-- dartboard -->
+  <g transform="translate(560,320)">
+    <circle cx="7" cy="12" r="226" fill="#000" opacity="0.55" filter="url(#softShadow)"/>
+    <circle r="225" fill="url(#ringShade)" stroke="#3a3a3a" stroke-width="1.5"/>
+
+    <!-- sectors (dashed strokes make the alternating wedges) -->
+    <g transform="rotate(-9)">
+      <circle r="171" fill="#232323"/>
+      <path d="M92,0A92,92 0 1,1 -92,0A92,92 0 1,1 92,0" fill="none" stroke="#efdfbc" stroke-width="156" stroke-dasharray="28.9027 28.9027"/>
+      <path d="M103,0A103,103 0 1,1 -103,0A103,103 0 1,1 103,0" fill="none" stroke="#c7262c" stroke-width="10"/>
+      <path d="M103,0A103,103 0 1,1 -103,0A103,103 0 1,1 103,0" fill="none" stroke="#1f7d3c" stroke-width="10" stroke-dasharray="32.3584 32.3584"/>
+      <path d="M166,0A166,166 0 1,1 -166,0A166,166 0 1,1 166,0" fill="none" stroke="#c7262c" stroke-width="10"/>
+      <path d="M166,0A166,166 0 1,1 -166,0A166,166 0 1,1 166,0" fill="none" stroke="#1f7d3c" stroke-width="10" stroke-dasharray="52.1504 52.1504"/>
+    </g>
+    <circle r="171" fill="url(#faceShade)"/>
+
+    <!-- spider wire shadow -->
+    <g fill="none" stroke="#000" stroke-width="1.8" opacity="0.5" transform="translate(0.8,1.4)">
+      <path d="M26.75,-168.9L-26.75,168.9M77.63,-152.36L-77.63,152.36M120.92,-120.92L-120.92,120.92M152.36,-77.63L-152.36,77.63M168.9,-26.75L-168.9,26.75M168.9,26.75L-168.9,-26.75M152.36,77.63L-152.36,-77.63M120.92,120.92L-120.92,-120.92M77.63,152.36L-77.63,-152.36M26.75,168.9L-26.75,-168.9"/>
+      <circle r="98"/><circle r="108"/><circle r="161"/><circle r="171"/>
+    </g>
+    <!-- spider wire -->
+    <g fill="none" stroke="#d9d9d9" stroke-width="1.6">
+      <path d="M26.75,-168.9L-26.75,168.9M77.63,-152.36L-77.63,152.36M120.92,-120.92L-120.92,120.92M152.36,-77.63L-152.36,77.63M168.9,-26.75L-168.9,26.75M168.9,26.75L-168.9,-26.75M152.36,77.63L-152.36,-77.63M120.92,120.92L-120.92,-120.92M77.63,152.36L-77.63,-152.36M26.75,168.9L-26.75,-168.9"/>
+      <circle r="98"/><circle r="108"/><circle r="161"/><circle r="171"/>
+    </g>
+
+    <!-- bull -->
+    <circle r="17" fill="#1f7d3c" stroke="#d9d9d9" stroke-width="1.6"/>
+    <circle r="7" fill="#c7262c" stroke="#d9d9d9" stroke-width="1.6"/>
+
+    <!-- numbers -->
+    <g font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="30" fill="#f2ecdd" text-anchor="middle">
+      <text y="-195">20</text>
+      <text transform="rotate(18)" y="-195">1</text>
+      <text transform="rotate(36)" y="-195">18</text>
+      <text transform="rotate(54)" y="-195">4</text>
+      <text transform="rotate(72)" y="-195">13</text>
+      <text transform="rotate(90)" y="-195">6</text>
+      <text transform="rotate(108)" y="-195">10</text>
+      <text transform="rotate(126)" y="-195">15</text>
+      <text transform="rotate(144)" y="-195">2</text>
+      <text transform="rotate(162)" y="-195">17</text>
+      <text transform="rotate(180)" y="-195">3</text>
+      <text transform="rotate(198)" y="-195">19</text>
+      <text transform="rotate(216)" y="-195">7</text>
+      <text transform="rotate(234)" y="-195">16</text>
+      <text transform="rotate(252)" y="-195">8</text>
+      <text transform="rotate(270)" y="-195">11</text>
+      <text transform="rotate(288)" y="-195">14</text>
+      <text transform="rotate(306)" y="-195">9</text>
+      <text transform="rotate(324)" y="-195">12</text>
+      <text transform="rotate(342)" y="-195">5</text>
+    </g>
+
+    <!-- three darts in the treble twenty -->
+    <use xlink:href="#dartShadow" transform="translate(-5,-103) rotate(-44)"/>
+    <use xlink:href="#dartShadow" transform="translate(3,-104.5) rotate(-26)"/>
+    <use xlink:href="#dartShadow" transform="translate(9,-101) rotate(-8)"/>
+    <use xlink:href="#dartBody" transform="translate(9,-101) rotate(-14)"/>
+    <use xlink:href="#dartBody" transform="translate(3,-104.5) rotate(-32)"/>
+    <use xlink:href="#dartBody" transform="translate(-5,-103) rotate(-50)"/>
+  </g>
+</svg>

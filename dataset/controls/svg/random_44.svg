@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <title>Lighthouse on a headland at dusk</title>
+  <defs>
+    <linearGradient id="sky" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="360">
+      <stop offset="0" stop-color="#090f2b"/>
+      <stop offset="0.35" stop-color="#16305c"/>
+      <stop offset="0.62" stop-color="#3d4f85"/>
+      <stop offset="0.8" stop-color="#7a567f"/>
+      <stop offset="0.92" stop-color="#c77657"/>
+      <stop offset="1" stop-color="#f2a564"/>
+    </linearGradient>
+    <linearGradient id="sea" gradientUnits="userSpaceOnUse" x1="0" y1="360" x2="0" y2="600">
+      <stop offset="0" stop-color="#d88b5c"/>
+      <stop offset="0.06" stop-color="#5f7ca3"/>
+      <stop offset="0.3" stop-color="#2a4d7a"/>
+      <stop offset="1" stop-color="#0d2140"/>
+    </linearGradient>
+    <radialGradient id="moonGlow">
+      <stop offset="0" stop-color="#f6f1d5" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#f6f1d5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beamL" gradientUnits="userSpaceOnUse" x1="646" y1="0" x2="-100" y2="0">
+      <stop offset="0" stop-color="#ffe9a8" stop-opacity="0.55"/>
+      <stop offset="0.45" stop-color="#ffe9a8" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ffe9a8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="beamR" gradientUnits="userSpaceOnUse" x1="674" y1="0" x2="900" y2="0">
+      <stop offset="0" stop-color="#ffe9a8" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ffe9a8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="towerGrad" gradientUnits="userSpaceOnUse" x1="632" y1="0" x2="688" y2="0">
+      <stop offset="0" stop-color="#eeece6"/>
+      <stop offset="0.3" stop-color="#ffffff"/>
+      <stop offset="0.7" stop-color="#d3d5da"/>
+      <stop offset="1" stop-color="#9a9eaa"/>
+    </linearGradient>
+    <linearGradient id="bandGrad" gradientUnits="userSpaceOnUse" x1="632" y1="0" x2="688" y2="0">
+      <stop offset="0" stop-color="#d4424a"/>
+      <stop offset="0.3" stop-color="#e65a5e"/>
+      <stop offset="0.7" stop-color="#b42e35"/>
+      <stop offset="1" stop-color="#7c1f25"/>
+    </linearGradient>
+    <radialGradient id="lanternGlow" gradientUnits="userSpaceOnUse" cx="660" cy="142" r="26">
+      <stop offset="0" stop-color="#fffdf0"/>
+      <stop offset="0.35" stop-color="#ffe08a"/>
+      <stop offset="1" stop-color="#ef9f3e"/>
+    </radialGradient>
+    <radialGradient id="bloom">
+      <stop offset="0" stop-color="#fff4c8" stop-opacity="0.9"/>
+      <stop offset="0.25" stop-color="#ffe29a" stop-opacity="0.45"/>
+      <stop offset="0.6" stop-color="#ffcf70" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#ffcf70" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="towerClip">
+      <polygon points="632,370 688,370 678,170 642,170"/>
+    </clipPath>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="600" fill="url(#sky)"/>
+
+  <!-- Stars -->
+  <g fill="#ffffff">
+    <circle cx="40" cy="40" r="1.4" opacity="0.9"/>
+    <circle cx="85" cy="22" r="1" opacity="0.7"/>
+    <circle cx="160" cy="30" r="1.2" opacity="0.8"/>
+    <circle cx="210" cy="70" r="0.9" opacity="0.6"/>
+    <circle cx="260" cy="25" r="1.3" opacity="0.85"/>
+    <circle cx="300" cy="60" r="1" opacity="0.7"/>
+    <circle cx="340" cy="18" r="1.1" opacity="0.75"/>
+    <circle cx="390" cy="45" r="1.4" opacity="0.9"/>
+    <circle cx="430" cy="90" r="0.9" opacity="0.55"/>
+    <circle cx="470" cy="30" r="1.2" opacity="0.8"/>
+    <circle cx="520" cy="65" r="1" opacity="0.7"/>
+    <circle cx="560" cy="20" r="1.3" opacity="0.85"/>
+    <circle cx="600" cy="50" r="0.9" opacity="0.6"/>
+    <circle cx="650" cy="28" r="1.2" opacity="0.8"/>
+    <circle cx="700" cy="75" r="1" opacity="0.7"/>
+    <circle cx="740" cy="35" r="1.4" opacity="0.9"/>
+    <circle cx="775" cy="95" r="1" opacity="0.65"/>
+    <circle cx="30" cy="120" r="0.9" opacity="0.5"/>
+    <circle cx="190" cy="110" r="1" opacity="0.6"/>
+    <circle cx="240" cy="145" r="0.8" opacity="0.5"/>
+    <circle cx="500" cy="120" r="0.9" opacity="0.55"/>
+    <circle cx="590" cy="105" r="1.1" opacity="0.65"/>
+    <circle cx="720" cy="135" r="0.9" opacity="0.5"/>
+    <circle cx="120" cy="160" r="0.8" opacity="0.45"/>
+    <circle cx="450" cy="160" r="0.8" opacity="0.45"/>
+    <circle cx="770" cy="170" r="0.9" opacity="0.5"/>
+    <circle cx="60" cy="200" r="0.8" opacity="0.4"/>
+    <circle cx="330" cy="200" r="0.8" opacity="0.4"/>
+  </g>
+  <path d="M 390 39 V 51 M 384 45 H 396" stroke="#ffffff" stroke-width="0.8" opacity="0.6"/>
+
+  <!-- Moon -->
+  <circle cx="110" cy="80" r="42" fill="url(#moonGlow)"/>
+  <path d="M 110 58 A 22 22 0 0 0 110 102 A 26 26 0 0 1 110 58 Z" fill="#f6f1d5"/>
+
+  <!-- Clouds -->
+  <ellipse cx="300" cy="240" rx="60" ry="4" fill="#55608f" opacity="0.5"/>
+  <ellipse cx="560" cy="265" rx="45" ry="4" fill="#4a4573" opacity="0.6"/>
+  <ellipse cx="150" cy="296" rx="95" ry="6" fill="#6b4a72" opacity="0.8"/>
+  <ellipse cx="480" cy="300" rx="60" ry="5" fill="#5e4a78" opacity="0.6"/>
+  <ellipse cx="70" cy="318" rx="70" ry="5" fill="#84506a" opacity="0.7"/>
+  <ellipse cx="360" cy="318" rx="130" ry="6" fill="#7c4e68" opacity="0.75"/>
+  <ellipse cx="250" cy="337" rx="80" ry="4" fill="#9a5a63" opacity="0.6"/>
+
+  <!-- Sea -->
+  <rect x="0" y="360" width="800" height="240" fill="url(#sea)"/>
+  <line x1="0" y1="360.5" x2="800" y2="360.5" stroke="#f7b981" stroke-width="1" opacity="0.6"/>
+
+  <!-- Distant headland -->
+  <path d="M 0 361 L 0 338 Q 30 324 70 330 Q 110 334 140 346 Q 165 354 185 361 Z" fill="#4c4164"/>
+
+  <!-- Afterglow on the water -->
+  <g stroke="#f6b57c" stroke-linecap="round" fill="none" stroke-width="1.5">
+    <line x1="120" y1="368" x2="200" y2="368" opacity="0.5"/>
+    <line x1="230" y1="372" x2="330" y2="372" opacity="0.45"/>
+    <line x1="60" y1="376" x2="110" y2="376" opacity="0.4"/>
+    <line x1="350" y1="378" x2="420" y2="378" opacity="0.35"/>
+    <line x1="180" y1="383" x2="260" y2="383" opacity="0.3"/>
+  </g>
+
+  <!-- Waves -->
+  <g fill="none" stroke="#ffffff" stroke-linecap="round">
+    <path d="M -10 392 q 25 -5 50 0 t 50 0 t 50 0 t 50 0 t 50 0 t 50 0 t 50 0 t 50 0 t 50 0 t 50 0 t 50 0" stroke-width="1" opacity="0.18"/>
+    <path d="M -10 412 q 30 -6 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0 t 60 0" stroke-width="1.2" opacity="0.2"/>
+    <path d="M -10 438 q 35 -7 70 0 t 70 0 t 70 0 t 70 0 t 70 0 t 70 0 t 70 0" stroke-width="1.4" opacity="0.22"/>
+    <path d="M -10 470 q 40 -8 80 0 t 80 0 t 80 0 t 80 0 t 80 0 t 80 0" stroke-width="1.6" opacity="0.25"/>
+    <path d="M -10 510 q 45 -9 90 0 t 90 0 t 90 0 t 90 0 t 90 0" stroke-width="1.8" opacity="0.28"/>
+    <path d="M -10 555 q 50 -10 100 0 t 100 0 t 100 0 t 100 0" stroke-width="2" opacity="0.3"/>
+    <path d="M 40 452 q 20 -4 40 0" stroke-width="1.3" opacity="0.25"/>
+    <path d="M 300 455 q 25 -5 50 0" stroke-width="1.3" opacity="0.25"/>
+    <path d="M 180 490 q 25 -5 50 0" stroke-width="1.5" opacity="0.25"/>
+    <path d="M 350 530 q 30 -6 60 0" stroke-width="1.6" opacity="0.28"/>
+    <path d="M 240 585 q 30 -6 60 0" stroke-width="2" opacity="0.3"/>
+  </g>
+
+  <!-- Sailboat on the horizon -->
+  <g fill="#141c33">
+    <path d="M 250 356 L 284 356 L 279 363 L 255 363 Z"/>
+    <rect x="265.5" y="334" width="1.5" height="22"/>
+    <path d="M 268 336 L 268 355 L 281 355 Z"/>
+    <path d="M 264 340 L 264 355 L 253 355 Z"/>
+  </g>
+
+  <!-- Light beams -->
+  <path d="M 646 130 L -100 110 L -100 392 L 646 156 Z" fill="url(#beamL)"/>
+  <path d="M 646 138 L -100 180 L -100 300 L 646 148 Z" fill="url(#beamL)" opacity="0.5"/>
+  <path d="M 674 130 L 900 98 L 900 186 L 674 156 Z" fill="url(#beamR)"/>
+
+  <!-- Headland -->
+  <path d="M 462 600 L 468 560 L 470 525 Q 488 472 518 432 L 544 396 L 575 380 L 640 372 L 700 374 L 770 380 L 800 396 L 800 600 Z" fill="#262a36"/>
+  <path d="M 544 396 L 575 380 L 600 388 L 572 420 L 540 450 L 522 445 Z" fill="#31364a"/>
+  <path d="M 500 600 L 498 545 L 515 500 L 545 470 L 560 480 L 540 530 L 530 600 Z" fill="#2e323e"/>
+  <path d="M 640 600 L 645 520 L 665 470 L 700 455 L 695 520 L 680 600 Z" fill="#2b2f3b"/>
+  <g fill="none" stroke="#1b1e27" stroke-width="1" opacity="0.8">
+    <path d="M 480 560 L 530 548 L 600 552 L 680 540 L 760 548 L 800 540"/>
+    <path d="M 520 500 L 580 492 L 650 498 L 720 488 L 800 494"/>
+    <path d="M 548 450 L 600 440 L 660 446 L 730 436 L 800 442"/>
+  </g>
+  <path d="M 470 525 Q 488 472 518 432 L 544 396 L 575 380" fill="none" stroke="#d58c5c" stroke-width="1.5" opacity="0.4"/>
+  <path d="M 544 396 L 575 380 L 640 372 L 700 374 L 770 380 L 800 396 L 800 414 L 770 398 L 700 391 L 640 389 L 578 397 L 554 411 Z" fill="#3a5a3a"/>
+  <path d="M 544 396 L 575 380 L 640 372 L 700 374 L 770 380 L 800 396" fill="none" stroke="#6b9a52" stroke-width="1.5" opacity="0.45"/>
+
+  <!-- Rocks at the foot of the cliff -->
+  <g fill="#1e222c">
+    <path d="M 430 600 L 436 578 Q 450 566 470 572 L 480 590 L 482 600 Z"/>
+    <path d="M 395 600 L 400 588 Q 412 580 428 586 L 432 600 Z"/>
+  </g>
+  <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-width="1.5">
+    <path d="M 380 587 q 12 -4 24 0" opacity="0.35"/>
+    <path d="M 418 572 q 15 -5 30 0 q 10 -3 20 1" opacity="0.35"/>
+    <path d="M 445 596 q 15 -5 30 0" opacity="0.3"/>
+  </g>
+
+  <!-- Keeper's cottage -->
+  <g>
+    <rect x="708" y="356" width="40" height="28" fill="#d8d2c3"/>
+    <rect x="741" y="356" width="7" height="28" fill="#b5ae9f"/>
+    <rect x="740" y="338" width="6" height="14" fill="#5a3b36"/>
+    <path d="M 702 357 L 728 336 L 754 357 Z" fill="#7a2c30"/>
+    <rect x="714" y="368" width="8" height="16" fill="#4a3a35"/>
+    <rect x="729" y="364" width="10" height="9" fill="#ffd27a"/>
+    <path d="M 734 364 V 373 M 729 368.5 H 739" stroke="#4a3a35" stroke-width="1"/>
+    <circle cx="734" cy="368" r="14" fill="url(#bloom)" opacity="0.6"/>
+    <path d="M 743 337 q 5 -8 0 -15 q -5 -7 1 -14" fill="none" stroke="#c9c3b3" stroke-width="1.8" stroke-linecap="round" opacity="0.35"/>
+  </g>
+
+  <!-- Lighthouse -->
+  <path d="M 620 382 L 700 382 L 697 370 L 623 370 Z" fill="#8f929c"/>
+  <polygon points="632,370 688,370 678,170 642,170" fill="url(#towerGrad)"/>
+  <rect x="620" y="210" width="80" height="40" fill="url(#bandGrad)" clip-path="url(#towerClip)"/>
+  <rect x="620" y="290" width="80" height="40" fill="url(#bandGrad)" clip-path="url(#towerClip)"/>
+  <rect x="655" y="182" width="10" height="16" rx="5" fill="#2a3550" stroke="#4a4f5c" stroke-width="1"/>
+  <rect x="655" y="262" width="10" height="16" rx="5" fill="#f2c266" stroke="#4a4f5c" stroke-width="1"/>
+  <path d="M 651 370 L 651 350 A 9 9 0 0 1 669 350 L 669 370 Z" fill="#3b2b27" stroke="#6b5a50" stroke-width="1"/>
+  <path d="M 634 171 L 642 178 L 678 178 L 686 171 Z" fill="#353946"/>
+  <rect x="630" y="164" width="60" height="7" rx="1" fill="#2d3140"/>
+  <rect x="646" y="121" width="28" height="43" fill="url(#lanternGlow)"/>
+  <circle cx="660" cy="142" r="7" fill="#fffbe6"/>
+  <path d="M 655.3 121 V 164 M 664.6 121 V 164 M 646 142.5 H 674" stroke="#2a2d35" stroke-width="1.5"/>
+  <rect x="645" y="120" width="30" height="45" fill="none" stroke="#2a2d35" stroke-width="2"/>
+  <g stroke="#2d3140" stroke-linecap="round">
+    <line x1="631" y1="148" x2="689" y2="148" stroke-width="1.8"/>
+    <line x1="631" y1="156" x2="689" y2="156" stroke-width="1"/>
+    <path d="M 632 148 V 164 M 641.5 148 V 164 M 651 148 V 164 M 660.5 148 V 164 M 670 148 V 164 M 679.5 148 V 164 M 689 148 V 164" stroke-width="1.4"/>
+  </g>
+  <rect x="640" y="117" width="40" height="4" rx="1" fill="#2a2d35"/>
+  <path d="M 642 117 A 18 18 0 0 1 678 117 Z" fill="#7a2c30"/>
+  <path d="M 646.8 112.2 A 14 14 0 0 1 657.6 103.2" fill="none" stroke="#b55a5e" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="660" cy="96" r="3.5" fill="#2a2d35"/>
+  <line x1="660" y1="93" x2="660" y2="80" stroke="#2a2d35" stroke-width="1.5"/>
+  <circle cx="660" cy="142" r="70" fill="url(#bloom)"/>
+
+  <!-- Gulls -->
+  <g fill="none" stroke="#141a2c" stroke-width="1.5" stroke-linecap="round">
+    <path d="M 405 282 q 6 -6 12 0 q 6 -6 12 0"/>
+    <path d="M 432 270 q 5 -5 10 0 q 5 -5 10 0"/>
+    <path d="M 452 288 q 5 -5 10 0 q 5 -5 10 0"/>
+  </g>
+
+  <!-- Foreground rocks -->
+  <path d="M 0 600 L 0 548 Q 20 530 48 540 Q 70 528 95 545 Q 125 540 150 562 Q 180 558 205 580 L 215 600 Z" fill="#14171f"/>
+  <path d="M 0 548 Q 20 530 48 540 Q 70 528 95 545 Q 125 540 150 562" fill="none" stroke="#4b5068" stroke-width="1.2" opacity="0.5"/>
+  <g fill="none" stroke="#ffffff" stroke-linecap="round">
+    <path d="M 158 556 q 14 -4 28 0" stroke-width="1.5" opacity="0.3"/>
+    <path d="M 222 590 q 15 -5 30 0" stroke-width="1.8" opacity="0.35"/>
+    <path d="M 212 592 q 18 -6 36 0 q 14 -4 28 2" stroke-width="1.6" opacity="0.25"/>
+  </g>
+</svg>

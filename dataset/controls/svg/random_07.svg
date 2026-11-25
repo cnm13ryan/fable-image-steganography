@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="800" viewBox="0 0 800 800">
+  <title>Zellige star-and-cross tiling</title>
+  <defs>
+    <path id="chev" d="M14.32 5.93L31.82 13.18L31.82 31.82L13.18 31.82L5.93 14.32L14.32 14.32Z" stroke="#e8dbb5" stroke-width="2" stroke-linejoin="round"/>
+
+    <g id="star">
+      <path d="M45 0L31.82 13.18L31.82 31.82L13.18 31.82L0 45L-13.18 31.82L-31.82 31.82L-31.82 13.18L-45 0L-31.82 -13.18L-31.82 -31.82L-13.18 -31.82L0 -45L13.18 -31.82L31.82 -31.82L31.82 -13.18Z" fill="#1e4799" stroke="#e8dbb5" stroke-width="2"/>
+      <use xlink:href="#chev" fill="#1e4799"/>
+      <use xlink:href="#chev" fill="#1f7d84" transform="rotate(45)"/>
+      <use xlink:href="#chev" fill="#1e4799" transform="rotate(90)"/>
+      <use xlink:href="#chev" fill="#1f7d84" transform="rotate(135)"/>
+      <use xlink:href="#chev" fill="#1e4799" transform="rotate(180)"/>
+      <use xlink:href="#chev" fill="#1f7d84" transform="rotate(225)"/>
+      <use xlink:href="#chev" fill="#1e4799" transform="rotate(270)"/>
+      <use xlink:href="#chev" fill="#1f7d84" transform="rotate(315)"/>
+      <path d="M20.25 0L14.32 5.93L14.32 14.32L5.93 14.32L0 20.25L-5.93 14.32L-14.32 14.32L-14.32 5.93L-20.25 0L-14.32 -5.93L-14.32 -14.32L-5.93 -14.32L0 -20.25L5.93 -14.32L14.32 -14.32L14.32 -5.93Z" fill="#e3b23c" stroke="#e8dbb5" stroke-width="2"/>
+      <path d="M4.16 1.72L1.72 4.16L-1.72 4.16L-4.16 1.72L-4.16 -1.72L-1.72 -4.16L1.72 -4.16L4.16 -1.72Z" fill="#f8f3e6"/>
+    </g>
+
+    <g id="cross">
+      <path d="M0 -45L-13.18 -31.82L-13.18 -13.18L-31.82 -13.18L-45 0L-31.82 13.18L-13.18 13.18L-13.18 31.82L0 45L13.18 31.82L13.18 13.18L31.82 13.18L45 0L31.82 -13.18L13.18 -13.18L13.18 -31.82Z" fill="#b85a2e" stroke="#e8dbb5" stroke-width="2"/>
+      <rect x="-13.18" y="-13.18" width="26.36" height="26.36" fill="#f8f3e6" stroke="#e8dbb5" stroke-width="2"/>
+      <path d="M0 -6.5L6.5 0L0 6.5L-6.5 0Z" fill="#1e4799"/>
+    </g>
+
+    <g id="cell">
+      <use xlink:href="#star"/>
+      <use xlink:href="#cross" x="45" y="45"/>
+    </g>
+
+    <g id="row">
+      <use xlink:href="#cell"/>
+      <use xlink:href="#cell" x="90"/>
+      <use xlink:href="#cell" x="180"/>
+      <use xlink:href="#cell" x="270"/>
+      <use xlink:href="#cell" x="360"/>
+      <use xlink:href="#cell" x="450"/>
+      <use xlink:href="#cell" x="540"/>
+      <use xlink:href="#cell" x="630"/>
+      <use xlink:href="#cell" x="720"/>
+    </g>
+
+    <pattern id="diam" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="translate(10 10)">
+      <path d="M10 4L16 10L10 16L4 10Z" fill="#f8f3e6"/>
+      <path d="M30 4L36 10L30 16L24 10Z" fill="#e3b23c"/>
+      <path d="M10 24L16 30L10 36L4 30Z" fill="#e3b23c"/>
+      <path d="M30 24L36 30L30 36L24 30Z" fill="#f8f3e6"/>
+    </pattern>
+
+    <radialGradient id="vig" cx="0.5" cy="0.5" r="0.75">
+      <stop offset="0.45" stop-color="#2c1a0a" stop-opacity="0"/>
+      <stop offset="1" stop-color="#2c1a0a" stop-opacity="0.22"/>
+    </radialGradient>
+
+    <clipPath id="fieldClip">
+      <rect x="40" y="40" width="720" height="720"/>
+    </clipPath>
+  </defs>
+
+  <rect width="800" height="800" fill="#2c2117"/>
+  <rect x="8" y="8" width="784" height="784" fill="#e3b23c"/>
+  <rect x="10" y="10" width="780" height="780" fill="#b85a2e"/>
+  <rect x="10" y="10" width="780" height="780" fill="url(#diam)"/>
+  <rect x="30" y="30" width="740" height="740" fill="#e3b23c"/>
+  <rect x="32" y="32" width="736" height="736" fill="#e8dbb5"/>
+
+  <g clip-path="url(#fieldClip)">
+    <rect x="40" y="40" width="720" height="720" fill="#e8dbb5"/>
+    <g transform="translate(40 40)">
+      <use xlink:href="#row"/>
+      <use xlink:href="#row" y="90"/>
+      <use xlink:href="#row" y="180"/>
+      <use xlink:href="#row" y="270"/>
+      <use xlink:href="#row" y="360"/>
+      <use xlink:href="#row" y="450"/>
+      <use xlink:href="#row" y="540"/>
+      <use xlink:href="#row" y="630"/>
+      <use xlink:href="#row" y="720"/>
+    </g>
+  </g>
+
+  <rect x="40" y="40" width="720" height="720" fill="none" stroke="#2c2117" stroke-width="1.5"/>
+  <rect width="800" height="800" fill="url(#vig)"/>
+</svg>

@@ -1,0 +1,444 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 960 600" width="960" height="600">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5fa8e0"/>
+      <stop offset="0.55" stop-color="#b9dcf4"/>
+      <stop offset="1" stop-color="#f3e6cc"/>
+    </linearGradient>
+    <linearGradient id="meadow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c3e27e"/>
+      <stop offset="0.35" stop-color="#8cc552"/>
+      <stop offset="1" stop-color="#4b8a30"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff6c8" stop-opacity="0.95"/>
+      <stop offset="0.4" stop-color="#fff0b0" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#fff0b0" stop-opacity="0"/>
+    </radialGradient>
+
+    <g id="cloud" fill="#fff">
+      <ellipse cx="0" cy="0" rx="46" ry="20"/>
+      <ellipse cx="-30" cy="6" rx="30" ry="14"/>
+      <ellipse cx="32" cy="5" rx="34" ry="16"/>
+      <ellipse cx="6" cy="-12" rx="28" ry="16"/>
+    </g>
+    <path id="bird" d="M-10 0 q 5 -6 10 0 q 5 -6 10 0" fill="none" stroke="#3f4f5f" stroke-width="1.4" stroke-linecap="round"/>
+    <g id="tree">
+      <rect x="-1.5" y="-9" width="3" height="9" fill="#6b5a3c"/>
+      <ellipse cx="0" cy="-15" rx="7" ry="9" fill="#5a9a4c"/>
+      <ellipse cx="-2" cy="-17" rx="3" ry="4" fill="#7ab45f" opacity="0.6"/>
+    </g>
+
+    <g id="ring12" stroke="#000" stroke-opacity="0.12" stroke-width="0.5">
+      <ellipse id="pe" cx="0" cy="-9.5" rx="3.1" ry="7.5"/>
+      <use xlink:href="#pe" transform="rotate(30)"/>
+      <use xlink:href="#pe" transform="rotate(60)"/>
+      <use xlink:href="#pe" transform="rotate(90)"/>
+      <use xlink:href="#pe" transform="rotate(120)"/>
+      <use xlink:href="#pe" transform="rotate(150)"/>
+      <use xlink:href="#pe" transform="rotate(180)"/>
+      <use xlink:href="#pe" transform="rotate(210)"/>
+      <use xlink:href="#pe" transform="rotate(240)"/>
+      <use xlink:href="#pe" transform="rotate(270)"/>
+      <use xlink:href="#pe" transform="rotate(300)"/>
+      <use xlink:href="#pe" transform="rotate(330)"/>
+    </g>
+
+    <g id="daisy">
+      <path d="M0 0 C 1 -14 -1 -28 0 -42" fill="none" stroke="#4e8f33" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M0 -16 C -6 -18 -12 -16 -15 -9 C -9 -8 -3 -11 0 -16 Z" fill="#5da23c"/>
+      <path d="M0 -26 C 5 -30 11 -28 14 -21 C 8 -20 3 -22 0 -26 Z" fill="#5da23c"/>
+      <g transform="translate(0 -44)">
+        <use xlink:href="#ring12"/>
+        <circle r="4.6" fill="#f6c42b"/>
+        <circle cx="-1.2" cy="-1.2" r="1.8" fill="#fbe08a"/>
+      </g>
+    </g>
+
+    <g id="poppy">
+      <path d="M0 0 C -2 -12 2 -26 -1 -40" fill="none" stroke="#4e8f33" stroke-width="2" stroke-linecap="round"/>
+      <path d="M-1 -20 C -7 -20 -12 -24 -13 -31 C -8 -30 -3 -27 -1 -20 Z" fill="#5da23c"/>
+      <g transform="translate(-1 -43)" stroke="#000" stroke-opacity="0.15" stroke-width="0.6">
+        <path id="pp" d="M0 0 C -11 -2 -15 -14 -7 -20 C -3 -23 3 -23 7 -20 C 15 -14 11 -2 0 0 Z"/>
+        <use xlink:href="#pp" transform="rotate(90)"/>
+        <use xlink:href="#pp" transform="rotate(180)"/>
+        <use xlink:href="#pp" transform="rotate(270)"/>
+        <circle r="3.4" fill="#2b1d1a" stroke="none"/>
+        <circle r="5.6" fill="none" stroke="#2b1d1a" stroke-opacity="1" stroke-width="0.9" stroke-dasharray="1 1.6"/>
+      </g>
+    </g>
+
+    <g id="cornflower">
+      <path d="M0 0 C 1 -12 -2 -22 0 -36" fill="none" stroke="#4e8f33" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M0 -14 C -3 -18 -8 -19 -11 -16 C -7 -12 -3 -12 0 -14 Z" fill="#5da23c"/>
+      <g transform="translate(0 -38)" stroke="#000" stroke-opacity="0.15" stroke-width="0.5">
+        <path id="cp" d="M0 0 L -3.5 -9 L -2 -13.5 L 0 -10.5 L 2 -13.5 L 3.5 -9 Z"/>
+        <use xlink:href="#cp" transform="rotate(45)"/>
+        <use xlink:href="#cp" transform="rotate(90)"/>
+        <use xlink:href="#cp" transform="rotate(135)"/>
+        <use xlink:href="#cp" transform="rotate(180)"/>
+        <use xlink:href="#cp" transform="rotate(225)"/>
+        <use xlink:href="#cp" transform="rotate(270)"/>
+        <use xlink:href="#cp" transform="rotate(315)"/>
+        <circle r="3" fill="#2c3f8f" stroke="none"/>
+      </g>
+    </g>
+
+    <g id="buttercup">
+      <path d="M0 0 C -1 -10 1 -18 0 -30" fill="none" stroke="#4e8f33" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M0 -10 C 3 -13 7 -14 10 -11 C 7 -8 3 -8 0 -10 Z" fill="#5da23c"/>
+      <g transform="translate(0 -32)" stroke="#000" stroke-opacity="0.15" stroke-width="0.5">
+        <circle id="bp" cx="0" cy="-5.5" r="4.6"/>
+        <use xlink:href="#bp" transform="rotate(72)"/>
+        <use xlink:href="#bp" transform="rotate(144)"/>
+        <use xlink:href="#bp" transform="rotate(216)"/>
+        <use xlink:href="#bp" transform="rotate(288)"/>
+        <circle r="2.6" fill="#d98b12" stroke="none"/>
+      </g>
+    </g>
+
+    <g id="lavender">
+      <path d="M0 0 C 1 -16 -1 -34 0 -52 M0 -12 C -4 -15 -8 -14 -10 -9 M0 -18 C 4 -21 8 -20 10 -15" fill="none" stroke="#5e9b48" stroke-width="1.6" stroke-linecap="round"/>
+      <g>
+        <ellipse cx="-2.6" cy="-28" rx="2.6" ry="3.4"/>
+        <ellipse cx="2.6" cy="-31" rx="2.6" ry="3.4"/>
+        <ellipse cx="-2.4" cy="-34" rx="2.5" ry="3.2"/>
+        <ellipse cx="2.4" cy="-37" rx="2.5" ry="3.2"/>
+        <ellipse cx="-2.1" cy="-40" rx="2.3" ry="3"/>
+        <ellipse cx="2.1" cy="-43" rx="2.3" ry="3"/>
+        <ellipse cx="-1.6" cy="-46" rx="2" ry="2.8"/>
+        <ellipse cx="1.4" cy="-49" rx="1.8" ry="2.6"/>
+        <ellipse cx="0" cy="-52.5" rx="1.5" ry="2.4"/>
+      </g>
+    </g>
+
+    <g id="tulip">
+      <path d="M0 0 C 1 -14 -1 -26 0 -38" fill="none" stroke="#4e8f33" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M0 -6 C -8 -10 -14 -20 -12 -34 C -6 -26 -2 -16 0 -6 Z" fill="#5da23c"/>
+      <path d="M1 -8 C 8 -14 12 -22 11 -32 C 6 -24 3 -16 1 -8 Z" fill="#6cb04a"/>
+      <g transform="translate(0 -38)">
+        <path d="M-9 0 C -11 -8 -9 -16 -6 -20 C -3 -14 -1 -10 0 -6 C 1 -10 3 -14 6 -20 C 9 -16 11 -8 9 0 C 6 4 -6 4 -9 0 Z" stroke="#000" stroke-opacity="0.12" stroke-width="0.6"/>
+        <path d="M-4 -1 C -5 -10 -3 -17 0 -22 C 3 -17 5 -10 4 -1 C 2 2 -2 2 -4 -1 Z" fill="#fff" fill-opacity="0.3"/>
+      </g>
+    </g>
+
+    <g id="bluebell">
+      <path d="M0 0 C 2 -14 -3 -30 -1 -50 M0 -25 L -4 -25 M-1 -35 L 3 -35 M-1 -45 L -3 -45" fill="none" stroke="#5e9b48" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M0 -8 C -3 -14 -7 -16 -9 -14 C -6 -10 -3 -9 0 -8 Z" fill="#5da23c"/>
+      <g stroke="#000" stroke-opacity="0.15" stroke-width="0.5">
+        <g transform="translate(-7.1 -16.5) rotate(20)">
+          <path id="bell" d="M-4 0 C -5 -5 -3 -9 0 -9 C 3 -9 5 -5 4 0 L 4.8 2.5 L 2.4 0.8 L 0 2.8 L -2.4 0.8 L -4.8 2.5 Z"/>
+        </g>
+        <use xlink:href="#bell" transform="translate(6.1 -26.5) rotate(-20)"/>
+        <use xlink:href="#bell" transform="translate(-5.3 -36.3) rotate(15)"/>
+      </g>
+    </g>
+
+    <g id="grass" fill="none" stroke-width="2" stroke-linecap="round">
+      <path d="M0 0 C -1 -8 -4 -14 -9 -20"/>
+      <path d="M0 0 C 0 -9 -1 -16 1 -24"/>
+      <path d="M0 0 C 2 -8 5 -13 9 -18"/>
+      <path d="M-3 0 C -4 -6 -8 -10 -12 -12"/>
+      <path d="M3 0 C 5 -6 8 -9 13 -11"/>
+    </g>
+
+    <g id="butterfly">
+      <g fill="#f29a2e" stroke="#5a2d0c" stroke-width="0.8" stroke-linejoin="round">
+        <path d="M0 0 C -4 -10 -15 -13 -15 -5 C -15 1 -6 2 0 0 Z"/>
+        <path d="M0 0 C -3 6 -12 9 -11 3 C -10 -1 -4 0 0 0 Z"/>
+        <path d="M0 0 C 4 -10 15 -13 15 -5 C 15 1 6 2 0 0 Z"/>
+        <path d="M0 0 C 3 6 12 9 11 3 C 10 -1 4 0 0 0 Z"/>
+      </g>
+      <g fill="#fff" opacity="0.85">
+        <circle cx="-9" cy="-6" r="1.4"/>
+        <circle cx="9" cy="-6" r="1.4"/>
+        <circle cx="-7" cy="4" r="1"/>
+        <circle cx="7" cy="4" r="1"/>
+      </g>
+      <ellipse rx="1.3" ry="4.5" fill="#3a2214"/>
+      <path d="M0 -4 L -3 -9 M0 -4 L 3 -9" fill="none" stroke="#3a2214" stroke-width="0.7" stroke-linecap="round"/>
+    </g>
+
+    <g id="bee">
+      <ellipse cx="-1" cy="-5" rx="4" ry="2.2" fill="#e6f4fb" fill-opacity="0.85" transform="rotate(-25 -1 -5)"/>
+      <ellipse cx="3" cy="-4.5" rx="3.4" ry="1.9" fill="#e6f4fb" fill-opacity="0.85" transform="rotate(-15 3 -4.5)"/>
+      <ellipse rx="5.2" ry="3.3" fill="#f2c230"/>
+      <path d="M-2.2 -3.1 L -2.2 3.1 M0.6 -3.3 L 0.6 3.3 M3.2 -2.6 L 3.2 2.6" stroke="#2b2117" stroke-width="1.3"/>
+      <circle cx="-5.6" cy="-0.4" r="2" fill="#2b2117"/>
+    </g>
+  </defs>
+
+  <!-- sky -->
+  <rect width="960" height="600" fill="url(#sky)"/>
+  <circle cx="790" cy="112" r="130" fill="url(#glow)"/>
+  <circle cx="790" cy="112" r="40" fill="#fff7c9"/>
+  <use xlink:href="#cloud" transform="translate(170 105)" opacity="0.92"/>
+  <use xlink:href="#cloud" transform="translate(470 68) scale(0.8)" opacity="0.9"/>
+  <use xlink:href="#cloud" transform="translate(650 170) scale(0.55)" opacity="0.85"/>
+  <use xlink:href="#bird" transform="translate(540 140)"/>
+  <use xlink:href="#bird" transform="translate(568 126) scale(0.8)"/>
+  <use xlink:href="#bird" transform="translate(518 158) scale(0.7)"/>
+
+  <!-- hills -->
+  <path d="M0 300 C 120 262 230 280 340 290 C 450 300 540 255 650 270 C 760 285 860 272 960 292 L960 380 L0 380 Z" fill="#a3c7ad"/>
+  <path d="M0 335 C 140 306 250 322 390 318 C 530 314 610 298 750 312 C 850 322 910 326 960 320 L960 400 L0 400 Z" fill="#85b765"/>
+  <use xlink:href="#tree" transform="translate(100 326)"/>
+  <use xlink:href="#tree" transform="translate(122 324) scale(0.85)"/>
+  <use xlink:href="#tree" transform="translate(195 322) scale(1.1)"/>
+  <use xlink:href="#tree" transform="translate(290 323) scale(0.9)"/>
+  <use xlink:href="#tree" transform="translate(310 322)"/>
+  <use xlink:href="#tree" transform="translate(486 318) scale(0.9)"/>
+  <use xlink:href="#tree" transform="translate(570 313)"/>
+  <use xlink:href="#tree" transform="translate(588 314) scale(0.8)"/>
+  <use xlink:href="#tree" transform="translate(654 311)"/>
+  <use xlink:href="#tree" transform="translate(672 312) scale(0.9)"/>
+  <use xlink:href="#tree" transform="translate(874 327) scale(0.9)"/>
+  <use xlink:href="#tree" transform="translate(895 326) scale(0.75)"/>
+
+  <!-- meadow -->
+  <path d="M0 352 C 160 342 320 348 480 344 C 640 340 800 346 960 338 L960 600 L0 600 Z" fill="url(#meadow)"/>
+  <ellipse cx="300" cy="430" rx="230" ry="30" fill="#f7e98a" opacity="0.18"/>
+  <ellipse cx="720" cy="490" rx="200" ry="34" fill="#f7e98a" opacity="0.14"/>
+
+  <!-- far flower haze -->
+  <g opacity="0.85">
+    <circle cx="25" cy="368" r="1.4" fill="#fff"/>
+    <circle cx="70" cy="373" r="1.4" fill="#f6c42b"/>
+    <circle cx="118" cy="364" r="1.4" fill="#e8402e"/>
+    <circle cx="165" cy="371" r="1.4" fill="#8d63d1"/>
+    <circle cx="212" cy="366" r="1.4" fill="#f29ac0"/>
+    <circle cx="260" cy="375" r="1.4" fill="#fff"/>
+    <circle cx="305" cy="363" r="1.4" fill="#f6c42b"/>
+    <circle cx="352" cy="370" r="1.4" fill="#e8402e"/>
+    <circle cx="398" cy="367" r="1.4" fill="#8d63d1"/>
+    <circle cx="445" cy="374" r="1.4" fill="#f29ac0"/>
+    <circle cx="492" cy="362" r="1.4" fill="#fff"/>
+    <circle cx="540" cy="369" r="1.4" fill="#f6c42b"/>
+    <circle cx="588" cy="376" r="1.4" fill="#e8402e"/>
+    <circle cx="635" cy="365" r="1.4" fill="#8d63d1"/>
+    <circle cx="682" cy="372" r="1.4" fill="#f29ac0"/>
+    <circle cx="730" cy="361" r="1.4" fill="#fff"/>
+    <circle cx="778" cy="368" r="1.4" fill="#f6c42b"/>
+    <circle cx="826" cy="375" r="1.4" fill="#e8402e"/>
+    <circle cx="872" cy="364" r="1.4" fill="#8d63d1"/>
+    <circle cx="920" cy="370" r="1.4" fill="#f29ac0"/>
+  </g>
+  <g opacity="0.9">
+    <circle cx="12" cy="384" r="2" fill="#fff"/>
+    <circle cx="35" cy="391" r="1.7" fill="#f6c42b"/>
+    <circle cx="58" cy="379" r="2" fill="#e8402e"/>
+    <circle cx="77" cy="388" r="1.7" fill="#8d63d1"/>
+    <circle cx="96" cy="395" r="2" fill="#fff"/>
+    <circle cx="121" cy="382" r="1.7" fill="#4d74e0"/>
+    <circle cx="140" cy="390" r="2" fill="#f29ac0"/>
+    <circle cx="163" cy="386" r="1.7" fill="#fff"/>
+    <circle cx="185" cy="393" r="2" fill="#f6c42b"/>
+    <circle cx="204" cy="381" r="1.7" fill="#e8402e"/>
+    <circle cx="228" cy="388" r="2" fill="#8d63d1"/>
+    <circle cx="247" cy="396" r="1.7" fill="#fff"/>
+    <circle cx="271" cy="383" r="2" fill="#4d74e0"/>
+    <circle cx="290" cy="390" r="1.7" fill="#f29ac0"/>
+    <circle cx="316" cy="385" r="2" fill="#fff"/>
+    <circle cx="333" cy="379" r="1.7" fill="#f6c42b"/>
+    <circle cx="355" cy="392" r="2" fill="#e8402e"/>
+    <circle cx="378" cy="387" r="1.7" fill="#8d63d1"/>
+    <circle cx="399" cy="394" r="2" fill="#fff"/>
+    <circle cx="421" cy="382" r="1.7" fill="#4d74e0"/>
+    <circle cx="444" cy="389" r="2" fill="#f29ac0"/>
+    <circle cx="463" cy="384" r="1.7" fill="#fff"/>
+    <circle cx="487" cy="391" r="2" fill="#f6c42b"/>
+    <circle cx="506" cy="380" r="1.7" fill="#e8402e"/>
+    <circle cx="529" cy="387" r="2" fill="#8d63d1"/>
+    <circle cx="551" cy="395" r="1.7" fill="#fff"/>
+    <circle cx="574" cy="383" r="2" fill="#4d74e0"/>
+    <circle cx="596" cy="390" r="1.7" fill="#f29ac0"/>
+    <circle cx="618" cy="386" r="2" fill="#fff"/>
+    <circle cx="641" cy="381" r="1.7" fill="#f6c42b"/>
+    <circle cx="663" cy="393" r="2" fill="#e8402e"/>
+    <circle cx="687" cy="388" r="1.7" fill="#8d63d1"/>
+    <circle cx="708" cy="384" r="2" fill="#fff"/>
+    <circle cx="731" cy="391" r="1.7" fill="#4d74e0"/>
+    <circle cx="752" cy="379" r="2" fill="#f29ac0"/>
+    <circle cx="776" cy="387" r="1.7" fill="#fff"/>
+    <circle cx="799" cy="394" r="2" fill="#f6c42b"/>
+    <circle cx="822" cy="382" r="1.7" fill="#e8402e"/>
+    <circle cx="845" cy="389" r="2" fill="#8d63d1"/>
+    <circle cx="868" cy="385" r="1.7" fill="#fff"/>
+    <circle cx="890" cy="392" r="2" fill="#4d74e0"/>
+    <circle cx="913" cy="380" r="1.7" fill="#f29ac0"/>
+    <circle cx="937" cy="388" r="2" fill="#fff"/>
+    <circle cx="955" cy="386" r="1.7" fill="#f6c42b"/>
+  </g>
+
+  <!-- band 1: distant flowers -->
+  <g>
+    <use xlink:href="#grass" transform="translate(70 396) scale(0.4)" stroke="#6fae46"/>
+    <use xlink:href="#grass" transform="translate(300 398) scale(0.4)" stroke="#6fae46"/>
+    <use xlink:href="#grass" transform="translate(520 397) scale(0.4)" stroke="#6fae46"/>
+    <use xlink:href="#grass" transform="translate(750 398) scale(0.4)" stroke="#6fae46"/>
+    <use xlink:href="#grass" transform="translate(910 396) scale(0.4)" stroke="#6fae46"/>
+    <use xlink:href="#buttercup" transform="translate(210 386) scale(0.36)" fill="#f8c832"/>
+    <use xlink:href="#buttercup" transform="translate(555 386) scale(0.36)" fill="#f8c832"/>
+    <use xlink:href="#daisy" transform="translate(780 387) scale(0.38)" fill="#fff"/>
+    <use xlink:href="#poppy" transform="translate(95 388) scale(0.38)" fill="#e8402e"/>
+    <use xlink:href="#daisy" transform="translate(440 388) scale(0.38)" fill="#fff"/>
+    <use xlink:href="#poppy" transform="translate(890 389) scale(0.4)" fill="#e8402e"/>
+    <use xlink:href="#lavender" transform="translate(330 390) scale(0.4)" fill="#8d63d1"/>
+    <use xlink:href="#poppy" transform="translate(670 390) scale(0.4)" fill="#f06a2a"/>
+    <use xlink:href="#daisy" transform="translate(40 392) scale(0.4)" fill="#fff"/>
+    <use xlink:href="#daisy" transform="translate(265 393) scale(0.4)" fill="#fff"/>
+    <use xlink:href="#cornflower" transform="translate(835 393) scale(0.4)" fill="#4d74e0"/>
+    <use xlink:href="#cornflower" transform="translate(500 394) scale(0.4)" fill="#7a5fd6"/>
+    <use xlink:href="#cornflower" transform="translate(150 395) scale(0.4)" fill="#4d74e0"/>
+    <use xlink:href="#daisy" transform="translate(610 395) scale(0.4)" fill="#fff"/>
+    <use xlink:href="#daisy" transform="translate(935 395) scale(0.4)" fill="#fff"/>
+    <use xlink:href="#lavender" transform="translate(725 396) scale(0.4)" fill="#8d63d1"/>
+    <use xlink:href="#poppy" transform="translate(380 397) scale(0.4)" fill="#e8402e"/>
+  </g>
+
+  <!-- band 2 -->
+  <g>
+    <use xlink:href="#grass" transform="translate(470 428) scale(0.55)" stroke="#4f8f33"/>
+    <use xlink:href="#grass" transform="translate(45 430) scale(0.6)" stroke="#5f9f3e"/>
+    <use xlink:href="#grass" transform="translate(885 430) scale(0.55)" stroke="#6fae46"/>
+    <use xlink:href="#grass" transform="translate(255 430) scale(0.55)" stroke="#6fae46"/>
+    <use xlink:href="#grass" transform="translate(680 432) scale(0.55)" stroke="#5f9f3e"/>
+    <use xlink:href="#grass" transform="translate(150 445) scale(0.6)" stroke="#4f8f33"/>
+    <use xlink:href="#grass" transform="translate(360 445) scale(0.6)" stroke="#5f9f3e"/>
+    <use xlink:href="#grass" transform="translate(790 445) scale(0.6)" stroke="#4f8f33"/>
+    <use xlink:href="#grass" transform="translate(575 446) scale(0.6)" stroke="#6fae46"/>
+    <use xlink:href="#poppy" transform="translate(272 410) scale(0.55)" fill="#e8402e"/>
+    <use xlink:href="#cornflower" transform="translate(585 410) scale(0.55)" fill="#4d74e0"/>
+    <use xlink:href="#cornflower" transform="translate(98 412) scale(0.55)" fill="#4d74e0"/>
+    <use xlink:href="#poppy" transform="translate(690 412) scale(0.55)" fill="#e8402e"/>
+    <use xlink:href="#daisy" transform="translate(900 412) scale(0.56)" fill="#fff"/>
+    <use xlink:href="#buttercup" transform="translate(410 414) scale(0.55)" fill="#f8c832"/>
+    <use xlink:href="#daisy" transform="translate(515 416) scale(0.58)" fill="#fff"/>
+    <use xlink:href="#cornflower" transform="translate(830 416) scale(0.55)" fill="#4d74e0"/>
+    <use xlink:href="#buttercup" transform="translate(165 418) scale(0.55)" fill="#f8c832"/>
+    <use xlink:href="#daisy" transform="translate(25 420) scale(0.6)" fill="#fff"/>
+    <use xlink:href="#daisy" transform="translate(340 420) scale(0.6)" fill="#fff"/>
+    <use xlink:href="#bluebell" transform="translate(760 420) scale(0.58)" fill="#6f7fe0"/>
+    <use xlink:href="#buttercup" transform="translate(655 424) scale(0.56)" fill="#f8c832"/>
+    <use xlink:href="#tulip" transform="translate(236 426) scale(0.6)" fill="#f0b43a"/>
+    <use xlink:href="#lavender" transform="translate(445 430) scale(0.6)" fill="#a77fe0"/>
+    <use xlink:href="#lavender" transform="translate(130 432) scale(0.6)" fill="#8d63d1"/>
+    <use xlink:href="#poppy" transform="translate(865 432) scale(0.6)" fill="#e8402e"/>
+    <use xlink:href="#tulip" transform="translate(550 434) scale(0.6)" fill="#e85d8a"/>
+    <use xlink:href="#bluebell" transform="translate(305 436) scale(0.6)" fill="#6f7fe0"/>
+    <use xlink:href="#poppy" transform="translate(62 438) scale(0.6)" fill="#e8402e"/>
+    <use xlink:href="#lavender" transform="translate(725 438) scale(0.6)" fill="#8d63d1"/>
+    <use xlink:href="#poppy" transform="translate(480 440) scale(0.62)" fill="#f06a2a"/>
+    <use xlink:href="#buttercup" transform="translate(938 440) scale(0.6)" fill="#f8c832"/>
+    <use xlink:href="#daisy" transform="translate(200 442) scale(0.62)" fill="#fff"/>
+    <use xlink:href="#daisy" transform="translate(620 442) scale(0.62)" fill="#fff"/>
+    <use xlink:href="#cornflower" transform="translate(376 444) scale(0.62)" fill="#7a5fd6"/>
+    <use xlink:href="#daisy" transform="translate(795 444) scale(0.62)" fill="#fff"/>
+  </g>
+
+  <!-- band 3 -->
+  <g>
+    <use xlink:href="#grass" transform="translate(690 480) scale(0.85)" stroke="#5f9f3e"/>
+    <use xlink:href="#grass" transform="translate(240 486) scale(0.9)" stroke="#4f8f33"/>
+    <use xlink:href="#grass" transform="translate(55 490) scale(0.9)" stroke="#6fae46"/>
+    <use xlink:href="#grass" transform="translate(470 490) scale(0.9)" stroke="#5f9f3e"/>
+    <use xlink:href="#grass" transform="translate(900 500) scale(0.9)" stroke="#4f8f33"/>
+    <use xlink:href="#grass" transform="translate(130 512) scale(0.85)" stroke="#5f9f3e"/>
+    <use xlink:href="#grass" transform="translate(580 512) scale(0.9)" stroke="#6fae46"/>
+    <use xlink:href="#grass" transform="translate(355 514) scale(0.95)" stroke="#4f8f33"/>
+    <use xlink:href="#grass" transform="translate(800 514) scale(0.95)" stroke="#5f9f3e"/>
+    <use xlink:href="#lavender" transform="translate(740 460) scale(0.8)" fill="#8d63d1"/>
+    <use xlink:href="#daisy" transform="translate(260 462) scale(0.8)" fill="#fff"/>
+    <use xlink:href="#buttercup" transform="translate(484 466) scale(0.8)" fill="#f8c832"/>
+    <use xlink:href="#cornflower" transform="translate(888 466) scale(0.8)" fill="#4d74e0"/>
+    <use xlink:href="#tulip" transform="translate(592 468) scale(0.85)" fill="#f0b43a"/>
+    <use xlink:href="#cornflower" transform="translate(115 470) scale(0.8)" fill="#4d74e0"/>
+    <use xlink:href="#bluebell" transform="translate(338 470) scale(0.85)" fill="#6f7fe0"/>
+    <use xlink:href="#daisy" transform="translate(666 472) scale(0.85)" fill="#fff"/>
+    <use xlink:href="#lavender" transform="translate(190 476) scale(0.85)" fill="#a77fe0"/>
+    <use xlink:href="#buttercup" transform="translate(812 478) scale(0.85)" fill="#f8c832"/>
+    <use xlink:href="#poppy" transform="translate(30 480) scale(0.85)" fill="#e8402e"/>
+    <use xlink:href="#cornflower" transform="translate(412 480) scale(0.85)" fill="#7a5fd6"/>
+    <use xlink:href="#daisy" transform="translate(556 486) scale(0.9)" fill="#fff"/>
+    <use xlink:href="#poppy" transform="translate(926 490) scale(0.9)" fill="#e8402e"/>
+    <use xlink:href="#poppy" transform="translate(300 496) scale(0.95)" fill="#f06a2a"/>
+    <use xlink:href="#poppy" transform="translate(702 496) scale(0.9)" fill="#e8402e"/>
+    <use xlink:href="#tulip" transform="translate(150 498) scale(0.9)" fill="#e23c3c"/>
+    <use xlink:href="#lavender" transform="translate(448 500) scale(0.9)" fill="#8d63d1"/>
+    <use xlink:href="#daisy" transform="translate(850 500) scale(0.95)" fill="#fff"/>
+    <use xlink:href="#daisy" transform="translate(75 505) scale(0.9)" fill="#fff"/>
+    <use xlink:href="#cornflower" transform="translate(628 506) scale(0.95)" fill="#4d74e0"/>
+    <use xlink:href="#daisy" transform="translate(375 508) scale(0.95)" fill="#fff"/>
+    <use xlink:href="#bluebell" transform="translate(775 510) scale(0.95)" fill="#6f7fe0"/>
+    <use xlink:href="#buttercup" transform="translate(225 512) scale(0.85)" fill="#f8c832"/>
+    <use xlink:href="#poppy" transform="translate(520 514) scale(1)" fill="#e8402e"/>
+  </g>
+
+  <!-- mid band -->
+  <g>
+    <use xlink:href="#grass" transform="translate(300 536) scale(1)" stroke="#5f9f3e"/>
+    <use xlink:href="#grass" transform="translate(930 536) scale(1)" stroke="#4f8f33"/>
+    <use xlink:href="#grass" transform="translate(500 538) scale(1)" stroke="#6fae46"/>
+    <use xlink:href="#grass" transform="translate(20 540) scale(1)" stroke="#4f8f33"/>
+    <use xlink:href="#grass" transform="translate(700 542) scale(1)" stroke="#5f9f3e"/>
+    <use xlink:href="#grass" transform="translate(120 546) scale(1)" stroke="#6fae46"/>
+    <use xlink:href="#grass" transform="translate(380 548) scale(1)" stroke="#4f8f33"/>
+    <use xlink:href="#grass" transform="translate(590 548) scale(1)" stroke="#5f9f3e"/>
+    <use xlink:href="#grass" transform="translate(850 548) scale(1)" stroke="#6fae46"/>
+    <use xlink:href="#cornflower" transform="translate(460 526) scale(1)" fill="#4d74e0"/>
+    <use xlink:href="#poppy" transform="translate(235 528) scale(1)" fill="#e8402e"/>
+    <use xlink:href="#buttercup" transform="translate(820 528) scale(1)" fill="#f8c832"/>
+    <use xlink:href="#cornflower" transform="translate(95 530) scale(1)" fill="#7a5fd6"/>
+    <use xlink:href="#buttercup" transform="translate(330 532) scale(1)" fill="#f8c832"/>
+    <use xlink:href="#bluebell" transform="translate(640 532) scale(1.05)" fill="#6f7fe0"/>
+    <use xlink:href="#buttercup" transform="translate(45 538) scale(1)" fill="#f8c832"/>
+    <use xlink:href="#daisy" transform="translate(175 540) scale(1.05)" fill="#fff"/>
+    <use xlink:href="#daisy" transform="translate(410 540) scale(1.05)" fill="#fff"/>
+    <use xlink:href="#daisy" transform="translate(770 540) scale(1.1)" fill="#fff"/>
+    <use xlink:href="#lavender" transform="translate(280 544) scale(1.05)" fill="#8d63d1"/>
+    <use xlink:href="#buttercup" transform="translate(545 544) scale(1)" fill="#f8c832"/>
+    <use xlink:href="#cornflower" transform="translate(905 544) scale(1.05)" fill="#4d74e0"/>
+  </g>
+
+  <!-- band 4: foreground -->
+  <g>
+    <use xlink:href="#grass" transform="translate(230 590) scale(1.3)" stroke="#4f8f33"/>
+    <use xlink:href="#grass" transform="translate(420 592) scale(1.4)" stroke="#5f9f3e"/>
+    <use xlink:href="#grass" transform="translate(780 594) scale(1.4)" stroke="#4f8f33"/>
+    <use xlink:href="#grass" transform="translate(600 596) scale(1.4)" stroke="#6fae46"/>
+    <use xlink:href="#grass" transform="translate(940 596) scale(1.3)" stroke="#5f9f3e"/>
+    <use xlink:href="#grass" transform="translate(45 598) scale(1.4)" stroke="#4f8f33"/>
+    <use xlink:href="#grass" transform="translate(325 610) scale(1.5)" stroke="#4f8f33"/>
+    <use xlink:href="#grass" transform="translate(140 612) scale(1.5)" stroke="#5f9f3e"/>
+    <use xlink:href="#grass" transform="translate(505 612) scale(1.5)" stroke="#4f8f33"/>
+    <use xlink:href="#grass" transform="translate(690 612) scale(1.5)" stroke="#5f9f3e"/>
+    <use xlink:href="#grass" transform="translate(870 612) scale(1.5)" stroke="#4f8f33"/>
+    <use xlink:href="#poppy" transform="translate(350 552) scale(1.25)" fill="#e8402e"/>
+    <use xlink:href="#buttercup" transform="translate(620 558) scale(1.25)" fill="#f8c832"/>
+    <use xlink:href="#cornflower" transform="translate(120 560) scale(1.25)" fill="#4d74e0"/>
+    <use xlink:href="#cornflower" transform="translate(752 560) scale(1.25)" fill="#7a5fd6"/>
+    <use xlink:href="#daisy" transform="translate(440 562) scale(1.3)" fill="#fff"/>
+    <use xlink:href="#tulip" transform="translate(205 568) scale(1.35)" fill="#e85d8a"/>
+    <use xlink:href="#daisy" transform="translate(845 570) scale(1.35)" fill="#fff"/>
+    <use xlink:href="#lavender" transform="translate(530 572) scale(1.3)" fill="#8d63d1"/>
+    <use xlink:href="#daisy" transform="translate(20 575) scale(1.3)" fill="#fff"/>
+    <use xlink:href="#tulip" transform="translate(710 576) scale(1.4)" fill="#f0b43a"/>
+    <use xlink:href="#daisy" transform="translate(300 580) scale(1.45)" fill="#fff"/>
+    <use xlink:href="#buttercup" transform="translate(925 580) scale(1.3)" fill="#f8c832"/>
+    <use xlink:href="#lavender" transform="translate(160 596) scale(1.4)" fill="#a77fe0"/>
+    <use xlink:href="#poppy" transform="translate(578 598) scale(1.5)" fill="#f06a2a"/>
+    <use xlink:href="#bluebell" transform="translate(395 600) scale(1.4)" fill="#6f7fe0"/>
+    <use xlink:href="#daisy" transform="translate(955 600) scale(1.4)" fill="#fff"/>
+    <use xlink:href="#poppy" transform="translate(798 602) scale(1.5)" fill="#e8402e"/>
+    <use xlink:href="#daisy" transform="translate(665 604) scale(1.55)" fill="#fff"/>
+    <use xlink:href="#poppy" transform="translate(70 605) scale(1.5)" fill="#e8402e"/>
+    <use xlink:href="#cornflower" transform="translate(485 606) scale(1.5)" fill="#4d74e0"/>
+    <use xlink:href="#lavender" transform="translate(885 606) scale(1.45)" fill="#8d63d1"/>
+    <use xlink:href="#buttercup" transform="translate(250 608) scale(1.4)" fill="#f8c832"/>
+  </g>
+
+  <!-- visitors -->
+  <use xlink:href="#butterfly" transform="translate(430 452) rotate(-15) scale(1.3)"/>
+  <use xlink:href="#butterfly" transform="translate(760 385) rotate(12) scale(0.9)"/>
+  <use xlink:href="#bee" transform="translate(548 526) rotate(-10) scale(1.5)"/>
+</svg>

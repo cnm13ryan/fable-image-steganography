@@ -1,0 +1,290 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 600" width="900" height="600">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#070b1f"/>
+      <stop offset="0.3" stop-color="#171a3f"/>
+      <stop offset="0.55" stop-color="#40285a"/>
+      <stop offset="0.78" stop-color="#8a4463"/>
+      <stop offset="0.92" stop-color="#d0735f"/>
+      <stop offset="1" stop-color="#f0a373"/>
+    </linearGradient>
+    <linearGradient id="haze" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0a373" stop-opacity="0"/>
+      <stop offset="1" stop-color="#f0a373" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="water" gradientUnits="userSpaceOnUse" x1="0" y1="420" x2="0" y2="600">
+      <stop offset="0" stop-color="#7a4a66"/>
+      <stop offset="0.12" stop-color="#43305a"/>
+      <stop offset="0.55" stop-color="#1b1b36"/>
+      <stop offset="1" stop-color="#090b17"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#fff2c8" stop-opacity="0.65"/>
+      <stop offset="0.4" stop-color="#ffd9a0" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#ffd9a0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="moonray">
+      <stop offset="0" stop-color="#ffe9b8" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ffe9b8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.45" r="0.72">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.55"/>
+    </radialGradient>
+    <linearGradient id="rock" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b4356"/>
+      <stop offset="1" stop-color="#161a25"/>
+    </linearGradient>
+    <linearGradient id="tower" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2d3344"/>
+      <stop offset="0.45" stop-color="#525b70"/>
+      <stop offset="0.8" stop-color="#737c91"/>
+      <stop offset="1" stop-color="#5a6376"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5e677c"/>
+      <stop offset="1" stop-color="#394052"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#461826"/>
+      <stop offset="0.5" stop-color="#7a2e3e"/>
+      <stop offset="0.85" stop-color="#a24a5b"/>
+      <stop offset="1" stop-color="#8b3c4c"/>
+    </linearGradient>
+    <linearGradient id="wg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff3cc"/>
+      <stop offset="1" stop-color="#f6b24a"/>
+    </linearGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </linearGradient>
+    <pattern id="masonry" width="26" height="14" patternUnits="userSpaceOnUse">
+      <path d="M0,0.5H26M0,7.5H26M0.5,0V7M13.5,7V14" stroke="#0b0e16" stroke-opacity="0.3" stroke-width="1" fill="none"/>
+    </pattern>
+    <filter id="blur" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1.6"/>
+    </filter>
+    <filter id="wglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <path id="win" d="M0,22V6a6,6 0 0 1 12,0V22Z" fill="url(#wg)"/>
+    <path id="wins" d="M0,18V5a5,5 0 0 1 10,0V18Z" fill="url(#wg)"/>
+  </defs>
+
+  <!-- sky -->
+  <rect x="0" y="0" width="900" height="421" fill="url(#sky)"/>
+
+  <!-- stars -->
+  <g fill="#fff">
+    <circle cx="40" cy="40" r="1.4" opacity=".9"/>
+    <circle cx="95" cy="120" r="1" opacity=".7"/>
+    <circle cx="150" cy="60" r="1.8"/>
+    <circle cx="210" cy="150" r="1.1" opacity=".8"/>
+    <circle cx="260" cy="40" r="1.2" opacity=".9"/>
+    <circle cx="320" cy="110" r="1.5" opacity=".9"/>
+    <circle cx="370" cy="70" r=".9" opacity=".7"/>
+    <circle cx="420" cy="30" r="1.3" opacity=".9"/>
+    <circle cx="480" cy="90" r="1" opacity=".8"/>
+    <circle cx="530" cy="50" r="1.6"/>
+    <circle cx="590" cy="140" r="1" opacity=".7"/>
+    <circle cx="610" cy="30" r="1.2" opacity=".9"/>
+    <circle cx="780" cy="30" r="1.4" opacity=".9"/>
+    <circle cx="820" cy="110" r="1.1" opacity=".7"/>
+    <circle cx="860" cy="60" r="1.7"/>
+    <circle cx="880" cy="200" r="1" opacity=".6"/>
+    <circle cx="120" cy="210" r="1.2" opacity=".6"/>
+    <circle cx="60" cy="180" r=".9" opacity=".6"/>
+    <circle cx="300" cy="200" r="1" opacity=".6"/>
+    <circle cx="240" cy="250" r=".8" opacity=".5"/>
+    <circle cx="700" cy="230" r="1" opacity=".6"/>
+    <circle cx="790" cy="250" r="1.2" opacity=".5"/>
+    <circle cx="840" cy="170" r=".9" opacity=".6"/>
+    <circle cx="180" cy="20" r="1" opacity=".8"/>
+    <circle cx="560" cy="100" r="1.1" opacity=".8"/>
+    <circle cx="630" cy="20" r="1" opacity=".8"/>
+    <circle cx="735" cy="190" r=".9" opacity=".6"/>
+    <circle cx="20" cy="100" r="1" opacity=".7"/>
+    <circle cx="350" cy="160" r=".8" opacity=".5"/>
+    <circle cx="500" cy="20" r=".9" opacity=".7"/>
+    <circle cx="110" cy="30" r=".8" opacity=".7"/>
+    <circle cx="400" cy="130" r=".9" opacity=".6"/>
+    <circle cx="570" cy="190" r=".8" opacity=".5"/>
+    <circle cx="430" cy="100" r="1" opacity=".6"/>
+  </g>
+  <g stroke="#fff" stroke-opacity=".7" stroke-width="1" stroke-linecap="round" fill="none">
+    <path d="M150,52V68M142,60H158"/>
+    <path d="M860,52V68M852,60H868"/>
+  </g>
+
+  <!-- high clouds -->
+  <g fill="#f4a6a0">
+    <ellipse cx="170" cy="236" rx="95" ry="6" opacity=".22"/>
+    <ellipse cx="260" cy="262" rx="60" ry="4.5" opacity=".18"/>
+    <ellipse cx="780" cy="270" rx="80" ry="5" opacity=".2"/>
+  </g>
+
+  <!-- moon -->
+  <circle cx="700" cy="105" r="130" fill="url(#glow)"/>
+  <circle cx="700" cy="105" r="46" fill="#f9f1d6"/>
+  <g fill="#e2d7b3" opacity=".7">
+    <circle cx="684" cy="92" r="7"/>
+    <circle cx="712" cy="118" r="10"/>
+    <circle cx="694" cy="128" r="4"/>
+    <circle cx="716" cy="86" r="3.5"/>
+  </g>
+  <ellipse cx="712" cy="122" rx="78" ry="2.6" fill="#3a2a55" opacity=".55"/>
+  <ellipse cx="690" cy="131" rx="50" ry="1.8" fill="#3a2a55" opacity=".4"/>
+
+  <!-- birds -->
+  <g fill="none" stroke="#1a1530" stroke-width="1.5" stroke-linecap="round">
+    <path d="M520,150q7,-7 14,0q7,-7 14,0"/>
+    <path d="M556,132q6,-6 12,0q6,-6 12,0"/>
+    <path d="M498,172q5,-5 10,0q5,-5 10,0"/>
+    <path d="M688,98q6,-6 12,0q6,-6 12,0"/>
+  </g>
+
+  <!-- land, mountains and castle (reflected below) -->
+  <g id="scene">
+    <path d="M0,421V380L70,350L130,368L200,338L270,360L340,332L420,358L500,328L580,356L650,332L720,360L790,340L850,364L900,346V421Z" fill="#4e3a6e" opacity=".8"/>
+    <rect x="0" y="300" width="900" height="121" fill="url(#haze)"/>
+    <path d="M0,421V392L90,370L180,386L260,366L350,384L440,370L540,386L630,366L720,382L800,364L900,380V421Z" fill="#2c2148"/>
+
+    <path d="M130,421C170,406 200,398 236,395H664C700,398 730,406 770,421Z" fill="url(#rock)"/>
+    <path d="M560,395H664C700,398 730,406 762,419L700,420L640,408Z" fill="#fff" opacity=".07"/>
+    <path d="M138,421C170,406 200,398 236,395H300L262,410L200,421Z" fill="#000" opacity=".28"/>
+
+    <g id="castle">
+      <!-- keep -->
+      <rect x="390" y="200" width="120" height="206" fill="url(#tower)"/>
+      <rect x="390" y="200" width="120" height="206" fill="url(#masonry)"/>
+      <rect x="390" y="200" width="120" height="3" fill="#000" opacity=".25"/>
+      <path d="M390,186h24v18h-24zM438,186h24v18h-24zM486,186h24v18h-24z" fill="#4c5468"/>
+
+      <!-- keep spire -->
+      <rect x="438" y="120" width="24" height="80" fill="url(#tower)"/>
+      <rect x="438" y="124" width="24" height="4" fill="#000" opacity=".3"/>
+      <path d="M430,124H470L450,62Z" fill="url(#roof)"/>
+      <path d="M450,62L442,124M450,62L459,124" stroke="#000" stroke-opacity=".15" stroke-width="1" fill="none"/>
+      <line x1="450" y1="62" x2="450" y2="30" stroke="#d9c58a" stroke-width="1.5"/>
+      <path d="M450,31L484,42L450,53Z" fill="#d9494c"/>
+      <circle cx="450" cy="62" r="3" fill="#e8c468"/>
+
+      <!-- inner towers -->
+      <rect x="342" y="262" width="36" height="84" fill="url(#tower)"/>
+      <rect x="342" y="266" width="36" height="4" fill="#000" opacity=".3"/>
+      <path d="M334,266H386L360,200Z" fill="url(#roof)"/>
+      <line x1="360" y1="200" x2="360" y2="176" stroke="#d9c58a" stroke-width="1.5"/>
+      <path d="M360,177L382,184L360,191Z" fill="#f2c14e"/>
+      <circle cx="360" cy="200" r="2.5" fill="#e8c468"/>
+      <rect x="522" y="262" width="36" height="84" fill="url(#tower)"/>
+      <rect x="522" y="266" width="36" height="4" fill="#000" opacity=".3"/>
+      <path d="M514,266H566L540,200Z" fill="url(#roof)"/>
+      <line x1="540" y1="200" x2="540" y2="176" stroke="#d9c58a" stroke-width="1.5"/>
+      <path d="M540,177L562,184L540,191Z" fill="#f2c14e"/>
+      <circle cx="540" cy="200" r="2.5" fill="#e8c468"/>
+
+      <!-- curtain wall -->
+      <rect x="270" y="332" width="360" height="74" fill="url(#wall)"/>
+      <rect x="270" y="332" width="360" height="74" fill="url(#masonry)"/>
+      <rect x="270" y="332" width="360" height="3" fill="#000" opacity=".25"/>
+      <path d="M318,318h24v18h-24zM366,318h24v18h-24zM414,318h24v18h-24zM462,318h24v18h-24zM510,318h24v18h-24zM558,318h24v18h-24z" fill="#5a637a"/>
+      <rect x="572" y="332" width="28" height="74" fill="url(#shade)"/>
+
+      <!-- gate -->
+      <path d="M424,406V364a26,26 0 0 1 52,0V406Z" fill="#747d93"/>
+      <path d="M430,406V366a20,20 0 0 1 40,0V406Z" fill="#2b1a11"/>
+      <path d="M440,349V406M450,346V406M460,349V406" stroke="#4a3020" stroke-width="1.5" fill="none"/>
+      <path d="M431,384H469M431,396H469" stroke="#5a5e6a" stroke-width="2" fill="none"/>
+
+      <!-- corner towers -->
+      <rect x="240" y="238" width="60" height="168" fill="url(#tower)"/>
+      <rect x="240" y="238" width="60" height="168" fill="url(#masonry)"/>
+      <rect x="240" y="244" width="60" height="5" fill="#000" opacity=".3"/>
+      <path d="M230,244H310L270,160Z" fill="url(#roof)"/>
+      <path d="M270,160L252,244M270,160L290,244" stroke="#000" stroke-opacity=".15" stroke-width="1" fill="none"/>
+      <line x1="270" y1="160" x2="270" y2="130" stroke="#d9c58a" stroke-width="1.5"/>
+      <path d="M270,131L298,140L270,149Z" fill="#f2c14e"/>
+      <circle cx="270" cy="160" r="3" fill="#e8c468"/>
+      <rect x="600" y="238" width="60" height="168" fill="url(#tower)"/>
+      <rect x="600" y="238" width="60" height="168" fill="url(#masonry)"/>
+      <rect x="600" y="244" width="60" height="5" fill="#000" opacity=".3"/>
+      <path d="M590,244H670L630,160Z" fill="url(#roof)"/>
+      <path d="M630,160L612,244M630,160L650,244" stroke="#000" stroke-opacity=".15" stroke-width="1" fill="none"/>
+      <line x1="630" y1="160" x2="630" y2="130" stroke="#d9c58a" stroke-width="1.5"/>
+      <path d="M630,131L658,140L630,149Z" fill="#f2c14e"/>
+      <circle cx="630" cy="160" r="3" fill="#e8c468"/>
+
+      <!-- lit windows -->
+      <g filter="url(#wglow)">
+        <use xlink:href="#win" href="#win" x="414" y="222"/>
+        <use xlink:href="#win" href="#win" x="444" y="222"/>
+        <use xlink:href="#win" href="#win" x="474" y="222"/>
+        <use xlink:href="#win" href="#win" x="414" y="272"/>
+        <use xlink:href="#win" href="#win" x="474" y="272"/>
+        <use xlink:href="#win" href="#win" x="444" y="302"/>
+        <use xlink:href="#wins" href="#wins" x="445" y="148"/>
+        <use xlink:href="#win" href="#win" x="264" y="262"/>
+        <use xlink:href="#win" href="#win" x="264" y="322"/>
+        <use xlink:href="#win" href="#win" x="624" y="262"/>
+        <use xlink:href="#win" href="#win" x="624" y="322"/>
+        <use xlink:href="#wins" href="#wins" x="355" y="284"/>
+        <use xlink:href="#wins" href="#wins" x="535" y="284"/>
+        <rect x="334" y="352" width="4" height="16" fill="#f3b35a" opacity=".75"/>
+        <rect x="374" y="352" width="4" height="16" fill="#f3b35a" opacity=".75"/>
+        <rect x="522" y="352" width="4" height="16" fill="#f3b35a" opacity=".75"/>
+        <rect x="562" y="352" width="4" height="16" fill="#f3b35a" opacity=".75"/>
+        <circle cx="418" cy="372" r="3" fill="#ffcf6a"/>
+        <circle cx="482" cy="372" r="3" fill="#ffcf6a"/>
+      </g>
+    </g>
+
+    <!-- rock ledge in front of the walls -->
+    <path d="M212,421C236,406 258,401 290,401H610C642,401 664,406 688,421Z" fill="#20252f"/>
+    <ellipse cx="450" cy="404" rx="30" ry="4" fill="#f6b24a" opacity=".25"/>
+  </g>
+
+  <!-- lake -->
+  <rect x="0" y="420" width="900" height="180" fill="url(#water)"/>
+  <use xlink:href="#scene" href="#scene" transform="translate(0,840) scale(1,-1)" opacity=".42" filter="url(#blur)"/>
+  <g fill="url(#water)" opacity=".6">
+    <rect x="0" y="433" width="900" height="2"/>
+    <rect x="60" y="448" width="840" height="3"/>
+    <rect x="0" y="467" width="900" height="2"/>
+    <rect x="0" y="489" width="760" height="3"/>
+    <rect x="120" y="515" width="780" height="2"/>
+    <rect x="0" y="545" width="900" height="3"/>
+    <rect x="200" y="579" width="700" height="2"/>
+  </g>
+  <ellipse cx="450" cy="420" rx="340" ry="7" fill="#d8c7e6" opacity=".1"/>
+  <g stroke="#ffffff" stroke-opacity=".12" stroke-width="1.2" stroke-linecap="round" fill="none">
+    <path d="M300,445h60M430,463h110M240,479h40M520,491h90M380,507h70M650,531h50M160,562h80M480,548h120M760,470h60M100,500h50"/>
+  </g>
+
+  <!-- moonlight on the water -->
+  <ellipse cx="700" cy="515" rx="24" ry="95" fill="url(#moonray)"/>
+  <g stroke="#fff0c6" stroke-linecap="round" fill="none">
+    <path d="M688,438h24" stroke-opacity=".5" stroke-width="2"/>
+    <path d="M682,452h36" stroke-opacity=".4" stroke-width="2"/>
+    <path d="M690,468h20" stroke-opacity=".45" stroke-width="1.6"/>
+    <path d="M680,486h40" stroke-opacity=".3" stroke-width="1.6"/>
+    <path d="M692,506h18" stroke-opacity=".35" stroke-width="1.5"/>
+    <path d="M684,530h32" stroke-opacity=".25" stroke-width="1.5"/>
+    <path d="M694,556h16" stroke-opacity=".25" stroke-width="1.4"/>
+    <path d="M686,582h28" stroke-opacity=".15" stroke-width="1.4"/>
+  </g>
+
+  <!-- foreground bank with pines -->
+  <path d="M0,600V500C60,490 120,510 180,540C220,560 250,580 280,600Z" fill="#0a0c14"/>
+  <g fill="#080a11">
+    <path d="M70,410L52,455H88ZM70,432L46,487H94ZM70,462L38,515H102Z"/>
+    <path d="M130,445L116,480H144ZM130,462L112,505H148ZM130,485L106,530H154Z"/>
+    <path d="M22,440L10,470H34ZM22,455L6,490H38ZM22,472L2,510H42Z"/>
+    <path d="M185,488L175,512H195ZM185,500L172,530H198ZM185,514L168,548H202Z"/>
+  </g>
+  <path d="M205,548l5,-34M214,552l3,-28M224,560l6,-30M232,566l2,-24" stroke="#080a11" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- vignette -->
+  <rect x="0" y="0" width="900" height="600" fill="url(#vig)"/>
+</svg>

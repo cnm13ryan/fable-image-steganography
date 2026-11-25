@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="540" viewBox="0 0 860 540" role="img" aria-labelledby="t d" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title id="t">How Long Do Library Cats Nap?</title>
+  <desc id="d">Histogram of 412 made-up nap durations in 10-minute bins from 0 to 120 minutes, peaking in the 50 to 60 minute bin, with a mean near 57.5 minutes.</desc>
+
+  <!-- page background -->
+  <rect width="860" height="540" fill="#f7f3ec"/>
+
+  <!-- title block -->
+  <text x="80" y="38" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="bold" fill="#2b2926">How Long Do Library Cats Nap?</text>
+  <text x="80" y="60" font-size="13" fill="#6b655e">Distribution of observed nap durations at Hollowbrook Public Library, spring 2026 · n = 412 naps</text>
+
+  <!-- sleepy z's -->
+  <g font-family="Georgia, serif" font-style="italic" fill="#c9c2b8">
+    <text x="806" y="52" font-size="14">z</text>
+    <text x="820" y="40" font-size="18">z</text>
+    <text x="836" y="26" font-size="22">Z</text>
+  </g>
+
+  <!-- plot panel -->
+  <rect x="80" y="90" width="720" height="350" fill="#ffffff"/>
+
+  <!-- gridlines (every 15 naps) -->
+  <g stroke="#ebe7e0" stroke-width="1">
+    <line x1="80" y1="381.67" x2="800" y2="381.67"/>
+    <line x1="80" y1="323.33" x2="800" y2="323.33"/>
+    <line x1="80" y1="265" x2="800" y2="265"/>
+    <line x1="80" y1="206.67" x2="800" y2="206.67"/>
+    <line x1="80" y1="148.33" x2="800" y2="148.33"/>
+    <line x1="80" y1="90" x2="800" y2="90"/>
+  </g>
+
+  <!-- y-axis labels -->
+  <g font-size="12" fill="#5b5550" text-anchor="end">
+    <text x="70" y="444">0</text>
+    <text x="70" y="385.67">15</text>
+    <text x="70" y="327.33">30</text>
+    <text x="70" y="269">45</text>
+    <text x="70" y="210.67">60</text>
+    <text x="70" y="152.33">75</text>
+    <text x="70" y="94">90</text>
+  </g>
+
+  <!-- bars: 10-minute bins, 0–120 min -->
+  <g fill="#4f8a8b">
+    <rect x="81" y="424.44" width="58" height="15.56"/>
+    <rect x="141" y="397.22" width="58" height="42.78"/>
+    <rect x="201" y="338.89" width="58" height="101.11"/>
+    <rect x="261" y="261.11" width="58" height="178.89"/>
+    <rect x="321" y="175.56" width="58" height="264.44"/>
+    <rect x="381" y="136.67" width="58" height="303.33" fill="#e07a5f"/>
+    <rect x="441" y="187.22" width="58" height="252.78"/>
+    <rect x="501" y="249.44" width="58" height="190.56"/>
+    <rect x="561" y="311.67" width="58" height="128.33"/>
+    <rect x="621" y="366.11" width="58" height="73.89"/>
+    <rect x="681" y="405" width="58" height="35"/>
+    <rect x="741" y="424.44" width="58" height="15.56"/>
+  </g>
+
+  <!-- bar count labels -->
+  <g font-size="11" fill="#5b5550" text-anchor="middle">
+    <text x="110" y="418.44">4</text>
+    <text x="170" y="391.22">11</text>
+    <text x="230" y="332.89">26</text>
+    <text x="290" y="255.11">46</text>
+    <text x="350" y="169.56">68</text>
+    <text x="410" y="130.67" fill="#2b2926" font-weight="bold">78</text>
+    <text x="470" y="181.22">65</text>
+    <text x="530" y="243.44">49</text>
+    <text x="590" y="305.67">33</text>
+    <text x="650" y="360.11">19</text>
+    <text x="710" y="399">9</text>
+    <text x="770" y="418.44">4</text>
+  </g>
+
+  <!-- mean line -->
+  <line x1="425.3" y1="92" x2="425.3" y2="440" stroke="#2b2926" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="432" y="106" font-size="12" font-weight="600" fill="#2b2926">mean ≈ 57.5 min</text>
+
+  <!-- legend -->
+  <rect x="632" y="96" width="12" height="12" fill="#e07a5f"/>
+  <text x="650" y="106" font-size="12" fill="#5b5550">modal bin (50–60 min)</text>
+
+  <!-- axes -->
+  <line x1="80" y1="440" x2="800" y2="440" stroke="#6b655e" stroke-width="1.2"/>
+  <line x1="80" y1="90" x2="80" y2="440" stroke="#6b655e" stroke-width="1.2"/>
+
+  <!-- x-axis ticks -->
+  <g stroke="#8a847c" stroke-width="1">
+    <line x1="80" y1="440" x2="80" y2="446"/>
+    <line x1="140" y1="440" x2="140" y2="446"/>
+    <line x1="200" y1="440" x2="200" y2="446"/>
+    <line x1="260" y1="440" x2="260" y2="446"/>
+    <line x1="320" y1="440" x2="320" y2="446"/>
+    <line x1="380" y1="440" x2="380" y2="446"/>
+    <line x1="440" y1="440" x2="440" y2="446"/>
+    <line x1="500" y1="440" x2="500" y2="446"/>
+    <line x1="560" y1="440" x2="560" y2="446"/>
+    <line x1="620" y1="440" x2="620" y2="446"/>
+    <line x1="680" y1="440" x2="680" y2="446"/>
+    <line x1="740" y1="440" x2="740" y2="446"/>
+    <line x1="800" y1="440" x2="800" y2="446"/>
+  </g>
+
+  <!-- x-axis labels -->
+  <g font-size="12" fill="#5b5550" text-anchor="middle">
+    <text x="80" y="461">0</text>
+    <text x="140" y="461">10</text>
+    <text x="200" y="461">20</text>
+    <text x="260" y="461">30</text>
+    <text x="320" y="461">40</text>
+    <text x="380" y="461">50</text>
+    <text x="440" y="461">60</text>
+    <text x="500" y="461">70</text>
+    <text x="560" y="461">80</text>
+    <text x="620" y="461">90</text>
+    <text x="680" y="461">100</text>
+    <text x="740" y="461">110</text>
+    <text x="800" y="461">120</text>
+  </g>
+
+  <!-- axis titles -->
+  <text x="440" y="490" font-size="13" fill="#5b5550" text-anchor="middle">Nap duration (minutes)</text>
+  <text x="32" y="265" font-size="13" fill="#5b5550" text-anchor="middle" transform="rotate(-90 32 265)">Number of naps</text>
+
+  <!-- footnotes -->
+  <text x="80" y="522" font-size="11" font-style="italic" fill="#9a948c">Source: entirely fabricated field notes. Any resemblance to real cats is coincidental.</text>
+  <text x="800" y="522" font-size="11" fill="#9a948c" text-anchor="end">Bins are 10-minute intervals</text>
+</svg>
